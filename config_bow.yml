@@ -1,0 +1,35 @@
+language: es
+pipeline:
+- name: SpacyNLP
+  model: "es_core_news_md"
+  case_sensitive: False
+- name: SpacyTokenizer
+- name: CountVectorsFeaturizer
+  analyzer: "word"
+  min_ngram: 1
+  max_ngram: 4
+  # Set the out-of-vocabulary token
+  OOV_token: "_oov_"
+  # Whether to use a shared vocab
+  use_shared_vocab: True
+- name: DIETClassifier
+  epochs: 60
+  constrain_similarities: True
+- name: ResponseSelector
+  hidden_layers_sizes: 
+    text: [512, 128]
+    label: []
+  transformer_size: 256
+  number_of_transformer_layers: 2
+  embedding_dimension: 30
+  epochs: 150
+  retrieval_intent: faq
+- name: FallbackClassifier
+  threshold: 0.5
+  
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 8
+  epochs: 200
+- name: RulePolicy

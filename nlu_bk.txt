@@ -1,0 +1,736 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- intent: faq/matricula_rezagada_procedimiento
+  examples: |
+    - Hola mi matricula paso a rezagada cual es el procedimiento
+    - buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado
+    - Hola ayudame quiero saber como es el procedimiento para el pago de matricula rezagada
+    - como es el procedimiento para la matricula rezagada
+    - Buenas dias, mi matricula paso a rezagada como debo proceder
+    - Buenas tardes, me dijeron que mi matricula paso a rezagada pero no se que debo hacer
+    - Hola, disculpe como realiza la matricula rezagada
+    - Hola, como me matriculo por rezagado
+    - Hola, cual es procedimiento para matricularme por rezagada
+    - Buenas, quiero saber como tramitar mi matricula rezagada
+    - Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer
+    - Hola ciencito, dime porfavor cual el procedimiento para la matricula rezagada
+    - Buenas tardes, cual es procedimiento para habilitar mi matricula rezagada
+    - Buenas noches, que pasos debo seguir para la matricula rezagada
+    - hola, dime para la matricula rezagada debo pagar ?
+    - cual es el procedimiento para la matricula rezagada
+    - no pude matricularme a tiempo cual es procedimiento para la matricula rezagada
+    - como me matriculo como rezagado
+    - que hago para que se me habilite el sistema de matricula por rezagado
+    - no pude matricularme y me han dicho que mi matricula paso a rezagado cuales son los pasos
+    - dime como puedo tramitar mi matricula rezagada
+    - cuales son los requisitos para que me habiliten la matricula rezagada
+    - debo pagar algo para que me habiliten la matricula rezagada
+    - que debo pagar y a donde debo enviar el voucher para que se me habilite la matricula rezagada
+    - ahora que mi matricula paso a rezagados que debo hacer no entiendo
+    - cuales son los requisitos para la matricula rezagada
+    - a quien solicito la matricula rezagada
+    - para solicitar la matricula rezagada que debo hacer
+    - disculpa cual es procedimiento para poder matricularme por rezagado
+- intent: faq/problemas_matricula
+  examples: |
+    - Tengo problemas para matricularme
+    - Deseo obtener una vacante en un curso que debo hacer
+    - Solicité mi reincorporación para este ciclo, lo hice todos los trámites pero no me aparecen los horarios de mi matrícula ni el turno.
+    - Hice todos los procesos pagué la reincorporacion, aprobaron mi solicitud, pagué mi deuda de votación, no entiendo ¿porqué me sale acceso restringido? hoy me notificaron que se atiende a los reincorporados y las clases empiezan el lunes, quisiera una solución lo más rapido posible
+    - Quisiera consultar porque tengo el acceso restringido, si cumplí con todos los procesos de pago de matrícula no tengo deuda, pagué el autoseguro. Sin embargo, me sale que tengo acceso restringido
+    - Hola, deseo solucionar un cruce de horario en mi matricula que debería hacer
+    - Buenos días, me  percate que tengo un cruce en mi matrícula
+    - Buenas tardes Estadística, en mi boleta de matrícula estoy matriculado en el curso de biología en la sección B pero la profesora del curso me menciona que estoy en la sección A, no puedo llevar en la sección A porque en ese horario estoy llevando económia
+    - Buenas tardes, en mi boleta de matrícula estoy matriculado en el curso de biología en la sección B pero la profesora del curso me menciona que estoy en la sección A, no puedo llevar en la sección A porque en ese horario estoy llevando económia
+    - Buenas noches, si me sobran créditos, todavía puedo matricularme en más cursos
+    - Buenas tardes, me percate que tengo un cruce en mi matrícula y deseo corregir que debo hacer o a quien debo dirigirme par solucionarlo
+    - Hola que tal, tengo problemas de matricula
+
+- intent: menu_principal
+  examples: |
+    - tengo una consulta
+    - tengo una duda
+    - quiero hacer una consulta
+    - ayudame con una consulta
+    - Buenas tardes, tengo una consulta me puede ayudar
+    - Hola, tengo una consulta
+    - Hola, tengo una duda
+    - Buenos dias, tengo una consulta
+    - Buenas noches, quisiera información me puedes ayudas
+    - hola aerito, tengo una duda puedes ayudarme
+    - me puedes ayudar porfavaor tengo una duda
+    - Quiero ayuda
+- intent: sobre_retiros
+  examples: |
+    - ¿Quisiera hacer una consulta sobre el retiro de cursos?
+    - ¿Tengo una duda sobre el retiro de cursos?
+
+- intent: chitchat/denegar_mas_ayuda
+  examples: |
+    - no nada mas gracias
+    - ninguna duda mas
+    - No eso es todo gracias
+    - No nada mas
+    - No nada mas gracias
+    - eso es todo gracias
+    - no gracias es todo
+    - no tengo mas dudas
+    - eso es todo, gracias
+    - es todo gracias
+    - No. Gracias
+    - no
+    - No
+    - No, eso seria todo gracias
+    - No gracias
+    - Por ahora eso es todo, gracias
+    - no, gracias
+    - No eso seria todo, mucha gracias
+    - No muchas gracias
+    - no nada mas
+    - No, muchas gracias
+    - No eso seria todo gracias
+    - nada mas
+    - No eso es todo
+    - Eso es todo
+
+
+
+
+
+
+
+
+
+
+
+- intent: chitchat/reformular_consulta
+  examples: |
+    - deseo reformular mi consulta
+    - quiero consultar de nuevo
+
+- intent: faq/posibilidad_medida_adicional
+  examples: |
+    - no hay nada mas que hacer entonces
+    - no tengo alguna otra alternativa
+    - y no puedo hablar con alguien para que me deje
+
+- intent: chitchat/confirmar_requerir_mas_ayuda
+  examples: |
+    - Si tengo otra consulta
+    - Si claro
+    - Si tengo otra duda mas
+    - si una duda mas
+    - si
+    - si tenga una consulta
+    - si una mas
+    - si tengo otra consulta mas
+
+- intent: faq/reserva_matricula
+  examples: |
+    - Le escribo porque necesito información, el semestre que viene estaré haciendo un intercambio estudiantil por lo que quisiera saber si necesito hacer algo en la ORCE ya que este semestre no podré matricularé en la UNI.Mi escuela ya sabe que haré intercambio y ya les envié el sílabo de los cursos pero aún no tengo respuesta.
+    - Le escribo porque necesito información, el semestre que viene no podré matricularme porque estaré haciendo un intercambio estudiantil ¿necesito hacer algo en la ORCE?
+    - Buenas noches, soy alumno de riesgo académico y en este ciclo no quiero matricularme porque los horarios de trabajo no me favorecen, tengo miedo de desaprobrar por 3era vez ¿Puedo hacer reserva de matrícula? .
+    - Buenos días, en este semestre no me matricularé en la UNI porque estaré haciendo intercambio estudiantil,Mi escuela tiene conocimiento que estaré haciendo intercambio y ya les envié el sílabo de los cursos, necesito saber ¿Qué trámite debo realizar para estos casos?
+    - Buenas noches, una consulta, cuando estoy en riesgo académico es obligatorio matricularme en este ciclo que viene? O puedo hacer una reserva de matricula, puesto a que los horarios de trabajo que manejo en estos momentos no me favorecen nuevamente y tengo miedo de desaprobar por 3ra vez.
+- intent: faq/reserva_matricula_procedimiento
+  examples: |
+    - Hola, mi duda es como poder reservar mi matricula
+    - hola, tengo una duda me podria decir que tramites debo hacer para realizar la reserva de matricula no tengo podre matricularme es siguiente ciclo por temas de salud
+    - hola, no podre matricula como puedo postergar mi matricula
+    - Buenas noches, quisiera saber como puedo hacer una reserva de matricula y ¿Hasta cuándo tengo plazo para presentar mi solicitud? ya que este ciclo que viene no podré llevarlo bien por motivos de trabajo.
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de salud .¿Que procedimiento deberia seguir?
+    - Hola, mi consulta es como reservar mi matricula
+    - Buenas tardes, tengo una consulta cual es el procedimiento para la reserva de matricula
+    - Buen día, el ciclo pasado no me pude matricular ni hice el trámite de reserva de matrícula, les escribo porque necesito saber ¿Cuál es el procedimiento para solicitar reserva de matrícula? porque tampoco podré matrícularme en este período por problemas de salud,
+    - Buenas, estoy buscando el procedimiento para reservar me puedes decir como encontrarlo
+    - Buenas noches, dime que debo hacer para reservar mi matricula
+    - Hola me puedes decir como realizar la reserva de matricula
+    - Hola, este ciclo no podre matricularme por motivos de salud cual seria el procedimiento para poder reservar la matricula
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo por problemas familiar .¿Que procedimiento deberia seguir?
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?
+    - Buenas tardes, quiero postergar mi matricula como puedo hacer ese tramite
+    - Hola ciencito, queria consultarte lo que pasa es que por temas familiares este ciclo estaba pensando no matricular que debo hacer
+    - Buenos dias que hago para hacer la reserva de matricula
+    - Hola, tengo una duda no entendí bien que tramites debo hacer par reservar mi matricula
+    - Buenos días, necesito información para solicitar reserva de matrícula?
+    - Hola, disculpa cual es tramite para reservar mi matricula posiblemente tenga no pueda matricularme el siguiente ciclo
+    - Buenas dias, por temas económicos no creo poder matricularme este ciclo me han dicho que puedo reservar mi matricula para el siguiente ciclo como puedo realizar ese tramite
+    - por motivos económicos no podre matricularme este ciclo como puedo reservar la matricula
+    - deseo reservar la matricula como puedo hacer ?
+    - Podria indicar tambien que debo hacer para realizar reserva de matricula, este semestre no podre matricuarme
+    - Me podria indicar tambien que debo hacer para realizar una reserva de matricula, este semestre no podre matricularme
+    - ¿Cuál es el procedimiento para solicitar reserva de matrícula?
+    - si, quisiera saber como realizar mi reserva de matricula por motivos económicos no podre matricularme
+    - mi consulta es como realizar la reserva de mi matricula
+    - por motivos de salud no podre matricularme este ciclo como puedo postergar mi matricula
+    - como realizo la reserva de matricula
+    - quisiera postergar mi matricula como puedo realizar este tramite
+    - quisiera hacer la reserva de matricula cual es el procedimiento
+    - como reservo la matricula
+    - como puedo proceder para hacer la reserva de matricula del siguiente ciclo
+    - no podre matricular el siguiente ciclo que hago para reservar mi matricula
+    - puede decirme como realizar un reserva de matrícula?
+    - por motivos personales no podre matricularme este ciclo que como puedo reservar mi matricula
+    - que tengo que hacer para reservar mi matricula
+    - cual es el procedimiento para realizar la reserva de matricula ?
+    - Me podria indicar también que debo hacer para realizar una reserva de matricula, este semestre no podre matricularme
+
+- intent: faq/horario_atencion
+  examples: |
+    - Puede decirme cual es el horario de atencion ?
+    - Puede decirme cual es el horaro de atencion de la oficina?
+    - Podria saber los horarios?
+    - Puede decirme cual es el horario de atencion de la oficina de estadistica?
+    - cual es el horario de atencion de AERA ?
+    - cuales es el horario de atencion de la oficina de estadística ?
+    - en que horario atiende la oficina de estadistica
+    - a que hora hay atencion en la oficina de estadística
+    - AERA atiende en la noches
+    - hasta que hora atiende AERA
+    - hasta que hora atiende la oficina de estadistica
+    - a que hora abre la oficina de estadistica
+    - desde que hora atiende la oficina la estadistica
+    - Cual es el horario de estadistica?
+    - Quiero saber el horario de estadistica
+    - cual es el horario de atencion de estadistica?
+    - que dias atiende estadistica?
+    - cual es el horario de AERA ?
+    - una consulta mas cual el horario de atencion presencial de Estadística?
+    - hasta que hora atienden en la oficina de estadistica?
+
+
+- intent: faq/reincorporacion
+  examples: |
+    - Buenos noches Si llegué a reprobar 3 veces un curso ¿Tengo que reincorporarme después de 2 ciclos cierto?
+    - Buenas tardes,le envio este mensaje porque quiero información, el ciclo pasado no pude matricularme pero tampoco hice el trámite de reserva de matricula, quisiera saber si aún puedo realizar el trámte de reincorporación para matricularme o en todo caso como podria reservar mi matricula. Por favor agradecería como arreglar este asunto, gracias.
+    - Buenas tardes Estadística,el ciclo pasado no puede matricularme quisiera saber si aún puedo realizar el trámte de reincorporación.
+- intent: faq/matricula_curso_y_pre_requisito
+  examples: |
+    - Buenas tardes, soy un estudiante de ing. Física. Queria preguntar si es posible llevar cursos con sus pre requisitos
+    - Hola, tengo una es posible llevar un curso y su prerequisito
+    - Buenas, tengo una consulta es que casos es posible llevar un curso y su pre requisito ?
+    - Hola que tal, soy estudiante de ultimo ciclo queria saber si es posible llevar un curso y su pre requisito
+    - Buenas noches, quisiera llevar un curso y su pre requisito eso es posible ?
+
+
+
+
+- intent: faq/problemas_matricula_proceso_culminado
+  examples: |
+    - Buenas noches, tengo problema para ingresar al sistema, me aparece "EL PROCESO DE MATRÍCULA HA CULMINADO",
+    - Buenas, no pude matricularme me sale "EL PROCESO DE MATRÍCULA HA CULMINADO"
+- intent: faq/matricula_rezagada_pago_procedimiento
+  examples: |
+    - que hago para pagar por matricula rezagado
+    - cual es el nuevo procedimiento para pagar la matricula por rezagado ?
+    - el pago por rezagado se hace a traves de la aplicacion de BCP?
+    - como puedo pagar la matricula por rezagado ?
+    - me han dicho que debo solicitar una orden pago para la matricula por rezagado, como puedo generarlo ?
+    - donde pago el por matricula de rezagados ?
+    - Hola mi matricula paso a rezagada cuel es procedimiento
+    - ¿Cuál es el procedimiento para solicitar orden de pago?
+    - cual el proceso para pagar la matricula por rezagado ?
+    - el pago de matricula de rezagados se hace a traves de la app de BCP?
+    - como realizo el pago por rezagados ?
+    - cual es el procedimiento de matrícula rezagado
+    - Hola mi matricula paso a rezagada cual es procedimiento
+    - Donde pago matrícula de rezagado
+    - como pago la matrícula de rezagado ?
+    - el procedimiento para pagar por rezagado como es ?
+- intent: faq/matricula_rezagado_pago_procedimiento
+  examples: |
+    - Hola ciencito, dime cual es el procedimiento para realizar el pago por matricula de rezagados
+    - Hola, dime cual es el procedimiento para realizar el pago por rezagados
+    - Buenas dias, quiero saber como pagar la matricula rezagado
+    - Buenas, quería saber si el pago por rezagado se hace a traves de la aplicación de BCP?
+    - hola, el pago de matricula rezagados como se hace
+    - Buenas noches, que hago para pagar por matricula
+    - Buenas tardes, una consulta el procedimiento para pagar por rezagado como es ?
+    - Buenos dias, me han dicho que debo generar una order de paga para pagar por matricula rezagada a quien le pido o como puedo generarlo
+    - Buenas tardes, cual es proceso para para pagar por rezagado
+    - Buenas tardes, dime como pago por rezagados
+    - hola, una duda cual es el nuevo procedimiento para pagar la matricula por rezagado ?
+    - hola, que hago para pagar por matricula rezagado
+    - hola, donde pago el por matricula de rezagados ?
+
+- intent: faq/cursos_falta_vacantes
+  examples: |
+    - aún no estoy matrículado pero veo en el sistema que no hay vacante en el curso de CIRCUITOS ELECTRONICOS ANALOGICOS ¿Qué debo hacer?
+    - deseo solicitar vacantes
+- intent: faq/cursos_solicitud_vacantes_respuesta_pendiente
+  examples: |
+    - hola estadística, solicité vacante para el curso de CIRCUITOS ELECTRÓNICOS ANALOGICOS y aún no tengo respuesta
+    - hola, solicite vacantes pero no he recibido respuesta
+
+- intent: faq/cambio_seccion
+  examples: |
+    - Buenas tardes amigo puedes decirme como hacer un cambio de seccion
+    - Hola que tal Ciencito, quiero hacer un cambio de horario ya que tengo un cruce en el curso de Fundamentos de programacion
+    - Hola amigo, por favor ayudame a hacer un cambio de sección
+    - Hola que tal, dime como realizo un cambio de seccion
+    - Hola, deseo realizar un cambio de sección como se realiza
+    - Buenos dias dime como realizar un cambio de horario de un curso
+    - Buenas quiero cambiarme el horario del curso de biología es posible
+    - Hola, necesito hacer un cambio de seccion por que se me crusan los horarios de teoria
+    - Hola Ciencito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A
+    - Hola, dime porfavor como realizo un cambio de seccion
+    - Hola que tal, quiero hacer un cambio de horario en curso de Quimica General
+    - Hola, dime como realizo un cambio de seccion de un curso
+    - Hola, quiero hacer un cambio de seccion
+    - Buenas tardes ciencito, puedes ayudarme quiero hacer un cambio de sección
+    - Buenos dias como realizo un cambio de horario de un curso
+    - Buenos días, quiero hacer un cambio de sección
+    - quiero hacer un cambio de seccion
+    - quiero hacer un cambio de horario en curso de Quimica General
+    - tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A
+    - quiero hacer un cambio de horario ya que tengo un cruce en el curso de Fundamentos de programacion
+    - por favor ayudame a hacer un cambio de seccion
+    - porfa quiero hacer un cambio de seccion
+    - ayudame hacer un cambio de seccion
+    - necesito hacer un cambio de seccion me puedes ayudar
+    - me puedes ayudar con un cambio de seccion
+    - como hago el cambio de seccion del curso de Fundamentos de programacion
+    - como hago el cambio de seccion del curso de Fisica II
+    - como realizo el cambio de horario de un curso
+    - cual es procedimiento para hacer un cambio de seccion
+    - quiero saber el procedimiento de un cambio de seccion por que tengo un cruce
+    - dime cual el procedimiento para hacer un cambio de seccion de un curso
+    - puedes ayudarme quiero hacer un cambio de seccion
+- intent: faq/contacto_aera
+  examples: |
+    - Puedes decirme el correo o telefono de estadistica
+    - cual es correo de estadistica
+    - cual es correo del area de estadistica
+    - cual es el numero de estadistica
+    - y cual es el correo de AERA
+    - cual es el telefono y anexo de AERA
+    - si tambien quiero saber el correo de estadistica
+    - si tambien porfavor dime el correo de AERA
+- intent: faq/formulario_tiempo_de_respuesta
+  examples: |
+    - Ya llene el formulario, pero no recibo respuesta
+    - Llene el formulario hace unos dias pero no tengo respuesta
+- intent: faq/perdida_turno_matricula
+  examples: |
+    - Hola, he tenido problemas de conexion y no llegue a matricularme que debe hacer
+    - Hola ciencito, tuve problemas con mi internet y no puede matricuarme que debo hacer
+    - Hola, si perdi mi turno como realizo mi matricula
+    - Buenas, tuve problemas para realizar mi matricula y pude matricularme que debo hacer
+    - Buenas, perdí mi turno de matricula como procedo ahora
+    - Hola, no tuve internet y no pude matricuarme que debeo hacer
+    - Hola, quisiera saber que hacer por que no pude matricuarme en mi horario no tuve internet
+    - Buenas, parece que hubo una falla de la red por mi zona y no tuve internet todo el dia por lo que no pude matricuarme que debo hacer ahora
+    - Buen día, perdí mi horario de matrícula, que hago
+    - Buenas tardes disculpe tuve problemas de conexión y no pude entrar en mi horario de matrícula, que puedo hacer
+    - Hola, si perdi mi turno pasaría ha rezagado entonces ?
+    - Buenos dias, no pude conectarme en mi horario de matricula
+    - Buenas tardes, que pasa si perdí mi horario de matrícula
+    - Buenas dias, disculpe no pude matricuarme que debaria hacer ahora
+    - Buenas noches, no he tenido internet todo el dia y no pude matricuarme que debo hacer
+    - Hola, no vi el horario y se me paso mi turno de matricuarme como hago ahora para matricuarme
+    - Buenas que tal, si no llegue a matricularme en mi turno pasaria a rezagado ?
+    - Hola, perdi mi turno para matricuarme como procedo
+    - Buen día, no logre matricularme
+    - Hola, no pude entrar en mi horario de matrícula, que puedo hacer
+    - Buenas tardes, hoy me toco matricularme pero perdí mi turno
+    - Buenas tardes, no me percate bien y perdi mi turno de matricula que debo hacer
+    - si perdi mi turno como realizo mi matricula
+    - Perdí mi turno para matricularme, que hago?
+    - tuve problemas para realizar mi matricula y pude matricularme que debo hacer
+    - quisiera saber que hacer por que no pude matricuarme en mi horario no tuve internet
+    - no tuve internet y no pude matricuarme que debeo hacer
+    - no vi el horario y se me paso mi turno de matricuarme como hago ahora para matricuarme
+    - perdi mi turno para matricuarme como procede
+    - acabo de perder mi turno de matricula como me matriculo ahora
+    - no puede matricularme por problemas de internet paso a matricula rezagada entonces ?
+    - No pude matricularme en mi turno, como puedo matricularme
+    - no pude conectarme en mi horario de matricula
+    - si no pude matricularme en mi turno pasaria a resagado ?
+    - perdi mi horario de matricula como hago ahora
+    - tuve problemas de conexión y no pude entrar en mi horario de matrícula, que puedo hacer
+    - acabo de perder mi turno de matricula paso entonces a matricula rezagada?
+    - Perdí mi horario de matrícula por motivos de conexión que debo hacer
+    - si perdi mi turno de matricula paso a rezagado ?
+    - si es que no he tenido internet todo el dia y no pude matricuarme que debo hacer
+    - he tenido problemas de conexion y no llegue a matricularme que debe hacer
+    - tuve problemas con mi internet y no puede matricuarme que debo hacer
+
+
+
+- intent: faq/problemas_matricula_no_habilitada
+  examples: |
+    - Buenas tardes, tengo problemas con mi matricula, es mi turno y no puedo acceder a la matricula.
+    - Buen día, no estoy habilitado para matricularme y estoy en mi horario de matrícula
+- intent: faq/confimacion_pago_autoseguro_fuera_fecha
+  examples: |
+    - no, en realidad recien lo pague
+    - no, recien realice el pago ayer
+- intent: faq/posibilidad_medidida_adicional
+  examples: |
+    - no hay nada que se pueda hacer o con quien puedo conversar
+    - ¿Pero si escribo o hablo con el Director o el Decano explicando mi situación?
+    - Entonces no hay nada más que pueda hacer?
+    - Por error me retire de un curso que no debía, pueden ayudarme?
+    - Ya se paso la fecha en la página, podría estadística ayudarme?
+    - pero no se puede hacer algo para no pagar REZAGADO
+- intent: faq/atencion_virtual
+  examples: |
+    - Buenas tardes, atienden de modo virtual?
+    - Hola, la atencion ahora tambien es virtual ?
+- intent: chitchat/generica
+  examples: |
+    - Pueden ayudarme con un horario?
+    - Hola, quiero hacer una consulta sobre retiro.
+- intent: faq/horario_atencion_mesa_partes_orce
+  examples: |
+    - Quiero saber el horario de atención de Mesa de Partes Virtual de la ORCE
+    - cual es el horario de atencion de Mesa de Partes Virtual de ORCE
+    - en que horario atiende mesa de partes de ORCE
+    - que dias atiende mesa de partes de ORCE
+    - cuales dias atiende mesa de partes de ORCE
+
+- intent: faq/estado_tramites_constancia_estudios
+  examples: |
+    - Buenos días, escribo para consultar como va mi trámite de constancia de estudios
+    - Hola, quisiera informar sobre cual es el estado de mi tramite de constancia de estudios
+- intent: faq/recepcion_documentos_fuera_horario
+  examples: |
+    - Ok, qué ocurre si envio mis documentos en otro horario?
+    - si envio mi documentos fuera del horaria aun seran aceptadas?
+    - envia mis documentos a mesa de partes pero fuera de hoario seran atendidos o debo enviarlos de nuevo
+- intent: faq/certificado_tercio_quinto_o_decimo_superior
+  examples: |
+    - De acuerdo, me encargaré de realizar el procedimiento. También requiero un certificado de décimo o quinto superior según corresponda
+    - quisiera solicitar una constia de tercio o quiento superior
+
+
+
+
+- intent: faq/deuda_tutoria
+  examples: |
+    - Le escribro porque tengo un inconveniente para poder matricularme (reincorporación ), pues se olvido subsanar una tutoria que aún lo tengo pendiente. Le agradeceria mucho me pudieran ayudar para poder matricularme en este ciclo
+    - Quiero matricularme pero me figura que tengo deuda con tutoría, que puedo hacer
+- intent: faq/orden_pago_procedimiento
+  examples: |
+    - Buenos días, podrian explicarme el procedimiento para obtener una orden de pago?
+    - Hola, como hago para solicitar una orden de pago
+    - ¿Cómo hago para solicitar una orden de pago?
+    - que debo hacer para emitir una orden de pago ?
+- intent: faq/orden_pago_respuesta
+  examples: |
+    - ¿Cuándo me llegará la orden de pago?
+
+
+
+
+- intent: faq/constancia_egresado_pago
+  examples: |
+    - Quisiera pagar mi constancia de egresado, actualmente me encuentro en provincia y me comentaron que se podía habilitar un código para realizar el pago.
+    - como puedo pagar mi constancia de egresado
+- intent: faq/contacto_mesa_partes
+  examples: |
+    - ¿Podría brindarme el correo?
+    - puedes dicirme cual es el correo de mesa de partes
+    - cual es el correo de mesa de partes de orce
+- intent: faq/solicitar_constancia_ayudantia_academica
+  examples: |
+    - Quisiera saber ¿cómo podría hacer valido mi constancia de ayudantía académica que hice en periodo regular antes de la pandemia?.
+    - como puedo validas mis horarios de ayudantia academico
+    - como puedo solicitar mis constancia de ayudantia academico
+- intent: faq/estudio_curricular
+  examples: |
+    - Hola buenas tardes, por favor me podría brindar información de mi avance curricular para ver cuántos créditos me faltan para egresar
+    - Quisiera saber ¿cuántos créditos me faltan para poder egresar? he tratado de cálcular pero se me dificulta con los cursos exonerados, estoy en noveno ciclo.
+- intent: faq/ayudantia_academica_procedimiento
+  examples: |
+    - Buenas tardes disculpa  ¿Cuál es el procedemiendo para realizar la ayudantia academica?
+    - ¿Cual es el procedimiento para realizar ayudantía?
+    - Buenas tardes estadística el profesor acaba de aceptarme para hacer ayudantía, ¿Cuál es el procedemiendo?
+- intent: faq/traslado_interno
+  examples: |
+    - Hola, ¿Cuáles son los requisitos para poder aplicar el traslado interno ?
+    - Hola, como solicito un traslado interno
+    - Buenos dias, quisiera solicitar mi traslado interno como puedo hacerlo
+    - Buenas tardes, una consulta como tramito mi traslado interno
+    - Buenas tardes, quisiera hacer un traslado interno como lo solicto
+- intent: chitchat/confirmacion
+  examples: |
+    - ahora entiendo
+    - ok entiendo
+    - Entiendo
+    - entiendo
+    - Esta bien entiendo
+    - a ya
+    - ok
+    - Bien, ok
+    - ok entiendo eso hare
+    - entiendo lo haré
+    - Ok
+    - Esta bien
+    - Genial!
+    - esta bien
+    - ok, entiendo
+    - ok estonces haste el miercoles lo pago
+    - Perfecto!
+    - Okey
+- intent: faq/bachiller_pago
+  examples: |
+    - Quisiera consultar por el pago del concepto de Diploma de Grado Bachiller para un egresado.
+    - cuanto es el pago por el grado de Bachiller
+    - quisiera saber cuanto es el costo por el Bachiller ?
+- intent: faq/deuda_credito 2da profesión
+  examples: |
+    - Buenas tardes, soy alumno ingresante mediante la modalidad de "Titulado o graduado en otra universidad", El motivo de la presente es consultar sobre el pago de ciclo a realizar. Hasta el momento no se me ha informado de cuanto debo pagar por la matrícula en el ciclo ¿Donde puedo ver cuanto tengo que pagar en el ciclo?
+- intent: faq/practica_pre_profesionales_academica_procedimiento
+  examples: |
+    - Buenas, quisiera saber que documento debo presentar para confirmar mis practicas pre profesionales
+    - Hola, como puedo solictar mi constandia de haber hecho practicas preprofesionales
+- intent: faq/residencia_universitaria_procedimiento
+  examples: |
+    - Hola, Quisiera saber los requisitos para pedir la residencia universitaria. Gracias!
+    - Buenas tardes, quisiera saber lo requisitos para solicitar residencia universitaria
+- intent: faq/constancia_egresado_procedimiento
+  examples: |
+    - Buenos dias, quisiera saber el procedimiento para tramitar la constancia de egresado
+    - Hola, quiero saber como tramitar mi constancia de Egresado
+- intent: pago_carnet_procedimiento
+  examples: |
+    - Puedo realizar el pago por carné universitario?
+    - Quiero hacer el pago de carnet universitario pero no se si es posible todavia
+- intent: faq/estado_tramites
+  examples: |
+    - Buenos días, escribo para consultar como va mi trámite de constancia de notas depurada
+    - Que tal, quiero saber como va mi constancia de notas que solicite
+- intent: faq/solicitud_matricula_curso_y_pre_requisito
+  examples: |
+    - Soy alumno del último ciclo, quisiera llevar un curso con su prerequisito, cual es el trámite
+    - Soy alumno por egresar y deseo llevar un curso y su prerequisito como lo puedo solicitar
+- intent: faq/encargado_solicitud_matricula_curso_y_pre_requisito
+  examples: |
+    - entonces debo comunicarme con el Director?
+    - entiendo, me comunico con el directamente?
+- intent: faq/maximo_creditos_matricula_alumno_por_egresar
+  examples: |
+    - Soy alumno por egresar, cuantos créditos puedo llevar
+    - estoy en ultimo ciclo, cuantos creditos puedo llevar ?
+    - una consulta si soy alumno por egresar cuantos creditos puedo llevar ?
+- intent: faq/matricula_creditos_adicionales
+  examples: |
+    - Buenos días, que trámite debo realizar para llevar un crédito adicional
+    - Buenos dias, me gustaría saber si existe lo de ampliación de créditos por favor y qué necesito para solicitarlo
+
+- intent: faq/convalidacion_practicas_preprofesionales_procedimiento
+  examples: |
+    - Buenas noches, quisiera saber que pasos debo seguir para convalidar las prácticas preprofesionales
+    - Hola, una duda como puedo validar mis practicas preprofesionales
+- intent: faq/solicitud_correo_institucional_procedimiento
+  examples: |
+    - Una pregunta como obtengo mi correo institucional
+    - una duda como puedo obtener mi correo institucional
+    - como puedo solicitar mi correo institucionalggggg
+    - quisiera solicitar mi correo institucional
+    - donde puedo solicitar mi correo institucional
+    - a quien puedo perdirle mi correo institucionalrtfgg
+    - Hola quisiera tramitar mi correo institucional
+    - donde puedo tramitar mi correo institucional
+    - quisiera tramitar mi correo institucional
+    - como solicito mi correo institucional
+    - hola como solicito mi correo UNI
+    - hola quisiera tramitar mi correo UNI
+    - como puedo tramitar mi correo UNI
+    - como tramito mi correo uni
+    - quero pedir mi correo uni
+    - quisiero tramitar mi correo UNI
+    - como solicito mi correo UNI
+- intent: faq/correo_institucional_olvido_contrasena
+  examples: |
+    - Olvide mi contraseña de mi correo institucional
+    - olvide mi correo institucional como puedo recuperarlo
+- intent: faq/numero_creditos_electivos_requeridos
+  examples: |
+    - Buenos dias, quisiera saber cuantos electivos me faltan para egresar
+    - Hola, una consulta cuantos creditos me falta para poder egresar
+- intent: faq/matricula_rezagado_procedimiento_incompleto
+  examples: |
+    - Hola, que tal realize el pago por resagado pero no que mas hacer
+    - Hola, un consulta despues de pagar la matricula rezagada que mas debo hacer
+    - Buenos días, ya realice el pago de rezagados, cual es el siguiente paso
+    - Buenas tardes, ya pague por concepto de matricula rezagada debo enviar el vaucher a AERA
+    - Buenas tardes, ya pague la matricula rezagada debo subir el vaucher a ORCE
+    - Hola, que mas sigue despues de pagar la matricula rezagada en el banco
+    - Hola, que debaria hacer despues de pagar la matricula rezagada
+    - Buenas que tal, he pagado por matricula rezagada solo debo subir el vaucher al sistema de ORCE
+    - Hola, acabo de realizar el pago para matricula por rezagado pero si debo ir a dejarlo a la facultad
+    - Buenos días, la matrícula en mi horario se me pasó, así que realicé el pago por rezagados, pero no puedo ingresar a la matrícula
+    - Hola, realize el pago como decia en pagina para la matricula resagada pero no se donde debo presentar el vaucher
+    - Buenas noches, ya pague la por concepto de Rezagado que mas debo hacer para matricularme
+    - Hola ciencito, dime despues de pagar la matricula rezagada que mas debeo hacer
+    - Hola, ya pague REZAGADOS ahora que debo hacer
+    - Hola, dime a quien debo enviar el voucher de pago de matricula rezagada
+    - Buenas, ya pague el por concepto de Rezagado pero no entiendo a quien enviar el vaucher
+    - ya pague la matricula rezagada que debo hacer mas
+    - no pude matricularme a tiempo y pague por resagado, dime que mas debo hacer
+    - ya pague por rezagado pero no puedo matricularme
+    - entiendo como realizo el pago de por concepto de resagado entonces
+    - ok ahora entonces como pago por rezaga pudes explicarme
+    - ya pague por matricula rezagada pero no entendi si debo llevar el vaucher a la facultad o solo subirla al sistema de ORCE
+    - para que se me habiite el sistema de matricularme que debo hacer ya pague el pago por resagado
+    - entiendo que para la matricula de rezagado debo pagar pero que mas debo hacer luego
+    - luego de realizar el pago por matricula rezagado que mas debo hacer
+    - no entendi bien que mas debo debo hacer despues de ralizar el pago por matricula rezagado
+    - acabo de realizar el pago por concepto de matricul rezagado debo hacer algo mas para que se me habilite la matricula
+    - que mas debo hacer para que se me habiite la matricula luego de haber pagado por concepto de rezagado
+    - luego de pagar por matricular rezagada debo llenar un formulario?
+    - a quien debo enviar el voucher de pago de matricula rezagada
+
+
+- intent: faq/retiro_parcial_unico_curso
+  examples: |
+    - Estoy matriculado en solo un curso, puedo acceder al retiro parcial?
+    - si estoy matriculado en un solo curso puedo hacer el retiro parcial?
+    - ¿El retiro parcial aplica para los estudiantes que llevan solo un curso?
+    - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hacer
+    - Buenas noches, estoy llevando un solo curso y el sistema no me permite retirarme
+    - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hace
+    - Hola, ¿Es posible realizar el retiro parcial de un único curso?
+    - Hola, puedo hacer un retiro parcial si solo estoy llevando un curso
+    - una consulta puedo realizar el retiro parcial si solo llevo un curso
+
+    
+
+
+
+- intent: faq/retiro_parcial_requisitos_documentos
+  examples: |
+    - Buen día, para acceder al retiro parcial necesito presentar algún documento?
+    - Buenas, estoy pensando en pedir retiro parcial, ¿debo presentar alguna solicitud?
+    - Hola, ¿Qué documentos se necesitan para el retiro parcial?
+    - Acabo de realizar mi retiro parcial en ORCE, es necesario que envíe el documento a mi director de escuela?
+    - osea que no debo presentar ningún documento
+    - ¿No se requieren documentos?
+    - ¿Debo presentar algún documento?
+- intent: faq/retiro_parcial_cursos_repetidos
+  examples: |
+    - Puedo retirarme de cursos con repitencias?
+    - Pudo retirame de un curso que haya repetido el ciclo anterior ?
+    - Si he repetido un curso en el ciclo paso puedo retirarme en este ciclo de este curso?
+    - el posible retirase de cursos con repitencias ?
+    - es posible retirarme de un curso que haya repetido ?
+    - puedo retirarme de un curso que he jalado el ciclo anterior ?
+    - quiero retirarme de un curso que ya he desaprobado es posible?
+- intent: faq/retiro_parcial_maximo_cursos
+  examples: |
+    - ¿Hay un límite de cursos para retirarme de modo parcial?
+    - El retiro parcial permite 4 cursos?
+    - ¿Cuál es el número máximo de cusos para hacer retiro parcial?
+    - De cuántos cursos puedo solicitar retiro parcial?
+    - Es posible retirarme de 2 cursos?
+    - ¿Puedo retirarme de todos mis cursos en la fecha de retiro parcial?
+    - hasta de cuantos cursos puedo hacer el retiro parcial ?
+- intent: faq/confirmacion_retiro_parcial_procedimiento_solo_digital
+  examples: |
+    - Buenas tardes, quisiera saber si el retiro parcial lo puedo hacer en el intranet
+    - Me retire de un curso solo seleccionando el curso en ORCE eso seria todo el proceso?
+    - Buenos días, quisiera saber si para el retiro parcial sólo es necesario hacer click en el botón retirar que está en la sección mis trámites - retiro parcial
+    - Acabo de retirarme en ORCE de un curso, necesito hacer algo más?
+    - Hola, en la página se menciona que el trámite de retiro parcial es virtual, ¿Pueden explicarme?
+    - Hola, pueden decirme el procedimiento para el retiro parcial?
+    - Buenas noches, ¿cual es el procedimiento para realizar un retiro parcial?
+    - Buenos días quisiera confirmar el procedimiento del retiro parcial, lo que hice fue entrar al orce y seleccionar el curso a retirarme, ¿Ese sería todo el proceso?
+    - Buenas, existe algún procedimiento para el retiro parcial?
+    - Buen día, realice retiro parcial en intranet y quiero saber si todo está bien
+    - Buenas, quisiera informe sobre el retiro parcial en esta modalidad virtual, sobre si debo presentar algún documento o algo
+    - Buenos días quisiera confirmar el procedimiento del retiro parcial, lo que hice fue entrar al orce y seleccionar el curso a retirarme, ¿Ese sería todo el proceso?
+    - Hola queria verificar si el proceso de retiro solo se hace seleccionando el curso dentro del sistema de ORCE
+- intent: faq/retiro_parcial_estado
+  examples: |
+    - Cuándo sabré si mi pedido de retiro procede
+    - Quiero que me confirmen mi retiro parcial
+    - Me retiré en el intranet de un curso, ¿cuándo se hará efectivo?
+    - Estadística puede confirmar mis retiros?
+    - Ayer me retiré de un curso pero aún figura en mi intranet
+    - Buenos días, quiero saber el estado de mi retiro parcial
+    - Buenas, ¿Cómo puedo saber el estado de mi retiro parcial?
+    - Buenas tardes, realice mi retiro parcial por ORCE, pero como se que ya procedió
+    - Buenas, ¿Cómo se el estado de mi retiro parcial?
+    - Buenas tardes, realicé el procedimiento para el retiro parcial en ORCE y quisiera saber cuándo se actualizará los cursos en los cuales sigo matriculado.
+    - Hola. Quiero saber el estado de mi retiro parcial
+- intent: faq/retiro_parcial_electivo
+  examples: |
+    - Hola puedo retirame de un curso electivo
+    - Buenos días, quiero retirarme de un curso electivo, ¿es factible?
+    - Buen día, ¿puedo retirarme de un curso electivo?
+    - Hola, el retiro parcial aplica para cursos electivos?
+
+
+- intent: faq/estado_tramites_reincorporacion
+  examples: |
+    - Hola quisiera saber como va mi tramite de reicorporacion
+    - Bunos dias una consulta he enviado mi solicitud de reicorporacion queria saber como va
+    - hola, una consulta hace dos semanes envie mi solicitud de reincorporacion pero aun no he recivido alguna noticia me podrias decir como va ?
+    - Buenas dias, tenga una consulta mi solictud de reincorporacion si procedio ?
+    - Buenas tardes, queria saber si mi solictud de reincorporacion procedio
+
+
+- intent: faq/entrega_carnet_rezagada
+  examples: |
+    - Buen día, no tuve tiempo para recoger mi carnet en la fecha que indicaron. Quisiera saber si habrá nueva fecha de entrega.
+    - Hola, mi fecha de entrega de carnet ya paso puedo ir a recorgelo todavia ?
+    - Buenas dias, no pude ir a recoger el carget en la fecha programada podria ir a recogerlo ??
+    - Hola, que dias podria ir a recoger mi carnet
+    - Buenos dias, quisiera recoger mi carnet universitario pero ya finalizaron las fechas, cuando puedo ire ?
+    - Hola que tal, quiero ir a recoger mi carnet de universidad , cuando puedo ir ?
+    - Hola quisiera recoger mi carnet en que dias puedo ir
+    - BUENAS tardes, recien tengo tiempo para recoger mi carte puedo ir mañana ?
+    - BUenas noches, que dias es atencion para ir a recoger mi carnet universitario
+    - una consulta no pude ir a recoger mi carnet en la fecha programada cuando podria ir a a recoger mi carte universitario
+    - cuando puedo ir a recoger mi carnet
+    - quiero saber cuando puedo ir a recoger mi carnet
+    - entiendo cuando prodria ir a recoger mi carnet
+    - un duda las fechas de entrega de carnet ya pasaron puedo ir a recogerlo
+    - una duda mas cuando podria ir a recoger mi carnet 
+    - quisiera ir a recoger mi carnet pero ya pasaran las fechas de recojo puedo ir ?
+    - podria ir a recoger mi carnet si ya pazaron las fechas de recojo?
+    - una consulta podria ir a recoger mi carnet si ya finalizaron las fechas de entrega
+- intent: faq/matricula_procedimiento
+  examples: |
+    - cual es procedimiento para la matricula?
+    - cual es el procedimiento de matricula
+    - cual es procedimiento para la matricula
+    - como puedo matricularme 
+    - que debo hacer para realizar la matricula
+    - la matricula es presencial
+    - hola soy alumno ingresante como puedo realizar la matricula
+    - buenas tardes, soy ingresante quisiera saber como puedo matricularme
+    - cuales son los pago de la matricula 
+    - la matricula es gratuita?
+    - cuanto debo pagar la matricula?
+    - como puedo matricularme en este ciclo?
+    - que debo presentar para la matricula ?
+- intent: nlu_fallback
+  examples: |
+    - -
+    - h
+    - .
+    - H
+- intent: fuera_de_alcance
+  examples: |
+    - Quiero saber mis notas
+    - como me comunico con una persona
+    - Que horas es ?
+    - que carreras hay en la uni
+    - cuantos es 2 mas 2
+    - Quien es el presidente
+    - que dia es hoy

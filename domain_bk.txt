@@ -1,0 +1,148 @@
+
+  
+  
+   
+  
+  utter_consulta_directa:
+    - text: Genial conversemos, ¿En que te puedo ayudarte?
+
+  
+
+ 
+    
+  utter_faq/utter_informar_matricula_rezagado_procedimiento:
+    - text: |-
+        El procedimiento de la Matrícula Rezagada lo podrás encontrar en el siguiente enlace: 
+        https://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view 
+        o dentro de la la página web de la Facultad, en el [modulo de matricula](https://fc.uni.edu.pe/documentos/).
+  
+  utter_faq/utter_informar_retiro_parcial_fechas:
+    - text: |-
+        Los retiros parciales se realizan en la 5ta semana de clases, puede ver las fechas dentro del calendario académico el cual se encuentra publicado en el siguiente link: 
+        https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view
+
+  
+
+
+          
+  
+ 
+
+  utter_faq/utter_informar_horario_atencion:
+    - text: El horario de atencion de la oficina de estadística es de 8:00 am a 4:00 pm
+    utter_faq/utter_informar_reglamento_matricula_curso_y_pre_requisito:
+    - text: Si es posible siempre y cuando a la fecha de la matrícula te falte a lo más 30 créditos de su plan de estudios para egresar; puede llevar una asignatura con su pre requisito y debes tener un promedio ponderando acumulado mayor o igual a diez en los dos últimos periodos académicos regulares.
+
+  utter_faq/utter_informar_pasa_a_matricula_resegada:
+    - text: La matrícula de los alumnos regulares se ha programado en dos fechas (revise la publicación en la página de la facultad de Ciencias) si por algún motivo no logró matricularse en su fecha de matrícula debe realizar la matricula por rezagado.
+  utter_faq/utter_informar_matricula_rezagado_pago_procedimiento:
+    - text: En la pagina web encontrará el formulario para generar una orden de pago por concepto de rezagado en el BCP
+  utter_faq/utter_informar_proceso_solicitud_vacantes:
+    - text: Puede iniciar el proceso para solicitar vacantes comuníquese con AERA para mayor información.
+  utter_faq/utter_informar_atencion_solicitud_vacantes_orden_llegada:
+    - text: Estimado alumno le perdiria ser paciente se estan atendiendo las solicitudes de acuerdo a la fecha de recepción.
+   utter_faq/utter_informar_tiempo_respuesta_formulario:
+    - text: Le pediría ser paciente, los formularios están siendo atendidos por orden de llegada. En todo caso podría comunicarse directamente con AERA para que analicen su caso.
+  utter_faq/utter_informar_perdida_turno_pasa_a_matricula_rezagado:
+    - text: Estimado alumno, si perdió su turno de matrícula, usted pasará a MATRICULA REZAGADA, el detalle del procedimiento lo encontrará en  la pagina web de la Facultad https://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view
+  utter_faq/utter_informar_verificacion_requistos_matricula_y_formulario:
+    - text: Si tiene problemas para realizar su matricula revisar primero si no tiene deuda alguna registrado en el sistema o no pagó el autoseguro con 72 horas de anticipación, en todo caso, registre su reclamo en el formulario "problema de matrícula"
+  utter_faq/utter_informar_pago_fuera_fecha_pasa_a_rezagados:
+    - text: En caso no realizo el pago de autoseguro con 03 días de anticipación le informo que pasara a MATRICULA DE REZAGADOS, el detalle sobre ese procedimiento lo encontrara en pagina web de la Facultad.
+  utter_comuniquese_area_encargada:
+    - text: Disculpe no puedo ayudarle mas, por favor comuníquese directamente con el area correspondiente para una atencion especial.
+  utter_faq/utter_informar_horario_cursos:
+    - text: 'Los horarios de todos los cursos se encuentran disponibles en la zona intranet alumno y también dentro de la pagina web de la FC en el siguiente enlace: https://drive.google.com/file/d/1ddGZ0EGRshZDMiYg32ujBfkLbkNiM1Kw/view'
+  utter_faq/utter_informar_atencion_virtual:
+    - text: Por la conyuntura AERA también esta trabajando de modo virtual.
+  utter_faq/utter_requirir_especificacion:
+    - text: Claro, dime que necesitas saber
+  utter_faq/utter_informar_horario_atencion_mesa_partes_recepcion_documentos:
+    - text: La recepción de documentos es de lunes a viernes de 8:30am a 03:00pm
+  utter_faq/utter_informar_recepcion_documentos_fuera_horario:
+    - text: Pasado el horario, la documentación podrá ser presentada, pero se dará por recibida a partir del día hábil siguiente.
+  utter_faq/utter_informar_pago_autoseguro_fuera_fecha_pasa_a_rezagados:
+    - text: Le informo que segun el reglamento el pago de autoseguro debe realizarse con 72 horas de antelación a su matricula (no se cuenta sábado ni domingo) de otra manera su matricula pasara a ser rezagada. Puede comprobarlo solo ingresando al sistema de matricula.
+  utter_faq/utter_informar_solicitud_certificado_tercio_quinto_o_decimo_superior_procedimiento:
+    - text: Las constancias de Quinto y/o Tercio Superior los emite la Esculeas Profesionales correspondientes, ellos les darán el detalle para dicho trámite.
+  utter_faq/utter_informar_reincorporacion_rezagada:
+    - text: Si se pasó de la fecha de reincorporación establecido para este periodo, tendrá que esperar el calendario académico del siguiente periodo para realizar el trámite
+  utter_faq/utter_informar_orden_de_pago_procedimiento:
+    - text: Para emitir una order de pago el estudiante debera enviar un correo a estadística_fc@uni.edu.pe solicitando una orden de pago, en asunto debe indicar el concepto (reincorporación, constancia, decreto ley 739) y, en el cuerpo del mensaje enviará sus datos personales, DNI, domicilio, su correo institucional y/o alternativo, luego, llegará al correo del alumno el ID de la orden de pago.
+  utter_faq/utter_informar_contacto_tutoria:
+    - text: Lo siento AERA no tiene acceso para eliminar las deudas de tutoría, por favor, escribe al correo tutoria.fc@uni.edu.pe para realizar su solicitud.
+  utter_faq/utter_informar_tiempo_respuesta_orden_pago:
+    - text: El sistema le enviará a su correo institucional un código ID con el cual usted podrá realizar el pago al BCP mediante aplicativo, agente o ventanilla.
+  utter_faq/utter_informar_tiempo_formar_respuesta_orden_pago:
+    - text: El sistema le enviará a su correo institucional un código ID con el cual usted podrá realizar el pago en el aplicativo del BCP.
+    utter_faq/utter_informar_constancia_egresado_pago_procedimiento:
+    - text: En el caso de pago por Constancia de Egresado el trámite inicia por ORCE, para mayor información puede escribir al correo de Mesa de Partes Virtual de ORCE
+  utter_faq/utter_informar_contacto_mesa_partes:
+    - text: Por supuesto, escriba a mesadepartesorce@uni.edu.pe
+  utter_chitchat/utter_afirmacion_y_requerir_consulta:
+    - text: Si digame.
+    - text: Por supuesto, digame su duda.
+    - text: Claro, dime cual es tu consulta
+  utter_chitchat/utter_requirir_mas:
+    - text: ¿Hay algo mas en lo que pueda ayudarte?
+  utter_faq/utter_informar_matricula_pago_autoseguro_fuera_fecha:
+    - text: Lamentablemente si no pagó con 72 horas de antelación a su matrícula, es muy posible que pase a matricula rezagada. Podra comprobarlo si es que no tiene acceso al sistema de matricula en la fecha y hora que le correspondía.
+  utter_chitchat/utter_sugerir_contactar_oficina:
+    - text: Disculpe no puedo ayudarle mas, por favor comuniquese directamente con el area correspondiento para resolver su consulta.
+  utter_faq/utter_informar_matricula_rezagado_procedimiento_posterior_pago:
+    - text: Para que se le habilite su matricula debe completar todo el [procedimiento de Matrícula Rezagada](https://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view)
+  utter_faq/utter_informar_matricula_rezagada:
+    - text: Lo primero que debe hacer es solicitar una orden de pago y luego registrar su matrícula en la fecha programada para rezagado. Los detalles lo encontrará en la página web de la Facultad
+
+  utter_faq/utter_informar_consulta_fuera_alcance:
+    - text: En este momento no puedo responder su consulta, le sugiero escribir al correo estadistica_fc@uni.edu.pe
+   utter_faq/utter_informar_reglamento_retiro_parcial_cursos_repetidos:
+    - text: No. El reglamento indica que el retiro parcial procede para las asignaturas más avanzadas y no para las del ciclo más atrasado o repetidas dos o más veces.
+  
+  utter_faq/utter_informar_estado_tramites_reincorparacion:
+    - text: Terminada la fecha de recepción de las solicitudes por reincorporación los Directores de las Escuelas se encargarán de revisar y registrar en el sistema si procede o no la solicitud
+    utter_faq/utter_informar_procedimiento_solo_digital:
+    - text: El procedimiento de retiro parcial solo se realiza a través del sistema de intranet alumno de ORCE. Si ya lo realizó, luego de finalizada la semana de retiro, el AERA se encargará de revisar y ORCE de ejecutar el retiro.
+  utter_faq/utter_informar_retiro_parcial_requisitos_documentos:
+    - text: En el caso de retiro parcial no hay necesidad presentar documentos, se viene trabajando solo con lo registrado en el sistema de intranet alumno de ORCE.
+  utter_faq/utter_informar_requisitos_documentos_justificacion:
+    - text: Sí. Es necesario que justifique con documentos.
+  utter_faq/utter_informar_reglamento_retiro_parcial_electivo:
+    - text: En este momento no puedo responder su consulta, le sugiero que ingrese a la página web de la Facultad, sección AERA y seleccione Matrícula y Procedimientos para encontrar más informacion sobre los reglamentos de los procedimientos.
+  utter_faq/utter_informar_estado_retiro_parcial_procesado:
+    - text: Despues de haber culminado la semana de retiro, todos los casos registrados en el sistema son revisados por AERA , ejecutado por ORCE y actualizado (el curso se verá con la sigla R que significa retiro parcial)
+  utter_faq/utter_informar_retiro_unico_curso_procedimiento:
+    - text: Si esta inscrito en un solo curso y deseas retirarte, el procedimiento se llama retiro total, mayor información lo encontrara en el módulo de procedimientos de la página web.
+  utter_faq/utter_informar_primera_accion_problemas_realizar_retiro_parcial:
+    - text: Primero debe verificar si su solicitud esta acorde con lo permitido en el reglamento de matrícula vigente y se encuentra dentro de las fechas de retiro parcial del calendario académico. También debe tomar en cuenta que no puede solicitar el retiro parcial de todos sus cursos, ya que ello se denomina retiro total.
+
+  utter_faq/utter_informar_solicitud_correo_institucional_procedimiento:
+    - text: es CTIC la ofina encargada del correo institucional, ingrese a https://www.uni.edu.pe/index.php/2015-05-28-20-25-15/obten-tu-correo-uni
+  utter_faq/utter_informar_horario_entrega_carnet_rezagada:
+    - text: La entrega de carnet es personal y se realiza en nuestro horario de atención presencial los martes de 11:00 a 13:00 y jueves de 09:00 a 11:00.
+  utter_fuera_alcance:
+    - text: Lo siento, no puedo responder su consulta. Los temas sobre los que puedo responderle son matricula, procedimientos y tramites.
+  utter_ask_rephrase:
+    - text: Lo siento, no logre entenderte bien. ¿Podria reformular su consulta de menera mas clara?
+  utter_faq/utter_informar_pasa_a_matricula_rezagada:
+    - text: 'La matrícula de los alumnos regulares se ha programado en dos fechas, revise el calendario académico en siguiente enlance:  https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view , si perdió su fecha de matricula programada, pasará a Matrícula Rezagada'
+  utter_faq/utter_informar_problema_matricula_fuera_formulario:
+    - text: Disculpe no puedo ayudarle más, por favor comuniquese directamente con AERA para una atencion especial o mande un correo explicando su problema estadistica_fc@uni.edu.pe.
+  utter_faq/utter_informar_verificacion_requsistos_matricula_y_formulario:
+    - text: Le sugiero primero descartar el estar registrado(a) con deuda en el sistema (materiales, económica o de tutoría), segundo haber realizado el pago de autoseguro como mínimo 72 horas de anticipación a su matrícula, si no está en ninguno de los 02 casos, registre su reclamo en el formulario "problema de matrícula"
+  utter_informar_contacto_aera:
+    - text: 'La informacion de contacto la puede encontras en el siguiente enlace: https://fc.uni.edu.pe/estadistica/'
+  utter_faq/utter_informar_matricula_procedimiento:
+    - text: |-
+        Puede revisar el procedimiento de matricula en el siguiente enlace: https://drive.google.com/file/d/1zFFc_28rY3me3R6LzxbHTvObO-NxhMos/view
+
+
+  utter_chitchat/utter_requerir_mas_form:
+    - text: '¿Puedo ayudarte con algo mas?, Elija la opción de su preferencia:' 
+      buttons:
+      - title: 'Sí, tengo otra consulta'
+        payload: '/confirmar_requerir_mas_ayuda'
+      - title: "No, eso es todo"
+        payload: "/chitchat/denegar_mas_ayuda"
+      - title: "Ir al menú principal"
+        payload: "/menu_principal"

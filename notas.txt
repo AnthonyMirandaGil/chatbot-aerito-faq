@@ -1,0 +1,18 @@
+# Posibles no vayan
+- retiro_total_lugar_recepcion_documentos
+- retiro_total_requisitos
+- encargado_recepcion_solicitud_constancia_notas
+- estado_tramites_reincorporación
+- retiro_parcial_resultado
+- problemas_matricula
+- problemas_realizar_retiro_parcial
+- problemas_realizar_retiro_total
+# Analizar
+- retiro_parcial_unico_curso
+- problemas_realizar_retiro_parcial
+
+# Unir
+- matricula_pago_autoseguro_fuera_fecha
+
+- matricula_procedimiento_ingresante
+- matricula_procedimiento_regular

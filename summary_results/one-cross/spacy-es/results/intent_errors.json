@@ -1,0 +1,26 @@
+[
+  {
+    "text": "AERA atiende en la noches",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9095444679260254
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9999992847442627
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 1.0
+    }
+  }
+]

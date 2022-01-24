@@ -1,0 +1,82 @@
+[
+  {
+    "text": "Buenos noches Aerito",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.840884804725647
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Entiendo gracias entonces hoy lo pago",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9620104432106018
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "que tal",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9992228150367737
+    }
+  },
+  {
+    "text": "Hi",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.7390378713607788
+    }
+  },
+  {
+    "text": "Hola, como realizo la reincorporación",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9817060232162476
+    }
+  },
+  {
+    "text": "buenas",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.5388502478599548
+    }
+  },
+  {
+    "text": "hasta que hora atiende AERA",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9993849396705627
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9999991655349731
+    }
+  }
+]

@@ -1,0 +1,37 @@
+language: es
+pipeline:
+- name: SpacyNLP
+  model: "es_core_news_md"
+  case_sensitive: False
+- name: SpacyTokenizer
+- name: SpacyFeaturizer
+  pooling: mean
+- name: LanguageModelFeaturizer
+  alias: "language"
+  model_name: bert
+  #model_weights: 'pretrained_models/bert-base-spanish-wwm-cased'
+  model_weights: 'dccuchile/bert-base-spanish-wwm-cased'
+- name: CountVectorsFeaturizer
+  alias: "cvf-word"
+  analyzer: "word"
+  min_ngram: 1
+  max_ngram: 4
+  # Set the out-of-vocabulary token
+  OOV_token: "_oov_"
+  # Whether to use a shared vocab
+  use_shared_vocab: True
+- name: DIETClassifier
+  epochs: 50
+  constrain_similarities: true
+- name: ResponseSelector
+  epochs: 100
+  retrieval_intent: faq
+- name: FallbackClassifier
+  threshold: 0.5
+  
+policies:
+- name: MemoizationPolicy
+- name: TEDPolicy
+  max_history: 8
+  epochs: 200
+- name: RulePolicy

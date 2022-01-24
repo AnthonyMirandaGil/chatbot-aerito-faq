@@ -1,0 +1,9 @@
+events.db*
+rasa.db
+tensorboard_log/*
+__pycache__
+.idea/
+BCK/
+models/
+embedings/
+pretrained_models/

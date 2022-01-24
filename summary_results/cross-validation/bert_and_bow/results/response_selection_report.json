@@ -1,0 +1,360 @@
+{
+  "faq/reincorporacion_rezagada_procedimiento": {
+    "precision": 1.0,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.8,
+    "support": 12,
+    "confused_with": {
+      "faq/cambio_seccion": 1,
+      "faq/retiro_total_procedimiento": 1
+    }
+  },
+  "faq/formato_solicitud_reincorporacion": {
+    "precision": 0.8333333333333334,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.8,
+    "support": 13,
+    "confused_with": {
+      "faq/formato_solicitud_constancia_matricula": 2,
+      "faq/matricula_pago_autoseguro_fuera_fecha": 1
+    }
+  },
+  "faq/horario_atencion_aera": {
+    "precision": 0.9473684210526315,
+    "recall": 0.9,
+    "f1-score": 0.9230769230769231,
+    "support": 20,
+    "confused_with": {
+      "faq/reincorporacion_costo": 1,
+      "faq/cursos_horarios": 1
+    }
+  },
+  "faq/matricula_procedimiento": {
+    "precision": 0.9473684210526315,
+    "recall": 0.9,
+    "f1-score": 0.9230769230769231,
+    "support": 20,
+    "confused_with": {
+      "faq/motivos_procede_retiro_total": 1,
+      "faq/reincorporacion_procedimiento": 1
+    }
+  },
+  "faq/formato_solicitud_constancia_matricula": {
+    "precision": 0.6666666666666666,
+    "recall": 0.5,
+    "f1-score": 0.5714285714285715,
+    "support": 12,
+    "confused_with": {
+      "faq/formato_solicitud_constancia_estudios": 3,
+      "faq/formato_solicitud_constancia_de_notas": 2
+    }
+  },
+  "faq/reserva_matricula_fechas": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8148148148148148,
+    "support": 15,
+    "confused_with": {
+      "faq/reserva_matricula_procedimiento": 2,
+      "faq/formato_solicitud_reincorporacion": 1
+    }
+  },
+  "faq/reincorporacion_costo": {
+    "precision": 0.8666666666666667,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.896551724137931,
+    "support": 14,
+    "confused_with": {
+      "faq/matricula_pago_autoseguro_fechas": 1
+    }
+  },
+  "faq/matricula_cronograma": {
+    "precision": 0.8205128205128205,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8533333333333333,
+    "support": 36,
+    "confused_with": {
+      "faq/matricula_horarios": 4
+    }
+  },
+  "faq/solicitud_carnet_universitario": {
+    "precision": 0.7777777777777778,
+    "recall": 0.875,
+    "f1-score": 0.823529411764706,
+    "support": 8,
+    "confused_with": {
+      "faq/matricula_pago_autoseguro_fuera_fecha": 1
+    }
+  },
+  "faq/pago_autoseguro": {
+    "precision": 0.8,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8421052631578948,
+    "support": 36,
+    "confused_with": {
+      "faq/matricula_pago_autoseguro_fuera_fecha": 1,
+      "faq/matricula_pago_autoseguro_fechas": 1
+    }
+  },
+  "faq/solicitud_constancia_matricula_procedimiento": {
+    "precision": 0.8181818181818182,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.8372093023255814,
+    "support": 21,
+    "confused_with": {
+      "faq/reincorporacion_procedimiento": 2,
+      "faq/formato_solicitud_reserva_matricula": 1
+    }
+  },
+  "faq/solicitud_correo_institucional_procedimiento": {
+    "precision": 0.8947368421052632,
+    "recall": 1.0,
+    "f1-score": 0.9444444444444444,
+    "support": 17,
+    "confused_with": {}
+  },
+  "faq/retiro_total_procedimiento": {
+    "precision": 0.625,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.6666666666666666,
+    "support": 28,
+    "confused_with": {
+      "faq/retiro_total_requisitos_documentos_justificacion": 2,
+      "faq/retiro_parcial_procedimiento": 2
+    }
+  },
+  "faq/retiro_total_fechas": {
+    "precision": 0.5882352941176471,
+    "recall": 0.5263157894736842,
+    "f1-score": 0.5555555555555555,
+    "support": 19,
+    "confused_with": {
+      "faq/retiro_total_procedimiento": 5,
+      "faq/retiro_parcial_procedimiento": 2
+    }
+  },
+  "faq/retiro_parcial_fechas": {
+    "precision": 0.7878787878787878,
+    "recall": 0.8125,
+    "f1-score": 0.8,
+    "support": 32,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 4,
+      "faq/matricula_cronograma": 1
+    }
+  },
+  "faq/matricula_horarios": {
+    "precision": 0.6190476190476191,
+    "recall": 0.65,
+    "f1-score": 0.6341463414634146,
+    "support": 20,
+    "confused_with": {
+      "faq/matricula_cronograma": 4,
+      "faq/cursos_horarios": 3
+    }
+  },
+  "faq/motivos_procede_retiro_total": {
+    "precision": 0.7333333333333333,
+    "recall": 0.6875,
+    "f1-score": 0.7096774193548386,
+    "support": 16,
+    "confused_with": {
+      "faq/retiro_total_fechas": 3,
+      "faq/retiro_total_requisitos_documentos_justificacion": 1
+    }
+  },
+  "faq/reserva_matricula_procedimiento": {
+    "precision": 0.8421052631578947,
+    "recall": 0.7804878048780488,
+    "f1-score": 0.810126582278481,
+    "support": 41,
+    "confused_with": {
+      "faq/matricula_horarios": 3,
+      "faq/reincorporacion_procedimiento": 2
+    }
+  },
+  "faq/formato_solicitud_retiro_total": {
+    "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "faq/retiro_total_procedimiento": 1
+    }
+  },
+  "faq/constancia_de_estudios_procedimiento": {
+    "precision": 0.9090909090909091,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8695652173913043,
+    "support": 12,
+    "confused_with": {
+      "faq/matricula_cronograma": 1,
+      "faq/solicitud_constancia_matricula_procedimiento": 1
+    }
+  },
+  "faq/retiro_parcial_maximo_cursos": {
+    "precision": 0.75,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.5454545454545454,
+    "support": 14,
+    "confused_with": {
+      "faq/retiro_parcial_fechas": 3,
+      "faq/retiro_total_procedimiento": 2
+    }
+  },
+  "faq/constancia_notas_procedimiento": {
+    "precision": 0.9166666666666666,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.8461538461538461,
+    "support": 14,
+    "confused_with": {
+      "faq/matricula_procedimiento": 1,
+      "faq/constancia_matricula_pago": 1
+    }
+  },
+  "faq/cursos_horarios": {
+    "precision": 0.84375,
+    "recall": 0.9310344827586207,
+    "f1-score": 0.8852459016393444,
+    "support": 29,
+    "confused_with": {
+      "faq/matricula_horarios": 1,
+      "faq/horario_atencion_aera": 1
+    }
+  },
+  "faq/reincorporacion_fechas": {
+    "precision": 0.8571428571428571,
+    "recall": 0.5454545454545454,
+    "f1-score": 0.6666666666666665,
+    "support": 11,
+    "confused_with": {
+      "faq/motivos_procede_retiro_total": 1,
+      "faq/pago_autoseguro": 1
+    }
+  },
+  "faq/matricula_pago_autoseguro_fuera_fecha": {
+    "precision": 0.8857142857142857,
+    "recall": 0.8857142857142857,
+    "f1-score": 0.8857142857142857,
+    "support": 35,
+    "confused_with": {
+      "faq/matricula_pago_autoseguro_fechas": 2,
+      "faq/reincorporacion_costo": 1
+    }
+  },
+  "faq/cambio_seccion": {
+    "precision": 0.9393939393939394,
+    "recall": 0.96875,
+    "f1-score": 0.9538461538461539,
+    "support": 32,
+    "confused_with": {
+      "faq/cursos_horarios": 1
+    }
+  },
+  "faq/retiro_parcial_unico_curso": {
+    "precision": 0.8181818181818182,
+    "recall": 0.6923076923076923,
+    "f1-score": 0.7500000000000001,
+    "support": 13,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 3,
+      "faq/retiro_parcial_maximo_cursos": 1
+    }
+  },
+  "faq/retiro_parcial_cursos_repetidos": {
+    "precision": 0.9090909090909091,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8695652173913043,
+    "support": 12,
+    "confused_with": {
+      "faq/retiro_parcial_fechas": 1,
+      "faq/retiro_total_requisitos_documentos_justificacion": 1
+    }
+  },
+  "faq/reincorporacion_procedimiento": {
+    "precision": 0.6666666666666666,
+    "recall": 0.48484848484848486,
+    "f1-score": 0.5614035087719298,
+    "support": 33,
+    "confused_with": {
+      "faq/reserva_matricula_procedimiento": 4,
+      "faq/retiro_parcial_procedimiento": 3
+    }
+  },
+  "faq/formato_solicitud_reserva_matricula": {
+    "precision": 0.8,
+    "recall": 1.0,
+    "f1-score": 0.888888888888889,
+    "support": 12,
+    "confused_with": {}
+  },
+  "faq/matricula_pago_autoseguro_fechas": {
+    "precision": 0.7058823529411765,
+    "recall": 0.7058823529411765,
+    "f1-score": 0.7058823529411765,
+    "support": 17,
+    "confused_with": {
+      "faq/pago_autoseguro": 3,
+      "faq/constancia_de_estudios_procedimiento": 1
+    }
+  },
+  "faq/retiro_parcial_procedimiento": {
+    "precision": 0.7258064516129032,
+    "recall": 0.9375,
+    "f1-score": 0.8181818181818181,
+    "support": 48,
+    "confused_with": {
+      "faq/retiro_total_procedimiento": 2,
+      "faq/solicitud_carnet_universitario": 1
+    }
+  },
+  "faq/formato_solicitud_constancia_de_notas": {
+    "precision": 0.75,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7826086956521738,
+    "support": 11,
+    "confused_with": {
+      "faq/formato_solicitud_constancia_estudios": 1,
+      "faq/formato_solicitud_constancia_matricula": 1
+    }
+  },
+  "faq/formato_solicitud_constancia_estudios": {
+    "precision": 0.6666666666666666,
+    "recall": 1.0,
+    "f1-score": 0.8,
+    "support": 10,
+    "confused_with": {}
+  },
+  "faq/retiro_total_requisitos_documentos_justificacion": {
+    "precision": 0.6923076923076923,
+    "recall": 0.8181818181818182,
+    "f1-score": 0.7500000000000001,
+    "support": 11,
+    "confused_with": {
+      "faq/motivos_procede_retiro_total": 2
+    }
+  },
+  "faq/constancia_matricula_pago": {
+    "precision": 0.9090909090909091,
+    "recall": 0.7692307692307693,
+    "f1-score": 0.8333333333333333,
+    "support": 13,
+    "confused_with": {
+      "faq/formato_solicitud_reserva_matricula": 1,
+      "faq/matricula_pago_autoseguro_fechas": 1
+    }
+  },
+  "accuracy": 0.8013986013986014,
+  "macro avg": {
+    "precision": 0.811953662669971,
+    "recall": 0.7886625214425519,
+    "f1-score": 0.7930996400622272,
+    "support": 715
+  },
+  "weighted avg": {
+    "precision": 0.8050746491271161,
+    "recall": 0.8013986013986014,
+    "f1-score": 0.7974060824224545,
+    "support": 715
+  }
+}

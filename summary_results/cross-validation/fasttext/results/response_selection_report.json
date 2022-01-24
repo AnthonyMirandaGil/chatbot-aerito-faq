@@ -1,0 +1,385 @@
+{
+  "faq/solicitud_carnet_universitario": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "faq/matricula_cronograma": 5,
+      "faq/solicitud_constancia_matricula_procedimiento": 3
+    }
+  },
+  "faq/reserva_matricula_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 15,
+    "confused_with": {
+      "faq/matricula_cronograma": 9,
+      "faq/solicitud_constancia_matricula_procedimiento": 6
+    }
+  },
+  "faq/solicitud_correo_institucional_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 17,
+    "confused_with": {
+      "faq/matricula_cronograma": 11,
+      "faq/solicitud_constancia_matricula_procedimiento": 6
+    }
+  },
+  "faq/formato_solicitud_constancia_estudios": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "faq/matricula_cronograma": 6,
+      "faq/solicitud_constancia_matricula_procedimiento": 4
+    }
+  },
+  "faq/constancia_de_estudios_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "faq/solicitud_constancia_matricula_procedimiento": 6,
+      "faq/matricula_cronograma": 6
+    }
+  },
+  "faq/reincorporacion_rezagada_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "faq/matricula_cronograma": 6,
+      "faq/retiro_parcial_procedimiento": 4,
+      "faq/pago_autoseguro": 2
+    }
+  },
+  "faq/retiro_total_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 19,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 15,
+      "faq/pago_autoseguro": 4
+    }
+  },
+  "faq/retiro_total_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 28,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 20,
+      "faq/pago_autoseguro": 6,
+      "faq/motivos_procede_retiro_total": 1
+    }
+  },
+  "faq/formato_solicitud_reserva_matricula": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "faq/matricula_cronograma": 7,
+      "faq/solicitud_constancia_matricula_procedimiento": 5
+    }
+  },
+  "faq/constancia_notas_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "faq/matricula_cronograma": 8,
+      "faq/solicitud_constancia_matricula_procedimiento": 6
+    }
+  },
+  "faq/retiro_parcial_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 32,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 26,
+      "faq/pago_autoseguro": 6
+    }
+  },
+  "faq/formato_solicitud_constancia_de_notas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "faq/matricula_cronograma": 7,
+      "faq/solicitud_constancia_matricula_procedimiento": 4
+    }
+  },
+  "faq/retiro_parcial_procedimiento": {
+    "precision": 0.13523131672597866,
+    "recall": 0.7916666666666666,
+    "f1-score": 0.23100303951367782,
+    "support": 48,
+    "confused_with": {
+      "faq/pago_autoseguro": 10
+    }
+  },
+  "faq/matricula_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 20,
+    "confused_with": {
+      "faq/matricula_cronograma": 12,
+      "faq/solicitud_constancia_matricula_procedimiento": 8
+    }
+  },
+  "faq/formato_solicitud_retiro_total": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 4,
+      "faq/matricula_cronograma": 3,
+      "faq/solicitud_constancia_matricula_procedimiento": 1
+    }
+  },
+  "faq/horario_atencion_aera": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 20,
+    "confused_with": {
+      "faq/matricula_cronograma": 8,
+      "faq/retiro_parcial_procedimiento": 7,
+      "faq/solicitud_constancia_matricula_procedimiento": 3
+    }
+  },
+  "faq/cursos_horarios": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 29,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 21,
+      "faq/pago_autoseguro": 6,
+      "faq/matricula_cronograma": 2
+    }
+  },
+  "faq/pago_autoseguro": {
+    "precision": 0.09090909090909091,
+    "recall": 0.19444444444444445,
+    "f1-score": 0.12389380530973451,
+    "support": 36,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 28,
+      "faq/matricula_cronograma": 1
+    }
+  },
+  "faq/formato_solicitud_reincorporacion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 13,
+    "confused_with": {
+      "faq/matricula_cronograma": 8,
+      "faq/solicitud_constancia_matricula_procedimiento": 5
+    }
+  },
+  "faq/retiro_parcial_cursos_repetidos": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 10,
+      "faq/pago_autoseguro": 2
+    }
+  },
+  "faq/reincorporacion_costo": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "faq/matricula_cronograma": 9,
+      "faq/solicitud_constancia_matricula_procedimiento": 5
+    }
+  },
+  "faq/motivos_procede_retiro_total": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 16,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 11,
+      "faq/pago_autoseguro": 4,
+      "faq/matricula_cronograma": 1
+    }
+  },
+  "faq/matricula_cronograma": {
+    "precision": 0.09333333333333334,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.16091954022988506,
+    "support": 36,
+    "confused_with": {
+      "faq/solicitud_constancia_matricula_procedimiento": 14,
+      "faq/retiro_parcial_procedimiento": 1
+    }
+  },
+  "faq/constancia_matricula_pago": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 13,
+    "confused_with": {
+      "faq/matricula_cronograma": 7,
+      "faq/solicitud_constancia_matricula_procedimiento": 6
+    }
+  },
+  "faq/solicitud_constancia_matricula_procedimiento": {
+    "precision": 0.061068702290076333,
+    "recall": 0.38095238095238093,
+    "f1-score": 0.10526315789473685,
+    "support": 21,
+    "confused_with": {
+      "faq/matricula_cronograma": 13
+    }
+  },
+  "faq/retiro_parcial_maximo_cursos": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 14,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 12,
+      "faq/pago_autoseguro": 2
+    }
+  },
+  "faq/retiro_parcial_unico_curso": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 13,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 10,
+      "faq/pago_autoseguro": 3
+    }
+  },
+  "faq/reserva_matricula_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 41,
+    "confused_with": {
+      "faq/matricula_cronograma": 24,
+      "faq/solicitud_constancia_matricula_procedimiento": 15,
+      "faq/retiro_parcial_procedimiento": 2
+    }
+  },
+  "faq/reincorporacion_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "faq/matricula_cronograma": 6,
+      "faq/solicitud_constancia_matricula_procedimiento": 4,
+      "faq/pago_autoseguro": 1
+    }
+  },
+  "faq/matricula_pago_autoseguro_fuera_fecha": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 35,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 26,
+      "faq/pago_autoseguro": 7,
+      "faq/matricula_cronograma": 2
+    }
+  },
+  "faq/matricula_pago_autoseguro_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 17,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 10,
+      "faq/pago_autoseguro": 4,
+      "faq/matricula_cronograma": 3
+    }
+  },
+  "faq/reincorporacion_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 33,
+    "confused_with": {
+      "faq/matricula_cronograma": 16,
+      "faq/solicitud_constancia_matricula_procedimiento": 9,
+      "faq/pago_autoseguro": 4
+    }
+  },
+  "faq/cambio_seccion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 32,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 26,
+      "faq/pago_autoseguro": 6
+    }
+  },
+  "faq/retiro_total_requisitos_documentos_justificacion": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 11,
+    "confused_with": {
+      "faq/retiro_parcial_procedimiento": 6,
+      "faq/matricula_cronograma": 3,
+      "faq/solicitud_constancia_matricula_procedimiento": 1
+    }
+  },
+  "faq/matricula_horarios": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 20,
+    "confused_with": {
+      "faq/matricula_cronograma": 12,
+      "faq/solicitud_constancia_matricula_procedimiento": 8
+    }
+  },
+  "faq/formato_solicitud_constancia_matricula": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 12,
+    "confused_with": {
+      "faq/matricula_cronograma": 8,
+      "faq/solicitud_constancia_matricula_procedimiento": 4
+    }
+  },
+  "accuracy": 0.1034965034965035,
+  "macro avg": {
+    "precision": 0.010570623423846645,
+    "recall": 0.05417768959435626,
+    "f1-score": 0.017252209526334286,
+    "support": 715
+  },
+  "weighted avg": {
+    "precision": 0.020148633879252937,
+    "recall": 0.1034965034965035,
+    "f1-score": 0.03293979391870253,
+    "support": 715
+  }
+}
