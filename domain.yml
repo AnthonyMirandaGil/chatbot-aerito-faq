@@ -63,20 +63,20 @@ responses:
     - text: 'Sé que algunos temas del **proceso de matrícula** pueden generar dudas, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el proceso de matrícula para un alumno ingresante?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_procedimiento_alumno_ingresante"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula__procedimiento_alumno_ingresante"}}'
       - title: "¿Cuál es el proceso de matrícula para un alumno regular?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_procedimiento_alumno_regular"}}' 
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula__procedimiento_alumno_regular"}}' 
       - title: "¿Cuáles son las fechas de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_cronograma"}}' 
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula__cronograma"}}' 
       - title: "¿Cual es mi horario de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_horarios"}}'  
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula__horarios"}}'  
       - title: "¿Cómo obtener mi carnet universitario?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/solicitud_carnet_universitario"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/carnet_universitario__solicitud"}}'
       - title: "¿Cómo realizar el pago de autoseguro?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/pago_autoseguro"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/pago_autoseguro_procedimiento"}}'
       - title: "¿Cuál es el proceso de matrícula rezagada?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_rezagada_procedimiento"}}'
-      - title: "Regresar al menú principal"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_rezagada__procedimiento"}}'
+      - title: "Regresar a Temas"
         payload: "/ayuda"
 
   #utter_mas_ayuda_formulario_luego_procesos_matricula:
@@ -95,16 +95,16 @@ responses:
     - text: 'Animo! los **retiros** también son un buena estrategia, puedo facilitarte la siguiente información. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el procedimiento para hacer un retiro parcial de cursos?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial_procedimiento"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial__procedimiento"}}'
       - title: "¿En qué fechas se realiza el retiro parcial?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial_fechas"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial__fechas"}}'
       - title: "¿Cuál es el procedimiento para hacer un retiro total?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total_procedimiento"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total__procedimiento"}}'
       - title: "¿En qué fechas se realiza el retiro total?"
-        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total_fechas"}}'
+        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total__fechas"}}'
       - title: "¿Por qué motivos procede el retiro total?"
-        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/motivos_procede_retiro_total"}}'
-      - title: "Regresar al menú principal"
+        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total__motivos_procede"}}'
+      - title: "Regresar a Temas"
         payload: "/ayuda"
 
   #utter_mas_ayuda_formulario_luego_retiros:
@@ -123,20 +123,20 @@ responses:
     - text: 'Los **trámites y procesos académicos** pueden parecer complicados, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el procedimiento para solicitar la reserva de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula_procedimiento"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula__procedimiento"}}'
       - title: "¿Cuáles son las fechas para la reserva de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula_fechas"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula__fechas"}}'
       - title: "¿Cuál es el procedimiento para solicitar la reincorporación?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion_procedimiento"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion__procedimiento"}}'
       - title: "¿Cuáles son las fechas para la reincorporación?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion_fechas"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion__fechas"}}'
       - title: "¿Cómo solicito una constancia de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/solicitud_constancia_matricula_procedimiento"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_matricula__solicitud_procedimiento"}}'
       - title: "¿Cómo solicito una constancia de notas?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_notas_procedimiento"}}'
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_de_notas__procedimiento"}}'
       - title: "¿Cómo solicito una constancia de estudios?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_de_estudios_procedimiento"}}'
-      - title: "Regresar al menú principal"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_de_estudios__formato_solicitud"}}'
+      - title: "Regresar a Temas"
         payload: "/ayuda"
 
   utter_mas_ayuda_formulario_luego_tramites_procesos_academicos:
@@ -144,7 +144,7 @@ responses:
       buttons:
       - title: "Ir al menú anterior"
         payload: "/consulta_tramites_y_procesos_academicos"
-      - title: "Ir al menú principal"
+      - title: "Ir a Temas"
         payload: "/ayuda"
       - title: "Eso es todo"
         payload: "/denegar_mas_ayuda"
