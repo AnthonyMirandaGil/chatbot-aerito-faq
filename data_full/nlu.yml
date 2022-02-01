@@ -109,7 +109,8 @@ nlu:
     - existe alguna modelo para la solicitud 
     - donde puedo encontrar un modelo 
     - hay algun formato o modelo
-    
+    - si hay algun formato para la solicitud que debo enviar
+
 # chitchat
 
 # Consultas 
@@ -449,7 +450,7 @@ nlu:
     - Hola ciencito, hasta que dias puedo realizar el retiro parcial
     - Hola, cuándo inicia el retiro parcial?
     - Buen día, ¿Hasta cuándo se puede hacer el retiro parcial?
-    - Hola, una duda es retiro parcial se habilitara el la quinta semande de clases ?
+    - Hola, una duda el retiro parcial se habilitara en la quinta semana de clases ?
     - Hola, tengo una duda en que semana se habilitara el retiro parcial
     - Buenas, ¿Cuáles son las fechas para realizar el retiro parcial?
     - Hola, quisiera retirarme de un curso me podria decir hasta cuando se habilitara en el sistema ?
@@ -472,12 +473,11 @@ nlu:
     - puede decirme como realizar un retiro parcial ?
     - Por motivos de fuerza mayor quiero dejar de llevar un curso, ¿qué debo hacer?
     - Podría indicarme el procedimiento para realizar el retiro parcial para el presente ciclo?
-    - PODRÍA   INDICARME EL PROCEDIMIENTO PARA REALIZAR EL RETIRO PARCIAL    PARA EL PRESENTE CICLO?
-    - PODRÍA INDICARME EL procedimiento PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?
+    - PODRÍA INDICARME EL PROCEDIMIENTO PARA REALIZAR EL RETIRO PARCIAL    PARA EL PRESENTE CICLO?
     - PODRÍA INDICARME EL PROCEDIMIENTO, PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?
     - me puede indicar cual es el procedimiento de retiro parcial
     - cual es el procedimiento de retiro parcial
-    - cual es el prodecimiento para realizar un retiro de un curso?
+    - cual es el procedimiento para realizar un retiro de un curso?
     - que procedimiento puedo seguir para realizar el retiro parcial?
     - me han dicho que puedo retirarme de un curso solo por el intranet de orce cuales son lo paso ?
     - como puedo solicitar el retiro parcial
@@ -504,7 +504,7 @@ nlu:
     - Hola, me han dicho que puedo retirarme de un curso solo por el intranet de orce cuales son lo paso ?
     - Hola amigo, dime como puedo solicitar el retiro parcial
     - Hola, deseo realizar el retiro parcial de un curso como procedo
-    - HOla, deseo realizar el retiro paracial de varios curso como procedo
+    - HOla, deseo realizar el retiro parcial de varios curso como procedo
     - hola, como procedo para hacer el retiro parcial ?
 
 - intent: faq/retiro_parcial__unico_curso
@@ -617,6 +617,7 @@ nlu:
     - existe alguna modelo para la solicitud de retiro total
     - donde puedo encontrar un modelo para la solicitud de retiro total
     - hay algun formato o modelo para la solicitud de retiro total
+
 - intent: faq/retiro_total__procedimiento
   examples: |
     - ¿Cómo hago el retiro total de mis cursos?
