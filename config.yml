@@ -23,8 +23,8 @@ pipeline:
   tensorboard_log_directory: "./tensorboard"
   tensorboard_log_level: "epoch"
 - name: FallbackClassifier
-  threshold: 0.9
-  ambiguity_threshold: 0.1
+  threshold: 0.5
+  ambiguity_threshold: 0.2
   
 policies:
 - name: MemoizationPolicy

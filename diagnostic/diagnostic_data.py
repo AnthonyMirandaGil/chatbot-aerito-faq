@@ -7,7 +7,7 @@ from rasa.shared.constants import DIAGNOSTIC_DATA
 import pathlib
 import numpy as np
 
-YOUR_RASA_MODEL_DIRECTORY = '../models'
+YOUR_RASA_MODEL_DIRECTORY = './models'
 YOUR_RASA_MODEL_NAME = '20220105-180228'
 
 def load_interpreter(model_dir, model):
@@ -30,10 +30,10 @@ if __name__ == "__main__":
         if i ==2:
             break
     tokens = message.get('text_tokens')
+    print('message:', message.as_dict_nlu())
     word_vectors = np.array([featurizer.model.get_word_vector(t.text) for t in tokens])
-    print(word_vectors)
+    print('word_vectors',word_vectors)
     #nlu_diagnostic_data = message.as_dict()[DIAGNOSTIC_DATA]
-    #print('message:', message)
     #print('message.as_dict_nlu()',  message.as_dict_nlu())
     #print('DIAGNOSTIC_DATA',DIAGNOSTIC_DATA)
     #print('text_tokens', message.as_dict_nlu()['text_tokens'])
