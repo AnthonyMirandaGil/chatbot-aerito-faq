@@ -1,0 +1,90 @@
+[
+  {
+    "text": "que pasos debo seguir para la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9996897578239441
+    }
+  },
+  {
+    "text": "hasta que hora atiende AERA",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.701849102973938
+    }
+  },
+  {
+    "text": "adios que tenga lindo dia",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8342270255088806
+    }
+  },
+  {
+    "text": "Oye",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.5009165406227112
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.987856388092041
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.43941324949264526
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9183242321014404
+    }
+  },
+  {
+    "text": "como realizo mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999970197677612
+    }
+  },
+  {
+    "text": "Buenas noches, que pasos debo seguir para la matricula rezagada",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.4930149018764496
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9993109107017517
+    }
+  }
+]

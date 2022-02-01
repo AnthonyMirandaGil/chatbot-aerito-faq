@@ -1,0 +1,146 @@
+[
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9292374849319458
+    }
+  },
+  {
+    "text": "hasta luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.41923147439956665
+    }
+  },
+  {
+    "text": "hasta luego Aerito",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.44994863867759705
+    }
+  },
+  {
+    "text": "Buenos noches Aerito",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.5591826438903809
+    }
+  },
+  {
+    "text": "que pasos debo seguir para la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.6168135404586792
+    }
+  },
+  {
+    "text": "que debo hacer para realizar la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8601541519165039
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.30688318610191345
+    }
+  },
+  {
+    "text": "buenas",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.3325408101081848
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9995349049568176
+    }
+  },
+  {
+    "text": "como realizo mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.5277360677719116
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9997215270996094
+    }
+  },
+  {
+    "text": "Hi",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7912956476211548
+    }
+  },
+  {
+    "text": "Entiendo gracias entonces hoy lo pago",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.4399276077747345
+    }
+  },
+  {
+    "text": "que tengas buen dia",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.5136256814002991
+    }
+  },
+  {
+    "text": "Oye",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.6901412010192871
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9979953765869141
+    }
+  }
+]

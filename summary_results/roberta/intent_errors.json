@@ -1,0 +1,210 @@
+[
+  {
+    "text": "hasta luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9858055710792542
+    }
+  },
+  {
+    "text": "adios que tenga lindo dia",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.928766667842865
+    }
+  },
+  {
+    "text": "Ya lo encontre muchas gracias por su ayuda",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "como realizo mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9971909523010254
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.9996625185012817
+    }
+  },
+  {
+    "text": "como reservo la matricula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.667768657207489
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9975171089172363
+    }
+  },
+  {
+    "text": "hasta luego Aerito",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9998272061347961
+    }
+  },
+  {
+    "text": "Hola Aerito",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9987420439720154
+    }
+  },
+  {
+    "text": "hola Aerito",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9987420439720154
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "buenos dias",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9872303605079651
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9750239253044128
+    }
+  },
+  {
+    "text": "Gracias por su pronta respuesta",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.927709698677063
+    }
+  },
+  {
+    "text": "Muy agradecido",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.7250658869743347
+    }
+  },
+  {
+    "text": "a ya gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9906461238861084
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "Buen día, a que hora inicia la matrícula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.8464521169662476
+    }
+  },
+  {
+    "text": "nos vemos luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.49944695830345154
+    }
+  },
+  {
+    "text": "que tal",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9802992939949036
+    }
+  },
+  {
+    "text": "Buenos noches Aerito",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.6860768795013428
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9999548196792603
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9993770718574524
+    }
+  },
+  {
+    "text": "buenas",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9771272540092468
+    }
+  },
+  {
+    "text": "hola que tal amigo",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.8911099433898926
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.6517875790596008
+    }
+  }
+]

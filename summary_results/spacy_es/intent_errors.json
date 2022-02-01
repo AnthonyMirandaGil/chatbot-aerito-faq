@@ -1,0 +1,114 @@
+[
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.996974527835846
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999995231628418
+    }
+  },
+  {
+    "text": "que debo hacer para realizar la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8228213787078857
+    }
+  },
+  {
+    "text": "Buenas noches, que pasos debo seguir para la matricula rezagada",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.6920332312583923
+    }
+  },
+  {
+    "text": "Oye",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5207029581069946
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9991065263748169
+    }
+  },
+  {
+    "text": "que pagos y que debo hacer para la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.554119348526001
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.8244938254356384
+    }
+  },
+  {
+    "text": "como realizo mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999964237213135
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.8539961576461792
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.9343188405036926
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "que debo tramitar para la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9804000854492188
+    }
+  },
+  {
+    "text": "cual es proceso de matricula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.9351893067359924
+    }
+  }
+]
