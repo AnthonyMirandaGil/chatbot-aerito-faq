@@ -166,11 +166,11 @@ class ActionContextualFaqsFormatoSolicitud(Action):
         return []
 
 
-class ActionSetFaqSlot(Action):
+class ActionSetSubTopicSlot(Action):
     """Returns the chitchat utterance dependent on the intent"""
 
     def name(self) -> Text:
-        return "action_set_faq_slot"
+        return "action_set_sub_topic_slot"
 
     def run(
         self,
@@ -180,7 +180,7 @@ class ActionSetFaqSlot(Action):
     ) -> List[EventType]:
         full_intent = (
             tracker.latest_message.get("response_selector", {})
-            .get("faq", {})
+            .get("sub_topic", {})
             .get("full_retrieval_intent")
         )
         if full_intent:

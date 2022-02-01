@@ -24,9 +24,26 @@ stories:
   steps:
     - intent: faq
     - action: utter_faq
+    - action: action_set_sub_topic_slot
     - action: utter_requerir_mas
     - intent: confirmar_requerir_mas_ayuda
     - intent: utter_requerir_consulta
+
+- story: faqs
+  steps:
+    - intent: faq
+    - action: utter_faq
+    - action: action_set_sub_topic_slot
+    - action: utter_requerir_mas
+
+- story: FAQ - Formato
+  steps:
+    - intent: faq
+    - action: utter_faq
+    - action: action_set_sub_topic_slot
+    - action: utter_requerir_mas
+    - intent: formato_solicitud
+    - action: action_contextual_faq_formato_solicitud
 
 #- story: ayuda
 #  steps: 
