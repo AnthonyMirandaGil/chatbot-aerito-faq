@@ -8,6 +8,16 @@ intents:
 - agradecimiento
 - faq
 - nlu_fallback
+- ayuda
+- consulta_sobre_matricula
+- consulta_tramites_y_procesos_academicos
+- consulta_sobre_retiros
+- trigger_response_selector
+- matricula_procedimiento
+- menu_anterior
+- confirmar_requerir_mas_ayuda
+- denegar_mas_ayuda
+- utter_requerir_consulta
 responses:
   # flujos de conversacion
   
@@ -15,11 +25,11 @@ responses:
     - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas
   utter_saludo:
     - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas, sobre temas de matricula, procedimientos y tramites académicos.
-  
-  
+    
   utter_requerir_consulta:
     - text: Dime, ¿Cual es tu consulta?
     - text: Dime, ¿En qué puedo ayudarte?
+    - text: Descríbeme tu duda
 
   utter_despedida:
     - text: Muchas gracias por la visita. !Qué tengas un buen día!
@@ -29,15 +39,148 @@ responses:
   
   utter_requerir_mas:
     - text: ¿Puedo ayudarte con algo mas?
-  # chitchat
+  
   utter_agradecimiento:
     - text: 'De nada, ¿ Hay algo mas en lo que pueda ayudarte?'
   
+  utter_recuerda_escribir_ayuda:
+    - text: Recuerda que si tienes dudas sobre que consultar o estas atascado puedes escribir "ayuda" para guiarte en las principales temas y consultas sobre los cuales puedo responder.
+
+  utter_formulario_temas:
+    - text: "Dime, ¿Con qué tema puedo ayudarte?"
+      buttons:
+      - title: "Procesos de Matrícula"
+        payload: '/consulta_sobre_matricula{{"topic": "procesos_matricula"}}'
+      - title: "Retiros"
+        payload: '/consulta_sobre_retiros{{"topic": "retiros"}}'
+      - title: "Trámites y procesos académicos"
+        payload: '/consulta_tramites_y_procesos_academicos{{"topic": "tramites_procesos_academicos"}}'
+      - title: "Contactar con AERA"
+        payload: "/contactar_aera"
+  
+  utter_formulario_procesos_matricula:
+    - text: 'Sé que algunos temas del **proceso de matrícula** pueden generar dudas, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
+      buttons:
+      - title: "¿Cuál es el proceso de matrícula para un alumno ingresante?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_procedimiento_alumno_ingresante"}}'
+      - title: "¿Cuál es el proceso de matrícula para un alumno regular?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_procedimiento_alumno_regular"}}' 
+      - title: "¿Cuáles son las fechas de matrícula?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_cronograma"}}' 
+      - title: "¿Cual es mi horario de matrícula?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_horarios"}}'  
+      - title: "¿Cómo obtener mi carnet universitario?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/solicitud_carnet_universitario"}}'
+      - title: "¿Cómo realizar el pago de autoseguro?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/pago_autoseguro"}}'
+      - title: "¿Cuál es el proceso de matrícula rezagada?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/matricula_rezagada_procedimiento"}}'
+      - title: "Regresar al menú principal"
+        payload: "/ayuda"
+
+  #utter_mas_ayuda_formulario_luego_procesos_matricula:
+  #  - text: '¿Hay algo más con lo que pueda ayudarle?. Elija la opción de su preferencia:'
+  #    buttons:
+  #    - title: "Ir al menú anterior"
+  #      payload: "/consulta_sobre_matricula"
+  #    - title: "Ir al menú principal"
+  #      payload: "/ayuda"
+  #    - title: "Eso es todo"
+  #      payload: "/denegar_mas_ayuda"
+  #    - title: "Escribir una consulta directa"
+  #      payload: "/consulta_directa"
+        
+  utter_formulario_retiros:
+    - text: 'Animo! los **retiros** también son un buena estrategia, puedo facilitarte la siguiente información. Elija la opción que corresponda con su consulta:'
+      buttons:
+      - title: "¿Cuál es el procedimiento para hacer un retiro parcial de cursos?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial_procedimiento"}}'
+      - title: "¿En qué fechas se realiza el retiro parcial?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial_fechas"}}'
+      - title: "¿Cuál es el procedimiento para hacer un retiro total?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total_procedimiento"}}'
+      - title: "¿En qué fechas se realiza el retiro total?"
+        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total_fechas"}}'
+      - title: "¿Por qué motivos procede el retiro total?"
+        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/motivos_procede_retiro_total"}}'
+      - title: "Regresar al menú principal"
+        payload: "/ayuda"
+
+  #utter_mas_ayuda_formulario_luego_retiros:
+  #  - text: '¿Hay algo más con lo que pueda ayudarle?. Elija la opción de su preferencia:'
+  #    buttons:
+  #    - title: "Ir al menú anterior"
+  #      payload: "/consulta_sobre_retiros"
+  #    - title: "Ir al menú principal"
+  #      payload: "/ayuda"
+  #    - title: "Eso es todo"
+  #      payload: "/denegar_mas_ayuda"
+  #    - title: "Escribir una consulta directa"
+  #      payload: "/consulta_directa"
+
+  utter_formulario_tramites_procesos_academicos:
+    - text: 'Los **trámites y procesos académicos** pueden parecer complicados, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
+      buttons:
+      - title: "¿Cuál es el procedimiento para solicitar la reserva de matrícula?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula_procedimiento"}}'
+      - title: "¿Cuáles son las fechas para la reserva de matrícula?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula_fechas"}}'
+      - title: "¿Cuál es el procedimiento para solicitar la reincorporación?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion_procedimiento"}}'
+      - title: "¿Cuáles son las fechas para la reincorporación?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion_fechas"}}'
+      - title: "¿Cómo solicito una constancia de matrícula?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/solicitud_constancia_matricula_procedimiento"}}'
+      - title: "¿Cómo solicito una constancia de notas?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_notas_procedimiento"}}'
+      - title: "¿Cómo solicito una constancia de estudios?"
+        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_de_estudios_procedimiento"}}'
+      - title: "Regresar al menú principal"
+        payload: "/ayuda"
+
+  utter_mas_ayuda_formulario_luego_tramites_procesos_academicos:
+    - text: '¿Hay algo más con lo que pueda ayudarle?. Elija la opción de su preferencia:'
+      buttons:
+      - title: "Ir al menú anterior"
+        payload: "/consulta_tramites_y_procesos_academicos"
+      - title: "Ir al menú principal"
+        payload: "/ayuda"
+      - title: "Eso es todo"
+        payload: "/denegar_mas_ayuda"
+      - title: "Escribir una consulta directa"
+        payload: "/consulta_directa"
+  
+  utter_contactar_aera:
+    - text: |-
+        Realice su consulta al correo estadistica_fc@uni.edu.pe. También puede encontrar la información de contacto en https://fc.uni.edu.pe/estadistica/
+
+  utter_mas_ayuda_formulario: 
+  - text: '¿Hay algo más con lo que pueda ayudarle?. Enviame tu consulta o elija la opción de su preferencia:'
+    buttons:
+    - title: Ir a Temas
+      payload: /ayuda
+    - title: Eso es todo
+      payload: /denegar_mas_ayuda
+    - title: Ir al Menú Anterior
+      payload: /menu_anterior
+
+
+  utter_mas_ayuda_formulario_luego_contactar_aera:
+    - text: '¿Hay algo más con lo que pueda ayudarle?. Elija la opción de su preferencia:'
+      buttons:
+      - title: "Ir al menú principal"
+        payload: "/ayuda"
+      - title: "Eso es todo"
+        payload: "/denegar_mas_ayuda"        
   # FAQ
   # Procesos de matricula
-  utter_faq/matricula_procedimiento:
+  utter_faq/matricula_procedimiento_alumno_ingresante:
     - text: |-
-        En caso de ser alumno ingresante, puedes revisar el procedimiento de matricula en el siguiente enlace: https://drive.google.com/file/d/1zFFc_28rY3me3R6LzxbHTvObO-NxhMos/view. En caso de ser alumno regular, debe realizar el pago por AUTOSEGURO de manera obligatoria y con 03 días mínimo de antelación a la matrícula, no es necesario enviar su vaucher. Seguidamente ORCE le habilitara su ficha de matricula en el intranet-alumno en su fecha y horario correspondiente. 
+        En caso de ser alumno ingresante, puedes revisar el procedimiento de matricula en el siguiente enlace: https://drive.google.com/file/d/1zFFc_28rY3me3R6LzxbHTvObO-NxhMos/view.
+
+  utter_faq/matricula_procedimiento_alumno_regular:
+    - text: |-
+        En caso de ser alumno regular, debe realizar el pago por AUTOSEGURO de manera obligatoria y con 03 días mínimo de antelación a la matrícula, no es necesario enviar su vaucher. Seguidamente ORCE le habilitara su ficha de matricula en el intranet-alumno en su fecha y horario correspondiente. 
 
   utter_faq/solicitud_carnet_universitario:
     - text: Para obtener su carnet universitario debe primero haber completado correctamente su proceso de matricula, luego pagar por el concepto de CARNÉ UNIVERSITARIO en banco SCOTIABANK, no es necesario enviar su vaucher. ORCE se encargará de continuar con el trámite e informar sobre su avance por el mismo sistema de intranet-alumno
@@ -53,6 +196,13 @@ responses:
  
   utter_faq/pago_autoseguro:
     - text: El pago de autoseguro puede realizarse mediante el uso del aplicativo, agente o en ventanilla del Banco Scotiabank, solo indicar el concepto a pagar (AUTOSEGURO) y su código universitario.
+
+  utter_faq/matricula_rezagada_procedimiento:
+    - text: |-
+        El procedimiento de la Matrícula Rezagada lo podrás encontrar en el siguiente enlace: 
+        https://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view 
+        o dentro de la la página web de la Facultad, en el [modulo de matricula](https://fc.uni.edu.pe/documentos/).
+
 
   utter_faq/matricula_pago_autoseguro_fuera_fecha:
     - text: Lamentablemente si no pagó con 72 horas de antelación a su matrícula, es muy posible que pase a matricula rezagada. Podrá comprobarlo, si es que no tiene acceso al sistema de matricula en la fecha y hora que le correspondía.
@@ -171,3 +321,38 @@ responses:
  
   utter_faq/retiro_parcial_cursos_repetidos:
     - text: El reglamento indica que el retiro parcial procede para las asignaturas más avanzadas y no para las del ciclo más atrasado o repetidas dos o más veces.
+
+  ## FallBack
+  utter_ask_rephrase:
+    - text: Lo siento no logre entenderte bien. ¿Podrías reformular tu consulta?
+  #utter_default:
+  #  - text: Lo lamento, no puedo ayudarte con eso.
+  
+  utter_sugerir_contactar_aera:
+    - text: 'Si no encuentras respuesta a tu consulta.Te puedo sugerir contactar con AERA para obtener una mayor atención en resolver tu consulta. La información de contacto la puede encontrar en el siguiente enlace: https://fc.uni.edu.pe/estadistica/'
+  
+  ## Desambigue
+  utter_desanbigue_procedimiento_matricula:
+    - text: "¿Es usted alumno ingresante?"
+      buttons:
+      - title: 'Sí, soy ingresante'
+        payload: '/consulta_matricula_procedimiento_ingresante'
+      - title: 'No, soy alumno regular'
+        payload: '/consulta_matricula_procedimiento_regular'
+slots:
+  retrieval_intent:
+    type: text
+    influence_conversation: false
+  topic:
+    type: text
+  sub_topic:
+    type: text
+entities:
+- retrieval_intent
+- topic
+- sub_topic
+actions:
+- action_trigger_response_selector
+- action_trigger_menu_anterior
+- action_default_ask_affirmation
+- action_default_fallback

@@ -1,0 +1,90 @@
+[
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9999048709869385
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9998401403427124
+    }
+  },
+  {
+    "text": "nos vemos",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.992424726486206
+    }
+  },
+  {
+    "text": "nos vemos luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.7266199588775635
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9999703168869019
+    }
+  },
+  {
+    "text": "que tal",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "entonces revisare mañana, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9813543558120728
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9999991655349731
+    }
+  },
+  {
+    "text": "hasta luego Aerito",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9997532963752747
+    }
+  },
+  {
+    "text": "Hi",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9805747270584106
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9999268054962158
+    }
+  }
+]

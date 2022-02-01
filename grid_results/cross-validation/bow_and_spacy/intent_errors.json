@@ -1,0 +1,82 @@
+[
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.4579281508922577
+    }
+  },
+  {
+    "text": "nos vemos",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.48803481459617615
+    }
+  },
+  {
+    "text": "te veo luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.8061039447784424
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.998846709728241
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.973295271396637
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9967787861824036
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999991655349731
+    }
+  },
+  {
+    "text": "Hi",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.4632604420185089
+    }
+  },
+  {
+    "text": "Oye",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.39556264877319336
+    }
+  },
+  {
+    "text": "Entiendo gracias entonces hoy lo pago",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.5981773734092712
+    }
+  }
+]

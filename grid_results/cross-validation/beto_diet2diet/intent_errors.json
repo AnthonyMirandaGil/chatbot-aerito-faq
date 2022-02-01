@@ -1,0 +1,66 @@
+[
+  {
+    "text": "hasta luego Aerito",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.4882442355155945
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.9999990463256836
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9996833801269531
+    }
+  },
+  {
+    "text": "Ya lo encontre muchas gracias por su ayuda",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9999999403953552
+    }
+  },
+  {
+    "text": "que tal",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.8179851770401001
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.7377961874008179
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.999747097492218
+    }
+  }
+]

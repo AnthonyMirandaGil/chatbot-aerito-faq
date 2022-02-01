@@ -6,6 +6,7 @@ stories:
   steps:
     - intent: saludo
     - action: utter_saludo
+    - action: utter_recuerda_escribir_ayuda
     - action: utter_requerir_consulta
 
 - story: despedida
@@ -18,3 +19,16 @@ stories:
     - intent: agradecimiento
     - action: utter_agradecimiento
     - action: utter_requerir_mas
+
+- story: affirm more queries to FAQs
+  steps:
+    - intent: faq
+    - action: utter_faq
+    - action: utter_requerir_mas
+    - intent: confirmar_requerir_mas_ayuda
+    - intent: utter_requerir_consulta
+
+#- story: ayuda
+#  steps: 
+#    - intent: ayuda
+#    - action: utter_formulario_temas

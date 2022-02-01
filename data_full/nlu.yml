@@ -17,7 +17,7 @@ nlu:
     - hasta luego Aerito
     - hasta luego que tengas buen dia
     - adios que tenga lindo dia
-    
+
 - intent: saludo
   examples: |
     - buenas
@@ -92,13 +92,40 @@ nlu:
     - ok, muchas gracias
     - Esta bien gracias.
     - Muchas gracias por su respuesta
-
+    
+- intent: ayuda
+  examples: |
+    - ayuda
+    - Ayuda
+    - AYUDA
+    
 # chitchat
 
 # Consultas 
 # Procesos de matricula
 
-- intent: faq/matricula_procedimiento
+- intent: matricula_procedimiento
+  examples: |
+    - ¿Cuál es proceso de matricula?
+    - que pasos debo seguir para la matricula
+    - como realizo mi matricula
+    - que debo hacer para realizar la matricula
+    - que pagos y que debo hacer para la matricula
+    - que debo tramitar para la matricula
+
+- intent: faq/matricula_procedimiento_alumno_regular
+  examples: |
+    - ¿Cuál es el proceso de matrícula para un alumno regular?
+    - Soy alumno regular como es el proceso de matricula
+    - Hola, soy alumno regular quiero saber como realizar mi matricula
+    - soy alumno regular de fisica me podrias decir cual es el proceso de matricula
+    - soy alumno regular de ciencias de la computación cual es el proceso de matricula
+    - una consulta soy alumno regular de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien
+    - soy alumno regular como realizo mi matricula
+    - cual es el procedimiento de matricula como alumno regular
+    - cual es proceso de matricula 
+
+- intent: faq/matricula_procedimiento_alumno_ingresante
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno ingresante?
     - Soy ingresante como es el proceso de matricula
@@ -111,16 +138,6 @@ nlu:
     - es mi primer ciclo soy ingresante puede decirme cual es proceso a seguir para la matricula
     - he ingresado a la carrera de ingenieria fisica quisiera saber cuales son los para paso para la matricula
     - he ingresado a la carrera de Quimica en el anterior examen de admisión quisiera que debo hacer para matricularme
-    - ¿Cuál es el proceso de matrícula para un alumno regular?
-    - Soy alumno regular como es el proceso de matricula
-    - Hola, soy alumno regular quiero saber como realizar mi matricula
-    - soy alumno regular de fisica me podrias decir cual es el proceso de matricula
-    - soy alumno regular de ciencias de la computación cual es el proceso de matricula
-    - una consulta soy alumno regular de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien
-    - soy alumno regular como realizo mi matricula
-    - cual es el procedimiento de matricula como alumno regular
-    - cual es proceso de matricula 
-    
 
 - intent: faq/solicitud_carnet_universitario
   examples: |
@@ -198,7 +215,7 @@ nlu:
 
 - intent: faq/matricula_pago_autoseguro_fechas
   examples: |
-    - Cuando se puede pagar el autoseguro
+    - ¿Cuando se puede pagar el autoseguro?
     - hoy puedo pagar el autoseguro?
     - quisiera saber si aun puedo pagar el autoseguro mañana ya es la matricula
     - Todavía puedo pagar el autoseguro para matricularme
@@ -218,9 +235,10 @@ nlu:
 
 - intent: faq/pago_autoseguro
   examples: |
+    - ¿Como realizo el pago de autoseguro?
     - Buenas, cual es el procedimiento para pagar el autoseguro
     - Buenas tardes, quiero saber el procedimiento para pagar el autoseguro
-    - Hola ciencito, quiero saber como pasar el autoseguro
+    - Hola ciencito, quiero saber como pagar el autoseguro
     - Hola, como puedo realizar el pago del autoseguro
     - Buen dia, donde pago el autoseguro?
     - Buenas tardes, como pago el autoseguro
@@ -237,7 +255,6 @@ nlu:
     - Buenas tardes, como pago el concepto de autoseguro
     - entonces como hago para pagar el autoseguro
     - quiero saber como es el método para pagar el autoseguro
-    - como realizo el pago de autoseguro
     - Como puedo realizar el pago de autoseguro
     - cual es el proceso para pagar el autoseguro
     - quiero pagar el autoseguro que debo hacer
@@ -257,6 +274,7 @@ nlu:
 
 - intent: faq/matricula_pago_autoseguro_fuera_fecha
   examples: |
+    - ¿Que sucede si demore en realizar el pago de autoseguro?
     - Buenos días una consulta, hace 02 días pague el autoseguro, soy rezagado?
     - Buenas dias que tal, que pasa si no pago el autoseguro con los 3 dias de anticipación
     - Buenos dias, que pasa si no pago a tiempo el autoseguro
@@ -280,7 +298,6 @@ nlu:
     - creo que no pague a tiempo el autoseguro que debo hacer?
     - Recien pague autoseguro y me toca mi matrícula mañana, sería rezagado?
     - no pague a tiempo el autoseguro entonces me voy a rezagado ?
-    - ¿Que sucede si demore en realizar el pago de autoseguro?
     - si queria saber si no lo pago a tiempo que debo hacer
     - si no lo pago hoy me ire a rezagado
     - Si demore en realizar el pago de autoseguro, que pasará?
@@ -293,22 +310,55 @@ nlu:
     - Soy rezagado si no pago el autoseguro con dias de anticipacion a la matricula
     - entiendo entonces si pago hoy paso a rezagado
 
+- intent: faq/matricula_rezagada_procedimiento
+  examples: |
+    - ¿Cuál es el procedimiento para la matricula rezagada?
+    - Hola mi matricula paso a rezagada cual es el procedimiento
+    - buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado
+    - Hola ayudame quiero saber como es el procedimiento para el pago de matricula rezagada
+    - como es el procedimiento para la matricula rezagada
+    - Buenas dias, mi matricula paso a rezagada como debo proceder
+    - Buenas tardes, me dijeron que mi matricula paso a rezagada pero no se que debo hacer
+    - Hola, disculpe como realiza la matricula rezagada
+    - Hola, como me matriculo por rezagado
+    - Hola, cual es procedimiento para matricularme por rezagada
+    - Buenas, quiero saber como tramitar mi matricula rezagada
+    - Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer
+    - Hola ciencito, dime porfavor cual el procedimiento para la matricula rezagada
+    - Buenas tardes, cual es procedimiento para habilitar mi matricula rezagada
+    - Buenas noches, que pasos debo seguir para la matricula rezagada
+    - hola, dime para la matricula rezagada debo pagar ?
+    - no pude matricularme a tiempo cual es procedimiento para la matricula rezagada
+    - como me matriculo como rezagado
+    - que hago para que se me habilite el sistema de matricula por rezagado
+    - no pude matricularme y me han dicho que mi matricula paso a rezagado cuales son los pasos
+    - dime como puedo tramitar mi matricula rezagada
+    - cuales son los requisitos para que me habiliten la matricula rezagada
+    - debo pagar algo para que me habiliten la matricula rezagada
+    - que debo pagar y a donde debo enviar el voucher para que se me habilite la matricula rezagada
+    - ahora que mi matricula paso a rezagados que debo hacer no entiendo
+    - cuales son los requisitos para la matricula rezagada
+    - a quien solicito la matricula rezagada
+    - para solicitar la matricula rezagada que debo hacer
+    - disculpa cual es procedimiento para poder matricularme por rezagado
+
 - intent: faq/cambio_seccion
   examples: |
+    - ¿Cuál es procedimiento para hacer un cambio de sección?
     - Buenas tardes amigo puedes decirme como hacer un cambio de seccion
-    - Hola que tal Ciencito, quiero hacer un cambio de horario ya que tengo un cruce en el curso de Fundamentos de programacion
+    - Hola que tal Aerito, quiero hacer un cambio de horario ya que tengo un cruce en el curso de Fundamentos de programacion
     - Hola amigo, por favor ayudame a hacer un cambio de sección
     - Hola que tal, dime como realizo un cambio de seccion
     - Hola, deseo realizar un cambio de sección como se realiza
     - Buenos dias dime como realizar un cambio de horario de un curso
     - Buenas quiero cambiarme el horario del curso de biología es posible
     - Hola, necesito hacer un cambio de seccion por que se me crusan los horarios de teoria
-    - Hola Ciencito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A
+    - Hola Aerito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A
     - Hola, dime porfavor como realizo un cambio de seccion
     - Hola que tal, quiero hacer un cambio de horario en curso de Quimica General
     - Hola, dime como realizo un cambio de seccion de un curso
     - Hola, quiero hacer un cambio de seccion
-    - Buenas tardes ciencito, puedes ayudarme quiero hacer un cambio de sección
+    - Buenas tardes Aerito, puedes ayudarme quiero hacer un cambio de sección
     - Buenos dias como realizo un cambio de horario de un curso
     - Buenos días, quiero hacer un cambio de sección
     - quiero hacer un cambio de seccion
@@ -323,13 +373,13 @@ nlu:
     - como hago el cambio de seccion del curso de Fundamentos de programacion
     - como hago el cambio de seccion del curso de Fisica II
     - como realizo el cambio de horario de un curso
-    - cual es procedimiento para hacer un cambio de seccion
     - quiero saber el procedimiento de un cambio de seccion por que tengo un cruce
     - dime cual el procedimiento para hacer un cambio de seccion de un curso
     - puedes ayudarme quiero hacer un cambio de seccion
 
 - intent: faq/cursos_horarios
   examples: |
+    - ¿Donde puedo ver los horarios de los cursos de este ciclo?
     - Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos
     - Buenas tardes, me podria decir cuales son los horarios para el curso de fundamentos
     - que tal, quiero saber el horario de un curso
@@ -346,7 +396,6 @@ nlu:
     - Buenos dias, donde encuentro los horarios de los cursos
     - donde encuentro los horarios de los cursos
     - sabes donde puedo encontrar los horarios de los cursos
-    - Donde puedo encontrar los horarios de los cursos
     - quiero saber el horario del curso de Electomagnetismo
     - puedes decirme donde encontrar el horario de los cursos
     - Dime el horario de calculo integral
@@ -358,17 +407,16 @@ nlu:
     - quiero saber el horario del curso de algebra lineal para fisicos
     - Quiero saber el horario de mis cursos
     - dime cual el horario del curso de calculo diferencial el integral avanzado
-    - donde puedo ver los horarios de los cursos de este ciclo
 
 # Retiros
 
 - intent: faq/retiro_parcial_fechas
   examples: |
+    - ¿En que semana se realiza el retiro parcial?
     - Hasta cuándo puedo hacer el retiro parcial?
     - una duda a partir de semana puedo solicitar el retiro parcial ?
     - en que semana puedo realizar el retiro parcial?
     - Y hasta cuando podria enviar enviar la solicitud de retiro parcial?
-    - en que semana se realiza el retiro parcial ?
     - hasta cuando hacer el retiro de un curso ?
     - quisiera saber hasta que dias puedo hacer el retiro parcial ?
     - una consulta cuando se habilitara en el sistema el retiro parcial?
@@ -399,9 +447,9 @@ nlu:
 
 - intent: faq/retiro_parcial_procedimiento
   examples: |
+    - ¿Cómo realizo un retiro parcial?
     - como hago un retiro parcial
     - ¿Cómo me retiro de un curso?
-    - ¿Cómo realizo un retiro parcial?
     - cual procedimiento del retiro parcial
     - Estoy matriculado en 3 cursos y quiero salirme de uno
     - ¿Qué pasos debo seguir para el retiro parcial?
@@ -592,6 +640,7 @@ nlu:
 # Procedimientos
 - intent: faq/reserva_matricula_procedimiento
   examples: |
+    - ¿Cómo reservo mi matricula?
     - Hola, mi duda es como poder reservar mi matricula
     - hola, tengo una duda me podria decir que tramites debo hacer para realizar la reserva de matricula no tengo podre matricularme es siguiente ciclo por temas de salud
     - hola, no podre matricula como puedo postergar mi matricula
@@ -624,7 +673,6 @@ nlu:
     - como realizo la reserva de matricula
     - quisiera postergar mi matricula como puedo realizar este tramite
     - quisiera hacer la reserva de matricula cual es el procedimiento
-    - como reservo la matricula
     - como puedo proceder para hacer la reserva de matricula del siguiente ciclo
     - no podre matricular el siguiente ciclo que hago para reservar mi matricula
     - puede decirme como realizar un reserva de matrícula?
@@ -654,7 +702,7 @@ nlu:
 - intent: faq/formato_solicitud_reserva_matricula
   examples: |
     - hay algun formato para la solicitud de reserva de matricula ?
-    - cual es el modelo de solicitud para la reserva de matricula ?
+    - ¿Cuál es el modelo de solicitud para la reserva de matricula?
     - cual es el formato de solicitud para la reserva de matricula ?
     - si hay algun formato o modelo para la solicitud de reserva de matricula
     - puedes decirme si hay algun modelo para la solicitud de reserva de matricula?
@@ -665,15 +713,17 @@ nlu:
     - puedes enviarme el modelo para la solicitud de reserva de matricula
     - si porfavor mandame el modelo para la solicitud de reserva de matricula
     - tengo un duda hay cual es el modelo o formato para la solicitud de reserva de matricula
+
+
 - intent: faq/reincorporacion_procedimiento
   examples: |
+    - ¿Cuál es el procedimiento para solicitar reincorporación?
     - Hola, deseo solicitar mi reincorporación este ciclo que viene como puedo solicitarla
     - Buenas noches, el anterior ciclo reserve mi matricula por motivos familiares , este ciclo si quiero matricularme realizo mi matricula como siempre o hay algun tramite que debo hacer ?
     - Buenas tardes me dirijo a ustedes porque quiero reincorporarme en el siguiente periodo académico
     - Hola, quiero solicitar mi reincorporación para el proximo ciclo que deberia hacer para que me habiliten la matricula
     - Buenos dias, tengo una duda quiero matricularme este ciclo pero el anterior por motivos de trabajo solicite la reserva de matricula, para realizar mi matricula debo hacer algo adicional ?
     - Hola, como solicito mi reincorporacion para este ciclo
-    - Señorita aún estoy dentro del plazo ¿Cuál es el procedimiento para solicitar reincorporación?
     - Hola, quiero solicitar mi reincorporación para este periodo cual seria el procedimiento que debo seguir ?
     - Hola, como realizo la reincorporación
     - Hola buenos días, Me podrían hacer llegar el proceso de reincorporación ya que el ciclo pasado me retire.No encuentro el formato y ¿Cuánto debo de pagar y en que banco?
@@ -726,7 +776,7 @@ nlu:
     - cuando debo enviar mi solictud para mi reincorporacion para el siguiente periodo academico
     - hasta que dias puedo enviar mi solicitud de reincorporacion
     - cual es la fecha limite para enviar mi solicitud de reincorporacion
-    - hasta cuando enviar mi solicitud de reincorporacion
+    - ¿Hasta cuando enviar mi solicitud de reincorporacion?
 
 - intent: faq/reincorporacion_costo
   examples: |
@@ -747,7 +797,7 @@ nlu:
    
 - intent: faq/formato_solicitud_reincorporacion
   examples: |
-    - ¿hay un modelo para la solicitud de reincorporación?
+    - ¿Hay un modelo para la solicitud de reincorporación?
     - ¿hay un formato de solicitud para la reincorporacion?
     - y hay alguna modelo para la solicitud de reincorporación?
     - existe algun modelo para la solicitud de reincorporacion ?
@@ -764,7 +814,7 @@ nlu:
 # Tramites
 - intent: faq/solicitud_constancia_matricula_procedimiento
   examples: |
-    - Buenas tardes una consulta, cómo puedo obtener una constancia de matricula?
+    - Buenas tardes una consulta, ¿cómo puedo obtener una constancia de matricula?
     - Que tal quiero saber como obtener la constancia de matricula
     - Hola, quisiera tramitar mi un constancia de matricula, como puedo pedirla ?
     - Buenas dias, un consulta como puedo tramitar una constancia de matricula ?
@@ -863,7 +913,7 @@ nlu:
 
 - intent: faq/constancia_de_estudios_procedimiento
   examples: |
-    - ¿Como solicitar una constancia de estudios?
+    - ¿Cómo solicitar una constancia de estudios?
     - Buenas tardes, ¿cuál es el procedimiento para obtener una constancia de estudios?
     - Hola, pudria decirme cual el procedimiento para obtener una constancia de estudios
     - Hola como puedo tramitar una constancia de estudios
@@ -878,6 +928,7 @@ nlu:
 
 - intent: faq/horario_atencion_aera
   examples: |
+    - ¿Cuál es el horario de AERA?
     - Puede decirme cual es el horario de atencion ?
     - Puede decirme cual es el horaro de atencion de la oficina?
     - Podria saber los horarios de atencion de la oficina de estadistica?
@@ -895,12 +946,12 @@ nlu:
     - Quiero saber el horario de estadistica
     - cual es el horario de atencion de estadistica?
     - que dias atiende estadistica?
-    - cual es el horario de AERA ?
     - una consulta mas cual el horario de atencion presencial de Estadística?
     - hasta que hora atienden en la oficina de estadistica?
 
 - intent: faq/solicitud_correo_institucional_procedimiento
   examples: |
+    - ¿Cómo solicito mi correo UNI?
     - Una pregunta como obtengo mi correo institucional
     - una duda como puedo obtener mi correo institucional
     - como puedo solicitar mi correo institucional
@@ -917,7 +968,6 @@ nlu:
     - como tramito mi correo uni
     - quero pedir mi correo uni
     - quisiero tramitar mi correo UNI
-    - como solicito mi correo UNI
 
 - intent: faq/retiro_parcial_cursos_repetidos
   examples: |
@@ -933,4 +983,3 @@ nlu:
     - puedo solicitar el retiro de un curso que he repetido el ciclo anterior?
     - quisiera hacer el retiro de un curso pero lo he desaprobado el ciclo, es posible o no procede?
     - quisero hacer el retiro de un curso que estoy llevando por segunda ver es posible?
-    
