@@ -1,17 +1,19 @@
 language: es
 pipeline:
 - name: SpacyNLP
-  model: "es_core_news_md"
-  case_sensitive: False
+  model: es_core_news_md
+  case_sensitive: false
 - name: SpacyTokenizer
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
   epochs: 60
-  entity_recognition: False
+  entity_recognition: false
 - name: ResponseSelector
-  hidden_layers_sizes: 
-    text: [512, 128]
+  hidden_layers_sizes:
+    text:
+    - 512
+    - 128
     label: []
   transformer_size: 256
   number_of_transformer_layers: 2
@@ -20,12 +22,11 @@ pipeline:
   retrieval_intent: faq
   evaluate_on_number_of_examples: 0
   evaluate_every_number_of_epochs: 5
-  tensorboard_log_directory: "./tensorboard"
-  tensorboard_log_level: "epoch"
+  tensorboard_log_directory: ./tensorboard
+  tensorboard_log_level: epoch
 - name: FallbackClassifier
-  threshold: 0.5
+  threshold: 0.7
   ambiguity_threshold: 0.2
-  
 policies:
 - name: MemoizationPolicy
 - name: TEDPolicy
