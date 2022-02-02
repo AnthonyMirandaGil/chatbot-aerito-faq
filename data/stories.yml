@@ -37,4 +37,4 @@ stories:
   - action: utter_requerir_mas
   - intent: formato_solicitud
   - action: action_contextual_faq_formato_solicitud
-  - intent: utter_requerir_mas
+  - action: utter_requerir_mas
