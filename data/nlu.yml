@@ -102,6 +102,7 @@ nlu:
     - donde puedo encontrar un modelo
     - hay algun formato o modelo
     - si hay algun formato para la solicitud que debo enviar
+    - cual es el formato para la solicitud
 - intent: matricula_procedimiento
   examples: |
     - ¿Cuál es proceso de matricula?
@@ -766,6 +767,7 @@ nlu:
     - estoy buscando el modelo de la solitud de reincorporacion y no lo encuetro puedes decirme donde esta ?
     - una duda para la solicitud de reincorporacion hay algun modelo o formato ?
     - una duda porfavor la solicitud de reincorporacion tiene algun modelo ?
+    - no quiero saber cual es el formato para las solicitud de reincorporacion
 - intent: faq/constancia_matricula__solicitud_procedimiento
   examples: |
     - Buenas tardes una consulta, ¿cómo puedo obtener una constancia de matricula?
