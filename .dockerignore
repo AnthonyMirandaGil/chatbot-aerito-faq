@@ -1,0 +1,7 @@
+models/*
+embedings/*
+pretrained_models/*
+data/*
+__pycache__
+tensorboard/*
+embedings/*
