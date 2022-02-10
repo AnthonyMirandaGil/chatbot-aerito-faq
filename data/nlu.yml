@@ -91,18 +91,18 @@ nlu:
     - ayuda
     - Ayuda
     - AYUDA
-- intent: formato_solicitud
-  examples: |
-    - ¿Cuál es el modelo para la solicitud?
-    - donde encuentro un modelo para la solicitud?
-    - Dónde está el modelo de solicitud?
-    - una consulta hay algun modelo para la solicitud
-    - una duda porfavor existe algun modelo o formato para la solicitud
-    - existe alguna modelo para la solicitud
-    - donde puedo encontrar un modelo
-    - hay algun formato o modelo
-    - si hay algun formato para la solicitud que debo enviar
-    - cual es el formato para la solicitud
+#- intent: formato_solicitud
+#  examples: |
+#    - ¿Cuál es el modelo para la solicitud?
+#    - donde encuentro un modelo para la solicitud?
+#    - Dónde está el modelo de solicitud?
+#    - una consulta hay algun modelo para la solicitud
+#    - una duda porfavor existe algun modelo o formato para la solicitud
+#    - existe alguna modelo para la solicitud
+#    - donde puedo encontrar un modelo
+#    - hay algun formato o modelo
+#    - si hay algun formato para la solicitud que debo enviar
+#    - cual es el formato para la solicitud
 - intent: matricula_procedimiento
   examples: |
     - ¿Cuál es proceso de matricula?
