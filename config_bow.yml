@@ -15,6 +15,7 @@ pipeline:
 - name: DIETClassifier
   epochs: 60
   constrain_similarities: True
+  entity_recognition: False
 - name: ResponseSelector
   hidden_layers_sizes: 
     text: [512, 128]
@@ -22,8 +23,9 @@ pipeline:
   transformer_size: 256
   number_of_transformer_layers: 2
   embedding_dimension: 30
-  epochs: 150
+  epochs: 200
   retrieval_intent: faq
+  constrain_similarities: True
 - name: FallbackClassifier
   threshold: 0.5
   

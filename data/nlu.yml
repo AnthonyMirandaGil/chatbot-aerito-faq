@@ -322,6 +322,37 @@ nlu:
     - Soy rezagado si no pago el autoseguro con dias de anticipacion a la matricula
     - entiendo entonces si pago hoy paso a rezagado
 
+- intent: faq/perdida_turno_matricula
+  examples: |
+    - ¿Como puedo matricularme si perdí mi turno de matricula?
+    - Hola, he tenido problemas de conexion y no llegue a matricularme que debe hacer
+    - tuve problemas con mi internet y no puede matricuarme que debo hacer
+    - Buenas, tuve problemas para realizar mi matricula y no pude matricularme que debo hacer
+    - Buenas, perdí mi turno de matricula como procedo ahora
+    - Hola, no tuve internet y no pude matricularme que debo hacer
+    - Hola, quisiera saber que hacer por que no pude matricularme en mi horario no tuve internet
+    - parece que hubo una falla de la red por mi zona y no tuve internet todo el dia por lo que no pude matricuarme que debo hacer ahora
+    - Buen día, perdí mi horario de matrícula, que hago
+    - tuve problemas de conexión y no pude entrar en mi horario de matrícula, que puedo hacer
+    - Hola, si perdí mi turno pasaría ha rezagado entonces ?
+    - Buenos dias, no pude conectarme en mi horario de matricula
+    - que pasa si perdí mi horario de matrícula
+    - no pude matricularme que debería hacer ahora
+    - Buenas noches, no he tenido internet todo el dia y no pude matricularme que debo hacer
+    - no vi el horario y se me paso mi turno de matricularme como hago ahora para matricularme
+    - Buenas que tal, si no llegue a matricularme en mi turno pasaría a rezagado ?
+    - perdi mi turno para matricularme como procedo
+    - Buen día, no logre matricularme
+    - Hola, no pude entrar en mi horario de matrícula, que puedo hacer
+    - Buenas tardes, hoy me toco matricularme pero perdí mi turno
+    - Buenas tardes, no me percate bien y perdi mi turno de matricula que debo hacer
+    - si perdi mi turno como realizo mi matricula
+    - acabo de perder mi turno de matricula como me matriculo ahora
+    - no puede matricularme por problemas de internet paso a matricula rezagada entonces ?
+    - acabo de perder mi turno de matricula paso entonces a matricula rezagada?
+    - si perdi mi turno de matricula paso a rezagado ?
+    
+
 - intent: faq/matricula_rezagada__procedimiento
   examples: |
     - ¿Cuál es el procedimiento para la matricula rezagada?

@@ -6,18 +6,10 @@ pipeline:
 - name: SpacyTokenizer
 - name: LanguageModelFeaturizer
   model_name: bert
-  #model_weights: 'pretrained_models/bert-base-spanish-wwm-cased'
-  #model_weights: 'dccuchile/bert-base-spanish-wwm-cased'
   model_weights: 'bert-base-multilingual-cased'
-#- name: HFTransformersNLP
-  # Name of the language model to use
-#  model_name: "bert"
-  # Pre-Trained weights to be loaded
-#  model_weights: "pretrained_models/bert-base-spanish-wwm-cased"
-#  cache_dir: null
-#- name: RegexFeaturizer
 - name: DIETClassifier
-  epochs: 200
+  epochs: 60
+  entity_recognition: False
   constrain_similarities: true
 - name: ResponseSelector
   hidden_layers_sizes: 
@@ -28,6 +20,7 @@ pipeline:
   embedding_dimension: 30
   epochs: 100
   retrieval_intent: faq
+  constrain_similarities: True
   evaluate_on_number_of_examples: 0
   evaluate_every_number_of_epochs: 5
   tensorboard_log_directory: "./tensorboard"

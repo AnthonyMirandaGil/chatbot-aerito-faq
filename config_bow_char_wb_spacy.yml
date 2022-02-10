@@ -4,19 +4,13 @@ pipeline:
   model: "es_core_news_md"
   case_sensitive: False
 - name: SpacyTokenizer
+- name: SpacyFeaturizer
+  pooling: mean
 - name: CountVectorsFeaturizer
   analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
-  use_shared_vocab: True
-- name: CountVectorsFeaturizer
-  analyzer: "word"
-  min_ngram: 1
-  max_ngram: 4
-  # Set the out-of-vocabulary token
-  OOV_token: "_oov_"
-  # Whether to use a shared vocab
-  use_shared_vocab: True
+  #use_shared_vocab: True
 - name: DIETClassifier
   epochs: 60
   constrain_similarities: True
@@ -28,9 +22,10 @@ pipeline:
   transformer_size: 256
   number_of_transformer_layers: 2
   embedding_dimension: 30
+  constrain_similarities: True
   epochs: 200
   retrieval_intent: faq
-  constrain_similarities: True
+  #use_text_as_label: True
 - name: FallbackClassifier
   threshold: 0.5
   

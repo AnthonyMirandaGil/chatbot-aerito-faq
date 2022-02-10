@@ -19,6 +19,7 @@ intents:
 - denegar_mas_ayuda
 - utter_requerir_consulta
 - formato_solicitud
+- contactar_aera
 responses:
   # flujos de conversacion
   
@@ -204,6 +205,10 @@ responses:
         https://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view 
         o dentro de la la página web de la Facultad, en el [modulo de matricula](https://fc.uni.edu.pe/documentos/).
 
+  utter_faq/perdida_turno_matricula:
+    - text: |- 
+        Estimado alumno, si perdió su turno de matrícula, usted pasará a MATRICULA REZAGADA, el detalle del procedimiento lo encontrará en el siguiente enlace:
+        https://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view 
 
   utter_faq/pago_autoseguro__fuera_fecha:
     - text: Lamentablemente si no pagó con 72 horas de antelación a su matrícula, es muy posible que pase a matricula rezagada. Podrá comprobarlo, si es que no tiene acceso al sistema de matricula en la fecha y hora que le correspondía.
@@ -251,7 +256,7 @@ responses:
  
   utter_faq/retiro_total__formato_solicitud:
     - text: |-
-        Puede encontrar el procedimiento y el formato de solicitud en el siguiente link: 
+        Puede encontrar el procedimiento y el formato de solicitud para el retiro total en el siguiente link: 
         https://drive.google.com/file/d/1MHa9Mrsu8qsStzqFKgVAVYUoJMHjMKOt/view
   
   utter_faq/retiro_total__procedimiento:

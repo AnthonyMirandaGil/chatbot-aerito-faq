@@ -6,19 +6,11 @@ pipeline:
 - name: SpacyTokenizer
 - name: LanguageModelFeaturizer
   model_name: roberta
-  #model_weights: 'pretrained_models/bert-base-spanish-wwm-cased'
   model_weights: 'pretrained_models/roberta-base-bne'
-  #model_weights: 'bert-base-multilingual-cased'
-#- name: HFTransformersNLP
-  # Name of the language model to use
-#  model_name: "bert"
-  # Pre-Trained weights to be loaded
-#  model_weights: "pretrained_models/bert-base-spanish-wwm-cased"
-#  cache_dir: null
-#- name: RegexFeaturizer
 - name: DIETClassifier
   epochs: 200
-  constrain_similarities: true
+  constrain_similarities: True
+  entity_recognition: False
 - name: ResponseSelector
   hidden_layers_sizes: 
     text: [512, 128]
@@ -26,8 +18,9 @@ pipeline:
   transformer_size: 256
   number_of_transformer_layers: 2
   embedding_dimension: 30
-  epochs: 150
+  epochs: 200
   retrieval_intent: faq
+  constrain_similarities: True
 - name: FallbackClassifier
   threshold: 0.5
   

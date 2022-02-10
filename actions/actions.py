@@ -79,6 +79,7 @@ class ActionDefaultAskAffirmation(Action):
             "faq/pago_autoseguro__fechas":"¿Cuando se puede pagar el autoseguro?",
             "faq/pago_autoseguro_procedimiento":"¿Como realizo el pago de autoseguro?",
             "faq/pago_autoseguro__fuera_fecha":"¿Que sucede si demore en realizar el pago de autoseguro?",
+            "faq/perdida_turno_matricula":"¿Como puedo matricularme si perdí mi turno de matricula?",
             "faq/matricula_rezagada__procedimiento":"¿Cuál es el procedimiento para la matricula rezagada?",
             "faq/cambio_seccion":"¿Cuál es procedimiento para hacer un cambio de sección?",
             "faq/cursos_horarios":"¿Donde puedo ver los horarios de los cursos de este ciclo?",

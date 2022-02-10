@@ -4,19 +4,19 @@ pipeline:
   model: "es_core_news_md"
   case_sensitive: False
 - name: SpacyTokenizer
+- name: LanguageModelFeaturizer
+  alias: "language"
+  model_name: bert
+  model_weights: 'bert-base-multilingual-cased'
 - name: CountVectorsFeaturizer
-  analyzer: char_wb
-  min_ngram: 1
-  max_ngram: 4
-  use_shared_vocab: True
-- name: CountVectorsFeaturizer
+  alias: "cvf-word"
   analyzer: "word"
   min_ngram: 1
   max_ngram: 4
   # Set the out-of-vocabulary token
   OOV_token: "_oov_"
   # Whether to use a shared vocab
-  use_shared_vocab: True
+  #use_shared_vocab: True
 - name: DIETClassifier
   epochs: 60
   constrain_similarities: True
@@ -30,6 +30,7 @@ pipeline:
   embedding_dimension: 30
   epochs: 200
   retrieval_intent: faq
+  #use_text_as_label: True
   constrain_similarities: True
 - name: FallbackClassifier
   threshold: 0.5
