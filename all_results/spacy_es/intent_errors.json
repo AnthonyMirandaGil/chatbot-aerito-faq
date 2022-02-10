@@ -1,0 +1,106 @@
+[
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.6559857726097107
+    }
+  },
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.988680362701416
+    }
+  },
+  {
+    "text": "te veo luego",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.765713095664978
+    }
+  },
+  {
+    "text": "¿Cuál es proceso de matricula?",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9993348121643066
+    }
+  },
+  {
+    "text": "para solicitar la matricula rezagada que debo hacer",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.8772686719894409
+    }
+  },
+  {
+    "text": "Oye",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9936953783035278
+    }
+  },
+  {
+    "text": "como realizo mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "que debo tramitar para la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9997784495353699
+    }
+  },
+  {
+    "text": "nos vemos",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "agradecimiento",
+      "confidence": 0.6902117133140564
+    }
+  },
+  {
+    "text": "ok, si estoy dentro del plazo, gracias",
+    "intent": "agradecimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9993526339530945
+    }
+  },
+  {
+    "text": "¿Cuando es la matrícula?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.636600136756897
+    }
+  },
+  {
+    "text": "Buenas noches, que pasos debo seguir para la matricula rezagada",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.6351662874221802
+    }
+  }
+]
