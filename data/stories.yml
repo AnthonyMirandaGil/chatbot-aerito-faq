@@ -1,34 +1,14 @@
 version: "2.0"
-stories:
-- story: saludo
-  steps:
-  - intent: saludo
-  - action: utter_saludo
-  - action: utter_recuerda_escribir_ayuda
-  - action: utter_requerir_consulta
-- story: despedida
-  steps:
-  - intent: despedida
-  - action: utter_despedida
-- story: agradecimiento
-  steps:
-  - intent: agradecimiento
-  - action: utter_agradecimiento
-  - action: utter_requerir_mas
-- story: affirm more queries to FAQs
-  steps:
-  - intent: faq
-  - action: utter_faq
-  - action: action_set_sub_topic_slot
-  - action: utter_requerir_mas
-  - intent: confirmar_requerir_mas_ayuda
-  - intent: utter_requerir_consulta
-- story: faqs
-  steps:
-  - intent: faq
-  - action: utter_faq
-  - action: action_set_sub_topic_slot
-  - action: utter_requerir_mas
+
+  
+
+#- story: agradecimiento
+#  steps:
+#  - intent: agradecimiento
+#  - action: utter_agradecimiento
+#  - action: utter_requerir_mas
+
+
 #- story: FAQ - Formato
 #  steps:
 #  - intent: faq

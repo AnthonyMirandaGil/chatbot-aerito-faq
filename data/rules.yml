@@ -6,7 +6,19 @@ rules:
   #  - intent: faq
   #  - action: utter_faq
   #  - action: utter_requerir_mas
-    
+
+  - rule: saludo
+    steps:
+      - intent: saludo
+      - action: utter_saludo
+      - action: utter_recuerda_escribir_ayuda
+      - action: utter_requerir_consulta
+
+  - rule: despedida
+    steps:
+    - intent: despedida
+    - action: utter_despedida
+
   - rule: path procesos de matricula
     steps:
       - intent: consulta_sobre_matricula
@@ -43,12 +55,29 @@ rules:
       - intent: denegar_mas_ayuda
       - action: utter_despedida
 
+  - rule: faqs
+    steps:
+      - intent: faq
+      - action: utter_faq
+      - action: action_set_sub_topic_slot
+      - action: utter_requerir_mas
+
+  
+  - rule: affirm more queries to FAQs
+    steps:
+    - intent: faq
+    - action: utter_faq
+    - action: action_set_sub_topic_slot
+    - action: utter_requerir_mas
+    - intent: confirmar_requerir_mas_ayuda
+    - intent: utter_requerir_consulta
+
   - rule: Implementation of the Two-Stage-Fallback
     steps:
       - intent: nlu_fallback
       - action: action_two_stage_fallback
       - active_loop: action_two_stage_fallback
-  
+      
   #- rule: Single stage fallback | ask user to choose what they meant
   #  steps:
   #    - intent: nlu_fallback

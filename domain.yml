@@ -23,8 +23,8 @@ intents:
 responses:
   # flujos de conversacion
   
-  utter_bienvenida:
-    - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas
+  #utter_bienvenida:
+  #  - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas
   utter_saludo:
     - text: Hola 👋, soy Aerito 🤖!, AERA me creo para ayudarte a resolver tus dudas o consultas, sobre temas de matricula, procedimientos y tramites académicos.
     
@@ -41,9 +41,10 @@ responses:
   
   utter_requerir_mas:
     - text: ¿Puedo ayudarte con algo mas?
+    - text: ¿Hay algo mas en lo que pueda ayudarte?
   
-  utter_agradecimiento:
-    - text: 'De nada, ¿ Hay algo mas en lo que pueda ayudarte?'
+  #utter_agradecimiento:
+  #  - text: 'De nada, ¿ Hay algo mas en lo que pueda ayudarte?'
   
   utter_recuerda_escribir_ayuda:
     - text: Recuerda que si tienes dudas sobre que consultar o estas atascado puedes escribir "ayuda" para guiarte en las principales temas y consultas sobre los cuales puedo responder.

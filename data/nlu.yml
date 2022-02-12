@@ -13,6 +13,7 @@ nlu:
     - hasta luego Aerito
     - hasta luego que tengas buen dia
     - adios que tenga lindo dia
+
 - intent: saludo
   examples: |
     - buenas
@@ -34,58 +35,101 @@ nlu:
     - hola que tal Aerito
     - Hi
     - Holis
-- intent: agradecimiento
+
+- intent: denegar_mas_ayuda
   examples: |
-    - ok, si estoy dentro del plazo, gracias
-    - Gracias por su pronta respuesta
-    - Esta bien mucha gracias
-    - Ok, gracias.
-    - esta bien gracias
-    - ok, gracias por la respuesta
-    - Perfecto, gracias!
-    - Muchas gracias!
-    - muchas gracias
-    - Muchas gracias
-    - Gracias
-    - ok gracias
-    - Muy agradecido por su respuesta
-    - Gracias por la informción.
-    - entiendo muchas gracias
-    - gracias por la informacion
-    - entonces revisare mañana, gracias
-    - Muy agradecido
-    - Entiendo, gracias
-    - ok, gracias
-    - Entiendo, gracias.
-    - Entiendo gracias entonces hoy lo pago
-    - entiendo gracias
-    - Gracias!
-    - Ya lo encontre muchas gracias por su ayuda
-    - muchas gracias por su respuesta
-    - Entiendo gracias.
-    - Gracias por su ayuda
-    - esta bien gracias.
-    - Ok, muchas gracias
-    - Gracias por la ayuda.
-    - Gracias, saludos cordiales.
-    - a ya gracias
-    - Muchas gracias.
-    - ok, gracias por la información
-    - Muy agradecido por su pronta respuesta.
-    - Gracias por la información
-    - Gracias, saludos.
-    - Entiendo gracias
-    - Ok, gracias
-    - ok entiendo gracias
-    - OK, gracias por la información.
-    - muchas gracias por su ayuda
-    - ok muchas gracias
-    - Ok. Gracias
-    - gracias
-    - Gracias.
-    - ok, muchas gracias
-    - Esta bien gracias.
-    - Muchas gracias por su respuesta
+    - no nada mas gracias
+    - ninguna duda mas
+    - No eso es todo gracias
+    - No nada mas
+    - No nada mas gracias
+    - eso es todo gracias
+    - no gracias es todo
+    - no tengo mas dudas
+    - eso es todo, gracias
+    - es todo gracias
+    - No. Gracias
+    - No
+    - No, eso seria todo gracias
+    - No gracias
+    - Por ahora eso es todo, gracias
+    - no, gracias
+    - No eso seria todo, mucha gracias
+    - No muchas gracias
+    - no nada mas
+    - No eso seria todo gracias
+    - nada mas
+    - No eso es todo
+    - Eso es todo
+
+- intent: confirmar_requerir_mas_ayuda
+  examples: |
+    - Si tengo otra consulta
+    - Si claro
+    - Si tengo otra duda mas
+    - si una duda mas
+    - si
+    - si tenga una consulta
+    - si una mas
+    - si tengo otra consulta mas
+    - si una consulta mas
+    - tengo otra duda
+    - tongo otra consulta
+
+
+#- intent: agradecimiento
+#  examples: |
+#    - ok, si estoy dentro del plazo, gracias
+#    - Gracias por su pronta respuesta
+#    - Esta bien mucha gracias
+#    - Ok, gracias.
+#    - esta bien gracias
+#    - ok, gracias por la respuesta
+#    - Perfecto, gracias!
+#    - Muchas gracias!
+#    - muchas gracias
+#    - Muchas gracias
+#    - Gracias
+#    - ok gracias
+#   - Muy agradecido por su respuesta
+#   - Gracias por la informción.
+#    - entiendo muchas gracias
+#    - gracias por la informacion
+#    - entonces revisare mañana, gracias
+#    - Muy agradecido
+#    - Entiendo, gracias
+#    - ok, gracias
+#    - Entiendo, gracias.
+#    - Entiendo gracias entonces hoy lo pago
+#    - entiendo gracias
+#    - Gracias!
+#    - Ya lo encontre muchas gracias por su ayuda
+#    - muchas gracias por su respuesta
+#    - Entiendo gracias.
+#    - Gracias por su ayuda
+#    - esta bien gracias.
+#    - Ok, muchas gracias
+#    - Gracias por la ayuda.
+#    - Gracias, saludos cordiales.
+#    - a ya gracias
+#    - Muchas gracias.
+#    - ok, gracias por la información
+#    - Muy agradecido por su pronta respuesta.
+#    - Gracias por la información
+#    - Gracias, saludos.
+#    - Entiendo gracias
+#    - Ok, gracias
+#    - ok entiendo gracias
+#    - OK, gracias por la información.
+#    - muchas gracias por su ayuda
+#    - ok muchas gracias
+#    - Ok. Gracias
+#    - gracias
+#    - Gracias.
+#    - ok, muchas gracias
+#    - Esta bien gracias.
+#    - Muchas gracias por su respuesta
+
 - intent: ayuda
   examples: |
     - ayuda
@@ -103,6 +147,7 @@ nlu:
 #    - hay algun formato o modelo
 #    - si hay algun formato para la solicitud que debo enviar
 #    - cual es el formato para la solicitud
+
 - intent: matricula_procedimiento
   examples: |
     - ¿Cuál es proceso de matricula?
@@ -111,6 +156,11 @@ nlu:
     - que debo hacer para realizar la matricula
     - que pagos y que debo hacer para la matricula
     - que debo tramitar para la matricula
+    - cuales son los pasos para matricularme en el siguiente ciclo
+    - que pagos debo hacer para la matricula
+    - debo pagar algo para realizar mi matricula
+    - cuales son los pagos para realizar la matricula
+
 - intent: faq/matricula__procedimiento_alumno_regular
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno regular?
@@ -121,7 +171,9 @@ nlu:
     - una consulta soy alumno regular de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien
     - soy alumno regular como realizo mi matricula
     - cual es el procedimiento de matricula como alumno regular
-    - cual es proceso de matricula
+    - que pagos debo hacer este ciclo para la matricula soy alumno regular
+    - como alumno regular que pagos debo hacer para realizar la matricula
+    
 - intent: faq/matricula__procedimiento_alumno_ingresante
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno ingresante?
@@ -135,6 +187,10 @@ nlu:
     - es mi primer ciclo soy ingresante puede decirme cual es proceso a seguir para la matricula
     - he ingresado a la carrera de ingenieria fisica quisiera saber cuales son los para paso para la matricula
     - he ingresado a la carrera de Quimica en el anterior examen de admisión quisiera que debo hacer para matricularme
+    - acabo de ingresar este ciclo, cuales son los pagos que debo hacer para la matricula
+    - que pagos demo hacer para la matricula, soy ingresante de la carrera de ciencias de la computación
+    
+
 - intent: faq/carnet_universitario__solicitud
   examples: |
     - ¿Cómo obtener mi carnet universitario?
@@ -145,6 +201,8 @@ nlu:
     - para que me den mi carnet universitario que debo hacer
     - quiero obtener mi carnet universitario que debo hacer
     - de mas debo hacer para obtener mi carnet universitario?
+    - a quien le solicito mi carnet universitario
+
 - intent: faq/matricula__cronograma
   examples: |
     - ¿Cuando es la matrícula?
@@ -962,10 +1020,3 @@ nlu:
     - puedo solicitar el retiro de un curso que he repetido el ciclo anterior?
     - quisiera hacer el retiro de un curso pero lo he desaprobado el ciclo, es posible o no procede?
     - quisero hacer el retiro de un curso que estoy llevando por segunda ver es posible?
-- intent: confirmar_requerir_mas_ayuda
-  examples: |
-    - si
-    - si tengo otra duda
-    - si una consulta mas
-    - si tengo una consulta mas
-    - si tengo una duda mas
