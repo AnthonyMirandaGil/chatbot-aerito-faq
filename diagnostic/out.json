@@ -1,0 +1,119 @@
+{
+  "text": "cual es el formato o solicitud?",
+  "intent": {
+    "id": -6524090519258475643,
+    "name": "faq",
+    "confidence": 0.9999990463256836
+  },
+  "intent_ranking": [
+    {
+      "id": -6524090519258475643,
+      "name": "faq",
+      "confidence": 0.9999990463256836
+    },
+    {
+      "id": 8944462955383694836,
+      "name": "denegar_mas_ayuda",
+      "confidence": 3.3712728964019334e-7
+    },
+    {
+      "id": -7207105387121699081,
+      "name": "despedida",
+      "confidence": 3.2595724519524083e-7
+    },
+    {
+      "id": -3303975796215411665,
+      "name": "matricula_procedimiento",
+      "confidence": 1.370987234849963e-7
+    },
+    {
+      "id": 4547827100356066847,
+      "name": "confirmar_requerir_mas_ayuda",
+      "confidence": 1.342398121551014e-7
+    },
+    {
+      "id": 1362795857404487022,
+      "name": "ayuda",
+      "confidence": 5.9559354781413276e-8
+    },
+    {
+      "id": 4567606262297639067,
+      "name": "saludo",
+      "confidence": 9.876172768485958e-9
+    }
+  ],
+  "response_selector": {
+    "all_retrieval_intents": ["faq"],
+    "faq": {
+      "response": {
+        "id": 5991432728902491441,
+        "responses": [
+          {
+            "text": "El pago de autoseguro puede realizarse mediante el uso del aplicativo, agente o en ventanilla del Banco Scotiabank, solo indicar el concepto a pagar (AUTOSEGURO) y su c\u00f3digo universitario."
+          }
+        ],
+        "response_templates": [
+          {
+            "text": "El pago de autoseguro puede realizarse mediante el uso del aplicativo, agente o en ventanilla del Banco Scotiabank, solo indicar el concepto a pagar (AUTOSEGURO) y su c\u00f3digo universitario."
+          }
+        ],
+        "confidence": 0.3045039772987366,
+        "intent_response_key": "faq/pago_autoseguro_procedimiento",
+        "utter_action": "utter_faq/pago_autoseguro_procedimiento",
+        "template_name": "utter_faq/pago_autoseguro_procedimiento"
+      },
+      "ranking": [
+        {
+          "id": 5991432728902491441,
+          "confidence": 0.3045039772987366,
+          "intent_response_key": "faq/pago_autoseguro_procedimiento"
+        },
+        {
+          "id": 7537187318104056094,
+          "confidence": 0.2683989405632019,
+          "intent_response_key": "faq/reincorporacion__costo"
+        },
+        {
+          "id": -1629858545361840274,
+          "confidence": 0.12761260569095612,
+          "intent_response_key": "faq/reserva_matricula__formato_solicitud"
+        },
+        {
+          "id": 8745104692405296550,
+          "confidence": 0.06143698841333389,
+          "intent_response_key": "faq/constancia_de_estudios__formato_solicitud"
+        },
+        {
+          "id": -8630779091150470577,
+          "confidence": 0.06066064536571503,
+          "intent_response_key": "faq/constancia_matricula__pago"
+        },
+        {
+          "id": -7401023548453024143,
+          "confidence": 0.03707978129386902,
+          "intent_response_key": "faq/reincorporacion__formato_solicitud"
+        },
+        {
+          "id": 947860085879241706,
+          "confidence": 0.03604015335440636,
+          "intent_response_key": "faq/constancia_matricula__solicitud_procedimiento"
+        },
+        {
+          "id": 4599028300195626582,
+          "confidence": 0.035663824528455734,
+          "intent_response_key": "faq/retiro_parcial__procedimiento"
+        },
+        {
+          "id": -6328472575724213533,
+          "confidence": 0.03503851592540741,
+          "intent_response_key": "faq/reincorporacion__procedimiento"
+        },
+        {
+          "id": 7090836475182435188,
+          "confidence": 0.033564578741788864,
+          "intent_response_key": "faq/retiro_total__formato_solicitud"
+        }
+      ]
+    }
+  }
+}

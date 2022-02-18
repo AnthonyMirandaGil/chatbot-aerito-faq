@@ -34,14 +34,15 @@ responses:
     - text: Descríbeme tu duda
 
   utter_despedida:
+    - text: Un gusto charlar contigo!, si necesitas algo mas solo enviame un mensaje
     - text: Muchas gracias por la visita. !Qué tengas un buen día!
     - text: Gracias por la visita. !Qué tengas un buen día!
-    - text: Estamos para ayudarte, !Que tengas un buen dia
-    - text: Un gusto charlar contigo!, si necesitas algo mas solo enviame un mensaje
+    - text: Estamos para ayudarte, !Que tengas un buen dia!
   
   utter_requerir_mas:
     - text: ¿Puedo ayudarte con algo mas?
     - text: ¿Hay algo mas en lo que pueda ayudarte?
+    - text: ¿Tienes alguna consulta mas con lo que pueda ayudarte?
   
   #utter_agradecimiento:
   #  - text: 'De nada, ¿ Hay algo mas en lo que pueda ayudarte?'

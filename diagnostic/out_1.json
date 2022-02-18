@@ -1,0 +1,116 @@
+{
+  "text": "no te entiendo",
+  "intent": { "name": "nlu_fallback", "confidence": 0.7 },
+  "intent_ranking": [
+    { "name": "nlu_fallback", "confidence": 0.7 },
+    {
+      "id": -2609687192754192819,
+      "name": "despedida",
+      "confidence": 0.6984126567840576
+    },
+    {
+      "id": 1837457139712858895,
+      "name": "denegar_mas_ayuda",
+      "confidence": 0.23466628789901733
+    },
+    {
+      "id": 2191465696426793484,
+      "name": "faq",
+      "confidence": 0.030164750292897224
+    },
+    {
+      "id": -5479409159697135637,
+      "name": "confirmar_requerir_mas_ayuda",
+      "confidence": 0.017621438950300217
+    },
+    {
+      "id": -4356011799537715439,
+      "name": "ayuda",
+      "confidence": 0.0168257188051939
+    },
+    {
+      "id": -8439749889289114522,
+      "name": "matricula_procedimiento",
+      "confidence": 0.0014180359430611134
+    },
+    {
+      "id": 2690287215645758176,
+      "name": "saludo",
+      "confidence": 0.0008910961914807558
+    }
+  ],
+  "response_selector": {
+    "all_retrieval_intents": ["faq"],
+    "faq": {
+      "response": {
+        "id": 4236204021889537103,
+        "responses": [
+          {
+            "text": "Lamentablemente si no pag\u00f3 con 72 horas de antelaci\u00f3n a su matr\u00edcula, es muy posible que pase a matricula rezagada. Podr\u00e1 comprobarlo, si es que no tiene acceso al sistema de matricula en la fecha y hora que le correspond\u00eda."
+          }
+        ],
+        "response_templates": [
+          {
+            "text": "Lamentablemente si no pag\u00f3 con 72 horas de antelaci\u00f3n a su matr\u00edcula, es muy posible que pase a matricula rezagada. Podr\u00e1 comprobarlo, si es que no tiene acceso al sistema de matricula en la fecha y hora que le correspond\u00eda."
+          }
+        ],
+        "confidence": 0.854322612285614,
+        "intent_response_key": "faq/pago_autoseguro__fuera_fecha",
+        "utter_action": "utter_faq/pago_autoseguro__fuera_fecha",
+        "template_name": "utter_faq/pago_autoseguro__fuera_fecha"
+      },
+      "ranking": [
+        {
+          "id": 4236204021889537103,
+          "confidence": 0.854322612285614,
+          "intent_response_key": "faq/pago_autoseguro__fuera_fecha"
+        },
+        {
+          "id": 7588756953281909884,
+          "confidence": 0.027182122692465782,
+          "intent_response_key": "faq/pago_autoseguro_procedimiento"
+        },
+        {
+          "id": 7127512572612084234,
+          "confidence": 0.02454284206032753,
+          "intent_response_key": "faq/matricula_rezagada__procedimiento"
+        },
+        {
+          "id": 1627549497115613991,
+          "confidence": 0.01738804392516613,
+          "intent_response_key": "faq/reserva_matricula__procedimiento"
+        },
+        {
+          "id": 9049350750447662744,
+          "confidence": 0.01603672094643116,
+          "intent_response_key": "faq/retiro_parcial__cursos_repetidos"
+        },
+        {
+          "id": -5991047014527122503,
+          "confidence": 0.015501681715250015,
+          "intent_response_key": "faq/constancia_matricula__pago"
+        },
+        {
+          "id": 6489619432206112430,
+          "confidence": 0.012776692397892475,
+          "intent_response_key": "faq/solicitud_correo_institucional_procedimiento"
+        },
+        {
+          "id": 4403203637000663281,
+          "confidence": 0.011357535608112812,
+          "intent_response_key": "faq/reincorporacion__fechas"
+        },
+        {
+          "id": -710348847607926660,
+          "confidence": 0.010739104822278023,
+          "intent_response_key": "faq/constancia_de_notas__formato_solicitud"
+        },
+        {
+          "id": 3124480771699076664,
+          "confidence": 0.010152663104236126,
+          "intent_response_key": "faq/retiro_parcial__fechas"
+        }
+      ]
+    }
+  }
+}

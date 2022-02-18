@@ -27,7 +27,10 @@ pipeline:
   evaluate_every_number_of_epochs: 5
   tensorboard_log_directory: ./tensorboard
   tensorboard_log_level: epoch
-- name: FallbackClassifier
+#- name: FallbackClassifier
+#  threshold: 0.7
+#  ambiguity_threshold: 0.2
+- name: fallback.FallbackResponseSelector
   threshold: 0.7
   ambiguity_threshold: 0.2
 policies:

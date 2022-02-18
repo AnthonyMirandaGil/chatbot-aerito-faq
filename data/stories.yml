@@ -1,6 +1,13 @@
 version: "2.0"
 
-  
+  - rule: affirm more queries to FAQs
+    steps:
+      - intent: faq
+      - action: utter_faq
+      - action: action_set_sub_topic_slot
+      - action: utter_requerir_mas
+      - intent: confirmar_requerir_mas_ayuda
+      - action: utter_requerir_consulta
 
 #- story: agradecimiento
 #  steps:
