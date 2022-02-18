@@ -42,6 +42,8 @@ Luego para compilar y ejecutar el modelo chatbot primero ejecute el siguiente co
 
 ```
 rasa run --cors "*"
+
+rasa run actions
 ```
 
 Luego, corra los siguientes comando para iniciar el chat web de la aplicación.
