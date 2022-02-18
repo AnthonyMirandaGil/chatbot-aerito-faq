@@ -364,5 +364,5 @@ actions:
 - action_trigger_menu_anterior
 - action_default_ask_affirmation
 - action_default_fallback
-- action_contextual_faq_formato_solicitud
 - action_set_sub_topic_slot
+

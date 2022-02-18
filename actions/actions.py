@@ -146,26 +146,26 @@ class ActionDefaultFallback(Action):
         return [ConversationPaused(), UserUtteranceReverted()]
 
 
-class ActionContextualFaqsFormatoSolicitud(Action):
-    """Returns the chitchat utterance dependent on the intent"""
+#class ActionContextualFaqsFormatoSolicitud(Action):
+#    """Returns the chitchat utterance dependent on the intent"""
+#
+#    def name(self) -> Text:
+#        return "action_contextual_faq_formato_solicitud"
 
-    def name(self) -> Text:
-        return "action_contextual_faq_formato_solicitud"
-
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,
-    ) -> List[EventType]:
-        sub_topic = tracker.get_slot("sub_topic")
-        print(sub_topic, 'sub_topic')
-        if sub_topic in ["retiro_total", "reincorporacion", "reserva_matricula","constancia_de_estudios","constancia_matricula"]:
-            dispatcher.utter_message(response=f"utter_faq/{sub_topic}__formato_solicitud")
-        else:
-            dispatcher.utter_message(text="Lo lamento no tengo esa información")
-
-        return []
+#    def run(
+#        self,
+#        dispatcher: CollectingDispatcher,
+#        tracker: Tracker,
+#        domain: DomainDict,
+#    ) -> List[EventType]:
+#        sub_topic = tracker.get_slot("sub_topic")
+#        print(sub_topic, 'sub_topic')
+#        if sub_topic in ["retiro_total", "reincorporacion", "reserva_matricula","constancia_de_estudios","constancia_matricula"]:
+#            dispatcher.utter_message(response=f"utter_faq/{sub_topic}__formato_solicitud")
+#        else:
+#            dispatcher.utter_message(text="Lo lamento no tengo esa información")#
+#
+#        return []
 
 
 class ActionSetSubTopicSlot(Action):
