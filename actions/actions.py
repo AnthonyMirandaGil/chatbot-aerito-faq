@@ -168,30 +168,30 @@ class ActionDefaultFallback(Action):
 #        return []
 
 
-class ActionSetSubTopicSlot(Action):
-    """Returns the chitchat utterance dependent on the intent"""
-
-    def name(self) -> Text:
-        return "action_set_sub_topic_slot"
-
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,
-    ) -> List[EventType]:
-        full_intent = (
-            tracker.latest_message.get("response_selector", {})
-            .get("faq", {})
-            .get("response",{})
-            .get("intent_response_key")
-        )
-        print('full_intent:', full_intent)
-        if full_intent:
-            topic = full_intent.split("/")[1]
-            print('topic: ', topic)
-            sub_topic = topic.split("__")[0]
-        else:
-            sub_topic = None
-        print('sub_topic:', sub_topic)
-        return [SlotSet("sub_topic", sub_topic)]
+#class ActionSetSubTopicSlot(Action):
+#    """Returns the chitchat utterance dependent on the intent"""
+#
+#    def name(self) -> Text:
+#        return "action_set_sub_topic_slot"
+#
+#    def run(
+#        self,
+#       dispatcher: CollectingDispatcher,
+#        tracker: Tracker,
+#        domain: DomainDict,
+#    ) -> List[EventType]:
+#        full_intent = (
+#            tracker.latest_message.get("response_selector", {})
+#            .get("faq", {})
+#            .get("response",{})
+#            .get("intent_response_key")
+#        )
+#        print('full_intent:', full_intent)
+#        if full_intent:
+#            topic = full_intent.split("/")[1]
+#            print('topic: ', topic)
+#            sub_topic = topic.split("__")[0]
+#        else:
+#            sub_topic = None
+#        print('sub_topic:', sub_topic)
+#        return [SlotSet("sub_topic", sub_topic)]

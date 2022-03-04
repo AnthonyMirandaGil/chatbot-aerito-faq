@@ -187,7 +187,7 @@ responses:
         En caso de ser alumno regular, debe realizar el pago por AUTOSEGURO de manera obligatoria y con 03 días mínimo de antelación a la matrícula, no es necesario enviar su vaucher. Seguidamente ORCE le habilitara su ficha de matricula en el intranet-alumno en su fecha y horario correspondiente. 
 
   utter_faq/carnet_universitario__solicitud:
-    - text: Para obtener su carnet universitario debe primero haber completado correctamente su proceso de matricula, luego pagar por el concepto de CARNÉ UNIVERSITARIO en banco SCOTIABANK, no es necesario enviar su vaucher. ORCE se encargará de continuar con el trámite e informar sobre su avance por el mismo sistema de intranet-alumno
+    - text: Para obtener su carnet universitario debe primero haber completado correctamente su proceso de matricula, luego pagar por el concepto de CARNÉ UNIVERSITARIO en banco SCOTIABANK, no es necesario enviar su voucher. ORCE se encargará de continuar con el trámite e informar sobre su avance por el mismo sistema de intranet-alumno
   
   utter_faq/matricula__cronograma:
     - text: Puede encontrar las fechas de la matricula dentro del [calendario en la página web de la Facultad] (https://fc.uni.edu.pe/wp-content/uploads/2021/06/CronogramaIngresantes.pdf)
@@ -364,5 +364,4 @@ actions:
 - action_trigger_menu_anterior
 - action_default_ask_affirmation
 - action_default_fallback
-- action_set_sub_topic_slot
 

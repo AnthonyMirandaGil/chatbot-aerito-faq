@@ -65,12 +65,9 @@ rules:
     steps:
       - intent: faq
       - action: utter_faq
-      - action: action_set_sub_topic_slot
       - action: utter_requerir_mas
 
   
-
-
   - rule: Implementation of the Two-Stage-Fallback
     steps:
       - intent: nlu_fallback

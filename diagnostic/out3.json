@@ -1,0 +1,20 @@
+{'response_selector': {
+    'all_retrieval_intents': ['faq'], 
+    'faq': {
+        'response': {
+            'id': -7094978402976837744, 
+            'responses': [{
+                'text': "CTIC es la ofina encargada del correo institucional, para mayor información ingrese a https://www.uni.edu.pe/index.php/2015-05-28-20-25-15/obten-tu-correo-uni"}],
+                'response_templates': [{
+                    'text': "CTIC es la ofina encargada del correo institucional, para mayor información ingrese a https://www.uni.edu.pe/index.php/2015-05-28-20-25-15/obten-tu-correo-uni"
+                    }], 
+                    'confidence': 0.477150022983551, 
+                    'intent_response_key': 'faq/solicitud_correo_institucional_procedimiento', 
+                    'utter_action': 'utter_faq/solicitud_correo_institucional_procedimiento', 
+                    'template_name': 'utter_faq/solicitud_correo_institucional_procedimiento'}, 
+                    'ranking': [{
+                        'id': -7094978402976837744, 
+                        'confidence': 0.477150022983551, 
+                        'intent_response_key': 'faq/solicitud_correo_institucional_procedimiento'}, 
+                        {'id': 1044926447289398241,
+                        'confidence': 0.12403053790330887, 'intent_response_key': 'faq/matricula_rezagada__procedimiento'}, {'id': -7374610440390398807, 'confidence': 0.10713006556034088, 'intent_response_key': 'faq/reincorporacion__procedimiento'}, {'id': 3510657122409158181, 'confidence': 0.0736442506313324, 'intent_response_key': 'faq/retiro_parcial__cursos_repetidos'}, {'id': -5938505102928597218, 'confidence': 0.05081982538104057, 'intent_response_key': 'faq/pago_autoseguro__fuera_fecha'}, {'id': -5299822664324880470, 'confidence': 0.045659247785806656, 'intent_response_key': 'faq/matricula__cronograma'}, {'id': -5393240341754907042, 'confidence': 0.0395454503595829, 'intent_response_key': 'faq/reincorporacion__fechas'}, {'id': -3296755298940616131, 'confidence': 0.037768978625535965, 'intent_response_key': 'faq/retiro_total__motivos_procede'}, {'id': 6341603128488709210, 'confidence': 0.02722976915538311, 'intent_response_key': 'faq/retiro_parcial__fechas'}, {'id': 8084337047170562844, 'confidence': 0.017021846026182175, 'intent_response_key': 'faq/constancia_matricula__formato_solicitud'}]}}}

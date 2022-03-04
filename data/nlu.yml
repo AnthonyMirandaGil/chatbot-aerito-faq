@@ -132,9 +132,9 @@ nlu:
 
 - intent: ayuda
   examples: |
+    - ayudaaaa
     - ayuda
-    - Ayuda
-    - AYUDA
+    - ayudaa
 #- intent: formato_solicitud
 #  examples: |
 #    - ¿Cuál es el modelo para la solicitud?
@@ -202,6 +202,7 @@ nlu:
     - quiero obtener mi carnet universitario que debo hacer
     - de mas debo hacer para obtener mi carnet universitario?
     - a quien le solicito mi carnet universitario
+    - deseo obtener mi carnet universitario que debo hacer
 
 - intent: faq/matricula__cronograma
   examples: |
@@ -458,11 +459,11 @@ nlu:
   examples: |
     - ¿Donde puedo ver los horarios de los cursos de este ciclo?
     - Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos
-    - Buenas tardes, me podria decir cuales son los horarios para el curso de fundamentos
+    - Buenas tardes, me podria decir cuales son los horarios para la asignatura de fundamentos de programacion
     - que tal, quiero saber el horario de un curso
     - Hola ciencito, me puedes ayudar no encuentro los horarios de los cursos
     - Hola que tal ciencito, dime donde encuentro los horarios de la matricula
-    - Hola, no logro encontrar los horarios de lo cursos donde estas ?
+    - Hola, no logro encontrar los horarios de los cursos donde estas ?
     - Hola que tal, quiero saber el horario de mis cursos
     - Hola, quiero saber el horario del curso de FISICA III
     - Hola que tal, quiero saber el horario del curso de algebra lineal para fisicos
@@ -472,7 +473,7 @@ nlu:
     - Buenos tardes, dime donde puedo encontrar los horarios de los cursos
     - Buenos dias, donde encuentro los horarios de los cursos
     - donde encuentro los horarios de los cursos
-    - sabes donde puedo encontrar los horarios de los cursos
+    - sabes donde puedo encontrar los horarios de las asignaturas para este semestre
     - quiero saber el horario del curso de Electomagnetismo
     - puedes decirme donde encontrar el horario de los cursos
     - Dime el horario de calculo integral
@@ -482,7 +483,7 @@ nlu:
     - Si, quisiera saber el horario del curso de Fisica I
     - donde puedo encontrar los horarios de los cursos
     - quiero saber el horario del curso de algebra lineal para fisicos
-    - Quiero saber el horario de mis cursos
+    - Quiero saber el horario de mis asignaturas
     - dime cual el horario del curso de calculo diferencial el integral avanzado
 - intent: faq/retiro_parcial__fechas
   examples: |
@@ -501,8 +502,10 @@ nlu:
     - una consulta estamos ya en la cuarta semana de clases, podria hacer el retiro parcial ?
     - Hola, he querido retirarme de un curso pero me parece que un no esta habilitado cuando se habilitara el retiro parcial?
     - Buenos dias, cuando puedo realizar el retiro de un curso
+    - cuando puedo realizar el retiro de una asignatura
     - Hola, ¿cuándo son las fechas para el retiro parcial?
     - Hola, quiero retirarme de unos cursos y quiero saber las fechas
+    - quiero retirarme algunas asginaturas y quiero saber las fechas
     - Hola, una consulta cuando se habilitara el retiro parcial
     - Buenos dias, quisiera saber cuando vence el plazo de retiro parcial
     - Hola, una duda estamos en la cuarta semana de clases puedo hacer el retiro parcial?
@@ -567,6 +570,7 @@ nlu:
     - Hola, deseo realizar el retiro parcial de un curso como procedo
     - HOla, deseo realizar el retiro parcial de varios curso como procedo
     - hola, como procedo para hacer el retiro parcial ?
+
 - intent: faq/retiro_parcial__unico_curso
   examples: |
     - Estoy matriculado en solo un curso, puedo acceder al retiro parcial?
@@ -575,13 +579,15 @@ nlu:
     - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hacer
     - Buenas noches, estoy llevando un solo curso y el sistema no me permite retirarme
     - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hace
-    - Hola, ¿Es posible realizar el retiro parcial de un único curso?
+    - Hola, ¿Es posible realizar el retiro parcial si estoy llevando un único curso?
     - Hola, puedo hacer un retiro parcial si solo estoy llevando un curso
     - una consulta puedo realizar el retiro parcial si solo llevo un curso
     - estoy llevando solo un curso y deseo retirarme puedo hacer el retiro parcial de ese curso
     - puedo hacer el retiro parcial si solo estoy llevando un curso
     - si solo estoy matricula en un solo curso puedo realizar el retiro parcial
     - si estoy llevando solo un curso como puedo retirarme de ese curso
+    - estoy llevando solo una asignatura puedo retirarme de esa
+    - si estoy matricula en una solo asignatura es posible retirarme ese curso 
 - intent: faq/retiro_parcial__maximo_cursos
   examples: |
     - ¿Cuantos cursos es el máximo que puedo retirarme?
@@ -598,6 +604,8 @@ nlu:
     - es posible hacer el retiro total de todos los cursos que estoy matricula
     - puedo retirarme de 4 cursos?
     - puedo retirarme de 2 cursos?
+    - de cuantas asignaturas como maximo puedo retirarme
+    - el posible retirarme de 3 asignaturas distintas
 - intent: faq/retiro_total__fechas
   examples: |
     - ¿En que fecha se realiza el retiro total?
@@ -669,6 +677,7 @@ nlu:
     - ¿El trámite para retiro total es presencial?
     - El retiro total es presencial?
     - como puedo solicitar el retiro total de todos los cursos?
+    - como puedo solcitar el retiro de todas las asignaturas que estoy llevando
     - Quiero hacer el retiro total, ¿cómo puedo hacerlo?
     - ¿Puedo realizar el retiro total por correo?
     - Por motivos de trabajo deseo dejar todos los cursos
@@ -690,6 +699,7 @@ nlu:
     - BUenas, una consulta cual es el procedimiento para el retiro total
     - Buenas tardes, quisiera saber cual es el procedemiendo para el retiro total
     - Buenas noches, me puedes decir el procedemiendo para el retiro total?
+    - Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.
 - intent: faq/reserva_matricula__procedimiento
   examples: |
     - ¿Cómo reservo mi matricula?
@@ -787,7 +797,6 @@ nlu:
     - quisiera realizar mi reincoporacion este ciclo como puedo solicitarlo
     - a quien debo solicitar la reincoporacion
     - como puedo realizar mi reicorporacion para el siguiente periodo academico
-    - Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.
     - Podría indicarme ¿Cuál es el procedimiento? para solicitar reincorporación
     - cual es el procedimiento para solicitar mi reincorporacion este ciclo
     - que tramite debo hacer para solicitar mi reincoporacion
@@ -1010,6 +1019,8 @@ nlu:
   examples: |
     - ¿Es posible retirarme de un curso que haya repetido?
     - Puedo retirarme de cursos con repitencias?
+    - Puedo retirame de una asginatura que he repetido
+    - es posible retirarse de una asignatura que llevo por segunda vez
     - Puedo retirame de un curso que haya repetido el ciclo anterior ?
     - Si he repetido un curso en el ciclo paso puedo retirarme en este ciclo de este curso?
     - es posible retirase de cursos con repitencias ?

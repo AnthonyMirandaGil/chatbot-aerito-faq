@@ -8,7 +8,7 @@ pipeline:
   model_name: roberta
   model_weights: 'pretrained_models/roberta-base-bne'
 - name: DIETClassifier
-  epochs: 200
+  epochs: 60
   constrain_similarities: True
   entity_recognition: False
 - name: ResponseSelector
