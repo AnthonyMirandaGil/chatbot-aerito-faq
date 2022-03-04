@@ -26,25 +26,7 @@ msg = Message({TEXT: "cuando sera la matricula?"})
 #    p.process(msg)
     #print(msg.as_dict())
 print('DIET', interpreter.interpreter.pipeline[3].model)
-#plot_model(interpreter.interpreter.pipeline[3].model, to_file='DIETClassifier.png')
+plot_model(interpreter.interpreter.pipeline[3].model, to_file='DIETClassifier.png')
 print('Response Selector', interpreter.interpreter.pipeline[4].model)
-#plot_model(interpreter.interpreter.pipeline[3].model, to_file='DIETClassifier.png')
+plot_model(interpreter.interpreter.pipeline[4].model, to_file='ResponseSelector.png')
 
-#print(msg)
-#dict_nlu = msg.as_dict_nlu()
-#features = msg.get_all_features(TEXT)
-#dense_sequence_features, dense_sentence_features  = msg.get_dense_features(TEXT)
-#sparse_sequence_features, sparse_sentence_features = msg.get_sparse_features(TEXT)
-#sparse_feature_sizes = msg.get_sparse_feature_sizes(TEXT)
-
-#print('------------------------------------------')
-#print("dict_nlu keys:", dict_nlu.keys())
-#print("diagnostic_data keys:", dict_nlu['diagnostic_data'].keys())
-#print('features: ', features)
-#if not dense_sequence_features is None and not dense_sentence_features is None:
-#    print('dense_sequence_features: ', dense_sequence_features.features.shape)  
-#    print('dense_sentence_features: ', dense_sentence_features.features.shape)
-
-#if not sparse_sequence_features is None and not sparse_sentence_features is None:
-#    print('sparse_sequence_features: ', sparse_sequence_features.features.shape)
-#    print('sparse_sentence_features: ', sparse_sequence_features.features.shape)
