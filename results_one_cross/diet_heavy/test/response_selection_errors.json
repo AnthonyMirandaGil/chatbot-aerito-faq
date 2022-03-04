@@ -1,0 +1,130 @@
+[
+  {
+    "text": "acabo de ingresar este ciclo, cuales son los pagos que debo hacer para la matricula",
+    "intent_response_key_target": "faq/matricula__procedimiento_alumno_ingresante",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula_rezagada__procedimiento",
+      "confidence": 0.5445827841758728
+    }
+  },
+  {
+    "text": "es posible retirase de cursos con repitencias ?",
+    "intent_response_key_target": "faq/retiro_parcial__cursos_repetidos",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__procedimiento",
+      "confidence": 0.3591528832912445
+    }
+  },
+  {
+    "text": "Hola, ¿Es posible realizar el retiro parcial si estoy llevando un único curso?",
+    "intent_response_key_target": "faq/retiro_parcial__unico_curso",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_parcial__fechas",
+      "confidence": 0.7867963314056396
+    }
+  },
+  {
+    "text": "¿Hasta cuándo tengo tiempo para presentar mi solicitud de reserva de matricula?",
+    "intent_response_key_target": "faq/reserva_matricula__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/reserva_matricula__procedimiento",
+      "confidence": 0.9254441857337952
+    }
+  },
+  {
+    "text": "¿Qué motivos justifican el retiro total de cursos?",
+    "intent_response_key_target": "faq/retiro_total__motivos_procede",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__procedimiento",
+      "confidence": 0.9800977110862732
+    }
+  },
+  {
+    "text": "me puede dar las fechas del pago de autoseguro",
+    "intent_response_key_target": "faq/pago_autoseguro__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion_rezagada__procedimiento",
+      "confidence": 0.7728762626647949
+    }
+  },
+  {
+    "text": "cuando puedo hacer un retiro total",
+    "intent_response_key_target": "faq/retiro_total__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__motivos_procede",
+      "confidence": 0.9549974203109741
+    }
+  },
+  {
+    "text": "¿Qué días se hace el trámite del retiro total?",
+    "intent_response_key_target": "faq/retiro_total__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__procedimiento",
+      "confidence": 0.7949885129928589
+    }
+  },
+  {
+    "text": "no puede matricularme por problemas de internet paso a matricula rezagada entonces ?",
+    "intent_response_key_target": "faq/perdida_turno_matricula",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula_rezagada__procedimiento",
+      "confidence": 0.5530309677124023
+    }
+  },
+  {
+    "text": "puedes decirme el horario de matricula de algebra lineal",
+    "intent_response_key_target": "faq/cursos_horarios",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula__horarios",
+      "confidence": 0.9547703862190247
+    }
+  },
+  {
+    "text": "Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer",
+    "intent_response_key_target": "faq/matricula_rezagada__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/perdida_turno_matricula",
+      "confidence": 0.7604756951332092
+    }
+  },
+  {
+    "text": "¿Cuáles son los pasos para solicitar el retito total?",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__motivos_procede",
+      "confidence": 0.7896140217781067
+    }
+  },
+  {
+    "text": "Buenos días, que documentos debo presentar para el proceso de retiro total",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__requisitos_documentos_justificacion",
+      "confidence": 0.9525508880615234
+    }
+  },
+  {
+    "text": "tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A",
+    "intent_response_key_target": "faq/cambio_seccion",
+    "intent_response_key_prediction": {
+      "name": "faq/cursos_horarios",
+      "confidence": 0.6962993144989014
+    }
+  },
+  {
+    "text": "Hola Aerito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A",
+    "intent_response_key_target": "faq/cambio_seccion",
+    "intent_response_key_prediction": {
+      "name": "faq/cursos_horarios",
+      "confidence": 0.5887705683708191
+    }
+  },
+  {
+    "text": "que pasa si no pago el autoseguro a tiempo",
+    "intent_response_key_target": "faq/pago_autoseguro_procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/pago_autoseguro__fuera_fecha",
+      "confidence": 0.9966990351676941
+    }
+  }
+]

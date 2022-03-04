@@ -1,0 +1,306 @@
+[
+  {
+    "text": "una duda porfavor existe algun modelo o formato para la solicutud de retiro total",
+    "intent_response_key_target": "faq/retiro_total__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__formato_solicitud",
+      "confidence": 0.3720063865184784
+    }
+  },
+  {
+    "text": "¿Cuál es el modelo para la solicitud de retiro total?",
+    "intent_response_key_target": "faq/retiro_total__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__requisitos_documentos_justificacion",
+      "confidence": 0.18029555678367615
+    }
+  },
+  {
+    "text": "una consulta, es que fechas deberia solicitar mi reincorparacion",
+    "intent_response_key_target": "faq/reincorporacion__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/constancia_de_notas__procedimiento",
+      "confidence": 0.21059086918830872
+    }
+  },
+  {
+    "text": "me puedo facilitar un modelo para la solicitud de constancia de notas si la hubiera",
+    "intent_response_key_target": "faq/constancia_de_notas__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/constancia_de_notas__procedimiento",
+      "confidence": 0.18656025826931
+    }
+  },
+  {
+    "text": "la fecha de reincoporacion ya paso, podria aun enviar mi solicitud de reincoporacion?",
+    "intent_response_key_target": "faq/reincorporacion_rezagada__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__fechas",
+      "confidence": 0.2927936315536499
+    }
+  },
+  {
+    "text": "donde puedo encontrar un modelo para la solicitud de la constancia de matricula",
+    "intent_response_key_target": "faq/constancia_matricula__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/reserva_matricula__formato_solicitud",
+      "confidence": 0.2699807286262512
+    }
+  },
+  {
+    "text": "quisiera saber si hay algun modelo para la solicitud de constancia de matricula",
+    "intent_response_key_target": "faq/constancia_matricula__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/reserva_matricula__formato_solicitud",
+      "confidence": 0.48413410782814026
+    }
+  },
+  {
+    "text": "¿Hay un modelo para la solicitud de constancia de matricula?",
+    "intent_response_key_target": "faq/constancia_matricula__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/reserva_matricula__formato_solicitud",
+      "confidence": 0.43403616547584534
+    }
+  },
+  {
+    "text": "acabo de ingresar este ciclo, cuales son los pagos que debo hacer para la matricula",
+    "intent_response_key_target": "faq/matricula__procedimiento_alumno_ingresante",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__procedimiento",
+      "confidence": 0.24166445434093475
+    }
+  },
+  {
+    "text": "soy ingresante de ciencias de la computación cual es el proceso de matricula",
+    "intent_response_key_target": "faq/matricula__procedimiento_alumno_ingresante",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula__procedimiento_alumno_regular",
+      "confidence": 0.4928286373615265
+    }
+  },
+  {
+    "text": "estoy buscando el modelo de la solitud de reincorporacion y no lo encuetro puedes decirme donde esta ?",
+    "intent_response_key_target": "faq/reincorporacion__formato_solicitud",
+    "intent_response_key_prediction": {
+      "name": "faq/horario_atencion_aera",
+      "confidence": 0.1438222974538803
+    }
+  },
+  {
+    "text": "¿Hasta cuándo tengo tiempo para presentar mi solicitud de reserva de matricula?",
+    "intent_response_key_target": "faq/reserva_matricula__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__fechas",
+      "confidence": 0.3459721803665161
+    }
+  },
+  {
+    "text": "¿Qué motivos justifican el retiro total de cursos?",
+    "intent_response_key_target": "faq/retiro_total__motivos_procede",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__requisitos_documentos_justificacion",
+      "confidence": 0.2881477177143097
+    }
+  },
+  {
+    "text": "me puede dar las fechas del pago de autoseguro",
+    "intent_response_key_target": "faq/pago_autoseguro__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion_rezagada__procedimiento",
+      "confidence": 0.38551634550094604
+    }
+  },
+  {
+    "text": "cuando puedo hacer un retiro total",
+    "intent_response_key_target": "faq/retiro_total__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__motivos_procede",
+      "confidence": 0.5510389804840088
+    }
+  },
+  {
+    "text": "Buenos días, deseo que saber a que hora comienza la matrícula",
+    "intent_response_key_target": "faq/matricula__horarios",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula__cronograma",
+      "confidence": 0.7086228728294373
+    }
+  },
+  {
+    "text": "Buen día, quiero saber cual es el horario de la matrícula",
+    "intent_response_key_target": "faq/matricula__horarios",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula__cronograma",
+      "confidence": 0.45621952414512634
+    }
+  },
+  {
+    "text": "desde que hora atiende la oficina la estadistica",
+    "intent_response_key_target": "faq/horario_atencion_aera",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula__cronograma",
+      "confidence": 0.2876752018928528
+    }
+  },
+  {
+    "text": "puedes decirme el horario de matricula de algebra lineal",
+    "intent_response_key_target": "faq/cursos_horarios",
+    "intent_response_key_prediction": {
+      "name": "faq/horario_atencion_aera",
+      "confidence": 0.42211565375328064
+    }
+  },
+  {
+    "text": "¿Cuáles son los pasos para solicitar el retito total?",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__motivos_procede",
+      "confidence": 0.5826080441474915
+    }
+  },
+  {
+    "text": "Hola, ¿Cómo se inicia el proceso de retiro total?",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_parcial__procedimiento",
+      "confidence": 0.36160382628440857
+    }
+  },
+  {
+    "text": "BUenas, una consulta cual es el procedimiento para el retiro total",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__motivos_procede",
+      "confidence": 0.25241583585739136
+    }
+  },
+  {
+    "text": "Buenos días, que documentos debo presentar para el proceso de retiro total",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_total__fechas",
+      "confidence": 0.3972863256931305
+    }
+  },
+  {
+    "text": "Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.",
+    "intent_response_key_target": "faq/retiro_total__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__procedimiento",
+      "confidence": 0.615317702293396
+    }
+  },
+  {
+    "text": "tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A",
+    "intent_response_key_target": "faq/cambio_seccion",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__procedimiento",
+      "confidence": 0.34842079877853394
+    }
+  },
+  {
+    "text": "Hola Aerito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A",
+    "intent_response_key_target": "faq/cambio_seccion",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__procedimiento",
+      "confidence": 0.3923833668231964
+    }
+  },
+  {
+    "text": "Hola, quisiera tramitar mi reicorporacion como puedo proceder como mi matricula",
+    "intent_response_key_target": "faq/reincorporacion__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/reserva_matricula__procedimiento",
+      "confidence": 0.25943523645401
+    }
+  },
+  {
+    "text": "Hola, cuándo inicia el retiro parcial?",
+    "intent_response_key_target": "faq/retiro_parcial__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_parcial__procedimiento",
+      "confidence": 0.830890417098999
+    }
+  },
+  {
+    "text": "cuando es el retiro parcial",
+    "intent_response_key_target": "faq/retiro_parcial__fechas",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_parcial__procedimiento",
+      "confidence": 0.5762558579444885
+    }
+  },
+  {
+    "text": "¿Cuales son los dias de matrícula?",
+    "intent_response_key_target": "faq/matricula__cronograma",
+    "intent_response_key_prediction": {
+      "name": "faq/matricula__horarios",
+      "confidence": 0.5562410354614258
+    }
+  },
+  {
+    "text": "quiero saber el cronograma de matricula",
+    "intent_response_key_target": "faq/matricula__cronograma",
+    "intent_response_key_prediction": {
+      "name": "faq/cursos_horarios",
+      "confidence": 0.3023907244205475
+    }
+  },
+  {
+    "text": "que pasa si no pago el autoseguro a tiempo",
+    "intent_response_key_target": "faq/pago_autoseguro_procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/pago_autoseguro__fuera_fecha",
+      "confidence": 0.9891047477722168
+    }
+  },
+  {
+    "text": "tengo una consulta como puedo pagar el autoseguro",
+    "intent_response_key_target": "faq/pago_autoseguro_procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/pago_autoseguro__fechas",
+      "confidence": 0.6312607526779175
+    }
+  },
+  {
+    "text": "¿Como realizo el pago de autoseguro?",
+    "intent_response_key_target": "faq/pago_autoseguro_procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_parcial__procedimiento",
+      "confidence": 0.15161754190921783
+    }
+  },
+  {
+    "text": "si quiera saber como hacer el pago de autoseguro",
+    "intent_response_key_target": "faq/pago_autoseguro_procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/pago_autoseguro__fuera_fecha",
+      "confidence": 0.5668615698814392
+    }
+  },
+  {
+    "text": "Buenas dias, por temas económicos no creo poder matricularme este ciclo me han dicho que puedo reservar mi matricula para el siguiente ciclo como puedo realizar ese tramite",
+    "intent_response_key_target": "faq/reserva_matricula__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/reincorporacion__procedimiento",
+      "confidence": 0.4987303614616394
+    }
+  },
+  {
+    "text": "Hola ciencito, queria consultarte lo que pasa es que por temas familiares este ciclo estaba pensando no matricular que debo hacer",
+    "intent_response_key_target": "faq/reserva_matricula__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/retiro_parcial__fechas",
+      "confidence": 0.14116568863391876
+    }
+  },
+  {
+    "text": "Por motivos de fuerza mayor quiero dejar de llevar un curso, ¿qué debo hacer?",
+    "intent_response_key_target": "faq/retiro_parcial__procedimiento",
+    "intent_response_key_prediction": {
+      "name": "faq/cambio_seccion",
+      "confidence": 0.2843722105026245
+    }
+  }
+]

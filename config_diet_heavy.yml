@@ -7,7 +7,7 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-  epochs: 150
+  epochs: 100
   entity_recognition: False
   drop_rate: 0.25
   hidden_layers_sizes: 
@@ -17,12 +17,12 @@ pipeline:
   number_of_transformer_layers: 4
   embedding_dimension: 30
   constrain_similarities: True
-  evaluate_on_number_of_examples: 100
-  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 0 #100
+  evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/DIETClassifier_heavy
   tensorboard_log_level: epoch
 - name: ResponseSelector
-  epochs: 150
+  epochs: 100
   retrieval_intent: faq
   hidden_layers_sizes: 
     text: [512, 128]
@@ -32,8 +32,8 @@ pipeline:
   embedding_dimension: 30
   drop_rate: 0.25
   constrain_similarities: True
-  evaluate_on_number_of_examples: 80
-  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 0 #100
+  evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/ResponseSelector_heavy
   tensorboard_log_level: epoch
 - name: FallbackClassifier

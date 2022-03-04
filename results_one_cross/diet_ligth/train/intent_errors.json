@@ -1,0 +1,26 @@
+[
+  {
+    "text": "ayudaaaa",
+    "intent": "ayuda",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.16922815144062042
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.8129303455352783
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.16922815144062042
+    }
+  }
+]

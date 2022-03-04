@@ -17,8 +17,8 @@ pipeline:
   number_of_transformer_layers: 2
   embedding_dimension: 25
   constrain_similarities: True
-  evaluate_on_number_of_examples: 100
-  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 0 #100
+  evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/DIETClassifier_medium
   tensorboard_log_level: epoch
 - name: ResponseSelector
@@ -32,8 +32,8 @@ pipeline:
   embedding_dimension: 25
   drop_rate: 0.25
   constrain_similarities: True
-  evaluate_on_number_of_examples: 80
-  evaluate_every_number_of_epochs: 5
+  evaluate_on_number_of_examples: 0 #0
+  evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/ResponseSelector_medium
   tensorboard_log_level: epoch
 #- name: FallbackClassifier

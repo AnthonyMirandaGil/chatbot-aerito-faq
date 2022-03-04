@@ -1,0 +1,68 @@
+{
+  "ayuda": {
+    "precision": 1.0,
+    "recall": 0.5,
+    "f1-score": 0.6666666666666666,
+    "support": 2,
+    "confused_with": {
+      "saludo": 1
+    }
+  },
+  "denegar_mas_ayuda": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "saludo": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "despedida": 1
+    }
+  },
+  "matricula_procedimiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "faq": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 627,
+    "confused_with": {}
+  },
+  "despedida": {
+    "precision": 0.9,
+    "recall": 1.0,
+    "f1-score": 0.9473684210526316,
+    "support": 9,
+    "confused_with": {}
+  },
+  "confirmar_requerir_mas_ayuda": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 9,
+    "confused_with": {}
+  },
+  "accuracy": 0.997093023255814,
+  "macro avg": {
+    "precision": 0.9761904761904763,
+    "recall": 0.9190476190476191,
+    "f1-score": 0.9353383458646617,
+    "support": 688
+  },
+  "weighted avg": {
+    "precision": 0.9972383720930232,
+    "recall": 0.997093023255814,
+    "f1-score": 0.9968890248878008,
+    "support": 688
+  }
+}

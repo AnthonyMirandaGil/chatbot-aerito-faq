@@ -1,0 +1,138 @@
+[
+  {
+    "text": "chau",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.8409915566444397
+    }
+  },
+  {
+    "text": "como realizo mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "que pagos y que debo hacer para la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.4878295958042145
+    }
+  },
+  {
+    "text": "como alumno regular que pagos debo hacer para realizar la matricula",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.698333203792572
+    }
+  },
+  {
+    "text": "¿Cuando es la matrícula?",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.44414016604423523
+    }
+  },
+  {
+    "text": "cuales son los requisitos para la matricula rezagada",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.8884011507034302
+    }
+  },
+  {
+    "text": "Holis",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.34399959444999695
+    }
+  },
+  {
+    "text": "tongo otra consulta",
+    "intent": "confirmar_requerir_mas_ayuda",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9138269424438477
+    }
+  },
+  {
+    "text": "cuales son los pasos para matricularme en el siguiente ciclo",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 1.0
+    }
+  },
+  {
+    "text": "cuales son los pagos para realizar la matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9968315958976746
+    }
+  },
+  {
+    "text": "si queria saber si no lo pago a tiempo que debo hacer",
+    "intent": "faq",
+    "intent_prediction": {
+      "name": "confirmar_requerir_mas_ayuda",
+      "confidence": 0.8458150625228882
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.9992289543151855
+    }
+  },
+  {
+    "text": "debo pagar algo para realizar mi matricula",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9998375177383423
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.34161823987960815
+    }
+  },
+  {
+    "text": "buenas noches",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.804327666759491
+    }
+  },
+  {
+    "text": "Oye",
+    "intent": "saludo",
+    "intent_prediction": {
+      "name": "denegar_mas_ayuda",
+      "confidence": 0.6131498217582703
+    }
+  },
+  {
+    "text": "¿Cuál es proceso de matricula?",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "faq",
+      "confidence": 0.9999999403953552
+    }
+  }
+]
