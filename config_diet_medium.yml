@@ -8,6 +8,7 @@ pipeline:
   pooling: mean
 - name: DIETClassifier
   epochs: 150
+  learning_rate: 0.001
   entity_recognition: False
   drop_rate: 0.25
   hidden_layers_sizes: 
@@ -15,7 +16,7 @@ pipeline:
     label: []
   transformer_size: 256
   number_of_transformer_layers: 2
-  embedding_dimension: 25
+  embedding_dimension: 30
   constrain_similarities: True
   evaluate_on_number_of_examples: 0 #100
   evaluate_every_number_of_epochs: 1
@@ -24,12 +25,13 @@ pipeline:
 - name: ResponseSelector
   epochs: 150
   retrieval_intent: faq
+  learning_rate: 0.001
   hidden_layers_sizes: 
     text: [256, 128]
     label: []
   transformer_size: 256
   number_of_transformer_layers: 2
-  embedding_dimension: 25
+  embedding_dimension: 30
   drop_rate: 0.25
   constrain_similarities: True
   evaluate_on_number_of_examples: 0 #0
