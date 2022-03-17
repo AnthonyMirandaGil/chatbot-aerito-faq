@@ -33,6 +33,10 @@ pipeline:
   evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/ResponseSelector_ligth
   tensorboard_log_level: epoch
+- name: fallback _response_selector.FallbackResponseSelector
+  threshold: 0.85
+  ambiguity_threshold: 0.2
+  retrieval_intent: faq
 #- name: FallbackClassifier
 #  threshold: 0.7
 #  ambiguity_threshold: 0.2

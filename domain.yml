@@ -13,6 +13,7 @@ intents:
 - consulta_tramites_y_procesos_academicos
 - consulta_sobre_retiros
 - trigger_response_selector
+- trigger_response_selector_fallback
 - matricula_procedimiento
 - menu_anterior
 - confirmar_requerir_mas_ayuda
@@ -361,6 +362,7 @@ entities:
 - sub_topic
 actions:
 - action_trigger_response_selector
+- action_trigger_response_selector_fallback
 - action_trigger_menu_anterior
 - action_default_ask_affirmation
 - action_default_fallback

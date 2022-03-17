@@ -30,6 +30,25 @@ class ActionTriggerResponseSelector(Action):
         return [SlotSet("retrieval_intent", None)]
 
 
+class ActionTriggerResponseSelectorFallback(Action):
+    """Returns the chitchat utterance dependent on the intent"""
+
+    def name(self) -> Text:
+        return "action_trigger_response_selector_fallback"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: DomainDict,
+    ) -> List[EventType]:
+        retrieval_intent = tracker.get_slot("retrieval_intent")
+        print('retrieval_intent:', retrieval_intent)
+        if retrieval_intent:
+            dispatcher.utter_message(response = f"utter_{retrieval_intent}")
+        
+        return [SlotSet("retrieval_intent", None)]
+
 class ActionTriggerMenuAnterior(Action):
     """Returns the chitchat utterance dependent on the intent"""
 
@@ -57,13 +76,6 @@ class ActionDefaultAskAffirmation(Action):
         # ignore the first one -- nlu fallback
         ## usar response_selector
         # A prompt asking the user to select an option
-        best_intent = tracker.latest_message["intent_ranking"][1]['name']
-        message = "Quisiste decir,"
-        if best_intent == 'faq':
-            sub_intent = tracker.latest_message['response_selector']['faq']['ranking'][0]['intent_response_key']
-            best_intent = sub_intent
-            message = "Deseas saber,"
-
         # a mapping between intents and user friendly wordings
         intent_mappings = {
             "despedida": "Adios",
@@ -113,12 +125,27 @@ class ActionDefaultAskAffirmation(Action):
             'formato_solicitud': "¿Cuál es el modelo para la solicitud?"
 
         }
+
+       
+        best_intent = tracker.latest_message["intent_ranking"][1]['name']
         
-        title_intent = intent_mappings[best_intent]
+        if best_intent == 'faq':
+            sub_intent = tracker.latest_message['response_selector']['faq']['ranking'][0]['intent_response_key']
+            # best_intent = sub_intent
+            message = "Deseas saber,"
+            title_intent = intent_mappings[sub_intent]
+            paylod = f'/trigger_response_selector{{{{"retrieval_intent": "{sub_intent}"}}}}'
+            print(paylod)
+
+        else: 
+            message = "Quisiste decir,"
+            title_intent = intent_mappings[best_intent]
+            paylod = "/{}".format(best_intent)
+      
         buttons = [
             {
                 "title": 'Si',
-                "payload": "/{}".format(best_intent)
+                "payload": paylod
             },
             {
             "title": "No",

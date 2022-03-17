@@ -45,6 +45,13 @@ rules:
       - action: action_trigger_response_selector
       - action: utter_mas_ayuda_formulario
 
+  - rule: Trigger response selector from button payload
+    steps:
+      - intent: trigger_response_selector_fallback
+      - action: action_trigger_response_selector_fallback
+      - action: utter_requerir_mas
+
+
   - rule: menu_anterior
     steps: 
       - intent: menu_anterior
