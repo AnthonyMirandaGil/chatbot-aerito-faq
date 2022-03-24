@@ -1,7 +1,6 @@
 version: "2.0"
 
 rules:
-
   # flujo de conversacion
   - rule: saludo
     steps:
@@ -10,6 +9,18 @@ rules:
       - action: utter_recuerda_escribir_ayuda
       - action: utter_requerir_consulta
 
+  
+  - rule: matricula cronograma
+    steps:
+      - intent: matricula__cronograma
+      - action: utter_matricula__cronograma
+      - action: utter_requerir_mas
+  
+  - rule: denegar mas ayuda
+    steps:
+      - intent: denegar_mas_ayuda
+      - action: utter_despedida
+      
   - rule: despedida
     steps:
     - intent: despedida
@@ -19,10 +30,7 @@ rules:
     steps: 
       - intent: confirmar_requerir_mas_ayuda
       - action: utter_requerir_consulta
-  - rule: deny request more
-    steps:
-      - intent: denegar_mas_ayuda
-      - action: utter_despedida
+
 
  # flujo de navegacion por botones
   - rule: path procesos de matricula
@@ -45,23 +53,27 @@ rules:
        - intent: ayuda
        - action: utter_formulario_temas
   
-  - rule: Trigger response selector from button payload
-    steps:
-      - intent: trigger_response_selector
-      - action: action_trigger_response_selector
-      - action: utter_mas_ayuda_formulario
+  #- rule: Trigger response selector from button payload
+  #  steps:
+  #    - intent: trigger_response_selector
+  #    - action: action_trigger_response_selector
+  #    - action: utter_mas_ayuda_formulario
 
   - rule: menu_anterior
     steps: 
       - intent: menu_anterior
       - action: action_trigger_menu_anterior
 
-
-  - rule: faqs
+  - rule: contactar_aera
     steps:
-      - intent: faq
-      - action: utter_faq
-      - action: utter_requerir_mas
+      - intent: contactar_aera
+      - action: utter_contactar_aera
+
+  #- rule: faqs
+  #  steps:
+  #    - intent: faq
+  #    - action: utter_faq
+  #    - action: utter_requerir_mas
 
   
   - rule: Implementation of the Two-Stage-Fallback
@@ -85,12 +97,6 @@ rules:
     steps:
       - intent: matricula_procedimiento
       - action: utter_desanbigue_procedimiento_matricula
-  
-  - rule: contactar_aera
-    steps:
-      - intent: contactar_aera
-      - action: utter_contactar_aera
-
 
  # - rule: out-of-scope
  #   steps:
@@ -105,11 +111,131 @@ rules:
       - action: utter_retiro_parcial__procedimiento
       - action: utter_requerir_mas 
   
-  #- rule: retiro total fechas
-  #  steps:
-  #    - intent: retiro_total__fechas
-  #    - action: utter_retiro_total__fechas
-  #    - action: utter_requerir_mas 
+  - rule: matricula procedimiento alumno regular
+    steps:
+      - intent: matricula__procedimiento_alumno_regular
+      - action: utter_matricula__procedimiento_alumno_regular
+      - action: utter_requerir_mas
+  
+  - rule: matricula procedimiento alumno ingresante
+    steps:
+      - intent: matricula__procedimiento_alumno_ingresante
+      - action: utter_matricula__procedimiento_alumno_ingresante
+      - action: utter_requerir_mas
+
+  - rule: carnet_universitario__solicitud
+    steps:
+      - intent: carnet_universitario__solicitud
+      - action: utter_carnet_universitario__solicitud
+      - action: utter_requerir_mas
+
+  - rule: matricula cronograma
+    steps:
+      - intent: matricula__cronograma
+      - action: utter_matricula__cronograma
+      - action: utter_requerir_mas
+
+  - rule: matricula horarios
+    steps:
+      - intent: matricula__horarios
+      - action: utter_matricula__horarios
+      - action: utter_requerir_mas
+      
+  - rule: pago_autoseguro__fechas
+    steps:
+      - intent: pago_autoseguro__fechas
+      - action: utter_pago_autoseguro__fechas
+      - action: utter_requerir_mas
+
+  - rule: pago autoseguro procedimiento
+    steps:
+      - intent: pago_autoseguro_procedimiento
+      - action: utter_pago_autoseguro_procedimiento
+      - action: utter_requerir_mas
+
+  - rule: pago autoseguro procedimiento
+    steps:
+      - intent: pago_autoseguro_procedimiento
+      - action: utter_pago_autoseguro_procedimiento
+      - action: utter_requerir_mas
+
+  - rule: pago autoseguro fuera fecha
+    steps:
+      - intent: pago_autoseguro__fuera_fecha
+      - action: utter_pago_autoseguro__fuera_fecha
+      - action: utter_requerir_mas
+  
+  - rule: perdida turno matricula
+    steps:
+      - intent: perdida_turno_matricula
+      - action: utter_perdida_turno_matricula
+      - action: utter_requerir_mas  
+
+  - rule: matricula rezagada procedimiento
+    steps:
+      - intent: matricula_rezagada__procedimiento
+      - action: utter_matricula_rezagada__procedimiento
+      - action: utter_requerir_mas  
+
+  - rule: cambio seccion
+    steps:
+      - intent: cambio_seccion
+      - action: utter_cambio_seccion
+      - action: utter_requerir_mas  
+  
+  - rule: cursos horarios
+    steps:
+      - intent: cursos_horarios
+      - action: utter_cursos_horarios
+      - action: utter_requerir_mas  
+
+  - rule: retiro parcial fechas
+    steps:
+      - intent: retiro_parcial__fechas
+      - action: utter_retiro_parcial__fechas
+      - action: utter_requerir_mas
+
+  - rule: retiro parcial procedimiento
+    steps:
+      - intent: retiro_parcial__procedimiento
+      - action: utter_retiro_parcial__procedimiento
+      - action: utter_requerir_mas
+
+  - rule: retiro parcial unico curso
+    steps:
+      - intent: retiro_parcial__unico_curso
+      - action: utter_retiro_parcial__unico_curso
+      - action: utter_requerir_mas
+
+  - rule: retiro parcial maximo cursos
+    steps:
+      - intent: retiro_parcial__maximo_cursos
+      - action: utter_retiro_parcial__maximo_cursos
+      - action: utter_requerir_mas
+
+  - rule: retiro total fechas
+    steps:
+      - intent: retiro_total__fechas
+      - action: utter_retiro_total__fechas
+      - action: utter_requerir_mas
+
+  - rule: retiro total requisitos documentos justificacion
+    steps:
+      - intent: retiro_total__requisitos_documentos_justificacion
+      - action: utter_retiro_total__requisitos_documentos_justificacion
+      - action: utter_requerir_mas
+  
+  - rule: retiro total motivos procede
+    steps:
+      - intent: retiro_total__motivos_procede
+      - action: utter_retiro_total__motivos_procede
+      - action: utter_requerir_mas
+
+  - rule: retiro total formato solicitud
+    steps:
+      - intent: retiro_total__formato_solicitud
+      - action: utter_retiro_total__formato_solicitud
+      - action: utter_requerir_mas
 
   - rule: retiro total procedimiento
     steps:
@@ -123,17 +249,28 @@ rules:
       - action: utter_reserva_matricula__procedimiento
       - action: utter_requerir_mas 
 
-  #- rule: reserva matricula fechas
-  #  steps:
-  #    - intent: reserva_matricula__fechas
-  #    - action: utter_reserva_matricula__fechas
-  #    - action: utter_requerir_mas 
+  - rule: reserva matricula fechas
+    steps:
+      - intent: reserva_matricula__fechas
+      - action: utter_reserva_matricula__fechas
+      - action: utter_requerir_mas 
 
+  - rule: reserva matricula formato_solicitud
+    steps:
+      - intent: reserva_matricula__formato_solicitud
+      - action: utter_reserva_matricula__formato_solicitud
+      - action: utter_requerir_mas 
 
   - rule: reincorporacion procedimiento
     steps:
       - intent: reincorporacion__procedimiento
       - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas 
+
+  - rule: reincorporacion rezagada procedimiento
+    steps:
+      - intent: reincorporacion_rezagada__procedimiento
+      - action: utter_reincorporacion_rezagada__procedimiento
       - action: utter_requerir_mas 
 
   - rule: reincorporacion fechas
@@ -148,23 +285,41 @@ rules:
       - action: utter_reincorporacion__costo
       - action: utter_requerir_mas 
 
+  - rule: reincorporacion formato_solicitud
+    steps:
+      - intent: reincorporacion__formato_solicitud
+      - action: utter_reincorporacion__formato_solicitud
+      - action: utter_requerir_mas 
+
   - rule: constancia matricula solicitud procedimiento
     steps:
       - intent: constancia_matricula__solicitud_procedimiento
       - action: utter_constancia_matricula__solicitud_procedimiento
       - action: utter_requerir_mas 
-
-  - rule: constancia matricula pago
-    steps:
-      - intent: constancia_matricula__pago
-      - action: utter_constancia_matricula__pago
-      - action: utter_requerir_mas 
   
+  - rule: constancia matricula formato_solicitud
+    steps:
+      - intent: constancia_matricula__formato_solicitud
+      - action: utter_constancia_matricula__formato_solicitud
+      - action: utter_requerir_mas 
+
   - rule: constancia de notas procedimiento
     steps:
       - intent: constancia_de_notas__procedimiento
       - action: utter_constancia_de_notas__procedimiento
-      - action: utter_requerir_mas
+      - action: utter_requerir_mas 
+
+  - rule: constancia de notas formato_solicitud
+    steps:
+      - intent: constancia_de_notas__formato_solicitud
+      - action: utter_constancia_de_notas__formato_solicitud
+      - action: utter_requerir_mas 
+
+  - rule: constancia de estudios formato_solicitud
+    steps:
+      - intent: constancia_de_estudios__formato_solicitud
+      - action: utter_constancia_de_estudios__formato_solicitud
+      - action: utter_requerir_mas 
 
   - rule: constancia de estudios procedimiento
     steps:
@@ -172,3 +327,26 @@ rules:
       - action: utter_constancia_de_estudios__procedimiento
       - action: utter_requerir_mas
       
+  - rule: constancia matricula pago
+    steps:
+      - intent: constancia_matricula__pago
+      - action: utter_constancia_matricula__pago
+      - action: utter_requerir_mas 
+  
+  - rule: constancia matricula pago
+    steps:
+      - intent: horario_atencion_aera
+      - action: utter_horario_atencion_aera
+      - action: utter_requerir_mas 
+  
+  - rule: solicitud correo institucional procedimiento
+    steps:
+      - intent: solicitud_correo_institucional_procedimiento
+      - action: utter_solicitud_correo_institucional_procedimiento
+      - action: utter_requerir_mas 
+
+  - rule: retiro parcial cursos repetidos
+    steps:
+      - intent: retiro_parcial__cursos_repetidos
+      - action: utter_retiro_parcial__cursos_repetidos
+      - action: utter_requerir_mas 

@@ -1,13 +1,13 @@
 version: "2.0"
 
 stories:
-  - story: affirm more queries to FAQs
-    steps:
-      - intent: faq
-      - action: utter_faq
-      - action: utter_requerir_mas
-      - intent: confirmar_requerir_mas_ayuda
-      - action: utter_requerir_consulta
+  #- story: affirm more queries to FAQs
+  #  steps:
+  #    - intent: faq
+  #    - action: utter_faq
+  #    - action: utter_requerir_mas
+  #    - intent: confirmar_requerir_mas_ayuda
+  #    - action: utter_requerir_consulta
 
   - story: contextual formato 1
     steps: 
@@ -81,16 +81,88 @@ stories:
       - action: utter_reincorporacion__costo
       - action: utter_requerir_mas
 
-
+ 
   - story: contextual costo 2
     steps: 
-      - intent: constancia_matricula__solicitud_procedimiento
-      - action: utter_constancia_matricula__solicitud_procedimiento
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
       - action: utter_requerir_mas
       - intent: costo_tramite
-      - action: utter_constancia_matricula__pago
+      - action: utter_reincorporacion__costo
+      - action: utter_requerir_mas
+
+  - story: contextual costo 3
+    steps: 
+      - intent: retiro_parcial__procedimiento
+      - action: utter_retiro_parcial__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_retiro_parcial__costo
+      - action: utter_requerir_mas
+  
+  - story: contextual costo 4
+    steps: 
+      - intent: retiro_total__procedimiento
+      - action: utter_retiro_total__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_retiro_total__costo
+      - action: utter_requerir_mas
+
+  - story: contextual pago fechas 1
+    steps: 
+      - intent: pago_autoseguro_procedimiento
+      - action: utter_pago_autoseguro_procedimiento
+      - action: utter_requerir_mas
+      - intent: pago_fechas
+      - action: utter_pago_autoseguro__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 1
+    steps: 
+      - intent: pago_autoseguro_procedimiento
+      - action: utter_pago_autoseguro_procedimiento
+      - action: utter_requerir_mas
+      - user: hasta cuando puedo pagarlo?
+      - action: utter_pago_autoseguro__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 2
+    steps: 
+      - intent: retiro_parcial__procedimiento
+      - action: utter_retiro_parcial__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_solicitud_fechas
+      - action: utter_retiro_parcial__fechas
       - action: utter_requerir_mas
       
+  - story: contextual fechas 3
+    steps: 
+      - intent: retiro_total__procedimiento
+      - action: utter_retiro_total__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_solicitud_fechas
+      - action: utter_retiro_total__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 4
+    steps: 
+      - intent: reserva_matricula__procedimiento
+      - action: utter_reserva_matricula__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_solicitud_fechas
+      - action: utter_reserva_matricula__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 5
+    steps: 
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_solicitud_fechas
+      - action: utter_reincorporacion__fechas
+      - action: utter_requerir_mas
+
 #- story: agradecimiento
 #  steps:
 #  - intent: agradecimiento

@@ -10,24 +10,24 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class ActionTriggerResponseSelector(Action):
-    """Returns the chitchat utterance dependent on the intent"""
-
-    def name(self) -> Text:
-        return "action_trigger_response_selector"
-
-    def run(
-        self,
-        dispatcher: CollectingDispatcher,
-        tracker: Tracker,
-        domain: DomainDict,
-    ) -> List[EventType]:
-        retrieval_intent = tracker.get_slot("retrieval_intent")
-        print('retrieval_intent:', retrieval_intent)
-        if retrieval_intent:
-            dispatcher.utter_message(response = f"utter_{retrieval_intent}")
-        
-        return [SlotSet("retrieval_intent", None)]
+#class ActionTriggerResponseSelector(Action):
+#    """Returns the chitchat utterance dependent on the intent"""
+#
+#    def name(self) -> Text:
+#        return "action_trigger_response_selector"
+#
+#    def run(
+#        self,
+#        dispatcher: CollectingDispatcher,
+#        tracker: Tracker,
+#        domain: DomainDict,
+#    ) -> List[EventType]:
+#        retrieval_intent = tracker.get_slot("retrieval_intent")
+#        print('retrieval_intent:', retrieval_intent)
+#        if retrieval_intent:
+#            dispatcher.utter_message(response = f"utter_{retrieval_intent}")
+#        
+#        return [SlotSet("retrieval_intent", None)]
 
 
 class ActionTriggerMenuAnterior(Action):
@@ -71,45 +71,45 @@ class ActionDefaultAskAffirmation(Action):
             "agradecimiento": "Gracias",
             "ayuda": "ayuda",
             "matricula_procedimiento": '¿Cuál es proceso de matricula?',
-            "faq/matricula__procedimiento_alumno_regular": 'Cuál es el proceso de matrícula para un alumno regular?',
-            "faq/matricula__procedimiento_alumno_ingresante":"¿Cuál es el proceso de matrícula para un alumno ingresante?",
-            "faq/carnet_universitario__solicitud":"¿Cómo obtener mi carnet universitario?",
-            "faq/matricula__cronograma":"¿Cuando es la matrícula?",
-            "faq/matricula__horarios":"¿Cuál es mi horario de matrícula?",
-            "faq/pago_autoseguro__fechas":"¿Cuando se puede pagar el autoseguro?",
-            "faq/pago_autoseguro_procedimiento":"¿Como realizo el pago de autoseguro?",
-            "faq/pago_autoseguro__fuera_fecha":"¿Que sucede si demore en realizar el pago de autoseguro?",
-            "faq/perdida_turno_matricula":"¿Como puedo matricularme si perdí mi turno de matricula?",
-            "faq/matricula_rezagada__procedimiento":"¿Cuál es el procedimiento para la matricula rezagada?",
-            "faq/cambio_seccion":"¿Cuál es procedimiento para hacer un cambio de sección?",
-            "faq/cursos_horarios":"¿Donde puedo ver los horarios de los cursos de este ciclo?",
-            "faq/retiro_parcial__fechas":"¿En que semana se realiza el retiro parcial?",
-            "faq/retiro_parcial__procedimiento":"¿Cómo realizo un retiro parcial?",
-            "faq/retiro_parcial__unico_curso":"¿El retiro parcial aplica para los estudiantes que llevan solo un curso?",
-            "faq/retiro_parcial__maximo_cursos":"¿Cuantos cursos es el máximo que puedo retirarme?",
-            "faq/retiro_total__fechas":"¿En que fecha se realiza el retiro total?",
-            "faq/retiro_total__requisitos_documentos_justificacion":"¿Es necesario justificar con documentos el motivo de retiro total?",
-            "faq/retiro_total__motivos_procede":"¿Cuáles son los motivos para acceder al retiro total?",
-            "faq/retiro_total__formato_solicitud":"¿Cuál es el modelo para la solicitud de retiro total?",
-            "faq/retiro_total__procedimiento":"¿Cómo hago el retiro total de mis cursos?",
-            "faq/reserva_matricula__procedimiento":"¿Cómo reservo mi matricula?",
-            "faq/reserva_matricula__fechas":"¿Hasta que dias puedo enviar la solicitud de reserva de matricula ?C",
-            "faq/reserva_matricula__formato_solicitud":"¿Cuál es el modelo de solicitud para la reserva de matricula?",
-            "faq/reincorporacion__procedimiento":"¿Cuál es el procedimiento para solicitar reincorporación?",
-            "faq/reincorporacion_rezagada__procedimiento":"Si ya pasaron las fechas de reincoporacion, ¿Puedo enviar mi solicitud de reincoporacion?",
-            "faq/reincorporacion__fechas":"¿Hasta cuando enviar mi solicitud de reincorporacion?",
-            "faq/reincorporacion__costo":"¿Cuánto se paga por el tramite de reincorporación?",
-            "faq/reincorporacion__formato_solicitud":"¿Hay un modelo para la solicitud de reincorporación?",
-            "faq/constancia_matricula__solicitud_procedimiento":"¿Cómo puedo obtener una constancia de matricula?",
-            "faq/constancia_matricula__pago":"¿Cuánto se paga por la Constancia de Matrícula?",
-            "faq/constancia_matricula__formato_solicitud":"¿Hay un modelo para la solicitud de constancia de matricula?",
-            "faq/constancia_de_notas__procedimiento":"¿Como solicitar una constancia de notas?",
-            "faq/constancia_de_notas__formato_solicitud":"¿Hay algun modelo para la solicitud de constancia de notas?",
-            "faq/constancia_de_estudios__formato_solicitud":"¿Hay algún modelo para la solicitud de constancia de estudios?",
-            "faq/constancia_de_estudios__procedimiento":"¿Cómo solicitar una constancia de estudios?",
-            "faq/horario_atencion_aera":"¿Cuál es el horario de AERA?",
-            "faq/solicitud_correo_institucional_procedimiento":"¿Cómo solicito mi correo UNI?",
-            "faq/retiro_parcial__cursos_repetidos": "¿Es posible retirarme de un curso que haya repetido?",
+            "matricula__procedimiento_alumno_regular": 'Cuál es el proceso de matrícula para un alumno regular?',
+            "matricula__procedimiento_alumno_ingresante":"¿Cuál es el proceso de matrícula para un alumno ingresante?",
+            "carnet_universitario__solicitud":"¿Cómo obtener mi carnet universitario?",
+            "matricula__cronograma":"¿Cuando es la matrícula?",
+            "matricula__horarios":"¿Cuál es mi horario de matrícula?",
+            "pago_autoseguro__fechas":"¿Cuando se puede pagar el autoseguro?",
+            "pago_autoseguro_procedimiento":"¿Como realizo el pago de autoseguro?",
+            "pago_autoseguro__fuera_fecha":"¿Que sucede si demore en realizar el pago de autoseguro?",
+            "perdida_turno_matricula":"¿Como puedo matricularme si perdí mi turno de matricula?",
+            "matricula_rezagada__procedimiento":"¿Cuál es el procedimiento para la matricula rezagada?",
+            "cambio_seccion":"¿Cuál es procedimiento para hacer un cambio de sección?",
+            "cursos_horarios":"¿Donde puedo ver los horarios de los cursos de este ciclo?",
+            "retiro_parcial__fechas":"¿En que semana se realiza el retiro parcial?",
+            "retiro_parcial__procedimiento":"¿Cómo realizo un retiro parcial?",
+            "retiro_parcial__unico_curso":"¿El retiro parcial aplica para los estudiantes que llevan solo un curso?",
+            "retiro_parcial__maximo_cursos":"¿Cuantos cursos es el máximo que puedo retirarme?",
+            "retiro_total__fechas":"¿En que fecha se realiza el retiro total?",
+            "retiro_total__requisitos_documentos_justificacion":"¿Es necesario justificar con documentos el motivo de retiro total?",
+            "retiro_total__motivos_procede":"¿Cuáles son los motivos para acceder al retiro total?",
+            "retiro_total__formato_solicitud":"¿Cuál es el modelo para la solicitud de retiro total?",
+            "retiro_total__procedimiento":"¿Cómo hago el retiro total de mis cursos?",
+            "reserva_matricula__procedimiento":"¿Cómo reservo mi matricula?",
+            "reserva_matricula__fechas":"¿Hasta que dias puedo enviar la solicitud de reserva de matricula ?C",
+            "reserva_matricula__formato_solicitud":"¿Cuál es el modelo de solicitud para la reserva de matricula?",
+            "reincorporacion__procedimiento":"¿Cuál es el procedimiento para solicitar reincorporación?",
+            "reincorporacion_rezagada__procedimiento":"Si ya pasaron las fechas de reincoporacion, ¿Puedo enviar mi solicitud de reincoporacion?",
+            "reincorporacion__fechas":"¿Hasta cuando enviar mi solicitud de reincorporacion?",
+            "reincorporacion__costo":"¿Cuánto se paga por el tramite de reincorporación?",
+            "reincorporacion__formato_solicitud":"¿Hay un modelo para la solicitud de reincorporación?",
+            "constancia_matricula__solicitud_procedimiento":"¿Cómo puedo obtener una constancia de matricula?",
+            "constancia_matricula__pago":"¿Cuánto se paga por la Constancia de Matrícula?",
+            "constancia_matricula__formato_solicitud":"¿Hay un modelo para la solicitud de constancia de matricula?",
+            "constancia_de_notas__procedimiento":"¿Como solicitar una constancia de notas?",
+            "constancia_de_notas__formato_solicitud":"¿Hay algun modelo para la solicitud de constancia de notas?",
+            "constancia_de_estudios__formato_solicitud":"¿Hay algún modelo para la solicitud de constancia de estudios?",
+            "constancia_de_estudios__procedimiento":"¿Cómo solicitar una constancia de estudios?",
+            "horario_atencion_aera":"¿Cuál es el horario de AERA?",
+            "solicitud_correo_institucional_procedimiento":"¿Cómo solicito mi correo UNI?",
+            "retiro_parcial__cursos_repetidos": "¿Es posible retirarme de un curso que haya repetido?",
             'formato_solicitud': "¿Cuál es el modelo para la solicitud?"
 
         }
@@ -161,7 +161,7 @@ class ActionDefaultFallback(Action):
 #        sub_topic = tracker.get_slot("sub_topic")
 #        print(sub_topic, 'sub_topic')
 #        if sub_topic in ["retiro_total", "reincorporacion", "reserva_matricula","constancia_de_estudios","constancia_matricula"]:
-#            dispatcher.utter_message(response=f"utter_faq/{sub_topic}__formato_solicitud")
+#            dispatcher.utter_message(response=f"utter_{sub_topic}__formato_solicitud")
 #        else:
 #            dispatcher.utter_message(text="Lo lamento no tengo esa información")#
 #

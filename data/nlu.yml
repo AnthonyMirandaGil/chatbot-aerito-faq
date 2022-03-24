@@ -136,6 +136,8 @@ nlu:
     - ayuda
     - ayudaa
 
+# preguntas que la respuesta depende del contexto
+
 - intent: formato_solicitud
   examples: |
     - ¿Cuál es el modelo para la solicitud?
@@ -148,6 +150,66 @@ nlu:
     - hay algun formato o modelo
     - si hay algun formato para la solicitud que debo enviar
     - cual es el formato para la solicitud
+
+- intent: procedimiento_solicitud_fechas
+  examples: |
+    - ¿Cuando se presenta la solicitud?
+    - ¿En que fechas debo presentar la solicitud?
+    - cuales son las fechas limites para presentar la solicitud
+    - cuando puedo presentar la solicitud?
+    - cuando puedo enviar la solicitud
+    - cuando se habilita para enviar la solicitud
+    - cuando se habilita para realizar el tramite
+    - hasta cuando puedo enviar la solicitud
+    - hasta cuando puedo hacer dicho tramite
+    - cuando ya puedo presentar la solicitud
+    - hasta cuando puedo presentarlo
+
+- intent: costo_tramite
+  examples: |
+    - ¿Cuanto es el costo por el tramite?
+    - ¿Cuánto se paga por el tramite?
+    - el tramite es gratis?
+    - cuanto se tiene que pagar por el tramite?
+    - se debe pagar algo para el tramite?
+    - cuanto se tiene pagar para dicho tramite
+    - el tramite no tiene costo ?
+    - que costo tiene el tramite?
+    - cuanto debo pagar para el tramite?
+    - cuanto cuesta el tramite
+    - es gratis o tiene algun costo este tramite?
+    - tiene algun costo?
+    - es gratis?
+    - debo pagar algo?
+    - si cuanto es el costo
+
+- intent: pago_fechas
+  examples: |
+    - ¿Hasta cuando puedo pagarlo?
+    - hasta que fechas puedo pagarlo
+    - esta semana todavia puedo pagarlo
+    - hasta que semana lo podria pagar
+    - cuando es la fecha limite para pagarlo
+    - debo pagarlo hasta cuando
+    - hasta cuando tengo para pagarlo
+    - en que fechas se realiza el pago
+    - si hasta que dia lo puedo pagar
+    - todavia puedo pagarlo?
+
+#- intent: procedimiento_tramite
+#  examples: |
+#    - ¿Cual es el procedimiento?
+#    - como lo tramito
+#    - como lo solicito
+#    - que pasos debo seguir para solicitarlo
+#    - cuales son lo pasos a seguir
+#    - a quien lo solicito
+#    - que hago para solicitarlo
+#    - como proceso para tramitarlo
+#    - cual el procedimiento del tramite
+#    - cual esl procedimiento para solicitarlo
+
+# pregunstas 
 
 - intent: matricula_procedimiento
   examples: |
@@ -162,7 +224,7 @@ nlu:
     - debo pagar algo para realizar mi matricula
     - cuales son los pagos para realizar la matricula
 
-- intent: faq/matricula__procedimiento_alumno_regular #NC
+- intent: matricula__procedimiento_alumno_regular #NC
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno regular?
     - Soy alumno regular como es el proceso de matricula
@@ -175,7 +237,7 @@ nlu:
     - que pagos debo hacer este ciclo para la matricula soy alumno regular
     - como alumno regular que pagos debo hacer para realizar la matricula
     
-- intent: faq/matricula__procedimiento_alumno_ingresante #NC
+- intent: matricula__procedimiento_alumno_ingresante #NC
   examples: |
     - ¿Cuál es el proceso de matrícula para un alumno ingresante?
     - Soy ingresante como es el proceso de matricula
@@ -192,7 +254,7 @@ nlu:
     - que pagos demo hacer para la matricula, soy ingresante de la carrera de ciencias de la computación
     
 
-- intent: faq/carnet_universitario__solicitud #NC
+- intent: carnet_universitario__solicitud #NC
   examples: |
     - ¿Cómo obtener mi carnet universitario?
     - ¿Cómo puedo obtener mi carnet universitario?
@@ -205,7 +267,7 @@ nlu:
     - a quien le solicito mi carnet universitario
     - deseo obtener mi carnet universitario que debo hacer
 
-- intent: faq/matricula__cronograma #NC
+- intent: matricula__cronograma #NC
   examples: |
     - ¿Cuando es la matrícula?
     - ¿Cuales son los dias de matrícula?
@@ -244,7 +306,7 @@ nlu:
     - Si, quiero saber que dias son la matriculas
     - cual es la fecha de la matricula del siguiente ciclo?
 
-- intent: faq/matricula__horarios #NC
+- intent: matricula__horarios #NC
   examples: |
     - ¿Cuál es mi horario de matrícula?
     - Buenos días, deseo que saber a que hora comienza la matrícula
@@ -267,7 +329,7 @@ nlu:
     - como veo mi horario de matricula
     - donde encuentro mi horario de matricula
 
-- intent: faq/pago_autoseguro__fechas 
+- intent: pago_autoseguro__fechas #f1
   examples: |
     - ¿Cuando se puede pagar el autoseguro?
     - hoy puedo pagar el autoseguro?
@@ -287,7 +349,7 @@ nlu:
     - que dias se paga el autoseguro
     - dime cuando pagar el autoseguro
 
-- intent: faq/pago_autoseguro_procedimiento
+- intent: pago_autoseguro_procedimiento
   examples: |
     - ¿Como realizo el pago de autoseguro?
     - Buenas, cual es el procedimiento para pagar el autoseguro
@@ -326,7 +388,7 @@ nlu:
     - si quiera saber como hacer el pago de autoseguro
     - que pasa si no pago el autoseguro a tiempo
 
-- intent: faq/pago_autoseguro__fuera_fecha
+- intent: pago_autoseguro__fuera_fecha
   examples: |
     - ¿Que sucede si demore en realizar el pago de autoseguro?
     - Buenos días una consulta, hace 02 días pague el autoseguro, soy rezagado?
@@ -364,7 +426,7 @@ nlu:
     - Soy rezagado si no pago el autoseguro con dias de anticipacion a la matricula
     - entiendo entonces si pago hoy paso a rezagado
 
-- intent: faq/perdida_turno_matricula #NC
+- intent: perdida_turno_matricula #NC
   examples: |
     - ¿Como puedo matricularme si perdí mi turno de matricula?
     - Hola, he tenido problemas de conexion y no llegue a matricularme que debe hacer
@@ -394,7 +456,7 @@ nlu:
     - acabo de perder mi turno de matricula paso entonces a matricula rezagada?
     - si perdi mi turno de matricula paso a rezagado ?
     
-- intent: faq/matricula_rezagada__procedimiento #NC
+- intent: matricula_rezagada__procedimiento #NC
   examples: |
     - ¿Cuál es el procedimiento para la matricula rezagada?
     - Hola mi matricula paso a rezagada cual es el procedimiento
@@ -426,7 +488,7 @@ nlu:
     - para solicitar la matricula rezagada que debo hacer
     - disculpa cual es procedimiento para poder matricularme por rezagado
 
-- intent: faq/cambio_seccion #NC
+- intent: cambio_seccion #NC
   examples: |
     - ¿Cuál es procedimiento para hacer un cambio de sección?
     - Buenas tardes amigo puedes decirme como hacer un cambio de seccion
@@ -461,7 +523,7 @@ nlu:
     - dime cual el procedimiento para hacer un cambio de seccion de un curso
     - puedes ayudarme quiero hacer un cambio de seccion
 
-- intent: faq/cursos_horarios #NC
+- intent: cursos_horarios #NC
   examples: |
     - ¿Donde puedo ver los horarios de los cursos de este ciclo?
     - Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos
@@ -579,7 +641,7 @@ nlu:
     - HOla, deseo realizar el retiro parcial de varios curso como procedo
     - hola, como procedo para hacer el retiro parcial ?
 
-- intent: faq/retiro_parcial__unico_curso
+- intent: retiro_parcial__unico_curso
   examples: |
     - Estoy matriculado en solo un curso, puedo acceder al retiro parcial?
     - si estoy matriculado en un solo curso puedo hacer el retiro parcial?
@@ -597,7 +659,7 @@ nlu:
     - estoy llevando solo una asignatura puedo retirarme de esa
     - si estoy matricula en una solo asignatura es posible retirarme ese curso 
 
-- intent: faq/retiro_parcial__maximo_cursos
+- intent: retiro_parcial__maximo_cursos
   examples: |
     - ¿Cuantos cursos es el máximo que puedo retirarme?
     - ¿Cuál es numero máximo de cursos que retirarme?
@@ -638,7 +700,7 @@ nlu:
     - cuando pudeo presentar mis documentos para el retiro total
     - En que semana se habilita el retiro total?
 
-- intent: faq/retiro_total__requisitos_documentos_justificacion # crear otro
+- intent: retiro_total__requisitos_documentos_justificacion # crear otro
   examples: |
     - ¿Es necesario justificar con documentos el motivo de retiro total?
     - debo justificar mis motivos para solicitar mi retiro total?
@@ -652,7 +714,7 @@ nlu:
     - solo debo enviar la solicitud de retiro total o tambien algun documento que justifique mi retiro?
     - necesito justificar con documentos mi retiro total?
 
-- intent: faq/retiro_total__motivos_procede # crear otro
+- intent: retiro_total__motivos_procede # crear otro
   examples: |
     - ¿Cuáles son los motivos para acceder al retiro total?
     - ¿Qué motivos justifican el retiro total de cursos?
@@ -671,7 +733,7 @@ nlu:
     - cual motivo puedo justificar para hacer un retiro total?
     - ¿Cuáles son los motivos que justifican el retiro total?
 
-- intent: faq/retiro_total__formato_solicitud
+- intent: retiro_total__formato_solicitud
   examples: |
     - ¿Cuál es el modelo para la solicitud de retiro total?
     - donde encuentro un modelo para la solicitud de retiro total?
@@ -777,7 +839,7 @@ nlu:
     - hasta que fecha puedo subir la solicitud de reserva de matricula ?
     - cual es la fecha para enviar la solicitud de reserva de matricula
 
-- intent: faq/reserva_matricula__formato_solicitud
+- intent: reserva_matricula__formato_solicitud
   examples: |
     - hay algun formato para la solicitud de reserva de matricula ?
     - ¿Cuál es el modelo de solicitud para la reserva de matricula?
@@ -827,7 +889,7 @@ nlu:
     - Soy alumno de la facultad de ciencias que desea matricularse. Deje de matricularme algunos semestres por la pandemia y deseo retomar los estudios. Me dijeron que debo realizar un pago por el trámite de reincorporación. Me gustaría saber ¿En qué entidad bancaria se realiza este pago? y ¿cuánto es el monto?.
     - Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
 
-- intent: faq/reincorporacion_rezagada__procedimiento
+- intent: reincorporacion_rezagada__procedimiento
   examples: |
     - Si ya pasaron las fechas de reincoporacion, ¿Puedo enviar mi solicitud de reincoporacion?
     - Si ya pasó la fecha de la reincorporación, pasaría a rezagado
@@ -856,20 +918,7 @@ nlu:
     - cual es la fecha limite para enviar mi solicitud de reincorporacion
     - ¿Hasta cuando enviar mi solicitud de reincorporacion?
 
-- intent: costo_tramite
-  examples: |
-    - ¿Cuánto se paga por el tramite?
-    - El trámite es gratuito?
-    - cuanto debo pagar por el tramite
-    - el tramite tiene algun costo
-    - cuanto cuesta el tramite
-    - cuando debo pagar para el tramite
-    - debo pagar algo?
-    - el tramite es gratis?
-    - cuento es el costo por el tramite
-    - se debe pagar algo por el tramite?
-    - si cuanto es el costo
-    - si cuando se paga por el tramite
+
 
 - intent: reincorporacion__costo #
   examples: |
@@ -888,7 +937,7 @@ nlu:
     - el tramite de reincoporacion se debe pagar o es gratuito?
     - se debe pagar algo para la reincoporacion?
 
-- intent: faq/reincorporacion__formato_solicitud
+- intent: reincorporacion__formato_solicitud
   examples: |
     - ¿Hay un modelo para la solicitud de reincorporación?
     - ¿hay un formato de solicitud para la reincorporacion?
@@ -945,7 +994,7 @@ nlu:
     - cuanto cuesta la constancia de matricula?
     - el tramite de constancia de matricula es gratuito o se paga algo?
 
-- intent: faq/constancia_matricula__formato_solicitud
+- intent: constancia_matricula__formato_solicitud
   examples: |
     - ¿Hay un modelo para la solicitud de constancia de matricula?
     - Exacto, es lo que necesito. Hay algún formato para la solicitud de constancia matricula?
@@ -977,7 +1026,7 @@ nlu:
     - cual es el proceso para solicitar una constancia de notas?
     - que tramites debo hacer para solicitar una constancia de notas?
 
-- intent: faq/constancia_de_notas__formato_solicitud
+- intent: constancia_de_notas__formato_solicitud
   examples: |
     - ¿Hay algun modelo para la solicitud de constancia de notas?
     - No. ¿dónde puedo ver un modelo de la solicitud de constancia de notas?
@@ -991,7 +1040,7 @@ nlu:
     - hay algun modelo para la solicitud de constacia de notas
     - me puedo facilitar un modelo para la solicitud de constancia de notas si la hubiera
 
-- intent: faq/constancia_de_estudios__formato_solicitud
+- intent: constancia_de_estudios__formato_solicitud
   examples: |
     - ¿Hay algún modelo para la solicitud de constancia de estudios?
     - ¿Hay algún formato de solicitud de constancia de estudios?
@@ -1019,7 +1068,7 @@ nlu:
     - Buenas noches, quiero saber como tramitar una constancia de estudios
     - hola, como puedo solicitar una constancia de estudios
 
-- intent: faq/horario_atencion_aera
+- intent: horario_atencion_aera
   examples: |
     - ¿Cuál es el horario de AERA?
     - Puede decirme cual es el horario de atencion ?
@@ -1042,7 +1091,7 @@ nlu:
     - una consulta mas cual el horario de atencion presencial de Estadística?
     - hasta que hora atienden en la oficina de estadistica?
 
-- intent: faq/solicitud_correo_institucional_procedimiento
+- intent: solicitud_correo_institucional_procedimiento
   examples: |
     - ¿Cómo solicito mi correo UNI?
     - Una pregunta como obtengo mi correo institucional
@@ -1062,7 +1111,7 @@ nlu:
     - quero pedir mi correo uni
     - quisiero tramitar mi correo UNI
     
-- intent: faq/retiro_parcial__cursos_repetidos
+- intent: retiro_parcial__cursos_repetidos
   examples: |
     - ¿Es posible retirarme de un curso que haya repetido?
     - Puedo retirarme de cursos con repitencias?
