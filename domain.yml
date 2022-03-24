@@ -20,6 +20,20 @@ intents:
 - utter_requerir_consulta
 - formato_solicitud
 - contactar_aera
+- retiro_parcial__fechas
+- retiro_parcial__procedimiento
+- retiro_total__fechas
+- retiro_total__procedimiento
+- reserva_matricula__procedimiento
+- reserva_matricula__fechas
+- reincorporacion__procedimiento
+- reincorporacion__fechas
+- reincorporacion__costo
+- constancia_matricula__solicitud_procedimiento
+- constancia_matricula__pago
+- constancia_de_notas__procedimiento
+- constancia_de_estudios__procedimiento
+- costo_tramite
 responses:
   # flujos de conversacion
   
@@ -98,13 +112,13 @@ responses:
     - text: 'Animo! los **retiros** también son un buena estrategia, puedo facilitarte la siguiente información. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el procedimiento para hacer un retiro parcial de cursos?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial__procedimiento"}}'
+        payload: 'retiro_parcial__procedimiento'
       - title: "¿En qué fechas se realiza el retiro parcial?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_parcial__fechas"}}'
+        payload: 'retiro_parcial__fechas'
       - title: "¿Cuál es el procedimiento para hacer un retiro total?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total__procedimiento"}}'
+        payload: '/retiro_total__procedimiento'
       - title: "¿En qué fechas se realiza el retiro total?"
-        payload:  '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total__fechas"}}'
+        payload:  '/retiro_total__fechas'
       - title: "¿Por qué motivos procede el retiro total?"
         payload:  '/trigger_response_selector{{"retrieval_intent": "faq/retiro_total__motivos_procede"}}'
       - title: "Regresar a Temas"
@@ -126,17 +140,17 @@ responses:
     - text: 'Los **trámites y procesos académicos** pueden parecer complicados, pero no te preocupes estoy para ayudarte. Elija la opción que corresponda con su consulta:'
       buttons:
       - title: "¿Cuál es el procedimiento para solicitar la reserva de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula__procedimiento"}}'
+        payload: '/reserva_matricula__procedimiento'
       - title: "¿Cuáles son las fechas para la reserva de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reserva_matricula__fechas"}}'
+        payload: '/reserva_matricula__fechas'
       - title: "¿Cuál es el procedimiento para solicitar la reincorporación?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion__procedimiento"}}'
+        payload: '/reincorporacion__procedimiento'
       - title: "¿Cuáles son las fechas para la reincorporación?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/reincorporacion__fechas"}}'
+        payload: '/reincorporacion__fechas'
       - title: "¿Cómo solicito una constancia de matrícula?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_matricula__solicitud_procedimiento"}}'
+        payload: '/constancia_matricula__solicitud_procedimiento'
       - title: "¿Cómo solicito una constancia de notas?"
-        payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_de_notas__procedimiento"}}'
+        payload: '/constancia_de_notas__procedimiento'
       - title: "¿Cómo solicito una constancia de estudios?"
         payload: '/trigger_response_selector{{"retrieval_intent": "faq/constancia_de_estudios__formato_solicitud"}}'
       - title: "Regresar a Temas"
@@ -223,24 +237,29 @@ responses:
 
  
 # Retiros
-  utter_faq/retiro_parcial__fechas:
+  utter_retiro_parcial__fechas:
     - text: |-
         Los retiros parciales se realizan en la 5ta semana de clases, puede ver las fechas dentro del calendario académico el cual se encuentra publicado en el siguiente link: 
         https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view
 
-  utter_faq/retiro_parcial__procedimiento:
+  utter_retiro_parcial__procedimiento:
     - text: |-
         El procedimiento de retiro parcial se realiza por el mismo intranet alumno, solo debe encontrar la opción de retiro parcial en la sección de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro. También puede consultar el link: 
         https://drive.google.com/file/d/1HHNaREQY7WWJ2Y_rk1rtTwiDOuptZHh9/view
   
- 
+  utter_faq/retiro_parcial__formato_solicitud:
+    - text: No es necesario enviar una solicitud para el retiro parcial, solo debe entrar a la pagina de intranet alumno, encontrar la opción de retiro parcial en la sección de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro.
+  
+  utter_retiro_parcial__formato_solicitud:
+    - text: No es necesario enviar una solicitud para el retiro parcial, solo de entrar a la pagina de intranet alumno, encontrar la opción de retiro parcial en la sección de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro.
+
   utter_faq/retiro_parcial__unico_curso:
     - text: Si esta inscrito en un solo curso y deseas retirarte, el procedimiento se llama retiro total, mayor información lo encontrara en el módulo de procedimientos de la página web.
  
   utter_faq/retiro_parcial__maximo_cursos:
     - text: Se puede solicitar el retiro parcial de hasta tres (03) asignaturas. Pero en caso este matriculado en tres o menos cursos no puede solicitar retiro de todos sus cursos, ya que ello se denomina retiro total.
   
-  utter_faq/retiro_total__fechas:
+  utter_retiro_total__fechas:
     - text: El retiro total se realiza durante la 14va semana de clases, encontrará las fechas exactas dentro del calendario académico publicado en la pagina de la facultad.
 
   utter_faq/retiro_total__requisitos_documentos_justificacion:
@@ -261,23 +280,35 @@ responses:
         Puede encontrar el procedimiento y el formato de solicitud para el retiro total en el siguiente link: 
         https://drive.google.com/file/d/1MHa9Mrsu8qsStzqFKgVAVYUoJMHjMKOt/view
   
-  utter_faq/retiro_total__procedimiento:
-    - text: Primero informarle que el procedimiento de retiro total es autorizado solo por motivos de fuerza mayor, los cuales deben ser sustentados. Para realizar el retiro deberá presentar la solicitud del retiro total dirigida al decano de la facultad y sus documentos para justificar sus motivos a través del sistema intranet alumno.
+  utter_retiro_total__formato_solicitud:
+    - text: |-
+        Puede encontrar el procedimiento y el formato de solicitud para el retiro total en el siguiente link: 
+        https://drive.google.com/file/d/1MHa9Mrsu8qsStzqFKgVAVYUoJMHjMKOt/view
+  
+  utter_retiro_total__procedimiento:
+    - text: |-
+        Primero informale que el procedimiento de retiro total es autorizado solo por motivos de fuerza mayor, los cuales deben ser sustentados. Para realizar el retiro deberá presentar la solicitud del retiro total dirigida al decano de la facultad y sus documentos para justificar sus motivos a través del sistema intranet alumno. Mas detalles sobre el procedimiento puedes encontrarlo en el siguiente link: 
+        https://drive.google.com/file/d/1MHa9Mrsu8qsStzqFKgVAVYUoJMHjMKOt/view
  
  # Procedimientos
-  utter_faq/reserva_matricula__procedimiento:
+  utter_reserva_matricula__procedimiento:
     - text: |-
         El estudiante que desee realizar su reserva de matrícula deberá ingresar a la plataforma de intranet-alumno para subir su solicitud y el documento que acredite la razón invocada.  Puedes acceder al formato de solicitud y a más información sobre el procedimiento ingresando al siguiente enlace:  
         https://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view
-  utter_faq/reserva_matricula__fechas:
+  utter_reserva_matricula__fechas:
     - text: 'La solicitud de reserva de matrícula debe ser enviada hasta una semana antes de inicio de la próxima matrícula, ponemos a su disposición el cronograma de actividades que se encuentra aquí: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'
   
   utter_faq/reserva_matricula__formato_solicitud:
     - text: |-
         Puedes descargar el formato de solicitud para la reserva de matrícula ingresando al siguiente enlace: 
         https://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view
+
+  utter_reserva_matricula__formato_solicitud:
+    - text: |-
+        Puedes descargar el formato de solicitud para la reserva de matrícula ingresando al siguiente enlace: 
+        https://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view
   
-  utter_faq/reincorporacion__procedimiento:
+  utter_reincorporacion__procedimiento:
     - text: |-
         Para acceder a la información sobre el procedimiento de reincorporación, ingrese aquí: 
         https://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view
@@ -285,28 +316,37 @@ responses:
   utter_faq/reincorporacion_rezagada__procedimiento:
     - text: La solicitud debe realizarse con una anticipación no menor de diez (10) días antes del inicio de la matrícula, pasada esa fecha no se aceptará ninguna solicitud, ingrese al siguiente enlace para acceder al calendario de actividades. https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view
   
-  utter_faq/reincorporacion__fechas:
+  utter_reincorporacion__fechas:
     - text: 'El estudiante deberá tramitar su solicitud de reincorporación al Decano de la Facultad con una anticipación no menor de diez (10) días antes del inicio de la matrícula, revise el calendario académico para conocer las fechas en el siguiente enlace: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'
 
-  utter_faq/reincorporacion__costo:
+  utter_reincorporacion__costo:
     - text: |-
         El costo de la reincorporación dependerá del número de periodos sin matrícula, AERA revisará la ficha académica del solicitante y emitirá el monto a pagar. ingrese al siguiente enlace para acceder a más información con respecto al procedimiento. 
         https://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view
   
   utter_faq/reincorporacion__formato_solicitud:
     - text: 'Puede descargar el formato de solicitud de reincorporación ingresando al siguiente enlace: https://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view'
+  
+  utter_reincorporacion__formato_solicitud:
+    - text: 'Puede descargar el formato de solicitud de reincorporación ingresando al siguiente enlace: https://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view'
 
 # Tramites
-  utter_faq/constancia_matricula__solicitud_procedimiento:
+  utter_constancia_matricula__solicitud_procedimiento:
     - text: 'Puede encontrar el procedimiento y el formato de solicitud de Constancia de Matrícula aquí https://drive.google.com/file/d/1fp2Ahw3XKqonbipJEU0Ixl8Pegn6t2yQ/view '
   
+  utter_constancia_matricula__pago:
+    - text: La constancia de matricula tiene un costo de 32 soles.
+
   utter_faq/constancia_matricula__pago:
     - text: La constancia de matricula tiene un costo de 32 soles.
  
   utter_faq/constancia_matricula__formato_solicitud:
     - text: 'Puede descargar el formato de solicitud de Constancia de Matrícula ingresando al siguiente link: https://drive.google.com/file/d/1fp2Ahw3XKqonbipJEU0Ixl8Pegn6t2yQ/view'
 
-  utter_faq/constancia_de_notas__procedimiento:
+  utter_constancia_matricula__formato_solicitud:
+    - text: 'Puede descargar el formato de solicitud de Constancia de Matrícula ingresando al siguiente link: https://drive.google.com/file/d/1fp2Ahw3XKqonbipJEU0Ixl8Pegn6t2yQ/view'
+
+  utter_constancia_de_notas__procedimiento:
     - text: 'Puede encontrar el procedimiento y el formato de solicitud de Constancia de Notas aquí: https://drive.google.com/file/d/16OnYfe3wcpMpuYlBkg4lr3CGSoLZ1qqw/view'
 
   utter_faq/constancia_de_notas__formato_solicitud:
@@ -314,10 +354,19 @@ responses:
         El formato de solicitud de constancia de notas puede descargarlo desde el siguiente link: 
         https://drive.google.com/file/d/16OnYfe3wcpMpuYlBkg4lr3CGSoLZ1qqw/view
 
+  utter_constancia_de_notas__formato_solicitud:
+    - text: |-
+        El formato de solicitud de constancia de notas puede descargarlo desde el siguiente link: 
+        https://drive.google.com/file/d/16OnYfe3wcpMpuYlBkg4lr3CGSoLZ1qqw/view
+
   utter_faq/constancia_de_estudios__formato_solicitud:
     - text: 'Los formatos para Constancia de Matrícula y Constancia de Notas se encuentran en la página web de la Facultas, en la sección de "Otros Trámites" https://fc.uni.edu.pe/documentos/'
+  
+  utter_constancia_de_estudios__formato_solicitud:
+    - text: 'Los formatos para Constancia de Matrícula y Constancia de Notas se encuentran en la página web de la Facultas, en la sección de "Otros Trámites" https://fc.uni.edu.pe/documentos/'
 
-  utter_faq/constancia_de_estudios__procedimiento:
+
+  utter_constancia_de_estudios__procedimiento:
     - text: 'Hay dos tipos de constancias que AERA genera en español e ingles según el requerimiento: Constancia de Matrícula y Constancia de Notas El procedimiento para su obtención se encuentra en la página web de la Facultad en la sección de " Otros Trámites" https://fc.uni.edu.pe/documentos/ '
   
   # generales
@@ -353,12 +402,12 @@ slots:
     influence_conversation: false
   topic:
     type: text
-  sub_topic:
-    type: text
+  #sub_topic:
+  #  type: text
 entities:
 - retrieval_intent
 - topic
-- sub_topic
+#- sub_topic
 actions:
 - action_trigger_response_selector
 - action_trigger_menu_anterior

@@ -1,69 +1,210 @@
 {
-  "matricula_procedimiento": {
-    "precision": 0.5714285714285714,
-    "recall": 0.4,
-    "f1-score": 0.47058823529411764,
-    "support": 10,
-    "confused_with": {
-      "faq": 6
-    }
-  },
-  "denegar_mas_ayuda": {
-    "precision": 0.9583333333333334,
-    "recall": 1.0,
-    "f1-score": 0.9787234042553191,
-    "support": 23,
-    "confused_with": {}
-  },
-  "despedida": {
-    "precision": 0.8888888888888888,
-    "recall": 0.7272727272727273,
-    "f1-score": 0.7999999999999999,
-    "support": 11,
-    "confused_with": {
-      "saludo": 3
-    }
-  },
   "faq": {
-    "precision": 0.9898477157360406,
-    "recall": 0.9948979591836735,
-    "f1-score": 0.9923664122137404,
-    "support": 784,
+    "precision": 0.8618042226487524,
+    "recall": 0.9334719334719335,
+    "f1-score": 0.8962075848303392,
+    "support": 481,
     "confused_with": {
-      "matricula_procedimiento": 3,
-      "confirmar_requerir_mas_ayuda": 1
+      "retiro_parcial__procedimiento": 7,
+      "reserva_matricula__procedimiento": 6
     }
   },
   "confirmar_requerir_mas_ayuda": {
-    "precision": 0.9090909090909091,
-    "recall": 0.9090909090909091,
-    "f1-score": 0.9090909090909091,
+    "precision": 0.8461538461538461,
+    "recall": 1.0,
+    "f1-score": 0.9166666666666666,
     "support": 11,
-    "confused_with": {
-      "faq": 1
-    }
+    "confused_with": {}
+  },
+  "denegar_mas_ayuda": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
   },
   "saludo": {
-    "precision": 0.8421052631578947,
+    "precision": 0.8888888888888888,
     "recall": 0.8421052631578947,
-    "f1-score": 0.8421052631578947,
+    "f1-score": 0.8648648648648649,
     "support": 19,
     "confused_with": {
-      "faq": 1,
-      "despedida": 1
+      "faq": 3
     }
   },
-  "accuracy": 0.9801864801864801,
+  "constancia_matricula__solicitud_procedimiento": {
+    "precision": 0.5909090909090909,
+    "recall": 0.6190476190476191,
+    "f1-score": 0.6046511627906977,
+    "support": 21,
+    "confused_with": {
+      "reserva_matricula__procedimiento": 4,
+      "faq": 2
+    }
+  },
+  "constancia_de_notas__procedimiento": {
+    "precision": 0.5,
+    "recall": 0.42857142857142855,
+    "f1-score": 0.4615384615384615,
+    "support": 14,
+    "confused_with": {
+      "constancia_matricula__solicitud_procedimiento": 4,
+      "faq": 2
+    }
+  },
+  "constancia_de_estudios__procedimiento": {
+    "precision": 0.5,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.25,
+    "support": 12,
+    "confused_with": {
+      "constancia_matricula__solicitud_procedimiento": 5,
+      "constancia_de_notas__procedimiento": 4
+    }
+  },
+  "reserva_matricula__procedimiento": {
+    "precision": 0.5,
+    "recall": 0.6585365853658537,
+    "f1-score": 0.5684210526315789,
+    "support": 41,
+    "confused_with": {
+      "faq": 7,
+      "reincorporacion__procedimiento": 4
+    }
+  },
+  "retiro_total__fechas": {
+    "precision": 1.0,
+    "recall": 0.10526315789473684,
+    "f1-score": 0.1904761904761905,
+    "support": 19,
+    "confused_with": {
+      "retiro_parcial__fechas": 8,
+      "faq": 5
+    }
+  },
+  "reincorporacion__procedimiento": {
+    "precision": 0.48,
+    "recall": 0.375,
+    "f1-score": 0.42105263157894735,
+    "support": 32,
+    "confused_with": {
+      "reserva_matricula__procedimiento": 9,
+      "faq": 7
+    }
+  },
+  "retiro_total__procedimiento": {
+    "precision": 0.16666666666666666,
+    "recall": 0.06666666666666667,
+    "f1-score": 0.09523809523809522,
+    "support": 30,
+    "confused_with": {
+      "faq": 13,
+      "retiro_parcial__procedimiento": 13,
+      "reincorporacion__procedimiento": 2
+    }
+  },
+  "matricula_procedimiento": {
+    "precision": 0.5,
+    "recall": 0.1,
+    "f1-score": 0.16666666666666669,
+    "support": 10,
+    "confused_with": {
+      "faq": 6,
+      "formato_solicitud": 1
+    }
+  },
+  "retiro_parcial__fechas": {
+    "precision": 0.3157894736842105,
+    "recall": 0.17647058823529413,
+    "f1-score": 0.22641509433962262,
+    "support": 34,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 17,
+      "faq": 5
+    }
+  },
+  "reincorporacion__fechas": {
+    "precision": 1.0,
+    "recall": 0.18181818181818182,
+    "f1-score": 0.3076923076923077,
+    "support": 11,
+    "confused_with": {
+      "reserva_matricula__procedimiento": 3,
+      "reincorporacion__procedimiento": 2
+    }
+  },
+  "constancia_matricula__pago": {
+    "precision": 0.3888888888888889,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.45161290322580644,
+    "support": 13,
+    "confused_with": {
+      "reserva_matricula__fechas": 2,
+      "reincorporacion__costo": 2
+    }
+  },
+  "retiro_parcial__procedimiento": {
+    "precision": 0.475,
+    "recall": 0.8085106382978723,
+    "f1-score": 0.5984251968503936,
+    "support": 47,
+    "confused_with": {
+      "faq": 6,
+      "retiro_parcial__fechas": 1
+    }
+  },
+  "reincorporacion__costo": {
+    "precision": 0.7,
+    "recall": 0.5,
+    "f1-score": 0.5833333333333334,
+    "support": 14,
+    "confused_with": {
+      "constancia_matricula__pago": 5,
+      "faq": 2
+    }
+  },
+  "despedida": {
+    "precision": 1.0,
+    "recall": 0.7272727272727273,
+    "f1-score": 0.8421052631578948,
+    "support": 11,
+    "confused_with": {
+      "saludo": 2,
+      "confirmar_requerir_mas_ayuda": 1
+    }
+  },
+  "formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 10,
+    "confused_with": {
+      "faq": 8,
+      "confirmar_requerir_mas_ayuda": 1,
+      "reserva_matricula__procedimiento": 1
+    }
+  },
+  "reserva_matricula__fechas": {
+    "precision": 0.47619047619047616,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.5555555555555556,
+    "support": 15,
+    "confused_with": {
+      "constancia_matricula__pago": 3,
+      "faq": 2
+    }
+  },
+  "accuracy": 0.7396313364055299,
   "macro avg": {
-    "precision": 0.8599491136059396,
-    "recall": 0.8122278097842007,
-    "f1-score": 0.8321457040019968,
-    "support": 858
+    "precision": 0.6095145777015409,
+    "recall": 0.49472648307975386,
+    "f1-score": 0.5000461515718712,
+    "support": 868
   },
   "weighted avg": {
-    "precision": 0.9785248709741096,
-    "recall": 0.9801864801864801,
-    "f1-score": 0.9790580277696806,
-    "support": 858
+    "precision": 0.7270204585292601,
+    "recall": 0.7396313364055299,
+    "f1-score": 0.7125754261997508,
+    "support": 868
   }
 }

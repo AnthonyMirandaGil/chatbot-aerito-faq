@@ -7,7 +7,7 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-  epochs: 60
+  epochs: 80
   entity_recognition: False
   number_of_transformer_layers: 0
   embedding_dimension: 10
@@ -20,7 +20,7 @@ pipeline:
   tensorboard_log_directory: ./tensorboard/DIETClassifier_ligth
   tensorboard_log_level: epoch
 - name: ResponseSelector
-  epochs: 60
+  epochs: 80
   retrieval_intent: faq
   hidden_layers_sizes:
     text: [256, 128]
@@ -39,8 +39,9 @@ pipeline:
 #- name: fallback.FallbackResponseSelector
 #  threshold: 0.7
 #  ambiguity_threshold: 0.2
-policies:
+policies: 
 - name: MemoizationPolicy
+  max_history: 6
 - name: TEDPolicy
   max_history: 8
   epochs: 200

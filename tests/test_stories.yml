@@ -1,0 +1,400 @@
+version: "2.0"
+stories:
+- story: retiro total fechas y formatos 
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      cuando puedo realizar el retiro total
+    intent: retiro_total__fechas
+  - action: utter_retiro_total__fechas
+  - action: utter_requerir_mas
+  - user: |
+      donde encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_retiro_total__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No eso es todo gracias
+    intent: denegar_mas_ayuda
+  - action: utter_despedida
+
+- story: retiro total fechas y formatos 2
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      cuando puedo realizar el retiro total
+    intent: retiro_total__fechas
+  - action: utter_retiro_total__fechas
+  - action: utter_requerir_mas
+  - user: |
+      donde encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_retiro_total__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      si, tengo otra duda
+    intent: confirmar_requerir_mas_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      puedes decirme el procedimiento para solicitarlo 
+    intent: retiro_total__procedimiento
+  - action: utter_retiro_total__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      no
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+- story: retiro parcial fechas y formatos
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      cuando se habilita el retiro  parcial
+    intent: retiro_parcial__fechas
+  - action: utter_retiro_parcial__fechas
+  - action: utter_requerir_mas
+  - user: |
+      donde encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_retiro_parcial__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      si tengo otra consulta de hasta cuantos cursos podria retirarme
+    intent: faq
+  - action: utter_faq
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+- story: reserva matricula procedimiento y formatos
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      cual es procedimiento para la reserva de matricula
+    intent: reserva_matricula__procedimiento
+  - action: utter_reserva_matricula__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      donde encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_reserva_matricula__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+- story: reincorporacion fechas y formatos
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      en que fechas puedo solicitar la reincorporacion
+    intent: reincorporacion__fechas
+  - action: utter_reincorporacion__fechas
+  - action: utter_requerir_mas
+  - user: |
+      donde puedo encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_reincorporacion__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+
+- story: constancia matricula solicitud_procedimiento y formatos
+  steps: 
+  - user: | 
+      Hola que tal
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      como puedo solicitar la una constancia de matricula
+    intent: constancia_matricula__solicitud_procedimiento
+  - action: utter_constancia_matricula__solicitud_procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      hay algun modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_constancia_matricula__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+
+- story: constancia de notas procedimiento y formatos
+  steps: 
+  - user: | 
+      Hola Aerito
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+        deseo solicitar una constancia de notas en ingles como puedo solicitarla
+    intent: constancia_de_notas__procedimiento
+  - action: utter_constancia_de_notas__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      donde puedo conseguir un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_constancia_de_notas__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+- story: constancia de notas procedimiento y formatos
+  steps: 
+  - user: | 
+      Hola Aerito
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+        deseo solicitar una constancia de notas en ingles como puedo solicitarla
+    intent: constancia_de_notas__procedimiento
+  - action: utter_constancia_de_notas__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      donde puedo conseguir un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_constancia_de_notas__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+
+- story: constancia de estudios procedimiento y formatos
+  steps: 
+  - user: | 
+      Hola Aerito
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+        como puedo solicitar una constancia de estudios
+    intent: constancia_de_estudios__procedimiento
+  - action: utter_constancia_de_estudios__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      si, existe algun modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_constancia_de_estudios__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      No nada mas gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+- story: reincorporacion procedimiento y costos
+  steps: 
+  - user: | 
+      Hola Aerito
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+        porfa dime como puedo tramitar mi reincorporacion el siguiente ciclo
+    intent: reincorporacion__fechas
+  - action: utter_reincorporacion__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      si, el tramite tiene algun costo?
+    intent: costo_tramite
+  - action: utter_reincorporacion__costo
+  - action: utter_requerir_mas
+  - user: |
+      no es todo gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+- story: reincorporacion procedimiento y costos
+  steps: 
+  - user: | 
+      Hola Aerito
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+        porfa dime como puedo tramitar mi reincorporacion el siguiente ciclo
+    intent: reincorporacion__procedimiento
+  - action: utter_reincorporacion__procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      si
+    intent: confirmar_requerir_mas_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      el tramite seria gratis?
+    intent: costo_tramite
+  - action: utter_reincorporacion__costo
+  - action: utter_requerir_mas
+  - user: |
+      no es todo gracias
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+
+  - story: constancia matricula solicitud procedimiento y costos
+  steps: 
+  - user: | 
+      Hola Aerito
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+        como puedo emitir una constancia de matricula
+    intent: constancia_matricula__solicitud_procedimiento
+  - action: utter_constancia_matricula__solicitud_procedimiento
+  - action: utter_requerir_mas
+  - user: |
+      si, el tramite es gratis o tiene costo?
+    intent: costo_tramite
+  - action: utter_constancia_matricula__pago
+  - action: utter_requerir_mas
+  - user: |
+      no es todo
+    intent: denegar_mas_ayuda 
+  - action: utter_despedida
+
+
+- story: reincorporacion fechas , costo, formatos
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      en que fechas puedo solicitar la reincorporacion
+    intent: reincorporacion__fechas
+  - action: utter_reincorporacion__fechas
+  - action: utter_requerir_mas
+  - user: |
+      si, donde puedo encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_reincorporacion__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      si otra consulta
+    intent: confirmar_requerir_mas_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      donde obtengo un formato para la solicitud
+    intent: formato_solicitud
+  - action: utter_reincorporacion__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      no eso es todo
+    intent: denegar_mas_ayuda
+  - action: utter_despedida
+  
+
+  - story: retiro parcial fechas y formatos
+  steps: 
+  - user: | 
+      Hola
+    intent: saludo
+  - action: utter_saludo
+  - action: utter_recuerda_escribir_ayuda
+  - action: utter_requerir_consulta
+  - user: |
+      cuando se habilita el retiro  parcial
+    intent: retiro_parcial__fechas
+  - action: utter_retiro_parcial__fechas
+  - action: utter_requerir_mas
+  - user: |
+      donde encuentro un modelo para la solicitud
+    intent: formato_solicitud
+  - action: utter_retiro_parcial__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      si solo tengo un curso puedo realizar el retiro
+    intent: faq
+  - action: utter_faq
+  - action: utter_requerir_mas
+  - user: |
+      entonces puedes cuando puedo hacer el retiro total
+    intent: retiro_total__fechas 
+  - action: utter_retiro_total__fechas
+  - action: utter_requerir_mas
+  - user: |
+      si cual es modelo para la solicitud
+    intent: retiro_total__formato_solicitud
+  - action: utter_retiro_total__formato_solicitud
+  - action: utter_requerir_mas
+  - user: |
+      no
+    intent: denegar_mas_ayuda
+  - action: utter_despedida
+  
+  
+# - story: reincorporacion fechas y formatos
+#  steps: 
+#  - user: | 
+#      Hola
+#    intent: saludo
+#  - action: utter_saludo
+#  - action: utter_recuerda_escribir_ayuda
+#  - action: utter_requerir_consulta
+#  - user: |
+#      puedes decirme si hay algun modelo para la solictud de reincorporacion
+#    intent: faq
+#  - action: utter_faq
+#  - actions: utter_requerir_mas
+#  - user: |
+#      en que fechas puedo presentar la solicitud
+#    intent: reincorporacion__fechas
+#  - action: utter_reincorporacion__fechas
+#  - action: utter_requerir_mas
+#  - user: |
+#      donde puedo encuentro un modelo para la solicitud
+#    intent: formato_solicitud
+#  - action: utter_reincorporacion__formato_solicitud
+#  - action: utter_requerir_mas
+#  - user: |
+#      No nada mas gracias
+#    intent: denegar_mas_ayuda 
+#  - action: utter_despedida

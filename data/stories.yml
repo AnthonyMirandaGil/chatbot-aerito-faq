@@ -1,14 +1,96 @@
 version: "2.0"
 
-  - rule: affirm more queries to FAQs
+stories:
+  - story: affirm more queries to FAQs
     steps:
       - intent: faq
       - action: utter_faq
-      - action: action_set_sub_topic_slot
       - action: utter_requerir_mas
       - intent: confirmar_requerir_mas_ayuda
       - action: utter_requerir_consulta
 
+  - story: contextual formato 1
+    steps: 
+      - intent: retiro_parcial__fechas
+      - action: utter_retiro_parcial__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_retiro_parcial__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 2
+    steps:
+      - intent: retiro_total__fechas
+      - action: utter_retiro_total__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_retiro_total__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 3
+    steps: 
+      - intent: reserva_matricula__fechas
+      - action: utter_reserva_matricula__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_reserva_matricula__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 4
+    steps: 
+      - intent: reincorporacion__fechas
+      - action: utter_reincorporacion__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_reincorporacion__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 5
+    steps: 
+      - intent: constancia_matricula__solicitud_procedimiento
+      - action: utter_constancia_matricula__solicitud_procedimiento
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_reincorporacion__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 6
+    steps: 
+      - intent: constancia_de_notas__procedimiento
+      - action: utter_constancia_de_notas__procedimiento
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_constancia_de_notas__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 7
+    steps: 
+      - intent: constancia_de_estudios__procedimiento
+      - action: utter_constancia_de_estudios__procedimiento
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_constancia_de_estudios__formato_solicitud
+      - action: utter_requerir_mas
+  
+  - story: contextual costo 1
+    steps: 
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_reincorporacion__costo
+      - action: utter_requerir_mas
+
+
+  - story: contextual costo 2
+    steps: 
+      - intent: constancia_matricula__solicitud_procedimiento
+      - action: utter_constancia_matricula__solicitud_procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_constancia_matricula__pago
+      - action: utter_requerir_mas
+      
 #- story: agradecimiento
 #  steps:
 #  - intent: agradecimiento

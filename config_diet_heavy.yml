@@ -36,14 +36,15 @@ pipeline:
   evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/ResponseSelector_heavy
   tensorboard_log_level: epoch
-- name: FallbackClassifier
-  threshold: 0.7
-  ambiguity_threshold: 0.2
+#- name: FallbackClassifier
+#  threshold: 0.7
+#  ambiguity_threshold: 0.2
 #- name: fallback.FallbackResponseSelector
 #  threshold: 0.7
 #  ambiguity_threshold: 0.2
 policies:
 - name: MemoizationPolicy
+  max_history: 4
 - name: TEDPolicy
   max_history: 8
   epochs: 200
