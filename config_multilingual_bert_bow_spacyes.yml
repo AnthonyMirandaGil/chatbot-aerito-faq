@@ -34,8 +34,9 @@ pipeline:
   threshold: 0.5
   
 policies:
-- name: MemoizationPolicy
-- name: TEDPolicy
-  max_history: 8
-  epochs: 200
 - name: RulePolicy
+- name: MemoizationPolicy
+  max_history: 4
+#- name: TEDPolicy
+#  max_history: 6
+#  epochs: 200
