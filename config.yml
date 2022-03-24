@@ -7,32 +7,21 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-  epochs: 60
+  epochs: 150
+  learning_rate: 0.001
   entity_recognition: False
-  constrain_similarities: True
-- name: ResponseSelector
-  epochs: 200
-  retrieval_intent: faq
-  hidden_layers_sizes:
-    text:
-    - 512
-    - 128
+  drop_rate: 0.25
+  hidden_layers_sizes: 
+    text: [256, 128]
     label: []
   transformer_size: 256
   number_of_transformer_layers: 2
   embedding_dimension: 30
   constrain_similarities: True
-  #use_text_as_label: True
-  evaluate_on_number_of_examples: 0
-  evaluate_every_number_of_epochs: 5
-  tensorboard_log_directory: ./tensorboard
+  evaluate_on_number_of_examples: 0 #100
+  evaluate_every_number_of_epochs: 1
+  tensorboard_log_directory: ./tensorboard/DIETClassifier_medium
   tensorboard_log_level: epoch
-- name: FallbackClassifier
-  threshold: 0.7
-  ambiguity_threshold: 0.2
-#- name: fallback.FallbackResponseSelector
-#  threshold: 0.7
-#  ambiguity_threshold: 0.2
 policies:
 - name: MemoizationPolicy
 - name: TEDPolicy

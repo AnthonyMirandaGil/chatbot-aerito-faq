@@ -21,27 +21,9 @@ pipeline:
   evaluate_every_number_of_epochs: 1
   tensorboard_log_directory: ./tensorboard/DIETClassifier_heavy
   tensorboard_log_level: epoch
-- name: ResponseSelector
-  epochs: 150
-  retrieval_intent: faq
-  hidden_layers_sizes: 
-    text: [512, 128]
-    label: []
-  transformer_size: 256
-  number_of_transformer_layers: 4
-  embedding_dimension: 40
-  drop_rate: 0.30
-  constrain_similarities: True
-  evaluate_on_number_of_examples: 0 #100
-  evaluate_every_number_of_epochs: 1
-  tensorboard_log_directory: ./tensorboard/ResponseSelector_heavy
-  tensorboard_log_level: epoch
-#- name: FallbackClassifier
-#  threshold: 0.7
-#  ambiguity_threshold: 0.2
-#- name: fallback.FallbackResponseSelector
-#  threshold: 0.7
-#  ambiguity_threshold: 0.2
+- name: FallbackClassifier
+  threshold: 0.65
+  ambiguity_threshold: 0.2
 policies:
 - name: MemoizationPolicy
   max_history: 4

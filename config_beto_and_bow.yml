@@ -17,20 +17,17 @@ pipeline:
   # Whether to use a shared vocab
   #use_shared_vocab: True
 - name: DIETClassifier
-  epochs: 60
-  constrain_similarities: True
+  epochs: 150
+  learning_rate: 0.001
   entity_recognition: False
-- name: ResponseSelector
+  drop_rate: 0.25
   hidden_layers_sizes: 
-    text: [512, 128]
+    text: [256, 128]
     label: []
   transformer_size: 256
   number_of_transformer_layers: 2
   embedding_dimension: 30
-  epochs: 200
-  retrieval_intent: faq
   constrain_similarities: True
-  #use_text_as_label: True
 - name: FallbackClassifier
   threshold: 0.5
   
