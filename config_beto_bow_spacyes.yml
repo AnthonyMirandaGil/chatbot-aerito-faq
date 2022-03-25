@@ -31,8 +31,8 @@ pipeline:
   embedding_dimension: 30
   constrain_similarities: True
   #use_text_as_label: True
-- name: FallbackClassifier
-  threshold: 0.5
+#- name: FallbackClassifier
+#  threshold: 0.5
   
 policies:
 - name: RulePolicy

@@ -26,8 +26,8 @@ pipeline:
   hidden_layers_sizes: {'text': [], 'label': []}
   number_of_transformer_layers: 2
   use_text_as_label: true
-- name: FallbackClassifier
-  threshold: 0.5
+#- name: FallbackClassifier
+#  threshold: 0.5
   
 policies:
 - name: RulePolicy

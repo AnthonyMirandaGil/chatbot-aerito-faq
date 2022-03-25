@@ -15,7 +15,7 @@ pipeline:
     label: []
   transformer_size: 256
   number_of_transformer_layers: 4
-  embedding_dimension: 40
+  embedding_dimension: 30
   constrain_similarities: True
   #evaluate_on_number_of_examples: 0 #100
   #evaluate_every_number_of_epochs: 1

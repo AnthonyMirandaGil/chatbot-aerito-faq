@@ -22,8 +22,8 @@ pipeline:
 - name: ResponseSelector
   epochs: 200
   retrieval_intent: faq
-- name: FallbackClassifier
-  threshold: 0.5
+#- name: FallbackClassifier
+#  threshold: 0.5
   
 policies:
 - name: RulePolicy

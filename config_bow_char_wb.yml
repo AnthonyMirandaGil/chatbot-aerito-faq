@@ -29,8 +29,8 @@ pipeline:
   number_of_transformer_layers: 2
   embedding_dimension: 30
   constrain_similarities: True
-- name: FallbackClassifier
-  threshold: 0.5
+#- name: FallbackClassifier
+#  threshold: 0.5
   
 policies:
 - name: RulePolicy
