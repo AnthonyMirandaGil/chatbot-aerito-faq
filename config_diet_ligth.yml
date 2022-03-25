@@ -7,7 +7,7 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-  epochs: 80
+  epochs: 100
   entity_recognition: False
   number_of_transformer_layers: 0
   embedding_dimension: 10
