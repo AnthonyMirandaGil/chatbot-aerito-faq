@@ -14,7 +14,7 @@ pipeline:
   embedding_dimension: 10
   drop_rate: 0.2
   hidden_layers_sizes:
-    text: [512, 256]
+    text: [512, 512, 256]
   constrain_similarities: True
   #evaluate_on_number_of_examples: 0 #100
   #evaluate_every_number_of_epochs: 1
