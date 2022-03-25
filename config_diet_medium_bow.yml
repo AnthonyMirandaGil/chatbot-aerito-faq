@@ -1,0 +1,36 @@
+language: es
+pipeline:
+- name: SpacyNLP
+  model: es_core_news_md
+  case_sensitive: false
+- name: SpacyTokenizer
+- name: CountVectorsFeaturizer
+  analyzer: "word"
+  min_ngram: 1
+  max_ngram: 4
+- name: DIETClassifier
+  epochs: 200
+  learning_rate: 0.001
+  entity_recognition: False
+  drop_rate: 0.25
+  hidden_layers_sizes: 
+    text: [256, 128]
+    label: []
+  transformer_size: 256
+  number_of_transformer_layers: 2
+  embedding_dimension: 30
+  constrain_similarities: True
+  #evaluate_on_number_of_examples: 0 #100
+  #evaluate_every_number_of_epochs: 1
+  #tensorboard_log_directory: ./tensorboard/DIETClassifier_medium
+  #tensorboard_log_level: epoch
+#- name: FallbackClassifier
+#  threshold: 0.65
+#  ambiguity_threshold: 0.2
+policies:
+- name: RulePolicy
+- name: MemoizationPolicy
+  max_history: 4
+#- name: TEDPolicy
+#  max_history: 6
+#  epochs: 200

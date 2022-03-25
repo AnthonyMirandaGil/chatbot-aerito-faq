@@ -4,10 +4,12 @@ pipeline:
   model: es_core_news_md
   case_sensitive: false
 - name: SpacyTokenizer
-- name: SpacyFeaturizer
-  pooling: mean
+- name: LanguageModelFeaturizer
+  model_name: bert
+  model_weights: 'dccuchile/bert-base-spanish-wwm-cased'
 - name: DIETClassifier
   epochs: 150
+  learning_rate: 0.001
   entity_recognition: False
   number_of_transformer_layers: 0
   embedding_dimension: 10
