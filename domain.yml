@@ -60,7 +60,7 @@ intents:
 - horario_atencion_aera
 - solicitud_correo_institucional_procedimiento
 - retiro_parcial__cursos_repetidos
-- procedimiento_solicitud_fechas
+- procedimiento_tramites_fechas
 - pago_fechas
 responses:
   # flujos de conversacion

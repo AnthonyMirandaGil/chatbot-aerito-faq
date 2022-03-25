@@ -58,11 +58,13 @@ class ActionDefaultAskAffirmation(Action):
         ## usar response_selector
         # A prompt asking the user to select an option
         best_intent = tracker.latest_message["intent_ranking"][1]['name']
-        message = "Quisiste decir,"
-        if best_intent == 'faq':
-            sub_intent = tracker.latest_message['response_selector']['faq']['ranking'][0]['intent_response_key']
-            best_intent = sub_intent
+
+        flow_intents = ['despedida', 'saludo','agradecimiento', 'ayuda', 'denegar_mas_ayuda', 'confirmar_requerir_mas_ayuda']
+        
+        if best_intent not in flow_intents:
             message = "Deseas saber,"
+        else:
+            message = "Quisiste decir,"
 
         # a mapping between intents and user friendly wordings
         intent_mappings = {
@@ -70,6 +72,8 @@ class ActionDefaultAskAffirmation(Action):
             "saludo": "Hola",
             "agradecimiento": "Gracias",
             "ayuda": "ayuda",
+            "denegar_mas_ayuda":"No, eso es todo",
+            "confirmar_requerir_mas_ayuda": "Sí, tengo otra consulta mas",
             "matricula_procedimiento": '¿Cuál es proceso de matricula?',
             "matricula__procedimiento_alumno_regular": 'Cuál es el proceso de matrícula para un alumno regular?',
             "matricula__procedimiento_alumno_ingresante":"¿Cuál es el proceso de matrícula para un alumno ingresante?",
@@ -110,8 +114,10 @@ class ActionDefaultAskAffirmation(Action):
             "horario_atencion_aera":"¿Cuál es el horario de AERA?",
             "solicitud_correo_institucional_procedimiento":"¿Cómo solicito mi correo UNI?",
             "retiro_parcial__cursos_repetidos": "¿Es posible retirarme de un curso que haya repetido?",
-            'formato_solicitud': "¿Cuál es el modelo para la solicitud?"
-
+            'formato_solicitud': "¿Cuál es el modelo para la solicitud?",
+            'costo_tramite': "¿Cuanto es el costo por el tramite?",
+            'pago_fechas': "¿Hasta cuando puedo realizar el pago?",
+            'procedimiento_tramites_fechas': "¿Cuando puedo realizar el procedimiento o tramite?",
         }
         
         title_intent = intent_mappings[best_intent]

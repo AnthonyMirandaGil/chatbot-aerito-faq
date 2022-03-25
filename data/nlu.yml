@@ -151,8 +151,9 @@ nlu:
     - si hay algun formato para la solicitud que debo enviar
     - cual es el formato para la solicitud
 
-- intent: procedimiento_solicitud_fechas
+- intent: procedimiento_tramites_fechas
   examples: |
+    - ¿Cuando puedo realizar el procedimiento o tramite?
     - ¿Cuando se presenta la solicitud?
     - ¿En que fechas debo presentar la solicitud?
     - cuales son las fechas limites para presentar la solicitud
@@ -164,6 +165,9 @@ nlu:
     - hasta cuando puedo hacer dicho tramite
     - cuando ya puedo presentar la solicitud
     - hasta cuando puedo presentarlo
+    - cuando puedo realizarlo
+    - hasta cuando puedo realizar el tramite
+    - cual es la fecha limite para realizar el tramite o procedimiento
 
 - intent: costo_tramite
   examples: |
@@ -185,7 +189,7 @@ nlu:
 
 - intent: pago_fechas
   examples: |
-    - ¿Hasta cuando puedo pagarlo?
+    - ¿Hasta cuando puedo realizar el pago?
     - hasta que fechas puedo pagarlo
     - esta semana todavia puedo pagarlo
     - hasta que semana lo podria pagar
