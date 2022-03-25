@@ -38,23 +38,23 @@ stories:
       - action: utter_reincorporacion__formato_solicitud
       - action: utter_requerir_mas
 
-  - story: contextual formato 5
-    steps: 
-      - intent: constancia_matricula__solicitud_procedimiento
-      - action: utter_constancia_matricula__solicitud_procedimiento
-      - action: utter_requerir_mas
-      - intent: formato_solicitud
-      - action: utter_reincorporacion__formato_solicitud
-      - action: utter_requerir_mas
+  #- story: contextual formato 5
+  #  steps: 
+  #    - intent: constancia_matricula__solicitud_procedimiento
+  #    - action: utter_constancia_matricula__solicitud_procedimiento
+  #    - action: utter_requerir_mas
+  #    - intent: formato_solicitud
+  #    - action: utter_reincorporacion__formato_solicitud
+  #    - action: utter_requerir_mas
 
-  - story: contextual formato 6
-    steps: 
-      - intent: constancia_de_notas__procedimiento
-      - action: utter_constancia_de_notas__procedimiento
-      - action: utter_requerir_mas
-      - intent: formato_solicitud
-      - action: utter_constancia_de_notas__formato_solicitud
-      - action: utter_requerir_mas
+  #- story: contextual formato 6
+  #  steps: 
+  #    - intent: constancia_de_notas__procedimiento
+  #    - action: utter_constancia_de_notas__procedimiento
+  #    - action: utter_requerir_mas
+  #    - intent: formato_solicitud
+  #    - action: utter_constancia_de_notas__formato_solicitud
+  #    - action: utter_requerir_mas
 
   - story: contextual formato 7
     steps: 
@@ -86,14 +86,23 @@ stories:
 
   - story: contextual costo 3
     steps: 
-      - intent: retiro_parcial__procedimiento
-      - action: utter_retiro_parcial__procedimiento
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
       - action: utter_requerir_mas
       - intent: costo_tramite
-      - action: utter_retiro_parcial__costo
+      - action: utter_reincorporacion__costo
+      - action: utter_requerir_mas
+
+  - story: contextual costo 4
+    steps: 
+      - intent: constancia_matricula__solicitud_procedimiento
+      - action: utter_constancia_matricula__solicitud_procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_constancia_matricula__pago
       - action: utter_requerir_mas
   
-  - story: contextual costo 4
+  - story: contextual costo 5
     steps: 
       - intent: retiro_total__procedimiento
       - action: utter_retiro_total__procedimiento
