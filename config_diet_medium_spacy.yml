@@ -22,9 +22,9 @@ pipeline:
   #evaluate_every_number_of_epochs: 1
   #tensorboard_log_directory: ./tensorboard/DIETClassifier_medium
   #tensorboard_log_level: epoch
-#- name: FallbackClassifier
-#  threshold: 0.65
-#  ambiguity_threshold: 0.2
+- name: FallbackClassifier
+  threshold: 0.65
+  ambiguity_threshold: 0.2
 policies:
 - name: RulePolicy
 - name: MemoizationPolicy
