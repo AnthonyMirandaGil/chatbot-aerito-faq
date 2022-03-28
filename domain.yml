@@ -396,9 +396,9 @@ responses:
     - text: "¿Es usted alumno ingresante?"
       buttons:
       - title: 'Sí, soy ingresante'
-        payload: '/consulta_matricula_procedimiento_ingresante'
+        payload: '/matricula__procedimiento_alumno_ingresante'
       - title: 'No, soy alumno regular'
-        payload: '/consulta_matricula_procedimiento_regular'
+        payload: '/matricula__procedimiento_alumno_regular'
 slots:
   retrieval_intent:
     type: text

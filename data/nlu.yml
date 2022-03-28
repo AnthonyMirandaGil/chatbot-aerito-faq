@@ -892,6 +892,7 @@ nlu:
     - Necesitaría mayor información de como es el procedimiento de reincorporación por favor
     - Soy alumno de la facultad de ciencias que desea matricularse. Deje de matricularme algunos semestres por la pandemia y deseo retomar los estudios. Me dijeron que debo realizar un pago por el trámite de reincorporación. Me gustaría saber ¿En qué entidad bancaria se realiza este pago? y ¿cuánto es el monto?.
     - Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
+    - he dejado de estudiar hace año, como podria matricularme en el siguiente ciclo 
 
 - intent: reincorporacion_rezagada__procedimiento
   examples: |

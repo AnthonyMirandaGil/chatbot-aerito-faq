@@ -14,7 +14,7 @@ pipeline:
   max_ngram: 4
   #use_shared_vocab: True
 - name: DIETClassifier
-  epochs: 150
+  epochs: 200
   learning_rate: 0.001
   entity_recognition: False
   drop_rate: 0.25

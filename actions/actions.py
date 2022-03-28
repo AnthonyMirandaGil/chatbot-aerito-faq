@@ -131,7 +131,7 @@ class ActionDefaultAskAffirmation(Action):
             "payload": "/out_of_scope"
             }
         ]
-        message = message + ' ' + title_intent 
+        message = message + ' ' + '"' + title_intent + '"'  
         
         dispatcher.utter_message(text=message, buttons=buttons)
 

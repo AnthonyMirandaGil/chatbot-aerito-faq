@@ -8,7 +8,7 @@ pipeline:
   model_name: bert
   model_weights: 'dccuchile/bert-base-spanish-wwm-cased'
 - name: DIETClassifier
-  epochs: 150
+  epochs: 200
   learning_rate: 0.001
   entity_recognition: False
   drop_rate: 0.25
