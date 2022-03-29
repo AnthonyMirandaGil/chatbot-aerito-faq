@@ -12,7 +12,7 @@ pipeline:
   learning_rate: 0.001
   entity_recognition: False
   number_of_transformer_layers: 0
-  embedding_dimension: 10
+  embedding_dimension: 30
   drop_rate: 0.2
   hidden_layers_sizes:
     text: [512, 512, 256]
