@@ -9,7 +9,7 @@ pipeline:
   min_ngram: 1
   max_ngram: 4
 - name: DIETClassifier
-  epochs: 200
+  epochs: 150
   learning_rate: 0.001
   entity_recognition: False
   number_of_transformer_layers: 0
