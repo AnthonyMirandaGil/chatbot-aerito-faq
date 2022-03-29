@@ -5,11 +5,9 @@ pipeline:
   case_sensitive: False
 - name: SpacyTokenizer
 - name: LanguageModelFeaturizer
-  alias: "language"
   model_name: bert
   model_weights: 'bert-base-multilingual-cased'
 - name: CountVectorsFeaturizer
-  alias: "cvf-word"
   analyzer: "word"
   min_ngram: 1
   max_ngram: 4

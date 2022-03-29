@@ -5,7 +5,6 @@ pipeline:
   case_sensitive: False
 - name: SpacyTokenizer
 - name: LanguageModelFeaturizer
-  alias: "language"
   model_name: bert
   #model_weights: 'pretrained_models/bert-base-spanish-wwm-cased'
   model_weights: 'bert-base-multilingual-cased'
