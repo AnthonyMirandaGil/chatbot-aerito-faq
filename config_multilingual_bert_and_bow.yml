@@ -8,13 +8,9 @@ pipeline:
   model_name: bert
   model_weights: 'bert-base-multilingual-cased'
 - name: CountVectorsFeaturizer
-  analyzer: "word"
+  analyzer: char_wb
   min_ngram: 1
   max_ngram: 4
-  # Set the out-of-vocabulary token
-  OOV_token: "_oov_"
-  # Whether to use a shared vocab
-  #use_shared_vocab: True
 - name: DIETClassifier
   epochs: 150
   learning_rate: 0.001

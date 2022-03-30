@@ -6,10 +6,17 @@ pipeline:
 - name: SpacyTokenizer
 - name: SpacyFeaturizer
   pooling: mean
+- name: LanguageModelFeaturizer
+  model_name: bert
+  #model_weights: 'pretrained_models/bert-base-spanish-wwm-cased'
+  model_weights: 'bert-base-multilingual-cased'
 - name: CountVectorsFeaturizer
-  analyzer: char_wb
+  analyzer: "word"
   min_ngram: 1
   max_ngram: 4
+  # Set the out-of-vocabulary token
+  OOV_token: "_oov_"
+  # Whether to use a shared vocab
   #use_shared_vocab: True
 - name: DIETClassifier
   epochs: 150
