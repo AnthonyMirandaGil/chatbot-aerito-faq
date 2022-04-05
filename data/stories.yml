@@ -1,13 +1,160 @@
 version: "2.0"
 
-  - rule: affirm more queries to FAQs
-    steps:
-      - intent: faq
-      - action: utter_faq
-      - action: action_set_sub_topic_slot
+stories:
+
+  - story: contextual formato 1
+    steps: 
+      - intent: retiro_parcial__fechas
+      - action: utter_retiro_parcial__fechas
       - action: utter_requerir_mas
-      - intent: confirmar_requerir_mas_ayuda
-      - action: utter_requerir_consulta
+      - intent: formato_solicitud
+      - action: utter_retiro_parcial__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 2
+    steps:
+      - intent: retiro_total__fechas
+      - action: utter_retiro_total__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_retiro_total__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 3
+    steps: 
+      - intent: reserva_matricula__fechas
+      - action: utter_reserva_matricula__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_reserva_matricula__formato_solicitud
+      - action: utter_requerir_mas
+
+  - story: contextual formato 4
+    steps: 
+      - intent: reincorporacion__fechas
+      - action: utter_reincorporacion__fechas
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_reincorporacion__formato_solicitud
+      - action: utter_requerir_mas
+
+  #- story: contextual formato 5
+  #  steps: 
+  #    - intent: constancia_matricula__solicitud_procedimiento
+  #    - action: utter_constancia_matricula__solicitud_procedimiento
+  #    - action: utter_requerir_mas
+  #    - intent: formato_solicitud
+  #    - action: utter_reincorporacion__formato_solicitud
+  #    - action: utter_requerir_mas
+
+  #- story: contextual formato 6
+  #  steps: 
+  #    - intent: constancia_de_notas__procedimiento
+  #    - action: utter_constancia_de_notas__procedimiento
+  #    - action: utter_requerir_mas
+  #    - intent: formato_solicitud
+  #    - action: utter_constancia_de_notas__formato_solicitud
+  #    - action: utter_requerir_mas
+
+  - story: contextual formato 7
+    steps: 
+      - intent: constancia_de_estudios__procedimiento
+      - action: utter_constancia_de_estudios__procedimiento
+      - action: utter_requerir_mas
+      - intent: formato_solicitud
+      - action: utter_constancia_de_estudios__formato_solicitud
+      - action: utter_requerir_mas
+  
+  - story: contextual costo 1
+    steps: 
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_reincorporacion__costo
+      - action: utter_requerir_mas
+
+ 
+  - story: contextual costo 2
+    steps: 
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_reincorporacion__costo
+      - action: utter_requerir_mas
+
+  - story: contextual costo 3
+    steps: 
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_reincorporacion__costo
+      - action: utter_requerir_mas
+
+  - story: contextual costo 4
+    steps: 
+      - intent: constancia_matricula__solicitud_procedimiento
+      - action: utter_constancia_matricula__solicitud_procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_constancia_matricula__pago
+      - action: utter_requerir_mas
+  
+  - story: contextual costo 5
+    steps: 
+      - intent: retiro_total__procedimiento
+      - action: utter_retiro_total__procedimiento
+      - action: utter_requerir_mas
+      - intent: costo_tramite
+      - action: utter_retiro_total__costo
+      - action: utter_requerir_mas
+
+  - story: contextual pago fechas 1
+    steps: 
+      - intent: pago_autoseguro_procedimiento
+      - action: utter_pago_autoseguro_procedimiento
+      - action: utter_requerir_mas
+      - intent: pago_fechas
+      - action: utter_pago_autoseguro__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 1
+    steps: 
+      - intent: retiro_parcial__procedimiento
+      - action: utter_retiro_parcial__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_tramites_fechas
+      - action: utter_retiro_parcial__fechas
+      - action: utter_requerir_mas
+      
+  - story: contextual fechas 2
+    steps: 
+      - intent: retiro_total__procedimiento
+      - action: utter_retiro_total__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_tramites_fechas
+      - action: utter_retiro_total__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 3
+    steps: 
+      - intent: reserva_matricula__procedimiento
+      - action: utter_reserva_matricula__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_tramites_fechas
+      - action: utter_reserva_matricula__fechas
+      - action: utter_requerir_mas
+
+  - story: contextual fechas 4
+    steps: 
+      - intent: reincorporacion__procedimiento
+      - action: utter_reincorporacion__procedimiento
+      - action: utter_requerir_mas
+      - intent: procedimiento_tramites_fechas
+      - action: utter_reincorporacion__fechas
+      - action: utter_requerir_mas
 
 #- story: agradecimiento
 #  steps:

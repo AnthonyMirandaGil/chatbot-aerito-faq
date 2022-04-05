@@ -22,12 +22,13 @@ pipeline:
 - name: ResponseSelector
   epochs: 200
   retrieval_intent: faq
-- name: FallbackClassifier
-  threshold: 0.5
+#- name: FallbackClassifier
+#  threshold: 0.5
   
 policies:
-- name: MemoizationPolicy
-- name: TEDPolicy
-  max_history: 8
-  epochs: 200
 - name: RulePolicy
+- name: MemoizationPolicy
+  max_history: 4
+#- name: TEDPolicy
+#  max_history: 6
+#  epochs: 200
