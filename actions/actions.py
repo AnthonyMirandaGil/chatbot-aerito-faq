@@ -1,4 +1,5 @@
 
+from codecs import utf_7_encode
 from typing import Any, Text, Dict, List
 
 from rasa_sdk.types import DomainDict
@@ -481,7 +482,8 @@ class ActionAskCourse(Action):
         if courses_matches!= None and len(courses_matches)>=2:
             buttons = []
             for course in courses_matches:
-                payload = f'/{last_intent}{{"course": "{course["nombre"]}","course_code": "{course["codigo"]}"}}'
+                #payload = f'/{last_intent}{{"course": "{course["nombre"]}","course_code": "{course["codigo"]}"}}'
+                payload = course["nombre"]
                 buttons.append({ "title": course['nombre'], "payload": payload})
           
             dispatcher.utter_message(text=f"¿Cual es el curso al que te refieres?", buttons=buttons)
@@ -512,7 +514,7 @@ class ActionAskSection(Action):
             buttons = [
                 { 
                 "title": section, 
-                "payload":f'/horario_curso{{"section": "{section}"}}'
+                "payload": section#f'/horario_curso{{"section": "{section}"}}'
                 } 
                 for section in sections 
             ]
@@ -535,7 +537,7 @@ class ActionAskCourseCode(Action):
             buttons = [
                 { 
                 "title": course['nombre'] + '('+ course['codigo'] + ')', 
-                "payload":f'/cursos_horarios{{"course_code": "{course["codigo"]}"}}'
+                "payload": course["codigo"]#f'/cursos_horarios{{"course_code": "{course["codigo"]}"}}'
                 } 
                 for course in courses_matches 
             ]
@@ -631,17 +633,25 @@ class ActionFindCourseRoomsUbication(Action):
         
         r_aulas = [ aula for aula in aulas if re.search('^R\d?', aula, re.IGNORECASE) ]
 
-        if len(j3_aulas) >=0 :
-            utter = utter + " El aula " + j3_aulas [0] if len(j3_aulas) == 1 else " Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  j3_aulas[-1]
-            utter = utter + ' se ubican dentro del Pabellon J.'
-            if len(first_floor_j3) >= 0:
-                 utter = "El aula" + j3_aulas [0] if len(j3_aulas) == 1 else "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  j3_aulas[-1]
-                 utter = utter + ' en el primer piso'
+        if len(j3_aulas) >0 :
+            if len(j3_aulas) == 1:
+                utter = 'El aula ' + j3_aulas[0] + " se ubica"
+                if len(first_floor_j3) > 0:
+                    utter = utter + ' en el primer piso del Pabellon J'
+                elif len(second_floor_j3) > 0:
+                    utter = utter + ' en el segundo piso del Pabellon J'
+                else:
+                    utter = utter + ' Pabellon J.'
+            else:    
+                utter = "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  j3_aulas[-1] + ' se ubican dentro del Pabellon J.'
+                if len(first_floor_j3) > 0:
+                    utter = utter + "El aula" + j3_aulas [0] if len(j3_aulas) == 1 else "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  j3_aulas[-1]
+                    utter = utter + ' en el primer piso'
 
-            if (len(second_floor_j3)) >=0:
-                utter = utter + "y" if len(first_floor_j3) >0 else utter
-                utter = "El aula" + j3_aulas [0] if len(j3_aulas) == 1 else "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  j3_aulas[-1]
-                utter = utter + ' en el segundo piso'
+                if (len(second_floor_j3)) >0:
+                    utter = utter + "y" if len(first_floor_j3) >0 else utter
+                    utter = utter + "El aula " + j3_aulas [0] if len(j3_aulas) == 1 else "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  j3_aulas[-1]
+                    utter = utter + ' en el segundo piso'
 
             dispatcher.utter_message(text=utter)
             dispatcher.utter_message(text = 'Puede ver la localizacion del Pabellon J en el siguiente enlace: https://goo.gl/maps/TcVSodUAGDWxPyCZ7')
@@ -650,26 +660,36 @@ class ActionFindCourseRoomsUbication(Action):
         floors = ['primer', 'segundo', 'tercero', 'cuarto']
 
         if len(r_aulas) > 0 :
-            utter = "El aula " + r_aulas + ' se ubica' [0] if len(r_aulas) == 1 else "Las aulas " + " ".join(r_aulas[:-1]) + " y " +  r_aulas[-1] + ' se ubican'
-            utter = utter + ' dentro del Pabellon R.'
-            
-            floors_r = [
-                        [
-                        r_aula for r_aula in r_aulas 
-                            if re.search(f'^(R\d(\s|\-)?{i})', r_aula, re.IGNORECASE)
-                        ] for i in range(1,5)
-                    ] 
-            for idx , floor_r in enumerate(floors_r):
-                 if len(floor_r) >= 0:
-                    if(idx == 0):
-                        utter = utter + " El aula" + floor_r[0] if len(floor_r) == 1 else "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  floor_r[-1]
-                        floor = floors[idx]
-                        utter = utter + f' en el {floor} piso'
-                    else:
-                        utter = utter + "y" if len(floor_r) >0 else utter
-                        utter = "El aula" + floor_r[0] if len(floor_r) == 1 else "Las aulas " + " ".join(floor_r[:-1]) + " y " +  floor_r[-1]
-                        floor = floors[idx]
-                        utter = utter + f' en el {floor} piso' 
+
+            if len(r_aulas) == 1:
+                utter = 'El aula ' + r_aulas[0] + " se ubica"
+                floor = None
+                for i in range(1,5):
+                    if re.search(f'^(R\d(\s|\-)?{i})', r_aulas[0], re.IGNORECASE):
+                        floor = floors[i - 1]
+                if floor != None:
+                    utter = utter + f' en el {floor} piso del Pabellon J'
+                else:
+                    utter = utter + ' Pabellon J.'
+            else:
+                utter = "Las aulas " + " ".join(r_aulas[:-1]) + " y " +  r_aulas[-1] + ' se ubican dentro del Pabellon R.'
+                floors_r = [
+                            [
+                            r_aula for r_aula in r_aulas 
+                                if re.search(f'^(R\d(\s|\-)?{i})', r_aula, re.IGNORECASE)
+                            ] for i in range(1,5)
+                        ] 
+                for idx , floor_r in enumerate(floors_r):
+                    if len(floor_r) > 0:
+                        if(idx == 0):
+                            utter = utter + " El aula " + floor_r[0] if len(floor_r) == 1 else "Las aulas " + " ".join(j3_aulas[:-1]) + " y " +  floor_r[-1]
+                            floor = floors[idx]
+                            utter = utter + f' en el {floor} piso'
+                        else:
+                            utter = utter + "y" if len(floor_r) >0 else utter
+                            utter = "El aula " + floor_r[0] if len(floor_r) == 1 else "Las aulas " + " ".join(floor_r[:-1]) + " y " +  floor_r[-1]
+                            floor = floors[idx]
+                            utter = utter + f' en el {floor} piso' 
 
             dispatcher.utter_message(text=utter)
             dispatcher.utter_message(text = 'Puede ver la localizacion del Pabellon R en el siguiente enlace: https://goo.gl/maps/HTo4V4qZCRGdUBRm7')

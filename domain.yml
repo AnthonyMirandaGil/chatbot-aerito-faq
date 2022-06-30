@@ -464,6 +464,7 @@ forms:
         - type: from_entity
           entity: course
           intent: cursos_aulas
+        - type: from_text
       section:
         - type: from_entity
           entity: section

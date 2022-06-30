@@ -75,6 +75,7 @@ nlu:
     - si una consulta mas
     - tengo otra duda
     - tongo otra consulta
+    - si por favor
 
 
 #- intent: agradecimiento
