@@ -1,3 +1,4 @@
+recipe: default.v1
 language: es
 pipeline:
 - name: SpacyNLP
@@ -9,7 +10,7 @@ pipeline:
 - name: DIETClassifier
   epochs: 150
   learning_rate: 0.001
-  entity_recognition: False
+  #entity_recognition: False
   number_of_transformer_layers: 0
   embedding_dimension: 30
   drop_rate: 0.2

@@ -1,3 +1,4 @@
+.rasa
 events.db*
 rasa.db
 tensorboard_log/*
