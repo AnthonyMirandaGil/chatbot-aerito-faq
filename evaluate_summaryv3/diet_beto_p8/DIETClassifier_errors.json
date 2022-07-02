@@ -1,0 +1,408 @@
+[
+  {
+    "text": "como hago el cambio de seccion del curso de Fisica II",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 51,
+        "end": 53,
+        "confidence_entity": 0.5629028677940369,
+        "value": "II",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quiero saber el horario del curso de Electomagnetismo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 37,
+        "end": 53,
+        "confidence_entity": 0.8632465600967407,
+        "value": "Electomagnetismo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a que hora comienza las clases del curso de biologia?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 52,
+        "value": "biologia",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Dime el horario de calculo integral",
+    "entities": [
+      {
+        "start": 19,
+        "end": 35,
+        "value": "calculo integral",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 27,
+        "end": 35,
+        "confidence_entity": 0.9405189752578735,
+        "value": "integral",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "los dias Martes en que aula se dicta el curso de programacion paralela?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 70,
+        "value": "programacion paralela",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "la seccion [B] {\"entity\": \"section\"} del curso de fisica ii en que salon se dicta clases los Jueves",
+    "entities": [
+      {
+        "start": 50,
+        "end": 59,
+        "value": "fisica ii",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Hola, quiero saber el horario del curso de FISICA III",
+    "entities": [
+      {
+        "start": 43,
+        "end": 53,
+        "value": "FISICA III",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos",
+    "entities": [
+      {
+        "start": 70,
+        "end": 80,
+        "value": "Algoritmos",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "para la seccion A del curso ingles i cual es el aula asiganada?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "A",
+        "entity": "section"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "value": "ingles i",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 35,
+        "end": 36,
+        "confidence_entity": 0.4306885004043579,
+        "value": "i",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 53,
+        "end": 62,
+        "confidence_entity": 0.981519341468811,
+        "value": "asiganada",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "en donde se dicta el curso de mineria de datos?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 46,
+        "value": "mineria de datos",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 41,
+        "end": 46,
+        "confidence_entity": 0.5823901891708374,
+        "value": "datos",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cual es el aula designada para el curso de ingenieria de software?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 65,
+        "value": "ingenieria de software",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "como llego al aula j3 242",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "j3 242",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "room",
+        "start": 19,
+        "end": 21,
+        "confidence_entity": 0.4224013090133667,
+        "value": "j3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "necesito ayuida para ubicar el salon R1-125B",
+    "entities": [
+      {
+        "start": 37,
+        "end": 44,
+        "value": "R1-125B",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "section",
+        "start": 37,
+        "end": 44,
+        "confidence_entity": 0.2836865782737732,
+        "value": "R1-125B",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "el curso de programacion orientada a objetos se dicta el lunes?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 44,
+        "value": "programacion orientada a objetos",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 12,
+        "end": 36,
+        "confidence_entity": 0.4940282106399536,
+        "value": "programacion orientada a",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "me puedes decir el horario del curso INTRODUCCION A LAS ECUACIONES DIFERENCIALES ORDINARIAS?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 91,
+        "value": "INTRODUCCION A LAS ECUACIONES DIFERENCIALES ORDINARIAS",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 67,
+        "end": 91,
+        "confidence_entity": 0.9455975890159607,
+        "value": "DIFERENCIALES ORDINARIAS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dime que aula en que aula es el curso de calculo numerico i?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 59,
+        "value": "calculo numerico i",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 41,
+        "end": 60,
+        "confidence_entity": 0.8263342380523682,
+        "value": "calculo numerico i?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quiero ubicar el salon r1 450 me puedes decir donde es",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "r1 450",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "una consulta mas cual el horario de atencion presencial de Estadística?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 59,
+        "end": 70,
+        "confidence_entity": 0.6489303112030029,
+        "value": "Estadística",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cual es el horario para la seccion b del curso de quimica i?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 36,
+        "value": "b",
+        "entity": "section"
+      },
+      {
+        "start": 50,
+        "end": 59,
+        "value": "quimica i",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 58,
+        "end": 59,
+        "confidence_entity": 0.9790617823600769,
+        "value": "i",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "en que salon son las clases del cursos de programacion estructurada en la seccion c?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 67,
+        "value": "programacion estructurada",
+        "entity": "course"
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "value": "c",
+        "entity": "section"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "como localizo el salon r2 323?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "r2 323",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Buenas noches, quiero saber el curso de electomagnetismo",
+    "entities": [
+      {
+        "start": 40,
+        "end": 56,
+        "value": "electomagnetismo",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "puedes decirme donde esta el salon donde se dicta el curso de realidad nacional?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 79,
+        "value": "realidad nacional",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "room",
+        "start": 62,
+        "end": 70,
+        "confidence_entity": 0.4814409613609314,
+        "value": "realidad",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "room",
+        "start": 71,
+        "end": 79,
+        "confidence_entity": 0.4011780917644501,
+        "value": "nacional",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

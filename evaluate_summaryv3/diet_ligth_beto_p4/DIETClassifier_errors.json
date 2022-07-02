@@ -1,0 +1,446 @@
+[
+  {
+    "text": "como hago el cambio de seccion del curso de Fisica II",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 44,
+        "end": 53,
+        "confidence_entity": 0.8651818633079529,
+        "value": "Fisica II",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Buenas noches, quiero saber el curso de electomagnetismo",
+    "entities": [
+      {
+        "start": 40,
+        "end": 56,
+        "value": "electomagnetismo",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "para la seccion A del curso ingles i cual es el aula asiganada?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "A",
+        "entity": "section"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "value": "ingles i",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "section",
+        "start": 16,
+        "end": 17,
+        "confidence_entity": 0.624651312828064,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "la seccion [B] {\"entity\": \"section\"} del curso de fisica ii en que salon se dicta clases los Jueves",
+    "entities": [
+      {
+        "start": 50,
+        "end": 59,
+        "value": "fisica ii",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "section",
+        "start": 12,
+        "end": 13,
+        "confidence_entity": 0.8574602007865906,
+        "value": "B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 50,
+        "end": 59,
+        "confidence_entity": 0.7479158639907837,
+        "value": "fisica ii",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "en donde se dicta el curso de mineria de datos?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 46,
+        "value": "mineria de datos",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 30,
+        "end": 40,
+        "confidence_entity": 0.7227523922920227,
+        "value": "mineria de",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quiero ubicar el salon r1 450 me puedes decir donde es",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "r1 450",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero saber el horario del curso de Electomagnetismo",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 37,
+        "end": 53,
+        "confidence_entity": 0.32838141918182373,
+        "value": "Electomagnetismo",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "me puedes decir el horario del curso INTRODUCCION A LAS ECUACIONES DIFERENCIALES ORDINARIAS?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 91,
+        "value": "INTRODUCCION A LAS ECUACIONES DIFERENCIALES ORDINARIAS",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 50,
+        "end": 51,
+        "confidence_entity": 0.39718127250671387,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 56,
+        "end": 91,
+        "confidence_entity": 0.36511915922164917,
+        "value": "ECUACIONES DIFERENCIALES ORDINARIAS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "dime cual el horario del curso de calculo diferencial e integral avanzado",
+    "entities": [
+      {
+        "start": 34,
+        "end": 73,
+        "value": "calculo diferencial e integral avanzado",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 34,
+        "end": 64,
+        "confidence_entity": 0.3482072055339813,
+        "value": "calculo diferencial e integral",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "en que salon son las clases del cursos de programacion estructurada en la seccion c?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 67,
+        "value": "programacion estructurada",
+        "entity": "course"
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "value": "c",
+        "entity": "section"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "section",
+        "start": 82,
+        "end": 83,
+        "confidence_entity": 0.606124222278595,
+        "value": "c",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "¿Cómo solicito mi correo UNI?",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 25,
+        "end": 28,
+        "confidence_entity": 0.6075031161308289,
+        "value": "UNI",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a que hora comienza las clases del curso de biologia?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 52,
+        "value": "biologia",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "los dias Martes en que aula se dicta el curso de programacion paralela?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 70,
+        "value": "programacion paralela",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "como localizo el salon r2 323?",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "r2 323",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "cual es el aula designada para el curso de ingenieria de software?",
+    "entities": [
+      {
+        "start": 43,
+        "end": 65,
+        "value": "ingenieria de software",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 43,
+        "end": 53,
+        "confidence_entity": 0.8674725890159607,
+        "value": "ingenieria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "donde encuentro la sala 5",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "sala 5",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "he ingresado a la carrera de ingenieria fisica quisiera saber cuales son los para paso para la matricula",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 29,
+        "end": 39,
+        "confidence_entity": 0.6136296391487122,
+        "value": "ingenieria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuando se dicta el curso de Fisica I?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "value": "Fisica I",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 28,
+        "end": 37,
+        "confidence_entity": 0.8196685910224915,
+        "value": "Fisica I?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a que hora son las clases para la seccion A del curso de analisis real?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 43,
+        "value": "A",
+        "entity": "section"
+      },
+      {
+        "start": 57,
+        "end": 70,
+        "value": "analisis real",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 34,
+        "end": 41,
+        "confidence_entity": 0.7056645154953003,
+        "value": "seccion",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 42,
+        "end": 43,
+        "confidence_entity": 0.5310611724853516,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 66,
+        "end": 70,
+        "confidence_entity": 0.798386812210083,
+        "value": "real",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "el lunes a que hora se dicta el curso de CALCULO DE PROBABILIDADES?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 66,
+        "value": "CALCULO DE PROBABILIDADES",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 41,
+        "end": 51,
+        "confidence_entity": 0.563552975654602,
+        "value": "CALCULO DE",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "El curso de Fisica I en la seccion b en que aula se esta dictando?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "Fisica I",
+        "entity": "course"
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "value": "b",
+        "entity": "section"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9178040623664856,
+        "value": "Fisica I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 27,
+        "end": 36,
+        "confidence_entity": 0.3841981887817383,
+        "value": "seccion b",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quiero saber donde encontra la SALA 1",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "SALA 1",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "room",
+        "start": 36,
+        "end": 37,
+        "confidence_entity": 0.49982625246047974,
+        "value": "1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]
