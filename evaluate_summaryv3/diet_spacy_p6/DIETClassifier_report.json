@@ -1,0 +1,42 @@
+{
+  "course": {
+    "precision": 0.8285714285714286,
+    "recall": 0.9157894736842105,
+    "f1-score": 0.8700000000000001,
+    "support": 95,
+    "confused_with": {}
+  },
+  "section": {
+    "precision": 0.8571428571428571,
+    "recall": 0.75,
+    "f1-score": 0.7999999999999999,
+    "support": 8,
+    "confused_with": {}
+  },
+  "room": {
+    "precision": 1.0,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.9142857142857143,
+    "support": 19,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8515625,
+    "recall": 0.8934426229508197,
+    "f1-score": 0.8719999999999999,
+    "support": 122
+  },
+  "macro avg": {
+    "precision": 0.8952380952380953,
+    "recall": 0.8359649122807017,
+    "f1-score": 0.8614285714285713,
+    "support": 122
+  },
+  "weighted avg": {
+    "precision": 0.8571428571428572,
+    "recall": 0.8934426229508197,
+    "f1-score": 0.8723067915690867,
+    "support": 122
+  },
+  "accuracy": 0.9969079138080974
+}

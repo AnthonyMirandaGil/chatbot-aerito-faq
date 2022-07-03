@@ -1,0 +1,490 @@
+{
+  "matricula_procedimiento": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1-score": 0.7272727272727272,
+    "support": 10,
+    "confused_with": {
+      "pago_autoseguro_procedimiento": 1,
+      "reincorporacion__procedimiento": 1
+    }
+  },
+  "constancia_de_estudios__formato_solicitud": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "reincorporacion__fechas": {
+    "precision": 0.6666666666666666,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.7692307692307692,
+    "support": 11,
+    "confused_with": {
+      "reincorporacion__procedimiento": 1
+    }
+  },
+  "constancia_de_estudios__procedimiento": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "reserva_matricula__formato_solicitud": {
+    "precision": 0.9230769230769231,
+    "recall": 1.0,
+    "f1-score": 0.9600000000000001,
+    "support": 12,
+    "confused_with": {}
+  },
+  "matricula_rezagada__procedimiento": {
+    "precision": 0.9032258064516129,
+    "recall": 0.9655172413793104,
+    "f1-score": 0.9333333333333333,
+    "support": 29,
+    "confused_with": {
+      "reincorporacion_rezagada__procedimiento": 1
+    }
+  },
+  "constancia_matricula__formato_solicitud": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "cursos_horarios": {
+    "precision": 0.8421052631578947,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.8421052631578947,
+    "support": 19,
+    "confused_with": {
+      "horario_curso": 2,
+      "perdida_turno_matricula": 1
+    }
+  },
+  "ubicacion_aulas": {
+    "precision": 0.9285714285714286,
+    "recall": 0.9285714285714286,
+    "f1-score": 0.9285714285714286,
+    "support": 14,
+    "confused_with": {
+      "cursos_horarios": 1
+    }
+  },
+  "reincorporacion__costo": {
+    "precision": 0.9333333333333333,
+    "recall": 1.0,
+    "f1-score": 0.9655172413793104,
+    "support": 14,
+    "confused_with": {}
+  },
+  "retiro_total__formato_solicitud": {
+    "precision": 0.875,
+    "recall": 0.875,
+    "f1-score": 0.875,
+    "support": 8,
+    "confused_with": {
+      "retiro_total__motivos_procede": 1
+    }
+  },
+  "horario_curso": {
+    "precision": 0.7037037037037037,
+    "recall": 0.7916666666666666,
+    "f1-score": 0.7450980392156864,
+    "support": 24,
+    "confused_with": {
+      "cursos_horarios": 2,
+      "aulas_curso": 1
+    }
+  },
+  "carnet_universitario__solicitud": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "horario_atencion_aera": {
+    "precision": 0.8571428571428571,
+    "recall": 0.9,
+    "f1-score": 0.8780487804878048,
+    "support": 20,
+    "confused_with": {
+      "pago_fechas": 1,
+      "matricula__cronograma": 1
+    }
+  },
+  "retiro_parcial__maximo_cursos": {
+    "precision": 0.8,
+    "recall": 0.75,
+    "f1-score": 0.7741935483870969,
+    "support": 16,
+    "confused_with": {
+      "retiro_total__procedimiento": 2,
+      "retiro_parcial__fechas": 2
+    }
+  },
+  "retiro_total__requisitos_documentos_justificacion": {
+    "precision": 1.0,
+    "recall": 0.6363636363636364,
+    "f1-score": 0.7777777777777778,
+    "support": 11,
+    "confused_with": {
+      "retiro_total__motivos_procede": 3,
+      "retiro_total__formato_solicitud": 1
+    }
+  },
+  "matricula__horarios": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8,
+    "f1-score": 0.8421052631578948,
+    "support": 20,
+    "confused_with": {
+      "matricula__cronograma": 3,
+      "perdida_turno_matricula": 1
+    }
+  },
+  "constancia_de_notas__procedimiento": {
+    "precision": 0.9230769230769231,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.888888888888889,
+    "support": 14,
+    "confused_with": {
+      "confirmar_requerir_mas_ayuda": 1,
+      "horario_curso": 1
+    }
+  },
+  "retiro_total__fechas": {
+    "precision": 0.9047619047619048,
+    "recall": 1.0,
+    "f1-score": 0.9500000000000001,
+    "support": 19,
+    "confused_with": {}
+  },
+  "costo_tramite": {
+    "precision": 0.9285714285714286,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.896551724137931,
+    "support": 15,
+    "confused_with": {
+      "confirmar_requerir_mas_ayuda": 1,
+      "formato_solicitud": 1
+    }
+  },
+  "retiro_parcial__unico_curso": {
+    "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 15,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 1
+    }
+  },
+  "solicitud_correo_institucional_procedimiento": {
+    "precision": 1.0,
+    "recall": 0.9411764705882353,
+    "f1-score": 0.9696969696969697,
+    "support": 17,
+    "confused_with": {
+      "carnet_universitario__solicitud": 1
+    }
+  },
+  "procedimiento_tramites_fechas": {
+    "precision": 0.8571428571428571,
+    "recall": 0.8,
+    "f1-score": 0.8275862068965518,
+    "support": 15,
+    "confused_with": {
+      "pago_fechas": 2,
+      "reincorporacion__fechas": 1
+    }
+  },
+  "pago_autoseguro_procedimiento": {
+    "precision": 0.918918918918919,
+    "recall": 0.9444444444444444,
+    "f1-score": 0.9315068493150684,
+    "support": 36,
+    "confused_with": {
+      "pago_autoseguro__fuera_fecha": 1,
+      "pago_autoseguro__fechas": 1
+    }
+  },
+  "confirmar_requerir_mas_ayuda": {
+    "precision": 0.7,
+    "recall": 0.5833333333333334,
+    "f1-score": 0.6363636363636365,
+    "support": 12,
+    "confused_with": {
+      "saludo": 2,
+      "despedida": 2
+    }
+  },
+  "retiro_total__motivos_procede": {
+    "precision": 0.7368421052631579,
+    "recall": 0.875,
+    "f1-score": 0.7999999999999999,
+    "support": 16,
+    "confused_with": {
+      "retiro_total__procedimiento": 1,
+      "retiro_total__fechas": 1
+    }
+  },
+  "saludo": {
+    "precision": 0.64,
+    "recall": 0.8421052631578947,
+    "f1-score": 0.7272727272727272,
+    "support": 19,
+    "confused_with": {
+      "despedida": 2,
+      "confirmar_requerir_mas_ayuda": 1
+    }
+  },
+  "constancia_matricula__pago": {
+    "precision": 1.0,
+    "recall": 0.9230769230769231,
+    "f1-score": 0.9600000000000001,
+    "support": 13,
+    "confused_with": {
+      "reincorporacion__costo": 1
+    }
+  },
+  "matricula__procedimiento_alumno_ingresante": {
+    "precision": 0.7,
+    "recall": 0.5384615384615384,
+    "f1-score": 0.608695652173913,
+    "support": 13,
+    "confused_with": {
+      "matricula_procedimiento": 2,
+      "aulas_curso": 1
+    }
+  },
+  "constancia_de_notas__formato_solicitud": {
+    "precision": 1.0,
+    "recall": 0.9090909090909091,
+    "f1-score": 0.9523809523809523,
+    "support": 11,
+    "confused_with": {
+      "constancia_de_estudios__formato_solicitud": 1
+    }
+  },
+  "matricula__cronograma": {
+    "precision": 0.8372093023255814,
+    "recall": 1.0,
+    "f1-score": 0.9113924050632911,
+    "support": 36,
+    "confused_with": {}
+  },
+  "reserva_matricula__procedimiento": {
+    "precision": 0.8409090909090909,
+    "recall": 0.9024390243902439,
+    "f1-score": 0.8705882352941177,
+    "support": 41,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 1,
+      "matricula__cronograma": 1
+    }
+  },
+  "denegar_mas_ayuda": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "reserva_matricula__fechas": {
+    "precision": 1.0,
+    "recall": 0.8666666666666667,
+    "f1-score": 0.9285714285714286,
+    "support": 15,
+    "confused_with": {
+      "reserva_matricula__procedimiento": 1,
+      "reserva_matricula__formato_solicitud": 1
+    }
+  },
+  "aulas_curso": {
+    "precision": 0.8461538461538461,
+    "recall": 0.7857142857142857,
+    "f1-score": 0.8148148148148148,
+    "support": 14,
+    "confused_with": {
+      "horario_curso": 2,
+      "matricula_rezagada__procedimiento": 1
+    }
+  },
+  "despedida": {
+    "precision": 0.42857142857142855,
+    "recall": 0.2727272727272727,
+    "f1-score": 0.33333333333333326,
+    "support": 11,
+    "confused_with": {
+      "saludo": 6,
+      "pago_fechas": 1
+    }
+  },
+  "formato_solicitud": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "reincorporacion__formato_solicitud": 1
+    }
+  },
+  "reincorporacion__formato_solicitud": {
+    "precision": 0.8333333333333334,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.7692307692307692,
+    "support": 14,
+    "confused_with": {
+      "reincorporacion__fechas": 2,
+      "reincorporacion__procedimiento": 2
+    }
+  },
+  "cambio_seccion": {
+    "precision": 1.0,
+    "recall": 0.90625,
+    "f1-score": 0.9508196721311475,
+    "support": 32,
+    "confused_with": {
+      "horario_curso": 2,
+      "horario_atencion_aera": 1
+    }
+  },
+  "retiro_total__procedimiento": {
+    "precision": 0.88,
+    "recall": 0.7333333333333333,
+    "f1-score": 0.8,
+    "support": 30,
+    "confused_with": {
+      "retiro_parcial__fechas": 2,
+      "retiro_parcial__procedimiento": 1
+    }
+  },
+  "reincorporacion_rezagada__procedimiento": {
+    "precision": 0.9090909090909091,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.8695652173913043,
+    "support": 12,
+    "confused_with": {
+      "matricula_rezagada__procedimiento": 1,
+      "reincorporacion__fechas": 1
+    }
+  },
+  "constancia_matricula__solicitud_procedimiento": {
+    "precision": 1.0,
+    "recall": 0.9523809523809523,
+    "f1-score": 0.975609756097561,
+    "support": 21,
+    "confused_with": {
+      "constancia_de_notas__procedimiento": 1
+    }
+  },
+  "retiro_parcial__fechas": {
+    "precision": 0.8333333333333334,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.8571428571428571,
+    "support": 34,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 2,
+      "ubicacion_aulas": 1
+    }
+  },
+  "matricula__procedimiento_alumno_regular": {
+    "precision": 0.9,
+    "recall": 0.9,
+    "f1-score": 0.9,
+    "support": 10,
+    "confused_with": {
+      "matricula__procedimiento_alumno_ingresante": 1
+    }
+  },
+  "retiro_parcial__cursos_repetidos": {
+    "precision": 0.9,
+    "recall": 0.6428571428571429,
+    "f1-score": 0.75,
+    "support": 14,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 2,
+      "retiro_parcial__maximo_cursos": 2
+    }
+  },
+  "pago_autoseguro__fechas": {
+    "precision": 0.8823529411764706,
+    "recall": 0.8823529411764706,
+    "f1-score": 0.8823529411764706,
+    "support": 17,
+    "confused_with": {
+      "pago_autoseguro_procedimiento": 2
+    }
+  },
+  "retiro_parcial__procedimiento": {
+    "precision": 0.8653846153846154,
+    "recall": 0.9574468085106383,
+    "f1-score": 0.9090909090909091,
+    "support": 47,
+    "confused_with": {
+      "retiro_parcial__fechas": 2
+    }
+  },
+  "perdida_turno_matricula": {
+    "precision": 0.8695652173913043,
+    "recall": 0.7407407407407407,
+    "f1-score": 0.7999999999999999,
+    "support": 27,
+    "confused_with": {
+      "pago_autoseguro__fuera_fecha": 2,
+      "matricula__horarios": 2
+    }
+  },
+  "pago_fechas": {
+    "precision": 0.6666666666666666,
+    "recall": 0.8,
+    "f1-score": 0.7272727272727272,
+    "support": 10,
+    "confused_with": {
+      "costo_tramite": 1,
+      "pago_autoseguro__fechas": 1
+    }
+  },
+  "pago_autoseguro__fuera_fecha": {
+    "precision": 0.918918918918919,
+    "recall": 0.9714285714285714,
+    "f1-score": 0.9444444444444445,
+    "support": 35,
+    "confused_with": {
+      "matricula_rezagada__procedimiento": 1
+    }
+  },
+  "reincorporacion__procedimiento": {
+    "precision": 0.7931034482758621,
+    "recall": 0.696969696969697,
+    "f1-score": 0.7419354838709677,
+    "support": 33,
+    "confused_with": {
+      "reserva_matricula__procedimiento": 6,
+      "matricula__procedimiento_alumno_ingresante": 1
+    }
+  },
+  "accuracy": 0.8667366211962224,
+  "macro avg": {
+    "precision": 0.8657608603616015,
+    "recall": 0.8539887511807355,
+    "f1-score": 0.85571486298274,
+    "support": 953
+  },
+  "weighted avg": {
+    "precision": 0.8696717951539203,
+    "recall": 0.8667366211962224,
+    "f1-score": 0.8646594837493811,
+    "support": 953
+  },
+  "micro avg": {
+    "precision": 0.8667366211962224,
+    "recall": 0.8667366211962224,
+    "f1-score": 0.8667366211962224,
+    "support": 953
+  }
+}
