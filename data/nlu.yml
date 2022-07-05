@@ -1171,6 +1171,7 @@ nlu:
     - cual es el aula designada para el curso de [ingenieria de software]{"entity": "course"}?
     - en donde encuentro las aulas en que dicta el curso de [fisica iii]{"entity": "course"}?
     - puedes decirme donde esta el salon donde se dicta el curso de [realidad nacional]{"entity": "course"}?
+    - no encuentro el laboratorio donde de física I sección b.
 
 
 - intent: ubicacion_aulas
@@ -1189,3 +1190,4 @@ nlu:
     - necesito ayuida para ubicar el salon [R1-125B]{"entity": "room"} 
     - en que pabellon encuentro el aula [R2-323]{"entity": "room"} 
     - como localizo el salon [r2 323]{"entity": "room"}?
+    - no encuentro el aula R1 430 en que pabellon esta
