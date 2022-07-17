@@ -1165,13 +1165,12 @@ nlu:
     - en que salon se dicta el curso de [economia general]{"entity": "course"}?
     - para la seccion [A]{"entity": "section"} del curso [ingles i]{"entity": "course"} cual es el aula asiganada?
     - los dias Martes en que aula se dicta el curso de [programacion paralela]{"entity": "course"}?
-    - la seccion [B] {"entity": "section"} del curso de [fisica ii]{"entity": "course"} en que salon se dicta clases los Jueves
+    - la seccion [B]{"entity": "section"} del curso de [fisica ii]{"entity": "course"} en que salon se dicta clases los Jueves
     - en que salon son las clases del cursos de [programacion estructurada]{"entity": "course"} en la seccion [c]{"entity": "section"}?
     - en donde se dicta el curso de [mineria de datos]{"entity": "course"}?
     - cual es el aula designada para el curso de [ingenieria de software]{"entity": "course"}?
     - en donde encuentro las aulas en que dicta el curso de [fisica iii]{"entity": "course"}?
     - puedes decirme donde esta el salon donde se dicta el curso de [realidad nacional]{"entity": "course"}?
-
 
 - intent: ubicacion_aulas
   examples: |
