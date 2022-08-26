@@ -16,8 +16,8 @@ pipeline:
   hidden_layers_sizes: 
     text: [256, 128]
     label: []
-  transformer_size: 256
-  number_of_transformer_layers: 2
+  transformer_size: 512
+  number_of_transformer_layers: 4
   embedding_dimension: 30
   constrain_similarities: True
   #evaluate_on_number_of_examples: 0 #100
