@@ -278,7 +278,7 @@ nlu:
     - ¿Cuales son los dias de matrícula?
     - Hola porfavor quiero saber la fecha de matricula del siguiente ciclo
     - Buen día, quiero saber cuando es la matrícula
-    - Hola cuales son los dias de matricula
+    - Hola, cuales son los dias de matricula
     - Buenas tardes, podria  decirme que dias son las fechas de la matricula
     - Buenas dias, cuales son las fechas de la matricula
     - Buenos días, deseo que saber cuando comienza la matrícula
@@ -286,21 +286,15 @@ nlu:
     - Buenos días, quiero información sobre la fecha de matrícula
     - Hola quiero saber cuando se hara la matricula en el siguiente ciclo
     - quiero saber en que fechas se hara la matricula
-    - en que fecha se realizará la matricula
-    - Oye porfa dime cuando es la matriculas
-    - Hola amigo, dime porfavor cuales son las dias de matricula
-    - Hola Ciencito, me puedes decir donde encontrar el cronograma de matricula
+    - Hola Aerito, me puedes decir donde encontrar el cronograma de matricula
     - Hola porfavor dime la fecha de matricula del siguiente ciclo
     - hola que tal, quisiera saber en que fechas se hará la matricula
-    - Quiero saber cuando es la matrícula
     - Necesito saber la fecha de mi matrícula
-    - cuales son las fechas de la matricula
     - ayudame a saber cual son las fechas de matricula
     - cual es el cronograma de matricula
     - si dime cuales son las fechas de matricula
-    - quiero saber que dias son la matricula
     - Deseo que saber cuando comienza la matrícula
-    - quiero saber el cronograma de matricula
+    - quiero saber dono esta el cronograma de matricula
     - Si, quiero saber que dias son la matricula
     - si, me puedes decir la fecha de la matricula
     - soy ingresante quiero saber cuando es la matricula
@@ -308,9 +302,10 @@ nlu:
     - puedes decirme que dias son la matricula.
     - Entiendo, y cuando seran los dias de la matricula
     - Como puedo saber el día de mi matricula
-    - Si, quiero saber que dias son la matriculas
     - cual es la fecha de la matricula del siguiente ciclo?
 
+#- quiero saber que dias son la matricula
+    
 - intent: matricula__horarios #NC
   examples: |
     - ¿Cuál es mi horario de matrícula?
@@ -324,7 +319,6 @@ nlu:
     - Buen día, quiero saber cual es el horario de la matrícula
     - si, quiero saber cuales son los horarios de la matricula
     - ya veo tambien quisiera saber  mi horario de matricula.
-    - quiero saber mi horario de matricula
     - Entiendo, me podria decir como saber mi horario de matricula.
     - me podria decir como saber mi horario de matricula.
     - si tambien quiero saber mi horario de matricula
@@ -347,10 +341,9 @@ nlu:
     - tengo una consulta con cuantos dias antes de la matricula se debe pagar el autoseguro
     - me puede dar las fechas del pago de autoseguro
     - si y cuando puedo pagar el autoseguro
-    - y cuando debo pagar el autoseguro
+    - y hasta cuando se debe pagar el autoseguro
     - Si hasta que dia se puede pagar el autoseguro
     - Si recien me acorde que debo pagar el autoseguro antes de la matricula, hasta cuando puedo pagarlo
-    - Si, hasta que dia se puede pagar el autoseguro
     - que dias se paga el autoseguro
     - dime cuando pagar el autoseguro
 
@@ -358,12 +351,10 @@ nlu:
   examples: |
     - ¿Como realizo el pago de autoseguro?
     - Buenas, cual es el procedimiento para pagar el autoseguro
-    - Buenas tardes, quiero saber el procedimiento para pagar el autoseguro
-    - Hola ciencito, quiero saber como pagar el autoseguro
+    - Hola Aerito, quiero saber como pagar el autoseguro
     - Hola, como puedo realizar el pago del autoseguro
     - Buen dia, donde pago el autoseguro?
     - Buenas tardes, como pago el autoseguro
-    - Hola ayudame quiero saber como pagar el autoseguro creo que es el ultimo dia
     - Buenas tardes, en que banco pago el autoseguro
     - Hola hoy quiero pagar el autoseguro puedes decirme como
     - Buenas dias, como hago para pagar el autoseguro
@@ -389,25 +380,26 @@ nlu:
     - tengo una consulta como puedo pagar el autoseguro
     - cual es el metodo para pagar el autoseguro
     - para pagar el autoseguro debo emitir orden de pago ?
-    - como pago el autoseguro
     - si quiera saber como hacer el pago de autoseguro
     - que pasa si no pago el autoseguro a tiempo
 
+#- Buenas tardes, quiero saber el procedimiento para pagar el autoseguro
+#- Hola ayudame quiero saber como pagar el autoseguro creo que es el ultimo dia
+        
 - intent: pago_autoseguro__fuera_fecha
   examples: |
     - ¿Que sucede si demore en realizar el pago de autoseguro?
     - Buenos días una consulta, hace 02 días pague el autoseguro, soy rezagado?
     - Buenas dias que tal, que pasa si no pago el autoseguro con los 3 dias de anticipación
     - Buenos dias, que pasa si no pago a tiempo el autoseguro
-    - Oye, no se si voy a pagar el autoseguro hoy y creo que es el ultimo dia que pasa si no lo pago a tiempo
+    - Oye, no se si voy a poder pagar el autoseguro hoy y creo que es el ultimo dia que pasa si no lo pago a tiempo
     - Hola, recien pague autoseguro y me toca mi matrícula mañana, sería rezagado?
     - Hola, si no pago a tiempo el autoseguro me voy a matricula rezagada ?
-    - Hola ciencito que tal, no pague a tiempo el autoseguro entonces me voy a rezagado ?
+    - Hola Aerito que tal, no pague a tiempo el autoseguro entonces me voy a rezagado ?
     - Hola creo que no pague a tiempo el autoseguro que debo hacer
     - Buenos dias, quiero saber si no pague a tiempo el autoseguro me voy a rezagada la matricula
-    - Hola Ciencito, tengo una consulta si no pago el autoseguro con los 3 dias de anticipación pasare a resagado ?
+    - Hola Aerito, tengo una consulta si no pago el autoseguro con los 3 dias de anticipación pasare a resagado ?
     - Buen día, acabo de pagar el autoseguro, estoy a tiempo?
-    - Buenas tardes, quiero saber que paso si no pago el autoseguro con los 3 dias de anticipación
     - buenos días, hoy pague el autoseguro, soy rezagado?
     - no se si voy a pagar el autoseguro hoy y creo que es el ultimo dia que paso si no lo pago a tiempo
     - quiero saber si no pague a tiempo el autoseguro me voy a rezagada la matricula
@@ -420,21 +412,23 @@ nlu:
     - Recien pague autoseguro y me toca mi matrícula mañana, sería rezagado?
     - no pague a tiempo el autoseguro entonces me voy a rezagado ?
     - si queria saber si no lo pago a tiempo que debo hacer
-    - si no lo pago hoy me ire a rezagado
+    - si no lo pago hoy me ire a rezagado?
     - Si demore en realizar el pago de autoseguro, que pasará?
     - entonces si no pago a tiempo el autoseguro me ire a rezagado
     - si no pago a tiempo  me voy a matricula rezagada ?
     - Tengo una consulta sobre la matrícula dado que el día de hoy realize el pago de autoseguro, puedo matricularme de forma normal o paso a rezagado
     - hoy pague el autoseguro, soy rezagado?
-    - entonces si lo pago hoy me voy a rezagado mi matricula
     - entonces si no pago a tiempo me voy a matricula rezagada
     - Soy rezagado si no pago el autoseguro con dias de anticipacion a la matricula
-    - entiendo entonces si pago hoy paso a rezagado
+   
+# - Buenas tardes, quiero saber que paso si no pago el autoseguro con los 3 dias de anticipación
+# - entonces si lo pago hoy me voy a rezagado mi matricula
+#  - entiendo entonces si pago hoy paso a rezagado
 
 - intent: perdida_turno_matricula #NC
   examples: |
     - ¿Como puedo matricularme si perdí mi turno de matricula?
-    - Hola, he tenido problemas de conexion y no llegue a matricularme que debe hacer
+    - Hola, he tenido problemas de conexion y no llegue a matricularme que debo hacer
     - tuve problemas con mi internet y no puede matricuarme que debo hacer
     - Buenas, tuve problemas para realizar mi matricula y no pude matricularme que debo hacer
     - Buenas, perdí mi turno de matricula como procedo ahora
@@ -537,9 +531,7 @@ nlu:
     - Hola que tal ciencito, dime donde encuentro los horarios de los cursos
     - Hola, no logro encontrar los horarios de los cursos donde estas ?
     - Hola que tal, quiero saber el horario de mis cursos
-    - Hola , donde puedo encontrar los horarios de los cursos
     - Buenos tardes, dime donde puedo encontrar los horarios de los cursos
-    - Buenos dias, donde encuentro los horarios de los cursos
     - donde encuentro los horarios de los cursos
     - sabes donde puedo encontrar los horarios de las asignaturas para este semestre
     - puedes decirme donde encontrar el horario de los cursos
@@ -549,21 +541,22 @@ nlu:
     - quisiera los el horario de los cursos de este periodo academico
     - quiero saber el horario del curso de Electomagnetismo
     - quiero saber el horario de mis asignaturas
-    
+##  Buenos dias, donde encuentro los horarios de los cursos
+##  Hola , donde puedo encontrar los horarios de los cursos
+ 
 - intent: retiro_parcial__fechas #
   examples: |
     - ¿En que semana se realiza el retiro parcial?
     - Hasta cuándo puedo hacer el retiro parcial?
     - una duda a partir de semana puedo solicitar el retiro parcial ?
     - en que semana puedo realizar el retiro parcial?
-    - Y hasta cuando podria enviar enviar la solicitud de retiro parcial?
+    - Y hasta cuando podria enviar la solicitud de retiro parcial?
     - hasta cuando hacer el retiro de un curso ?
     - quisiera saber hasta que dias puedo hacer el retiro parcial ?
     - una consulta cuando se habilitara en el sistema el retiro parcial?
     - Me prodrían decir la fecha máxima para hacer el retiro parcial?
     - quiero solicitar el retiro de un curso hasta cuando puedo hacerlo ?
     - Hasta que fecha podría hacer el retiro parcial?
-    - Y hasta cuando podria enviar la solicitud de retiro parcial?
     - una consulta estamos ya en la cuarta semana de clases, podria hacer el retiro parcial ?
     - Hola, he querido retirarme de un curso pero me parece que un no esta habilitado cuando se habilitara el retiro parcial?
     - Buenos dias, cuando puedo realizar el retiro de un curso
@@ -584,9 +577,10 @@ nlu:
     - Hola, tengo una duda en que semana se habilitara el retiro parcial
     - Buenas, ¿Cuáles son las fechas para realizar el retiro parcial?
     - Hola, quisiera retirarme de un curso me podria decir hasta cuando se habilitara en el sistema ?
-    - Buenas tardes, ¿Cuando se habilitara el retiro parcial?
     - cuando es el retiro parcial
-    
+
+## Buenas tardes, ¿Cuando se habilitara el retiro parcial?
+
 - intent: retiro_parcial__procedimiento #
   examples: |
     - ¿Cómo realizo un retiro parcial?
