@@ -1,0 +1,447 @@
+[
+  {
+    "text": "Hola Aerito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 64,
+        "end": 72,
+        "confidence_entity": 0.9693593382835388,
+        "value": "Fisica I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 87,
+        "end": 88,
+        "confidence_entity": 0.9797607660293579,
+        "value": "B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 126,
+        "end": 127,
+        "confidence_entity": 0.8062452673912048,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 51,
+        "end": 59,
+        "confidence_entity": 0.9931662678718567,
+        "value": "Fisica I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 74,
+        "end": 75,
+        "confidence_entity": 0.9802754521369934,
+        "value": "B",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 113,
+        "end": 114,
+        "confidence_entity": 0.9294632077217102,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "me puedes decir el horario del curso INTRODUCCION A LAS ECUACIONES DIFERENCIALES ORDINARIAS?",
+    "entities": [
+      {
+        "start": 37,
+        "end": 91,
+        "value": "INTRODUCCION A LAS ECUACIONES DIFERENCIALES ORDINARIAS",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 37,
+        "end": 49,
+        "confidence_entity": 0.7751995325088501,
+        "value": "INTRODUCCION",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 50,
+        "end": 51,
+        "confidence_entity": 0.3870464265346527,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 52,
+        "end": 91,
+        "confidence_entity": 0.28260982036590576,
+        "value": "LAS ECUACIONES DIFERENCIALES ORDINARIAS",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "El curso de Fisica I en la seccion b en que aula se esta dictando?",
+    "entities": [
+      {
+        "start": 12,
+        "end": 20,
+        "value": "Fisica I",
+        "entity": "course"
+      },
+      {
+        "start": 35,
+        "end": 36,
+        "value": "b",
+        "entity": "section"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 12,
+        "end": 20,
+        "confidence_entity": 0.9730782508850098,
+        "value": "Fisica I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "section",
+        "start": 35,
+        "end": 36,
+        "confidence_entity": 0.7692168354988098,
+        "value": "b",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 44,
+        "end": 48,
+        "confidence_entity": 0.6411576271057129,
+        "value": "aula",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "para la seccion A del curso ingles i cual es el aula asiganada?",
+    "entities": [
+      {
+        "start": 16,
+        "end": 17,
+        "value": "A",
+        "entity": "section"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "value": "ingles i",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 28,
+        "end": 36,
+        "confidence_entity": 0.5061149597167969,
+        "value": "ingles i",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 53,
+        "end": 62,
+        "confidence_entity": 0.8914692401885986,
+        "value": "asiganada",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "quiero ubicar el salon r1 450 me puedes decir donde es",
+    "entities": [
+      {
+        "start": 23,
+        "end": 29,
+        "value": "r1 450",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "room",
+        "start": 23,
+        "end": 25,
+        "confidence_entity": 0.5870636701583862,
+        "value": "r1",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como hago el cambio de seccion del curso de Fisica II",
+    "entities": [],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 44,
+        "end": 50,
+        "confidence_entity": 0.6791200041770935,
+        "value": "Fisica",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "cuando se dicta el curso de Fisica I?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 36,
+        "value": "Fisica I",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 28,
+        "end": 36,
+        "confidence_entity": 0.9884252548217773,
+        "value": "Fisica I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 36,
+        "end": 37,
+        "confidence_entity": 0.6054355502128601,
+        "value": "?",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a que hora son las clases para la seccion A del curso de analisis real?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 43,
+        "value": "A",
+        "entity": "section"
+      },
+      {
+        "start": 57,
+        "end": 70,
+        "value": "analisis real",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "section",
+        "start": 42,
+        "end": 43,
+        "confidence_entity": 0.9731236696243286,
+        "value": "A",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 57,
+        "end": 65,
+        "confidence_entity": 0.9446158409118652,
+        "value": "analisis",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "a que hora comienza las clases del curso de biologia?",
+    "entities": [
+      {
+        "start": 44,
+        "end": 52,
+        "value": "biologia",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Buenas dias, me podria decir cuales son los horarios para el curso de Algoritmos",
+    "entities": [
+      {
+        "start": 70,
+        "end": 80,
+        "value": "Algoritmos",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "en que salon son las clases del cursos de programacion estructurada en la seccion c?",
+    "entities": [
+      {
+        "start": 42,
+        "end": 67,
+        "value": "programacion estructurada",
+        "entity": "course"
+      },
+      {
+        "start": 82,
+        "end": 83,
+        "value": "c",
+        "entity": "section"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "puedes decirme donde esta el salon donde se dicta el curso de realidad nacional?",
+    "entities": [
+      {
+        "start": 62,
+        "end": 79,
+        "value": "realidad nacional",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Buenas noches, quiero saber el curso de electomagnetismo",
+    "entities": [
+      {
+        "start": 40,
+        "end": 56,
+        "value": "electomagnetismo",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "quiero saber el horario del curso de algebra lineal para fisicos",
+    "entities": [
+      {
+        "start": 37,
+        "end": 51,
+        "value": "algebra lineal",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 37,
+        "end": 51,
+        "confidence_entity": 0.9692032337188721,
+        "value": "algebra lineal",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "course",
+        "start": 57,
+        "end": 64,
+        "confidence_entity": 0.5022539496421814,
+        "value": "fisicos",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Hola, quiero saber el horario del curso de FISICA III",
+    "entities": [
+      {
+        "start": 43,
+        "end": 53,
+        "value": "FISICA III",
+        "entity": "course"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.44339993596076965,
+        "value": "FISICA",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "no encuentro el laboratorio donde se dicta física I sección b",
+    "entities": [
+      {
+        "start": 43,
+        "end": 51,
+        "value": "física I",
+        "entity": "course"
+      },
+      {
+        "start": 60,
+        "end": 61,
+        "value": "b",
+        "entity": "section"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "course",
+        "start": 43,
+        "end": 49,
+        "confidence_entity": 0.4550344944000244,
+        "value": "física",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "room",
+        "start": 50,
+        "end": 51,
+        "confidence_entity": 0.3696184754371643,
+        "value": "I",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "room",
+        "start": 60,
+        "end": 61,
+        "confidence_entity": 0.3693014979362488,
+        "value": "b",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "como llego al aula j3 242",
+    "entities": [
+      {
+        "start": 19,
+        "end": 25,
+        "value": "j3 242",
+        "entity": "room"
+      }
+    ],
+    "predicted_entities": []
+  }
+]
