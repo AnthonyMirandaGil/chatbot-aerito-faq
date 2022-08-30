@@ -284,17 +284,21 @@ slots:
     mappings:
     - type: from_entity
       entity: topic
-      
+  question:
+    type: text
+    mappings:
+    - type: from_text
+      conditions:
+      - active_loop: qas_form
+        requested_slot: question
+
+forms:
+  qas_form:
+    required_slots:
+      - question
+
 actions:
 - action_default_ask_affirmation
 - action_default_fallback
 - action_trigger_menu_anterior
-- validate_course_schedule_form
-- validate_course_room_form
-- action_ask_course
-- action_ask_section
-- action_find_course_schedule
-- action_find_course_room
-- action_ask_coursecode
-- action_find_course_rooms_ubication
-- action_find_room_ubication
+- action_run_pipeline_qas

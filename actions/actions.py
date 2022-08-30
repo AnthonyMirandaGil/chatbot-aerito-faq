@@ -15,6 +15,14 @@ from db.db import *
 import logging
 import re
 import unidecode
+import requests
+
+import nltk
+try:
+    nltk.data.find("tokenizers/punkt")
+except LookupError:
+    nltk.download("punkt")
+
 
 logger = logging.getLogger(__name__)
 
@@ -189,7 +197,7 @@ class ActionDefaultFallback(Action):
         dispatcher.utter_message(text="Lo lamento, no puedo ayudarte con eso.")
         dispatcher.utter_message(text="Recuerda que puedes escribir 'ayuda' para guiarte en los principales temas y consultas sobre los cuales puedo ayudarte")
         dispatcher.utter_message(
-            text = "Si tu consulta consulta es sobre los reglamento academicos, puedo sugerirte algunas pasages que te puedan ayudar. Deseas realizar esta accion?",
+            text = "Si tu consulta consulta es sobre los reglamento academicos, puedo sugerirte algunos pasages que te puedan ayudar. Deseas realizar esta accion?",
             buttons = [{
                 "title": 'Si',
                 "payload": "/question_answering_system"
@@ -201,6 +209,42 @@ class ActionDefaultFallback(Action):
         #dispatcher.utter_message(response=f"utter_requerir_mas")
         #dispatcher.utter_message(response = f'')
         return [ConversationPaused(), UserUtteranceReverted()]
+
+class ActionRunPipelineQAS(Action):
+    def name(self) -> Text:
+        return "action_run_pipeline_qas"
+
+    def run(self, dispatcher: "CollectingDispatcher", tracker: Tracker, domain: "DomainDict") -> List[Dict[Text, Any]]:
+        slot_question = tracker.get_slot('question')
+        print('slot_question:', slot_question)
+        api_url = "http://192.168.1.21:5035/api/question-answering"
+        body = { "question": slot_question}
+        headers = {"Content-Type":"application/json"}
+
+        response = requests.post(api_url, json= body, headers = headers)
+        answers = response.json()
+
+        dispatcher.utter_message(
+            text="Encontre estos passages que pueden ayudarte a resolver tu consulta:"
+            )
+      
+        for ans in answers:
+            answer_text = ans['answer']
+            doc_content = ans['document']['content']
+            sentences = nltk.tokenize.sent_tokenize(doc_content, language = 'spanish')
+            context = None
+            for sent in sentences:
+                if answer_text in sent:
+                    context = sent
+                    break
+            print("answer_text:", answer_text)
+            print("doc_content:", doc_content)
+            if context:
+                context = context.replace(answer_text, f"**{answer_text}**")
+                dispatcher.utter_message(
+                    text = context
+                )
+        return []
 
 
 #class ActionContextualFaqsFormatoSolicitud(Action):
