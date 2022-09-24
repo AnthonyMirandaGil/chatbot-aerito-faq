@@ -10,11 +10,9 @@ from rasa_sdk.events import SlotSet, EventType, UserUtteranceReverted, Conversat
 from rasa_sdk.executor import CollectingDispatcher
 
     
-from db.db import *
 
 import logging
 import re
-import unidecode
 import requests
 
 import nltk
@@ -217,7 +215,7 @@ class ActionRunPipelineQAS(Action):
     def run(self, dispatcher: "CollectingDispatcher", tracker: Tracker, domain: "DomainDict") -> List[Dict[Text, Any]]:
         slot_question = tracker.get_slot('question')
         print('slot_question:', slot_question)
-        api_url = "http://192.168.1.21:5035/api/question-answering"
+        api_url = "http://127.0.0.1:5035/api/question-answering"
         body = { "question": slot_question}
         headers = {"Content-Type":"application/json"}
 
@@ -240,11 +238,12 @@ class ActionRunPipelineQAS(Action):
             print("answer_text:", answer_text)
             print("doc_content:", doc_content)
             if context:
+                context = context + ". Puedes seguir leyendo mas aqui..."
                 context = context.replace(answer_text, f"**{answer_text}**")
                 dispatcher.utter_message(
                     text = context
                 )
-        return []
+        return [SlotSet("question", None)]
 
 
 #class ActionContextualFaqsFormatoSolicitud(Action):
@@ -295,4 +294,4 @@ class ActionRunPipelineQAS(Action):
 #        else:
 #            sub_topic = None
 #        print('sub_topic:', sub_topic)
-#        return [SlotSet("sub_topic", sub_topic)]
+#        return [)]

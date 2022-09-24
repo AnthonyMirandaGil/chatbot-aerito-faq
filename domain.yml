@@ -272,6 +272,10 @@ responses:
   utter_necesita_indicaciones:
   - text: ¿Necesita indicaciones para ubicar las aulas?
   - text: ¿Desea indicaciones para poder ubicar las aulas?
+  utter_ask_qas_form_question:
+  - text: Por favor enviame tu consulta nuevamente. Recuerde escribir de forma clara y evitando referencias.
+  
+  
 slots:
   retrieval_intent:
     type: text
