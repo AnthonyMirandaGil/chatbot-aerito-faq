@@ -358,17 +358,3 @@ rules:
       - action: utter_retiro_parcial__cursos_repetidos
       - action: utter_requerir_mas 
 
-  - rule: active qas form
-    steps: 
-      - intent: question_answering_system
-      - action: qas_form
-      - active_loop: qas_form
-  
-  - rule: sumbit question
-    condition: 
-      - active_loop: qas_form
-    steps:
-      - action: qas_form
-      - active_loop: null
-      - action: action_run_pipeline_qas
-      

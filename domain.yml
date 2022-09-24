@@ -275,7 +275,6 @@ responses:
   utter_ask_qas_form_question:
   - text: Por favor enviame tu consulta nuevamente. Recuerde escribir de forma clara y evitando referencias.
   
-  
 slots:
   retrieval_intent:
     type: text
@@ -288,21 +287,8 @@ slots:
     mappings:
     - type: from_entity
       entity: topic
-  question:
-    type: text
-    mappings:
-    - type: from_text
-      conditions:
-      - active_loop: qas_form
-        requested_slot: question
-
-forms:
-  qas_form:
-    required_slots:
-      - question
 
 actions:
 - action_default_ask_affirmation
 - action_default_fallback
 - action_trigger_menu_anterior
-- action_run_pipeline_qas

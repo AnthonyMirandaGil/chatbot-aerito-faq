@@ -208,44 +208,6 @@ class ActionDefaultFallback(Action):
         #dispatcher.utter_message(response = f'')
         return [ConversationPaused(), UserUtteranceReverted()]
 
-class ActionRunPipelineQAS(Action):
-    def name(self) -> Text:
-        return "action_run_pipeline_qas"
-
-    def run(self, dispatcher: "CollectingDispatcher", tracker: Tracker, domain: "DomainDict") -> List[Dict[Text, Any]]:
-        slot_question = tracker.get_slot('question')
-        print('slot_question:', slot_question)
-        api_url = "http://127.0.0.1:5035/api/question-answering"
-        body = { "question": slot_question}
-        headers = {"Content-Type":"application/json"}
-
-        response = requests.post(api_url, json= body, headers = headers)
-        answers = response.json()
-
-        dispatcher.utter_message(
-            text="Encontre estos passages que pueden ayudarte a resolver tu consulta:"
-            )
-      
-        for ans in answers:
-            answer_text = ans['answer']
-            doc_content = ans['document']['content']
-            sentences = nltk.tokenize.sent_tokenize(doc_content, language = 'spanish')
-            context = None
-            for sent in sentences:
-                if answer_text in sent:
-                    context = sent
-                    break
-            print("answer_text:", answer_text)
-            print("doc_content:", doc_content)
-            if context:
-                context = context + ". Puedes seguir leyendo mas aqui..."
-                context = context.replace(answer_text, f"**{answer_text}**")
-                dispatcher.utter_message(
-                    text = context
-                )
-        return [SlotSet("question", None)]
-
-
 #class ActionContextualFaqsFormatoSolicitud(Action):
 #    """Returns the chitchat utterance dependent on the intent"""
 #

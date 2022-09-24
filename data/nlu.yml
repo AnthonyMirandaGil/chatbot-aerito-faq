@@ -136,9 +136,6 @@ nlu:
     - ayudaaaa
     - ayuda
     - ayudaa
-- intent: question_answering_system
-  examples: |
-    - buscar_reglamento
 
 # preguntas que la respuesta depende del contexto
 
