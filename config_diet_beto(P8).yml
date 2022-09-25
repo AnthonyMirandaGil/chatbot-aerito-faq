@@ -20,6 +20,11 @@ pipeline:
   number_of_transformer_layers: 4
   embedding_dimension: 30
   constrain_similarities: True
+  random_seed: 42
+  evaluate_on_number_of_examples: 150
+  evaluate_every_number_of_epochs: 1
+  tensorboard_log_level: epoch
+  tensorboard_log_directory: ./tensorboard/DIETClassifier_beto
   #evaluate_on_number_of_examples: 0 #100
   #evaluate_every_number_of_epochs: 1
   #tensorboard_log_directory: ./tensorboard/DIETClassifier_medium

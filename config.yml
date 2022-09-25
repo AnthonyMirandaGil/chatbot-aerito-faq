@@ -8,7 +8,7 @@ pipeline:
 - name: SpacyFeaturizer
   pooling: mean
 - name: DIETClassifier
-  epochs: 150
+  epochs: 100
   learning_rate: 0.001
   entity_recognition: False
   drop_rate: 0.25
@@ -19,13 +19,14 @@ pipeline:
   number_of_transformer_layers: 2
   embedding_dimension: 30
   constrain_similarities: True
-- name: FallbackClassifier
-  threshold: 0.80
-  ambiguity_threshold: 0.2
-  #evaluate_on_number_of_examples: 0 #100
-  #evaluate_every_number_of_epochs: 1
-  #tensorboard_log_directory: ./tensorboard/DIETClassifier_medium
-  #tensorboard_log_level: epoch
+  random_seed: 42
+  evaluate_on_number_of_examples: 150
+  evaluate_every_number_of_epochs: 5
+  tensorboard_log_level: epoch
+  tensorboard_log_directory: ./tensorboard/DIETClassifier
+#- name: FallbackClassifier
+#  threshold: 0.7
+
 policies:
 - name: RulePolicy
 - name: MemoizationPolicy
