@@ -1,0 +1,837 @@
+version: "3.1"
+nlu:
+- intent: ayuda
+  examples: |
+    - ayuda
+    - ayudaaaa
+- intent: formato_solicitud
+  examples: |
+    - ¿Cuál es el modelo para la solicitud?
+    - si hay algun formato para la solicitud que debo enviar
+    - donde puedo encontrar un modelo
+    - una duda porfavor existe algun modelo o formato para la solicitud
+    - donde encuentro un modelo para la solicitud?
+    - Dónde está el modelo de solicitud?
+    - hay algun formato o modelo
+    - cual es el formato para la solicitud
+- intent: pago_fechas
+  examples: |
+    - esta semana todavia puedo pagarlo
+    - todavia puedo pagarlo?
+    - en que fechas se realiza el pago
+    - si hasta que dia lo puedo pagar
+    - cuando es la fecha limite para pagarlo
+    - hasta cuando tengo para pagarlo
+    - debo pagarlo hasta cuando
+    - hasta que fechas puedo pagarlo
+- intent: despedida
+  examples: |
+    - hasta luego Aerito
+    - adios
+    - que tengas buen dia
+    - adios que tenga lindo dia
+    - chau
+    - te veo luego
+    - hasta luego
+    - nos vemos
+    - nos vemos luego
+- intent: matricula__procedimiento_alumno_regular
+  examples: |
+    - soy alumno regular de fisica me podrias decir cual es el proceso de matricula
+    - soy alumno regular como me mtrculo
+    - Hola, soy alumno regular quiero saber como realizar mi matricula
+    - como alumno regular que pagos debo hacer para realizar la matricula
+    - cual es el procedimiento de matricula como alumno regular
+    - que pagos debo hacer este ciclo para la matricula soy alumno regular
+    - Soy alumno regular como es el proceso de matricula
+    - ¿Cuál es el proceso de matrícula para un alumno regular?
+    - soy alumno regular de ciencias de la computación cual es el proceso de matricula
+- intent: carnet_universitario__solicitud
+  examples: |
+    - donde solicito mi carnt unversitario
+    - ¿Cómo puedo obtener mi carnet universitario?
+    - como tramito mi carnet universitario
+    - como puedo tramitar mi carnet universitario
+    - ¿Cómo obtener mi carnet universitario?
+    - como solicitar mi carnet universitario
+    - de mas debo hacer para obtener mi carnet universitario?
+    - deseo obtener mi carnet universitario que debo hacer
+- intent: retiro_total__formato_solicitud
+  examples: |
+    - donde encuentro un modelo para la solicitud de retiro total?
+    - quiero un modelo pra solictar el el retiro paracila
+    - una consulta hay algun modelo para la solicitud de retiro total
+    - donde puedo encontrar un modelo para la solicitud de retiro total
+    - existe alguna modelo para la solicitud de retiro total
+    - ¿Cuál es el modelo para la solicitud de retiro total?
+    - Dónde está el modelo de solicitud para el retiro total?
+    - quiero solicitar el retiro total me puedes enviar el modelo para la solicitud
+    - una duda porfavor existe algun modelo o formato para la solicutud de retiro total
+- intent: constancia_de_estudios__formato_solicitud
+  examples: |
+    - donde un encontra un modelo o formato para la solicitud de constancia de estudios
+    - ¿Hay algún formato de solicitud de constancia de estudios?
+    - para la solicitud de constancia de estudios existe algun modelo
+    - hay algun formato para la solictud de constancia de estudios
+    - existe algun modelo para la solicitud de constancia de estudios
+    - me puedes facilitar un modelo para la solicitud de constacia de estudios
+    - ¿Hay algún modelo para la solicitud de constancia de estudios?
+    - donde puedo encontra un modelo para la solicitud de constancia de estudios
+    - cual es el modelo para solicitu de constancia de estidios?
+- intent: confirmar_requerir_mas_ayuda
+  examples: |
+    - si tenga una consulta
+    - si por favor
+    - si una consulta mas
+    - si
+    - tengo otra duda
+    - si una duda mas
+    - Si tengo otra consulta
+    - tongo otra consulta
+    - si una mas
+    - Si claro
+- intent: matricula_procedimiento
+  examples: |
+    - que pagos debo hacer para la matrícula
+    - cuales son los pagos para realizar la matricula
+    - debo pagar algo para realizar mi matricula
+    - como realizo la mtracula
+    - que pasos debo seguir para la matricula
+    - ¿Cuál es proceso de matricula?
+    - que pagos y que debo hacer para la matricula
+    - que debo tramitar para la matricula
+    - cuales son los pasos para matricularme en el siguiente ciclo
+- intent: constancia_de_notas__formato_solicitud
+  examples: |
+    - donde podria encontar un modelo de solicitud para la constacia de notas
+    - ¿Hay algun modelo para la solicitud de constancia de notas?
+    - existe algun modelo para la solicitud de constancia de notas
+    - habria algun modelo o formato para la solicitud de constancia de notas
+    - No. ¿dónde puedo ver un modelo de la solicitud de constancia de notas?
+    - existe algun modelo o formato para esta solicitud de constancia de notas
+    - me puedo facilitar un modelo para la solicitud de constancia de notas si la hubiera
+    - hay algun formato para la solicitud de constancia de notas
+    - donde un encontra un modelo o formato para esta solicitud
+    - me puedes enviar un modelo para la solicitud de constancia de notas
+- intent: retiro_total__requisitos_documentos_justificacion
+  examples: |
+    - que debe presentar documentso que justifiquen el retro totla?
+    - se tiene que justificar el retiro total?
+    - ¿Es necesario justificar con documentos el motivo de retiro total?
+    - sera necesario presentar documentos para justificar el retiro total?
+    - necesito justificar con documentos mi retiro total?
+    - y es necesario justificar con documentos el retiro total?
+    - para solicitar el retiro total debo presentar algun documento que justifique mis motivos?
+    - es necesario presentar documentos para justificar el retiro total?
+    - debo justificar mis motivos para solicitar mi retiro total?
+    - Debo presentar documentos para justificar los motivos de retiro total?
+- intent: reserva_matricula__formato_solicitud
+  examples: |
+    - tengo un duda hay cual es el modelo o formato para la solicitud de reserva de matricula
+    - puedes decirme si hay algun formato para la solicitud de reserva de matricula
+    - cual es el formato de solicitud para la reserva de matricula ?
+    - puedes decirme si hay algun modelo para la solicitud de reserva de matricula?
+    - si hay algun formato o modelo para la solicitud de reserva de matricula
+    - como debo hacer la solicitud para la reseva de matricula
+    - hay algun formato para la solicitud de reserva de matricula ?
+    - puedes enviarme el modelo para la solicitud de reserva de matricula
+    - si tambien puedes decirme si hay algun formato para la solicitud de reserva de matricula ?
+    - si porfavor mandame el modelo para la solicitud de reserva de matricula
+    - existe algun modelo para la solicitud de reserva de matricula ?
+- intent: reincorporacion__fechas
+  examples: |
+    - cuando enviar mi solicitud para mi reincorporacion para el siguiente ciclo
+    - cuando puedo enviar mi solicitud para mi reincorporacion
+    - cuando puedo solicitar la reincorporacion para el siguiente ciclo?
+    - cual es la fecha limite para enviar mi solicitud de reincorporacion
+    - tengo una consulta desde que fecha ya puedo iniciar el tramite para mi reicorporacion en el siguiente ciclo
+    - Otra consulta, ¿Hasta cuándo tengo tiempo para presentar mi solicitud de reincoporacion?
+    - hasta cuando podria solicitar mi reincoporarcion
+    - hasta que dias puedo enviar mi solicitud de reincorporacion
+    - tengo una duda quiero reincorpararme el siguiente ciclo pero no se en que fechas debo comenzar el tramite
+    - una consulta, es que fechas deberia solicitar mi reincorparacion
+- intent: constancia_matricula__formato_solicitud
+  examples: |
+    - existe algun modelo o formato para esta solicitud de constancia matricula
+    - me puedes enviar un formato o modelo para la solicitud de constancia de matricula
+    - existe alguna formato para la solicitud de constancia de matricula
+    - no encuentro un modelo para la solicitud de constancia de matricula, existe alguno?
+    - quisiera saber si hay algun modelo para la solicitud de constancia de matricula
+    - una consulta, hay algun modelo para la solicitud de constancia de matricula
+    - me puedes facilitar un modelo o formato para la constancia de matricula
+    - Exacto, es lo que necesito. Hay algún formato para la solicitud de constancia matricula?
+    - cual es el formato para la solicitud de la constancia de matricula
+    - donde se encontra un modelo o formato para esta solicitud de constancia matricula
+- intent: matricula__procedimiento_alumno_ingresante
+  examples: |
+    - soy ingresante de ciencias de la computación cual es el proceso de matricula
+    - soy alumno ingresante de fisica me podrias decir cual es el proceso de matricula
+    - he ingresado a la carrera de ingenieria fisica quisiera saber cuales son los para paso para la matricula
+    - ¿Cuál es el proceso de matrícula para un alumno ingresante?
+    - soy alumno ingresante como realizo mi matricula
+    - que pagos demo hacer para la matricula, soy ingresante de la carrera de ciencias de la computación
+    - soy ingresante de la carrera de matematicas, me puede indicar cual es procedimiento de matricula
+    - Hola, soy alumno ingresante quiero saber como realizar mi matricula
+    - una consulta soy alumno ingresante de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien
+    - es mi primer ciclo soy ingresante puede decirme cual es proceso a seguir para la matricula
+    - acabo de ingresar este ciclo, cuales son los pagos que debo hacer para la matricula
+    - Soy ingresante como es el proceso de matricula
+- intent: reincorporacion_rezagada__procedimiento
+  examples: |
+    - Si ya pasó la fecha de la reincorporación, pasaría a rezagado
+    - me puedo reicorporar por rezagado?
+    - si ya se me paso la fecha para reincoporacion pasaria a matricula rezagada?
+    - segun el calendario academico las fechas de reincorporacion finalizaron ayer podria aun reincorporarme ?
+    - veo que segun el calendario academico las fechas de reincoporacion finalizaron hace una semana podria todavia reincorporarme como rezagado ?
+    - es posible reircorparse si ya pasa la fecha?
+    - entonces que pasa si me paso de la fecha limite para la reincoporacion
+    - una duda las fechas de reincorporacion ya pasaron podria aun reincorporarme aunque sea como rezagado ?
+    - Si ya pasaron las fechas de reincoporacion, ¿Puedo enviar mi solicitud de reincoporacion?
+    - quisiera reincorporame este ciclo pero las fechas ya finalizaron puedo hacerlo como rezagado ?
+    - disculpe no vi bien la fechas de reincoporacion y ya se pasaraon podria aun reincorporarme?
+- intent: constancia_de_estudios__procedimiento
+  examples: |
+    - Buenas tardes, ¿cuál es el procedimiento para obtener una constancia de estudios?
+    - Hola que tal, me podria indicar como puedo tramitar una constancia de estudios
+    - Buenas tardes, puedes decirme el procedemiento para tramitar una constancia de estudios
+    - Hola, una consulta estoy necesitando una constancia de estudios como puedo tramitarla
+    - ¿Cómo solicitar una constancia de estudios?
+    - hola, me podrias mandar el procedimiento para tramitar una constacia de estudios
+    - a quien le solicito una constancia de estudios
+    - Hola, pudria decirme cual el procedimiento para obtener una constancia de estudios
+    - Hola como puedo tramitar una constancia de estudios
+    - Buenas noches, quiero saber como tramitar una constancia de estudios
+    - Buenos dias, una duda como puedo tramitar una constancia de estudios
+- intent: procedimiento_tramites_fechas
+  examples: |
+    - ¿Cuando puedo realizar el procedimiento o tramite?
+    - cuales son las fechas limites para presentar la solicitud
+    - hasta cuando puedo hacer dicho tramite
+    - hasta cuando puedo realizar el tramite
+    - cual es la fecha limite para realizar el tramite o procedimiento
+    - hasta cuando puedo enviar la solicitud
+    - hasta cuando puedo presentarlo
+    - ¿En que fechas debo presentar la solicitud?
+    - cuando puedo realizarlo
+    - cuando se habilita para enviar la solicitud
+    - cuando ya puedo presentar la solicitud
+    - cuando se habilita para realizar el tramite
+- intent: costo_tramite
+  examples: |
+    - cuanto se tiene pagar para dicho tramite
+    - que costo tiene el tramite?
+    - es gratis?
+    - ¿Cuánto se paga por el tramite?
+    - cuanto cuesta el tramite
+    - el tramite no tiene costo ?
+    - cuanto se tiene que pagar por el tramite?
+    - cuanto debo pagar para el tramite?
+    - se debe pagar algo para el tramite?
+    - tiene algun costo?
+    - ¿Cuanto es el costo por el tramite?
+    - el tramite es gratis?
+- intent: reserva_matricula__fechas
+  examples: |
+    - hasta cuando puedo enviar la solicitud para reserva de matricula ?
+    - hasta que fecha puedo subir la solicitud de reserva de matricula ?
+    - ¿Hasta que dias puedo enviar la solicitud de reserva de matricula ?
+    - también quisiera saber hasta cuando puedo enviar la solicitud de reserva de matricula
+    - hasta que dias podria enviar la solicitud de reserva de matricula entonces
+    - ¿Hasta cuándo tengo tiempo para presentar mi solicitud de reserva de matricula?
+    - hasta cuando puedo subir las solicitud la reserva de matricula en el sistema de internet ?
+    - es posible todavia relozar la reserva de matrcula
+    - quiero hacer la reserva de matricula, hasta que dia puedo enviar la solicitud ?
+    - si donde puedo encontrar las fechas para hacer la reserva de matricula
+    - hasta cuando puedo tramitar la reserva de matricula ?
+    - Y hasta cuando podria enviar la solicitud de reserva de matricula ?
+- intent: reincorporacion__costo
+  examples: |
+    - cuanto es el costo por el tramite de reincoporacion?
+    - cuanto pago por la reincoporacion?
+    - ¿Cuánto se paga por el tramite de reincorporación?
+    - cuanto seria el pago por el tramite de reincoporacion ?
+    - cuanto cuesta el tramite de reincoporacion ?
+    - debo pagar algo por la reincoporacion?
+    - el tramite de reincoporacion tiene alguna costo ?
+    - cuanto se paga por el tramite de reincorporación?
+    - cuanto es el costo por la reincoporacion?
+    - cuanto debo pagar por la reincoporacion?
+    - el tramite de reincoporacion es gratuito o tiene algun costo ?
+    - una consulta se debe pagar algo para el tramite de reincoporacion ?
+- intent: reincorporacion__formato_solicitud
+  examples: |
+    - como puedo entrar el formato de soliciutd de reincorporasion
+    - y hay alguna modelo para la solicitud de reincorporación?
+    - una duda porfavor la solicitud de reincorporacion tiene algun modelo ?
+    - podria enviarme un modelo para la solicitud de reincorporacion ?
+    - ¿Hay un modelo para la solicitud de reincorporación?
+    - como debe ser la solictud de reincorporacion ?
+    - el modelo de la solicitud de reincorporacion tambien esta el la pagina de la FC
+    - estoy buscando el modelo de la solitud de reincorporacion y no lo encuetro puedes decirme donde esta ?
+    - no quiero saber cual es el formato para las solicitud de reincorporacion
+    - una duda para la solicitud de reincorporacion hay algun modelo o formato ?
+    - donde puedo encontrar un modelo para la solicitud de reincorporacion?
+    - dime hay algun formato para la solicitud de reincorporacion ?
+- intent: constancia_matricula__pago
+  examples: |
+    - cuanto se debe pagar por el tramite de constancia de matricula
+    - el tramite de la constancia de matricula seria gratuito?
+    - Se debe pagar algo para el tramite de la constancia de matricula
+    - existe algun pago por la constancia de matricula
+    - se debe pafar algo por la constancia matricila
+    - ¿Cuánto se paga por la Constancia de Matrícula?
+    - el tramite de constancia de matricula es gratuito o se paga algo?
+    - cuanto cuesta la constancia de matricula?
+    - cuanto pago por la constancia de matricula
+    - cuanto es el monto que se paga por la constancia de matricula
+    - para el tramite de constancia de matricula se debe paga algo?
+    - cuanto custa la costancia de matricula?
+- intent: constancia_de_notas__procedimiento
+  examples: |
+    - Que tal, acabo de realizar mi pago para obtener una constancia de notas pero no sé qué más hacer?
+    - donde puedo solictar una constancias de matricula?
+    - Hola, quiero saber como tramitar una constancia de notas en ingles y español
+    - Buenas tardes, voy a postular para a una beca necesito una constancia de notas en inglés ¿Cuál es el procedimeinto?
+    - me podria indicar como solicitar una constancia de notas
+    - Buenas, como solicito una constancia de notas
+    - deseo solicitar una constancia de notas, cual es el procedimiento?
+    - como podria tramitar una constancia de notas?
+    - Buenos dias, una consulta como puedo solicitar una constancia de notas
+    - como puedo solicitar una constancia de notas?
+    - cual es el proceso para solicitar una constancia de notas?
+    - ¿Como solicitar una constancia de notas?
+- intent: retiro_parcial__cursos_repetidos
+  examples: |
+    - quiero retirarme de un curso que ya he desaprobado es posible?
+    - ¿Es posible retirarme de un curso que haya repetido?
+    - puedo retirame de curso de que lleve dos veces?
+    - es posible retirarse de una asignatura que llevo por segunda vez
+    - es posible retirase de cursos con repitencias ?
+    - Si he repetido un curso en el ciclo paso puedo retirarme en este ciclo de este curso?
+    - puedo retirarme de un curso que he jalado el ciclo anterior ?
+    - el posible retirarme de un curso que he desaprobado el ciclo anterior?
+    - es posible retirame de un curso que estoy llevando por segunda vez?
+    - quisiera hacer el retiro de un curso pero lo he desaprobado el ciclo, es posible o no procede?
+    - quisero hacer el retiro de un curso que estoy llevando por segunda ver es posible?
+    - puedo solicitar el retiro de un curso que he repetido el ciclo anterior?
+- intent: retiro_parcial__unico_curso
+  examples: |
+    - Estoy matriculado en solo un curso, puedo acceder al retiro parcial?
+    - Hola, puedo hacer un retiro parcial si solo estoy llevando un curso
+    - Buenas tardes, actualemte estoy llevando un solo curso pero por motivos de fuerza mayor deseo retirarme pero el sistema no me lo permite, que puedo hacer
+    - Buenas tardes, estoy matriculado en un solo curso y deseo realizar mi retiro parcial pero el sistema no me lo permite, que debo hacer
+    - estoy llevando solo un curso y deseo retirarme puedo hacer el retiro parcial de ese curso
+    - ¿El retiro parcial aplica para los estudiantes que llevan solo un curso?
+    - si estoy matriculado en un solo curso puedo hacer el retiro parcial?
+    - si estoy matricula en una solo asignatura es posible retirarme ese curso
+    - Hola, ¿Es posible realizar el retiro parcial si estoy llevando un único curso?
+    - me puedo retirar de un cuso si solo lleno uno
+    - si solo estoy matricula en un solo curso puedo realizar el retiro parcial
+    - estoy llevando solo una asignatura puedo retirarme de esa
+    - puedo hacer el retiro parcial si solo estoy llevando un curso
+- intent: solicitud_correo_institucional_procedimiento
+  examples: |
+    - hola quisiera tramitar mi correo UNI
+    - hola como solicito mi correo UNI
+    - quero pedir mi correo uni
+    - como tramito mi correo uni
+    - donde puedo solicitar mi correo institucional
+    - quisiera tramitar mi correo institucional
+    - Hola quisiera tramitar mi correo institucional
+    - una duda como puedo obtener mi correo institucional
+    - quisiero tramitar mi correo UNI
+    - como puedo tramitar mi correo UNI
+    - como puedo solicitar mi correo institucional
+    - donde puedo tramitar mi correo institucional
+    - Una pregunta como obtengo mi correo institucional
+- intent: pago_autoseguro__fechas
+  examples: |
+    - hasta cuando se paga el autoseguro
+    - Si hasta que dia se puede pagar el autoseguro
+    - me puede dar las fechas del pago de autoseguro
+    - quisiera saber si aun puedo pagar el autoseguro mañana ya es la matricula
+    - Todavía puedo pagar el autoseguro para matricularme
+    - tengo una consulta con cuantos dias antes de la matricula se debe pagar el autoseguro
+    - cuando se paga el autoseguro
+    - dime cuando pagar el autoseguro
+    - que dias se paga el autoseguro
+    - si y cuando puedo pagar el autoseguro
+    - Si recien me acorde que debo pagar el autoseguro antes de la matricula, hasta cuando puedo pagarlo
+    - hasta cundo puedo pagar el austosegiro
+    - y hasta cuando se debe pagar el autoseguro
+    - Quisiera saber hasta cuando puedo pagar el autoseguro
+    - ¿Cuando se puede pagar el autoseguro?
+- intent: cursos_horarios
+  examples: |
+    - Buenos tardes, dime donde puedo encontrar los horarios de los cursos
+    - sabes donde puedo encontrar los horarios de las asignaturas para este semestre
+    - donde encuentro los horarios de los cursos
+    - Hola que tal, quiero saber el horario de mis cursos
+    - estan disponobles los horariso de cuso de programcion orientada objetos
+    - donde puedo encontrar los horarios de los cursos
+    - ya salieron los hosrarios de los cursos
+    - Hola que tal Aerito, dime donde encuentro los horarios de los cursos
+    - ¿Donde puedo ver los horarios de los cursos de este ciclo?
+    - no encuentro los horarios de los curso de este ciclo donde estan?
+    - quiero saber los horario de los cursos de este ciclo
+    - Hola, no logro encontrar los horarios de los cursos donde estas ?
+    - Hola, me puedes ayudar no encuentro los horarios de los cursos
+    - quiero saber el horario de mis asignaturas
+- intent: retiro_parcial__maximo_cursos
+  examples: |
+    - ¿Cuál es numero máximo de cursos que retirarme?
+    - puedo retirarme de 2 cursos?
+    - El retiro parcial permite 4 cursos?
+    - ¿Hay un límite de cursos para retirarme de modo parcial?
+    - de cuantas asignaturas como maximo puedo retirarme
+    - ¿Cuantos cursos es el máximo que puedo retirarme?
+    - ¿Cuál es el número máximo de cursos para hacer retiro parcial?
+    - ¿Cuál es la cantidad limite de cursos que puedo retirarme?
+    - el posible retirarme de 3 asignaturas distintas
+    - quiero retirme de 2 crsos es posible?
+    - ¿Puedo retirarme de todos mis cursos en la fecha de retiro parcial?
+    - De cuántos cursos puedo solicitar retiro parcial?
+    - puedo retirarme de los 4 cursos que estoy llevando?
+    - hasta de cuantos cursos puedo hacer el retiro parcial ?
+    - es posible hacer el retiro total de todos los cursos que estoy matricula
+- intent: retiro_total__motivos_procede
+  examples: |
+    - una lesion es un motivo valido para acceder al retiro total?
+    - ¿Cuáles son los motivos para acceder al retiro total?
+    - Deseo realizar un retiro total y quiero saber por que motivos procede
+    - Trabajar es un motivo para el retiro total?
+    - El covid es un motivo para retiro total?
+    - cuales son los motivos para hacer un retiro total?
+    - cuales son los motivos de fuerza mayor por que procede el retiro total?
+    - el covid es un motivo para poder hacer un retiro total
+    - ¿Qué motivos justifican el retiro total de cursos?
+    - una fractura es un motivo valido para poder acceder al retiro total?
+    - cual motivo puedo justificar para hacer un retiro total?
+    - cual es un motivo valido para acceder al retiro total?
+    - cual seria un motivo para hacer un retiro total
+    - ¿Cuándo procede el retiro total?
+- intent: saludo
+  examples: |
+    - buenas tardes
+    - hola que tal amigo
+    - que tal
+    - Holis
+    - Buenas tardes
+    - Oye
+    - Buenos tardes Aerito
+    - hola que tal
+    - Hola Aerito
+    - hola que tal Aerito
+    - hola Aerito
+    - buenas
+    - hola amigo
+    - Hola
+    - buenos dias
+- intent: horario_atencion_aera
+  examples: |
+    - a que hora abre la oficina de estadistica
+    - Puede decirme cual es el horario de atencion ?
+    - una consulta mas cual el horario de atencion presencial de Estadística?
+    - ¿Cuál es el horario de AERA?
+    - hasta que hora atiende AERA
+    - Puede decirme cual es el horario de atencion de la oficina de estadistica?
+    - desde que hora atiende la oficina la estadistica
+    - Quiero saber el horario de estadistica
+    - cual es el horario de atencion de AERA ?
+    - hasta que hora atienden en la oficina de estadistica?
+    - hasta que hora atiende la oficina de estadistica
+    - AERA atiende en la noches
+    - a que hora hay atencion en la oficina de estadística
+    - en que horario atiende la oficina de estadistica
+    - Puede decirme cual es el horaro de atencion de la oficina?
+    - Cual es el horario de estadistica?
+- intent: matricula__horarios
+  examples: |
+    - Buenos días, quisiera información sobre los horarios de matrícula
+    - donde encuentro mi horario de matricula
+    - quiero saber en que horario debo ingresar para mi matricula
+    - si tambien quiero saber mi horario de matricula
+    - y como puedo saber mi horario de matriculas
+    - Buen día, necesito saber cuando me toca matricularme
+    - cual es hora de matricila
+    - Buen día, quiero saber cual es el horario de la matrícula
+    - Entiendo, me podria decir como saber mi horario de matricula.
+    - Buenos días, deseo que saber a que hora comienza la matrícula
+    - si, quiero saber cuales son los horarios de la matricula
+    - Buen día, a que hora inicia la matrícula
+    - me podria decir como saber mi horario de matricula.
+    - como veo mi horario de matricula
+    - cuales son los horarios de la matricula?
+    - cual es mi horaio de matricul
+    - Buenas tardes, como puedo saber la hora de mi matrícula
+- intent: retiro_total__fechas
+  examples: |
+    - Hasta cuando se puede presentar los documentos para el retiro total?
+    - Hola una consulta en que semana se activa el retiro total
+    - Cuando es la fecha limite para el retiro total?
+    - Hasta cuando puedo presentar los documentos para el retiro total?
+    - cuano se pude solicitar el reitro total?
+    - BUenas tardes, una consulta hasta cuando puedo hacer el retiro total
+    - en que semana puedo hacer el retiro total
+    - hasta cuando puedo pedir un retiro tital?
+    - Buen día, ¿Hasta cuándo puedo hacer retiro total?
+    - Cuando es la fecha para el retiro total?
+    - cuando puedo hacer un retiro total
+    - ¿En que fecha se realiza el retiro total?
+    - Buenos dias, quisiera saber cuando vence el plazo de retiro total
+    - ¿En qué fechas puedo realizar el retiro total?
+    - Hola, hasta cuando puedo hacer el retiro total?
+    - En que semana se habilita el retiro total?
+    - Hola disculpa una consulta hasta que dias puedo realizar el retiro total
+- intent: constancia_matricula__solicitud_procedimiento
+  examples: |
+    - como puedo solicitar un constancia de matricula de este ciclo
+    - Buenas tardes una consulta, ¿cómo puedo obtener una constancia de matricula?
+    - una duda a quien pudeo solicitar una constancia de matricula
+    - cuales son los paso para tramitar una constancia de matricula
+    - deseo tramitar una constancia de matricula de este ciclo
+    - Buenas noches, cual es el procedimiento para tramitar mi constancia de matricula ?
+    - Hola que tal, una ayuda quiero tramitar una constancia de matricula de este ciclo donde pudeo hacerlo?
+    - cual es el procedemiento para tramitar una constancia de matricula
+    - Hola, quisiera tramitar mi un constancia de matricula, como puedo pedirla ?
+    - Buenos dias, estoy necesitando una constancia de matricula de este ciclo como puedo tramitarla ?
+    - Que tal quiero saber como obtener la constancia de matricula
+    - donde puedo solitar una constacio de matrcula
+    - Quisiera tramitar una constancia de matricula de este ciclo
+    - una consulta me puedes decir el procedimiento para tramitar una constancia de matricula
+    - hola, como puedo solicitar una constancia de matricula?
+    - quisiera tramitar una constancia de matricula como puedo hacerlo
+    - quisiera tramitar una constancia de matricula a quien le puedo consultar
+- intent: denegar_mas_ayuda
+  examples: |
+    - eso es todo, gracias
+    - es todo gracias
+    - No, eso seria todo gracias
+    - no gracias es todo
+    - Por ahora eso es todo, gracias
+    - No
+    - No eso es todo gracias
+    - No nada mas
+    - eso es todo gracias
+    - no nada mas gracias
+    - No eso seria todo gracias
+    - nada mas
+    - ninguna duda mas
+    - no tengo mas dudas
+    - No eso es todo
+    - No muchas gracias
+    - No eso seria todo, mucha gracias
+    - Eso es todo
+- intent: perdida_turno_matricula
+  examples: |
+    - Hola, no pude entrar en mi turno de matrícula, que puedo hacer
+    - parece que hubo una falla de la red por mi zona y no tuve internet todo el dia por lo que no pude matricuarme que debo hacer ahora
+    - ¿Como puedo matricularme si perdí mi turno de matricula?
+    - Buenas, tuve problemas para realizar mi matricula y no pude matricularme que debo hacer
+    - Buenas que tal, si no llegue a matricularme en mi turno pasaría a rezagado ?
+    - que pasa si perdí mi horario de matrícula
+    - Buenas, perdí mi turno de matricula como procedo ahora
+    - no vi el horario y se me paso mi turno de matricularme como hago ahora para matricularme
+    - tuve problemas con mi internet y no puede matricuarme que debo hacer
+    - Hola, si perdí mi turno pasaría ha rezagado entonces ?
+    - Hola, quisiera saber que hacer por que no pude matricularme en mi horario no tuve internet
+    - Buenas tardes, no me percate bien y perdi mi turno de matricula que debo hacer
+    - si perdi mi turno de matricula paso a rezagado ?
+    - tuve problemas de conexión y no pude entrar en mi horario de matrícula, que puedo hacer
+    - Buenas noches, no he tenido internet todo el dia y no pude matricularme que debo hacer
+    - acabo de perder mi turno de matricula paso entonces a matricula rezagada?
+    - Buen día, perdí mi horario de matrícula, que hago
+    - perdi mi turno para matricularme como procedo
+    - Hola, he tenido problemas de conexion y no llegue a matricularme que debo hacer
+    - Hola, no tuve internet y no pude matricularme que debo hacer
+    - Buen día, no logre matricularme
+- intent: cambio_seccion
+  examples: |
+    - tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A
+    - Hola Aerito, tengo problemas con mi horario actual del curso de Fisica I en la sección B, quiero hacer el cambio a la seccion A
+    - Hola que tal, dime como realizo un cambio de seccion
+    - Hola, quiero hacer un cambio de seccion
+    - Buenas quiero cambiarme el horario del curso de biología es posible?
+    - Buenas tardes amigo puedes decirme como hacer un cambio de seccion
+    - quiero saber el procedimiento de un cambio de seccion por que tengo un cruce
+    - Buenos dias como realizo un cambio de horario de un curso
+    - puedes ayudarme quiero hacer un cambio de seccion
+    - Hola, deseo realizar un cambio de sección como se realiza
+    - Hola que tal Aerito, quiero hacer un cambio de horario ya que tengo un cruce en el curso de Fundamentos de programacion
+    - ayudame hacer un cambio de seccion
+    - como pido un cambio de secion
+    - Buenos dias dime como realizar un cambio de horario de un curso
+    - me puedes ayudar con un cambio de seccion
+    - como hago el cambio de seccion del curso de Fisica II
+    - por favor ayudame a hacer un cambio de seccion
+    - como hago el cambio de seccion del curso de Fundamentos de programacion
+    - Hola, necesito hacer un cambio de seccion por que se me crusan los horarios de teoria
+    - como realizo el cambio de horario de un curso
+    - necesito hacer un cambio de seccion me puedes ayudar
+    - dime cual el procedimiento para hacer un cambio de seccion de un curso
+- intent: matricula__cronograma
+  examples: |
+    - cual es el cronograma de matricula
+    - si, me puedes decir la fecha de la matricula
+    - Buenas tardes, como puedo saber el día de mi matrícula
+    - quiero saber en que fechas se hara la matricula
+    - hola que tal, quisiera saber en que fechas se hará la matricula
+    - Hola Aerito, me puedes decir donde encontrar el cronograma de matricula
+    - Buenos días, quiero información sobre la fecha de matrícula
+    - Entiendo, y cuando seran los dias de la matricula
+    - cual es la fecha de la matricula del siguiente ciclo?
+    - cuando inicia la matrcula
+    - soy ingresante quiero saber cuando es la matricula
+    - ¿Cuando es la matrícula?
+    - Si, quiero saber que dias son la matricula
+    - ayudame a saber cual son las fechas de matricula
+    - quiero saber dono esta el cronograma de matricula
+    - donde puede encontrar las fechas de la matricula
+    - Deseo que saber cuando comienza la matrícula
+    - Necesito saber la fecha de mi matrícula
+    - Buenos días, deseo que saber cuando comienza la matrícula
+    - ¿Cuales son los dias de matrícula?
+    - Como puedo saber el día de mi matricula
+    - puedes decirme que dias son la matricula.
+    - Buenas dias, cuales son las fechas de la matricula
+    - Buen día, quiero saber cuando es la matrícula
+- intent: retiro_total__procedimiento
+  examples: |
+    - como puedo hcar el retiri toral
+    - Buen día, cómo se hace un retiro total
+    - Buenas tardes, quisiera saber cual es el procedemiendo para el retiro total
+    - Buenas, quiero hacer el retiro total, ¿podrian ayudarme?
+    - Buenos días, que documentos debo presentar para el proceso de retiro total
+    - Hola, tengo que retirarme de todos mis cursos, ¿Cómo podria hacerlo?
+    - Buen día, ¿Cómo se realiza el retiro total?
+    - Hola, ¿Cómo hago el retiro total?
+    - ¿Cuáles son los pasos para solicitar el retito total?
+    - Quiero hacer el retiro total, ¿cómo puedo hacerlo?
+    - Por motivos familiares, requiero hacer el retiro total de mi matrícula, cual es el procedimiento
+    - Hola, ¿Cómo se inicia el proceso de retiro total?
+    - ¿El trámite para retiro total es presencial?
+    - Buenas noches, me puedes decir el procedemiendo para el retiro total?
+    - ¿Puedo realizar el retiro total por correo?
+    - como puedo solicitar el retiro total de todos los cursos?
+    - ¿Cuál es el procedimiento para el retiro total?
+    - Envié un correo a mi escuela para que me oriente en el retiro total
+    - Buenos días, me veo obligada de retirarme de todos los cursos por motivos de trabajo, cual es el procedimiento por favor
+    - El retiro total es presencial?
+    - como puedo solcitar el retiro de todas las asignaturas que estoy llevando
+    - Puedo retirarme de todos los cursos?
+    - BUenas, una consulta cual es el procedimiento para el retiro total
+    - Quiero retirarme del ciclo
+- intent: matricula_rezagada__procedimiento
+  examples: |
+    - no pude matricularme y me han dicho que mi matricula paso a rezagado cuales son los pasos
+    - a quien solicito la matricula rezagada
+    - ¿Cuál es el procedimiento para la matricula rezagada?
+    - Buenas noches, que pasos debo seguir para la matricula rezagada
+    - Buenas, quiero saber como tramitar mi matricula rezagada
+    - Hola, cual es procedimiento para matricularme por rezagada
+    - tengo que matricularme por resagado como es el proceso
+    - Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer
+    - que debo pagar y a donde debo enviar el voucher para que se me habilite la matricula rezagada
+    - Hola mi matricula paso a rezagada cual es el procedimiento
+    - buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado
+    - Buenas tardes, cual es procedimiento para habilitar mi matricula rezagada
+    - ahora que mi matricula paso a rezagados que debo hacer no entiendo
+    - no pude matricularme a tiempo cual es procedimiento para la matricula rezagada
+    - que hago para que se me habilite el sistema de matricula por rezagado
+    - Hola, como me matriculo por rezagado
+    - Buenas tardes, me dijeron que mi matricula paso a rezagada pero no se que debo hacer
+    - Hola, disculpe como realiza la matricula rezagada
+    - Hola ayudame quiero saber como es el procedimiento para el pago de matricula rezagada
+    - cuales son los requisitos para que me habiliten la matricula rezagada
+    - disculpa cual es procedimiento para poder matricularme por rezagado
+    - como me matriculo como rezagado
+    - dime como puedo tramitar mi matricula rezagada
+    - debo pagar algo para que me habiliten la matricula rezagada
+    - como es el procedimiento para la matricula rezagada
+- intent: pago_autoseguro__fuera_fecha
+  examples: |
+    - si no lo pago hoy me ire a rezagado?
+    - Hola, si no pago a tiempo el autoseguro me voy a matricula rezagada ?
+    - si no pago a tiempo  me voy a matricula rezagada ?
+    - entonces si no pago a tiempo me voy a matricula rezagada
+    - Hola, recien pague autoseguro y me toca mi matrícula mañana, sería rezagado?
+    - Buenos dias, que pasa si no pago a tiempo el autoseguro
+    - no pague a tiempo el autoseguro entonces me voy a rezagado ?
+    - Si demore en realizar el pago de autoseguro, que pasará?
+    - hace 02 días pague el autoseguro, soy rezagado?
+    - Soy rezagado si no pago el autoseguro con dias de anticipacion a la matricula
+    - hoy pague el autoseguro, soy rezagado?
+    - Hola creo que no pague a tiempo el autoseguro que debo hacer
+    - Buenas dias que tal, que pasa si no pago el autoseguro con los 3 dias de anticipación
+    - si queria saber si no lo pago a tiempo que debo hacer
+    - no se si voy a pagar el autoseguro hoy y creo que es el ultimo dia que paso si no lo pago a tiempo
+    - Buenos dias, quiero saber si no pague a tiempo el autoseguro me voy a rezagada la matricula
+    - Que pasa si no pago el autoseguro con dias de anticipacion a la matricula
+    - Hola Aerito, tengo una consulta si no pago el autoseguro con los 3 dias de anticipación pasare a resagado ?
+    - Acabo de pagar el autoseguro, estoy a tiempo?
+    - Oye, no se si voy a poder pagar el autoseguro hoy y creo que es el ultimo dia que pasa si no lo pago a tiempo
+    - que pasa si no pago el autoseguro con los 3 dias de anticipación?
+    - ¿Que sucede si demore en realizar el pago de autoseguro?
+    - Buen día, acabo de pagar el autoseguro, estoy a tiempo?
+    - entonces si no pago a tiempo el autoseguro me ire a rezagado
+    - creo que no pague a tiempo el autoseguro que debo hacer?
+    - Tengo una consulta sobre la matrícula dado que el día de hoy realize el pago de autoseguro, puedo matricularme de forma normal o paso a rezagado
+- intent: pago_autoseguro_procedimiento
+  examples: |
+    - Hola que tal, pude decirme como pagar el autoseguro
+    - ¿Como realizo el pago de autoseguro?
+    - Buenas tardes, como pago el concepto de autoseguro
+    - Como puedo realizar el pago de autoseguro
+    - Buenas, como pago lo del autoseguro
+    - que pasa si no pago el autoseguro a tiempo
+    - Buenas tardes, en que banco pago el autoseguro
+    - quiero saber como es el método para pagar el autoseguro
+    - Buenas dias, como hago para pagar el autoseguro
+    - Buenas tardes, como pago el autoseguro
+    - Buen dia, donde pago el autoseguro?
+    - cual es el proceso para pagar el autoseguro
+    - Quiero realizar el pago del autoseguro
+    - quiero pagar el autoseguro que debo hacer
+    - por que banco que paga el autoseguro
+    - Buenas dias es que me han dicho que pague el autoseguro pero no entiendo como
+    - puedes decirme que hacer para pagar el autoseguro, creo que ha cambiado el metodo
+    - Hola Aerito, quiero saber como pagar el autoseguro
+    - el pago de autoseguro se hace en el banco BCP o como
+    - si quiera saber como hacer el pago de autoseguro
+    - tengo una consulta como puedo pagar el autoseguro
+    - Buen día, como realizo el pago del Autoseguro
+    - Hola, como puedo realizar el pago del autoseguro
+    - Buenas, cual es el procedimiento para pagar el autoseguro
+    - cual es el procedimiento para pagar el autoseguro
+    - dime que hacer para pagar el autoseguro
+- intent: retiro_parcial__fechas
+  examples: |
+    - Hola, ¿cuándo son las fechas para el retiro parcial?
+    - Hola, una duda estamos en la cuarta semana de clases puedo hacer el retiro parcial?
+    - Hola, una consulta cuando se habilitara el retiro parcial
+    - Hasta que fecha podría hacer el retiro parcial?
+    - ¿En que semana se realiza el retiro parcial?
+    - ya se puede solicitar el retito paracil
+    - Hola, he querido retirarme de un curso pero me parece que un no esta habilitado cuando se habilitara el retiro parcial?
+    - Y hasta cuando podria enviar la solicitud de retiro parcial?
+    - Buenas, quisiera saber si aún se puede hacer el retiro parcial, el motivo es que estoy con tratamiento psiquiátrico y me recomendaron que me retire de algunos cursos
+    - Hola Aerito, hasta que dias puedo realizar el retiro parcial
+    - una consulta estamos ya en la cuarta semana de clases, podria hacer el retiro parcial ?
+    - una consulta cuando se habilitara en el sistema el retiro parcial?
+    - Buenos dias, quisiera saber cuando vence el plazo de retiro parcial
+    - cuando es el retiro parcial
+    - Hola, cuándo inicia el retiro parcial?
+    - Buenos días, cuándo es la fecha para el retiro parcial?
+    - cuando puedo realizar el retiro de una asignatura
+    - hasta cuando hacer el retiro de un curso ?
+    - quiero solicitar el retiro de un curso hasta cuando puedo hacerlo ?
+    - quisiera saber hasta que dias puedo hacer el retiro parcial ?
+    - Hola, tengo una duda en que semana se habilitara el retiro parcial
+    - Hola, quiero retirarme de unos cursos y quiero saber las fechas
+    - Hasta cuándo puedo hacer el retiro parcial?
+    - en que semana puedo realizar el retiro parcial?
+    - Buenas, ¿Cuáles son las fechas para realizar el retiro parcial?
+    - Me prodrían decir la fecha máxima para hacer el retiro parcial?
+- intent: reincorporacion__procedimiento
+  examples: |
+    - como solicto la reicorporacion
+    - quisiera realizar mi reincoporacion este ciclo como puedo solicitarlo
+    - a quien debo solicitar la reincoporacion
+    - cual es prodimiento de reicorporacion
+    - Hola, podria indicarme como puedo solicitar la reincorporación para este ciclo
+    - Hola buenos días, Me podrían hacer llegar el proceso de reincorporación ya que el ciclo pasado me retire.No encuentro el formato y ¿Cuánto debo de pagar y en que banco?
+    - he dejado de estudiar hace año, como podria matricularme en el siguiente ciclo
+    - ¿Cuál es el procedimiento para solicitar reincorporación?
+    - Buenas tardes, Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
+    - Hola, quiero solicitar mi reincorporación para este periodo cual seria el procedimiento que debo seguir ?
+    - Hola, quisiera tramitar mi reicorporacion como puedo proceder como mi matricula
+    - Hola, deseo solicitar mi reincorporación este ciclo que viene como puedo solicitarla
+    - Buenas tardes, el ciclo pasado no pude matricularme asi que reserve mi matricula quisiera saber ahora como puedo matricularme en el ciclo que viene
+    - que proceso debo seguir para que se me habilite mi matricula dando que reserve mi matricula el ciclo pasado
+    - Hola, como realizo la reincorporación
+    - como puedo realizar mi reicorporacion para el siguiente periodo academico
+    - Hola, como solicito mi reincorporacion para este ciclo
+    - Hola, quiero solicitar mi reincorporación para el proximo ciclo que deberia hacer para que me habiliten la matricula
+    - Hola Aerito, este ciclo quisiera reincorporarme cual es procedimiento ?
+    - cual es el proceso para solicitar mi reicorporacion
+    - Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
+    - Buenas tardes me dirijo a ustedes porque quiero reincorporarme en el siguiente periodo académico
+    - habia reservado mi matricula hace dos ciclos por motivos de saludo, ahora deseo realizar mi matricula para al proximo ciclo que debo hacer para que se me habilite
+    - cual es el procedimiento para solicitar mi reincorporacion este ciclo
+    - Necesitaría mayor información de como es el procedimiento de reincorporación por favor
+    - Podría indicarme ¿Cuál es el procedimiento? para solicitar reincorporación
+    - si tambien quisiera que debaria de hacer luego de la reserva de matricula para reincoporarme el siguiente ciclo
+    - Buenos días, soy ingresante del período anterior desde entonces no pude culminar mis estudios del primer ciclo, quisiera que me digan ¿En qué condición me encuentro y ¿Qué tengo que hacer para retomar mis estudios en el siguiente ciclo?
+- intent: reserva_matricula__procedimiento
+  examples: |
+    - por motivos de salud no podre matricularme este ciclo como puedo postergar mi matricula
+    - hola, no podre matricula como puedo postergar mi matricula
+    - por motivos económicos no podre matricularme este ciclo como puedo reservar la matricula
+    - Buenas noches, dime que debo hacer para reservar mi matricula
+    - deseo reservar la matricula como puedo hacer ?
+    - Podria indicar tambien que debo hacer para realizar reserva de matricula, este semestre no podre matricuarme
+    - quisiera postergar mi matricula como puedo realizar este tramite
+    - no podre matricular el siguiente ciclo que hago para reservar mi matricula
+    - Me podria indicar también que debo hacer para realizar una reserva de matricula, este semestre no podre matricularme
+    - ¿Cómo reservo mi matricula?
+    - quiero pedir la reseva de matrcula como hago?
+    - Buenas noches, quisiera saber como puedo hacer una reserva de matricula y ¿Hasta cuándo tengo plazo para presentar mi solicitud? ya que este ciclo que viene no podré llevarlo bien por motivos de trabajo.
+    - Buen día, el ciclo pasado no me pude matricular ni hice el trámite de reserva de matrícula, les escribo porque necesito saber ¿Cuál es el procedimiento para solicitar reserva de matrícula? porque tampoco podré matrícularme en este período por problemas de salud,
+    - Hola, este ciclo no podre matricularme por motivos de salud cual seria el procedimiento para poder reservar la matricula
+    - cual es el procedimiento para realizar la reserva de matricula ?
+    - hola, tengo una duda me podria decir que tramites debo hacer para realizar la reserva de matricula no tengo podre matricularme es siguiente ciclo por temas de salud
+    - Por motivos de encomicos y de trabajo no podre matricularme el siguiente ciclo que puedo hacer para no perder mi vacante
+    - como realizo la reserva de matricula
+    - Buenas dias, por temas económicos no creo poder matricularme este ciclo me han dicho que puedo reservar mi matricula para el siguiente ciclo como puedo realizar ese tramite
+    - que tengo que hacer para reservar mi matricula
+    - por motivos personales no podre matricularme este ciclo que como puedo reservar mi matricula
+    - quisiera hacer la reserva de matricula cual es el procedimiento
+    - Buenos dias que hago para hacer la reserva de matricula
+    - Hola me puedes decir como realizar la reserva de matricula
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo por problemas familiar .¿Que procedimiento deberia seguir?
+    - Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de salud .¿Que procedimiento deberia seguir?
+    - si, quisiera saber como realizar mi reserva de matricula por motivos económicos no podre matricularme
+    - Hola, mi consulta es como reservar mi matricula
+    - por movitos de fuerza mayor quiero solcitar la reserca de matricula?
+    - como puedo proceder para hacer la reserva de matricula del siguiente ciclo
+    - puede decirme como realizar un reserva de matrícula?
+    - Hola ciencito, queria consultarte lo que pasa es que por temas familiares este ciclo estaba pensando no matricular que debo hacer
+    - ¿Cuál es el procedimiento para solicitar reserva de matrícula?
+- intent: retiro_parcial__procedimiento
+  examples: |
+    - deseo realizar el retiro paracial de varios curso como procedo
+    - Hola que tal, Debo presentar una carta a ORCE para retirarme de un curso?
+    - ¿Cómo realizo un retiro parcial?
+    - como hago un retiro parcial
+    - puede decirme como realizar un retiro parcial ?
+    - Hola aerito, ¿Dónde encuentro un modelo de solicitud para el retiro parcial?
+    - ¿Cómo me retiro de un curso?
+    - hola, como procedo para hacer el retiro parcial ?
+    - Hola, deseo realizar el retiro parcial de un curso como procedo
+    - me han dicho que puedo retirarme de un curso solo por el intranet de orce cuales son lo paso ?
+    - ¿Cómo se inicia el trámite para el retiro parcial?
+    - Hola que tal, que procedimiento puedo seguir para realizar el retiro parcial?
+    - BUENAS TARDES, ¿Cómo se tramita el retiro parcial?
+    - cual es el procedimiento del retiro parcial
+    - Hola, me han dicho que puedo retirarme de un curso solo por el intranet de orce cuales son lo paso ?
+    - Hola, estoy matriculado en 3 cursos y quiero salirme de uno
+    - Hola, PODRÍA INDICARME EL PROCEDIMIENTO, PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?
+    - HOla amigo, puede decirme como realizar un retiro parcial ?
+    - Hola que tal, un consulta ¿Cómo se inicia el trámite para el retiro parcial?
+    - HOla, mande un correo a estadística pidiendo que me retire de un curso, pero aún figura en mi intranet
+    - Buenos dias, ¿Qué pasos debo seguir para el retiro parcial?
+    - ¿Cómo se tramita el retiro parcial?
+    - que tal amigo,  puedes decirme cual es el prodecimiento para realizar un retiro de un curso?
+    - Que tal una consulta lo que pasa es que por motivos de fuerza mayor quiero dejar de llevar un curso, ¿qué debo hacer?
+    - como proceso para haces el retito parcil
+    - Hola amigo, dime como puedo solicitar el retiro parcial
+    - ¿Dónde encuentro un modelo de solicitud para el retiro parcial?
+    - ¿Qué pasos debo seguir para el retiro parcial?
+    - BUENOS DIAS, PODRÍA INDICARME EL procedimiento PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?
+    - deseo realizar el retiro parcial de un curso como procedo
+    - como procedo para hacer el retiro parcial ?
+    - Por motivos de fuerza mayor quiero dejar de llevar un curso, ¿qué debo hacer?
+    - Hola, PODRÍA   INDICARME EL PROCEDIMIENTO PARA REALIZAR EL RETIRO PARCIAL    PARA EL PRESENTE CICLO?
+    - mande un correo a estadística pidiendo que me retire de un curso, pero aún figura en mi intranet
+    - como puedo solicitar el retiro parcial

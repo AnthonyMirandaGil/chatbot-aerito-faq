@@ -151,6 +151,7 @@ nlu:
     - hay algun formato o modelo
     - si hay algun formato para la solicitud que debo enviar
     - cual es el formato para la solicitud
+    - que formato debe tener la solicitud
 
 - intent: procedimiento_tramites_fechas
   examples: |
@@ -169,6 +170,8 @@ nlu:
     - cuando puedo realizarlo
     - hasta cuando puedo realizar el tramite
     - cual es la fecha limite para realizar el tramite o procedimiento
+    - Otra consulta, ¿Hasta cuándo tengo tiempo para presentar mi solicitud?
+    - hasta que fecha puedo presentar la solicitud
 
 - intent: costo_tramite
   examples: |
@@ -810,6 +813,7 @@ nlu:
     - Buenas noches, me puedes decir el procedemiendo para el retiro total?
     - Quiero hacer el retiro total de mis cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.
     - como puedo hcar el retiri toral 
+    - Quiero hacer el retiro total de cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.
 # 
 - intent: reserva_matricula__procedimiento
   examples: |
@@ -852,7 +856,7 @@ nlu:
     - por motivos personales no podre matricularme este ciclo que como puedo reservar mi matricula
     - que tengo que hacer para reservar mi matricula
     - cual es el procedimiento para realizar la reserva de matricula ?
-    - Me podria indicar también que debo hacer para realizar una reserva de matricula, este semestre no podre matricularme
+    - Le escribo porque necesito información, el semestre que viene estaré haciendo un intercambio estudiantil por lo que quisiera saber si necesito hacer algo en la ORCE ya que este semestre no podré matricularé en la UNI. Mi escuela ya sabe que haré intercambio y ya les envié el sílabo de los cursos pero aún no tengo respuesta.
     - Por motivos de encomicos y de trabajo no podre matricularme el siguiente ciclo que puedo hacer para no perder mi vacante
     - quiero pedir la reseva de matrcula como hago?
     - por movitos de fuerza mayor quiero solcitar la reserca de matricula?
@@ -930,7 +934,9 @@ nlu:
     - Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo
     - he dejado de estudiar hace año, como podria matricularme en el siguiente ciclo 
     - como solicto la reicorporacion
-    - cual es prodimiento de reicorporacion 
+    - cual es prodimiento de reicorporacion
+    - Podría indicarme ¿Cuál es el procedimiento? para solicitar reincorporación
+    - Hola buenos días, Me podrían hacer llegar el proceso de reincorporación ya que el ciclo pasado me retire. No encuentro el formato y ¿Cuánto debo de pagar y en que banco?
 #
 - intent: reincorporacion_rezagada__procedimiento
   examples: |
@@ -964,7 +970,9 @@ nlu:
     - ¿Hasta cuando enviar mi solicitud de reincorporacion?
     - hasta cuando es posible reincoparme?
     - cuando puedo solicitar la reincorporacion para el siguiente ciclo?
-#
+    - Buenas tardes,le envio este mensaje porque quiero información, el ciclo pasado no pude matricularme pero tampoco hice el trámite de reserva de matricula, quisiera saber si aún puedo realizar el trámte de reincorporación para matricularme o en todo caso como podria reservar mi matricula. Por favor agradecería como arreglar este asunto, gracias.
+    - Buenas tardes Aerito, el ciclo pasado no puede matricularme quisiera saber si aún puedo realizar el trámte de reincorporación.
+#   
 - intent: reincorporacion__costo #
   examples: |
     - ¿Cuánto se paga por el tramite de reincorporación?
@@ -982,6 +990,8 @@ nlu:
     - el tramite de reincoporacion se debe pagar o es gratuito?
     - se debe pagar algo para la reincoporacion?
     - cuanto se pafa por la reincporacion?
+    - ¿Cuánto se pago por reincorporación?
+    - Soy alumno de la facultad de ciencias que desea matricularse. Deje de matricularme algunos semestres por la pandemia y deseo retomar los estudios. Me dijeron que debo realizar un pago por el trámite de reincorporación. Me gustaría saber ¿En qué entidad bancaria se realiza este pago? y ¿cuánto es el monto?.
 #
 - intent: reincorporacion__formato_solicitud
   examples: |
@@ -1080,6 +1090,7 @@ nlu:
     - cual es el proceso para solicitar una constancia de notas?
     - que tramites debo hacer para solicitar una constancia de notas?
     - donde puedo solictar una constancias de matricula?
+    - Buenas tardes, voy a postular para a una beca necesito una constancia de notas en inglés ¿Cuál es el procedimeinto? 
 # 
 - intent: constancia_de_notas__formato_solicitud
   examples: |

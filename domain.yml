@@ -223,7 +223,8 @@ responses:
   utter_retiro_total__costo:
   - text: El retiro total tiene costo.
   utter_reserva_matricula__procedimiento:
-  - text: "El estudiante que desee realizar su reserva de matrícula deberá ingresar a la plataforma de intranet-alumno para subir su solicitud y el documento que acredite la razón invocada.  Puedes acceder al formato de solicitud y a más información sobre el procedimiento ingresando al siguiente enlace:  \nhttps://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view"
+  - text: "Los alumnos que desean postergar su matricula por 1 o mas períodos académicos deberán realizar su reserva de matricula ingresando a la plataforma de intranet-alumno para subir su solicitud y el documento que acredite la razón invocada. Puedes acceder al formato de solicitud y a más información sobre el procedimiento ingresando al siguiente enlace:  \nhttps://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view"
+  #  - text: "El estudiante que desee realizar su reserva de matrícula deberá ingresar a la plataforma de intranet-alumno para subir su solicitud y el documento que acredite la razón invocada.  Puedes acceder al formato de solicitud y a más información sobre el procedimiento ingresando al siguiente enlace:  \nhttps://drive.google.com/file/d/15ZZvoi1etESzH54Qd-xZNOV240cJ0UdH/view"
   utter_reserva_matricula__fechas:
   - text: 'La solicitud de reserva de matrícula debe ser enviada hasta una semana antes de inicio de la próxima matrícula, ponemos a su disposición el cronograma de actividades que se encuentra aquí: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'
   utter_reserva_matricula__formato_solicitud:
@@ -231,9 +232,9 @@ responses:
   utter_reincorporacion__procedimiento:
   - text: "Para acceder a la información sobre el procedimiento de reincorporación, ingrese aquí: \nhttps://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view"
   utter_reincorporacion_rezagada__procedimiento:
-  - text: La solicitud debe realizarse con una anticipación no menor de diez (10) días antes del inicio de la matrícula, pasada esa fecha no se aceptará ninguna solicitud, ingrese al siguiente enlace para acceder al calendario de actividades. https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view
+  - text: La solicitud debe realizarse con una anticipación no menor de diez (10) días antes del inicio de la matrícula, pasada esa fecha no se aceptará ninguna solicitud, ingrese al siguiente enlace para acceder al calendario de actividades. https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view 
   utter_reincorporacion__fechas:
-  - text: 'El estudiante deberá tramitar su solicitud de reincorporación al Decano de la Facultad con una anticipación no menor de diez (10) días antes del inicio de la matrícula, revise el calendario académico para conocer las fechas en el siguiente enlace: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'
+  - text: 'El estudiante que desea reincorporase en el proximo ciclo a comenzar deberá tramitar su solicitud de reincorporación al Decano de la Facultad con una anticipación no menor de diez (10) días antes del inicio de la matrícula, revise el calendario académico para conocer las fechas en el siguiente enlace: https://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view'
   utter_reincorporacion__costo:
   - text: "El costo de la reincorporación dependerá del número de periodos sin matrícula, AERA revisará la ficha académica del solicitante y emitirá el monto a pagar. ingrese al siguiente enlace para acceder a más información con respecto al procedimiento. \nhttps://drive.google.com/file/d/1WCZ54XQL16yRjT_h20fPQmDXS4daDfRi/view"
   utter_reincorporacion__formato_solicitud:
