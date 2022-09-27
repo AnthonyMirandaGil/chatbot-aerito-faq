@@ -187,7 +187,7 @@ nlu:
     - cuanto cuesta el tramite
     - es gratis o tiene algun costo este tramite?
     - tiene algun costo?
-    - es gratis?
+    - es ?
     - debo pagar algo?
     - si cuanto es el costo
 
@@ -438,7 +438,7 @@ nlu:
 # - Buenas tardes, quiero saber que paso si no pago el autoseguro con los 3 dias de anticipación
 # - entonces si lo pago hoy me voy a rezagado mi matricula
 #  - entiendo entonces si pago hoy paso a rezagado
-
+# AQUII
 - intent: perdida_turno_matricula #NC
   examples: |
     - ¿Como puedo matricularme si perdí mi turno de matricula?
