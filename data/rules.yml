@@ -166,11 +166,11 @@ rules:
       - action: utter_pago_autoseguro_procedimiento
       - action: utter_requerir_mas
 
-  - rule: pago autoseguro fuera fecha
-    steps:
-      - intent: pago_autoseguro__fuera_fecha
-      - action: utter_pago_autoseguro__fuera_fecha
-      - action: utter_requerir_mas
+  #- rule: pago autoseguro fuera fecha
+  #  steps:
+  #    - intent: pago_autoseguro__fuera_fecha
+  #    - action: utter_pago_autoseguro__fuera_fecha
+  #    - action: utter_requerir_mas
   
   - rule: perdida turno matricula
     steps:
@@ -274,11 +274,11 @@ rules:
       - action: utter_reincorporacion__procedimiento
       - action: utter_requerir_mas 
 
-  - rule: reincorporacion rezagada procedimiento
-    steps:
-      - intent: reincorporacion_rezagada__procedimiento
-      - action: utter_reincorporacion_rezagada__procedimiento
-      - action: utter_requerir_mas 
+  #- rule: reincorporacion rezagada procedimiento
+  #  steps:
+  #    - intent: reincorporacion_rezagada__procedimiento
+  #    - action: utter_reincorporacion_rezagada__procedimiento
+  #    - action: utter_requerir_mas 
 
   - rule: reincorporacion fechas
     steps:

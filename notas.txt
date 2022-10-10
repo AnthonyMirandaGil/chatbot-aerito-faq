@@ -1,0 +1,25 @@
+## Aqui 
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/utils/io.py#L122
+
+read_file convierte a text
+
+## El texto lo interpreta en yaml
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/utils/io.py#L335
+
+## Classes readers
+
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/readerwriter.py#L49
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/rasa_yaml.py#L50
+
+
+## Aqui Parsear
+
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/rasa_yaml.py#L324
+## Parsear correctament los emojis
+
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/utils/io.py#L335
+
+
+## AQUI VER COMO FUNCIONA ESTO DEL JSON TO yaml
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/rasa_yaml.py
+https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/rasa_yaml.py#L423
