@@ -314,6 +314,8 @@ nlu:
     - hasta cunado puedo pagarlo?
     - hasta que dia se puede pagar?
     - cual es la fecha limite para el pago?
+    - aun es posible pagarlo?
+    - aun se puede pagar en estos dias?
 #- intent: procedimiento_tramite
 #  examples: |
 #    - ¿Cual es el procedimiento?
@@ -672,6 +674,10 @@ nlu:
     - cual es el metodo para pagar el autoseguro
     - para pagar el autoseguro debo emitir orden de pago ?
     - si quiera saber como hacer el pago de autoseguro
+    - cual es metodo actual para pagar el autoseguro
+    - en donde y cuanto debo pagar por el autoseguro?
+    - por favor dime cuanto y adonde debo ir para pagar el autoseguro?
+    - el autoseguro se paga en banco scotiabank?
 #
 #- Buenas tardes, quiero saber el procedimiento para pagar el autoseguro
 #- Hola ayudame quiero saber como pagar el autoseguro creo que es el ultimo dia
@@ -1502,9 +1508,10 @@ nlu:
     - que debo colocar en mi solicitud para la constancia de notas
     - que informacion debo colocar en mi solicitud de constancia de notas?
     - la solicitud de constancia de notas tambien debe ir dirigida al decano?
-    - una consulta quiero enviar una solicitud para la constancia esta debe ir dirigida al decano?
+    - una consulta quiero enviar una solicitud para la constancia de notas esta debe ir dirigida al decano?
     - debo colocar solo mi nombre y codigo en la solicitud de constancia de notas?
     - que mas informacion debe ir a parte de mi codigo y nombre en la solicitud de constancia de notas
+    - me pueden facilitar un modelo para la solicitud de constancia de notas?
 #
 - intent: constancia_de_estudios__formato_solicitud
   examples: |
