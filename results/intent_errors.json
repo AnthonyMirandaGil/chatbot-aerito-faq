@@ -1,218 +1,82 @@
 [
   {
-    "text": "nos vemos luego",
-    "intent": "despedida",
+    "text": "esta semana todavia puedo pagarlo",
+    "intent": "pago_fechas",
     "intent_prediction": {
-      "name": "saludo",
-      "confidence": 0.9341519474983215
+      "name": "procedimiento_tramites_fechas",
+      "confidence": 0.493939608335495
     }
   },
   {
-    "text": "nos vemos",
-    "intent": "despedida",
+    "text": "una consulta quiero enviar una solicitud para la constancia esta debe ir dirigida al decano?",
+    "intent": "constancia_de_notas__formato_solicitud",
     "intent_prediction": {
-      "name": "saludo",
-      "confidence": 0.9752675890922546
+      "name": "formato_solicitud",
+      "confidence": 0.8533421754837036
     }
   },
   {
-    "text": "Oye",
-    "intent": "saludo",
+    "text": "este ciclo que esta por comenzar no me voy a matricular, me puedes decir cual es la fecha limite para enviar mi solicitud",
+    "intent": "reserva_matricula__fechas",
     "intent_prediction": {
-      "name": "despedida",
-      "confidence": 0.322414755821228
+      "name": "reincorporacion__fechas",
+      "confidence": 0.0824551209807396
     }
   },
   {
-    "text": "es gratis?",
-    "intent": "costo_tramite",
+    "text": "si hay algun formato o modelo para la solicitud de reserva de matricula",
+    "intent": "reserva_matricula__formato_solicitud",
+    "intent_prediction": {
+      "name": "constancia_matricula__formato_solicitud",
+      "confidence": 0.5757905840873718
+    }
+  },
+  {
+    "text": "si",
+    "intent": "confirmar_requerir_mas_ayuda",
     "intent_prediction": {
       "name": "denegar_mas_ayuda",
-      "confidence": 0.5353382229804993
+      "confidence": 0.3221385180950165
     }
   },
   {
-    "text": "cuales son los pasos para matricularme en el siguiente ciclo",
-    "intent": "matricula_procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.7405881285667419
-    }
-  },
-  {
-    "text": "acabo de ingresar este ciclo, cuales son los pagos que debo hacer para la matricula",
-    "intent": "matricula__procedimiento_alumno_ingresante",
-    "intent_prediction": {
-      "name": "matricula_procedimiento",
-      "confidence": 0.5946182012557983
-    }
-  },
-  {
-    "text": "y como puedo saber mi horario de matriculas",
-    "intent": "matricula__horarios",
-    "intent_prediction": {
-      "name": "cursos_horarios",
-      "confidence": 0.281015008687973
-    }
-  },
-  {
-    "text": "cual es mi horaio de matricul",
-    "intent": "matricula__horarios",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.9554567337036133
-    }
-  },
-  {
-    "text": "me puede dar las fechas del pago de autoseguro",
-    "intent": "pago_autoseguro__fechas",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.5899754166603088
-    }
-  },
-  {
-    "text": "¿Que sucede si demore en realizar el pago de autoseguro?",
-    "intent": "pago_autoseguro__fuera_fecha",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.8635056018829346
-    }
-  },
-  {
-    "text": "Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer",
-    "intent": "matricula_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "perdida_turno_matricula",
-      "confidence": 0.8194960355758667
-    }
-  },
-  {
-    "text": "no pude matricularme a tiempo cual es procedimiento para la matricula rezagada",
-    "intent": "matricula_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "perdida_turno_matricula",
-      "confidence": 0.5718715190887451
-    }
-  },
-  {
-    "text": "tengo que matricularme por resagado como es el proceso",
-    "intent": "matricula_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.5378627777099609
-    }
-  },
-  {
-    "text": "que tal, quiero saber el horario de un curso",
-    "intent": "cursos_horarios",
-    "intent_prediction": {
-      "name": "cambio_seccion",
-      "confidence": 0.6257131695747375
-    }
-  },
-  {
-    "text": "Buenas, quisiera saber si aún se puede hacer el retiro parcial, el motivo es que estoy con tratamiento psiquiátrico y me recomendaron que me retire de algunos cursos",
-    "intent": "retiro_parcial__fechas",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.8230393528938293
-    }
-  },
-  {
-    "text": "Hola, cuándo inicia el retiro parcial?",
-    "intent": "retiro_parcial__fechas",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.8472083210945129
-    }
-  },
-  {
-    "text": "¿Hay un límite de cursos para retirarme de modo parcial?",
-    "intent": "retiro_parcial__maximo_cursos",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.3283834457397461
-    }
-  },
-  {
-    "text": "De cuántos cursos puedo solicitar retiro parcial?",
-    "intent": "retiro_parcial__maximo_cursos",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.4416634142398834
-    }
-  },
-  {
-    "text": "hasta cuando puedo pedir un retiro tital?",
-    "intent": "retiro_total__fechas",
-    "intent_prediction": {
-      "name": "retiro_parcial__fechas",
-      "confidence": 0.6534999012947083
-    }
-  },
-  {
-    "text": "solo debo enviar la solicitud de retiro total o tambien algun documento que justifique mi retiro?",
-    "intent": "retiro_total__requisitos_documentos_justificacion",
-    "intent_prediction": {
-      "name": "retiro_total__formato_solicitud",
-      "confidence": 0.489114373922348
-    }
-  },
-  {
-    "text": "Por motivos de trabajo deseo dejar todos los cursos",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "cursos_horarios",
-      "confidence": 0.5328646302223206
-    }
-  },
-  {
-    "text": "Buenos días, que documentos debo presentar para el proceso de retiro total",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_total__fechas",
-      "confidence": 0.8741639256477356
-    }
-  },
-  {
-    "text": "Buenas tardes, Realice la Reserva de Matrícula el periodo pasado, que me corresponde hacer para matricularme este periodo",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.6083776354789734
-    }
-  },
-  {
-    "text": "Soy alumno de la facultad de ciencias que desea matricularse. Deje de matricularme algunos semestres por la pandemia y deseo retomar los estudios. Me dijeron que debo realizar un pago por el trámite de reincorporación. Me gustaría saber ¿En qué entidad bancaria se realiza este pago? y ¿cuánto es el monto?.",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "constancia_de_estudios__procedimiento",
-      "confidence": 0.24741317331790924
-    }
-  },
-  {
-    "text": "cuanto es el costo del tramite de matricula?",
+    "text": "existe algun pago por la constancia de matricula",
     "intent": "constancia_matricula__pago",
     "intent_prediction": {
-      "name": "costo_tramite",
-      "confidence": 0.49738234281539917
+      "name": "matricula_procedimiento",
+      "confidence": 0.36381325125694275
     }
   },
   {
-    "text": "donde solicito una constancia de estidios",
-    "intent": "constancia_de_estudios__procedimiento",
+    "text": "Hola, quiero saber como tramitar una constancia de notas en ingles y español",
+    "intent": "constancia_de_notas__procedimiento",
     "intent_prediction": {
-      "name": "constancia_matricula__solicitud_procedimiento",
-      "confidence": 0.5544058084487915
+      "name": "constancia_de_notas__formato_solicitud",
+      "confidence": 0.8184056282043457
     }
   },
   {
-    "text": "quisiera hacer el retiro de un curso pero lo he desaprobado el ciclo, es posible o no procede?",
-    "intent": "retiro_parcial__cursos_repetidos",
+    "text": "me dijeron que envie una solicitud para la reincorporacion esta debe esta dirigida al decano?",
+    "intent": "reincorporacion__formato_solicitud",
     "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.9564671516418457
+      "name": "reincorporacion__fechas",
+      "confidence": 0.39662763476371765
+    }
+  },
+  {
+    "text": "puedo solicitar el retiro parcial solo enviando la solicitud?",
+    "intent": "retiro_total__requisitos_documentos_justificacion",
+    "intent_prediction": {
+      "name": "retiro_parcial__fechas",
+      "confidence": 0.5863881707191467
+    }
+  },
+  {
+    "text": "ok, buenas noches",
+    "intent": "despedida",
+    "intent_prediction": {
+      "name": "saludo",
+      "confidence": 0.2921511232852936
     }
   },
   {
@@ -220,95 +84,7 @@
     "intent": "despedida",
     "intent_prediction": {
       "name": "saludo",
-      "confidence": 0.969464123249054
-    }
-  },
-  {
-    "text": "ninguna duda mas",
-    "intent": "denegar_mas_ayuda",
-    "intent_prediction": {
-      "name": "confirmar_requerir_mas_ayuda",
-      "confidence": 0.5732788443565369
-    }
-  },
-  {
-    "text": "como realizo mi matricula",
-    "intent": "matricula_procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.15999934077262878
-    }
-  },
-  {
-    "text": "recien ingrese como me matriclo",
-    "intent": "matricula__procedimiento_alumno_ingresante",
-    "intent_prediction": {
-      "name": "matricula_procedimiento",
-      "confidence": 0.7184984683990479
-    }
-  },
-  {
-    "text": "cual es el cronograma de matricula",
-    "intent": "matricula__cronograma",
-    "intent_prediction": {
-      "name": "matricula_procedimiento",
-      "confidence": 0.4514424502849579
-    }
-  },
-  {
-    "text": "donde puedo ver el horario que me ha tocado para realizar mi matricula",
-    "intent": "matricula__horarios",
-    "intent_prediction": {
-      "name": "perdida_turno_matricula",
-      "confidence": 0.7634793519973755
-    }
-  },
-  {
-    "text": "cual es hora de matricila",
-    "intent": "matricula__horarios",
-    "intent_prediction": {
-      "name": "horario_atencion_aera",
-      "confidence": 0.5426035523414612
-    }
-  },
-  {
-    "text": "Acabo de pagar el autoseguro, estoy a tiempo?",
-    "intent": "pago_autoseguro__fuera_fecha",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.7931797504425049
-    }
-  },
-  {
-    "text": "ahora que mi matricula paso a rezagados que debo hacer no entiendo",
-    "intent": "matricula_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "perdida_turno_matricula",
-      "confidence": 0.6991688013076782
-    }
-  },
-  {
-    "text": "a quien le solicito el camio de secion",
-    "intent": "cambio_seccion",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.24059614539146423
-    }
-  },
-  {
-    "text": "estan disponobles los horariso de cuso de programcion orientada objetos",
-    "intent": "cursos_horarios",
-    "intent_prediction": {
-      "name": "constancia_de_estudios__formato_solicitud",
-      "confidence": 0.16641490161418915
-    }
-  },
-  {
-    "text": "debo justificar mis motivos para solicitar mi retiro total?",
-    "intent": "retiro_total__requisitos_documentos_justificacion",
-    "intent_prediction": {
-      "name": "retiro_total__motivos_procede",
-      "confidence": 0.6166096925735474
+      "confidence": 0.9337586760520935
     }
   },
   {
@@ -316,655 +92,159 @@
     "intent": "retiro_total__motivos_procede",
     "intent_prediction": {
       "name": "retiro_total__fechas",
-      "confidence": 0.9769936203956604
+      "confidence": 0.6292352080345154
     }
   },
   {
-    "text": "quiero pedir la reseva de matrcula como hago?",
-    "intent": "reserva_matricula__procedimiento",
+    "text": "voy a realizar un viaje al extranjero por razones de trabajo puedo realizar un retiro total?",
+    "intent": "retiro_total__motivos_procede",
     "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.32316693663597107
+      "name": "retiro_total__fechas",
+      "confidence": 0.48540225625038147
     }
   },
   {
-    "text": "Buenos dias, tengo una duda quiero matricularme este ciclo pero el anterior por motivos de trabajo solicite la reserva de matricula, para realizar mi matricula debo hacer algo adicional ?",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.9746033549308777
-    }
-  },
-  {
-    "text": "si tambien quisiera que debaria de hacer luego de la reserva de matricula para reincoporarme el siguiente ciclo",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.5969384908676147
-    }
-  },
-  {
-    "text": "he dejado de estudiar hace año, como podria matricularme en el siguiente ciclo",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "matricula__procedimiento_alumno_ingresante",
-      "confidence": 0.3020060062408447
-    }
-  },
-  {
-    "text": "como solicto la reicorporacion",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "matricula_procedimiento",
-      "confidence": 0.9324552416801453
-    }
-  },
-  {
-    "text": "cual es prodimiento de reicorporacion",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__cursos_repetidos",
-      "confidence": 0.1964855194091797
-    }
-  },
-  {
-    "text": "cuanto seria el pago por el tramite de reincoporacion ?",
-    "intent": "reincorporacion__costo",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.6330947875976562
-    }
-  },
-  {
-    "text": "se debe pafar algo por la constancia matricila",
-    "intent": "constancia_matricula__pago",
-    "intent_prediction": {
-      "name": "constancia_de_notas__procedimiento",
-      "confidence": 0.08277203142642975
-    }
-  },
-  {
-    "text": "Puede decirme cual es el horaro de atencion de la oficina?",
-    "intent": "horario_atencion_aera",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.416402667760849
-    }
-  },
-  {
-    "text": "¿Es posible retirarme de un curso que haya repetido?",
+    "text": "estoy intentando retirarme del curso de algebra lineal que estoy llavando por seguna vez pero el sistema no me deja. Como puedo solicar retirarme de este curso?",
     "intent": "retiro_parcial__cursos_repetidos",
     "intent_prediction": {
-      "name": "retiro_parcial__maximo_cursos",
-      "confidence": 0.5146889090538025
+      "name": "retiro_parcial__unico_curso",
+      "confidence": 0.41831254959106445
     }
   },
   {
-    "text": "como me matrculo",
-    "intent": "matricula_procedimiento",
+    "text": "quiero cambiar a la seccion b en el curso de fundamentos de programacion en donde lo pido",
+    "intent": "cambio_seccion",
     "intent_prediction": {
-      "name": "saludo",
-      "confidence": 0.8088868260383606
+      "name": "retiro_parcial__procedimiento",
+      "confidence": 0.19462646543979645
     }
   },
   {
-    "text": "una consulta soy alumno regular de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien",
+    "text": "Envié un correo a mi escuela para que me oriente en el retiro total",
+    "intent": "retiro_total__procedimiento",
+    "intent_prediction": {
+      "name": "retiro_total__fechas",
+      "confidence": 0.47569772601127625
+    }
+  },
+  {
+    "text": "ya pague el autoseguro debo realizar algo mas para mi matricula soy alumno en tercer ciclo",
     "intent": "matricula__procedimiento_alumno_regular",
     "intent_prediction": {
       "name": "matricula__procedimiento_alumno_ingresante",
-      "confidence": 0.48787474632263184
+      "confidence": 0.6704244017601013
     }
   },
   {
-    "text": "cuando inicia la matrcula",
-    "intent": "matricula__cronograma",
+    "text": "soy alumno de segundo ciclo como me matricula",
+    "intent": "matricula__procedimiento_alumno_regular",
     "intent_prediction": {
-      "name": "procedimiento_tramites_fechas",
-      "confidence": 0.26722827553749084
+      "name": "matricula__procedimiento_alumno_ingresante",
+      "confidence": 0.8618181943893433
     }
   },
   {
-    "text": "Buen día, necesito saber cuando me toca matricularme",
-    "intent": "matricula__horarios",
-    "intent_prediction": {
-      "name": "matricula__cronograma",
-      "confidence": 0.8529163599014282
-    }
-  },
-  {
-    "text": "Buenas dias es que me han dicho que pague el autoseguro pero no entiendo como",
-    "intent": "pago_autoseguro_procedimiento",
-    "intent_prediction": {
-      "name": "pago_autoseguro__fuera_fecha",
-      "confidence": 0.6145938038825989
-    }
-  },
-  {
-    "text": "Buen día, perdí mi horario de matrícula, que hago",
-    "intent": "perdida_turno_matricula",
-    "intent_prediction": {
-      "name": "matricula__horarios",
-      "confidence": 0.894781231880188
-    }
-  },
-  {
-    "text": "Buenos dias, no pude conectarme en mi horario de matricula",
-    "intent": "perdida_turno_matricula",
-    "intent_prediction": {
-      "name": "matricula__horarios",
-      "confidence": 0.9290204644203186
-    }
-  },
-  {
-    "text": "quiero saber el horario de mis asignaturas",
-    "intent": "cursos_horarios",
-    "intent_prediction": {
-      "name": "matricula__horarios",
-      "confidence": 0.5081461071968079
-    }
-  },
-  {
-    "text": "Hola, quiero retirarme de unos cursos y quiero saber las fechas",
-    "intent": "retiro_parcial__fechas",
-    "intent_prediction": {
-      "name": "retiro_parcial__maximo_cursos",
-      "confidence": 0.668005645275116
-    }
-  },
-  {
-    "text": "como proceso para haces el retito parcil",
-    "intent": "retiro_parcial__procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.8701857328414917
-    }
-  },
-  {
-    "text": "quiero retirme de 2 crsos es posible?",
+    "text": "solo estoy llevando dos asignaturas puedo retirarme de una de ellas?",
     "intent": "retiro_parcial__maximo_cursos",
     "intent_prediction": {
-      "name": "retiro_parcial__cursos_repetidos",
-      "confidence": 0.6886429190635681
+      "name": "retiro_total__fechas",
+      "confidence": 0.18761172890663147
     }
   },
   {
-    "text": "que dias puedo hacer el retiro total",
-    "intent": "retiro_total__fechas",
+    "text": "puedes decirme que hacer para pagar el autoseguro, creo que ha cambiado el metodo",
+    "intent": "pago_autoseguro_procedimiento",
     "intent_prediction": {
-      "name": "retiro_total__procedimiento",
-      "confidence": 0.7428556084632874
-    }
-  },
-  {
-    "text": "¿Qué motivos justifican el retiro total de cursos?",
-    "intent": "retiro_total__motivos_procede",
-    "intent_prediction": {
-      "name": "retiro_total__procedimiento",
-      "confidence": 0.5960621237754822
-    }
-  },
-  {
-    "text": "cual motivo puedo justificar para hacer un retiro total?",
-    "intent": "retiro_total__motivos_procede",
-    "intent_prediction": {
-      "name": "retiro_total__requisitos_documentos_justificacion",
-      "confidence": 0.9608173370361328
-    }
-  },
-  {
-    "text": "como puedo solcitar el retiro de todas las asignaturas que estoy llevando",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__fechas",
-      "confidence": 0.5577057003974915
-    }
-  },
-  {
-    "text": "como puedo hcar el retiri toral",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.852506160736084
-    }
-  },
-  {
-    "text": "Buenos dias, quisiera realizar reserva de matrícula para este periodo por problemas familiar .¿Que procedimiento deberia seguir?",
-    "intent": "reserva_matricula__procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.7795016765594482
-    }
-  },
-  {
-    "text": "aun puedo enviar la solicitud de reserva de matricula ?",
-    "intent": "reserva_matricula__fechas",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.5064808130264282
-    }
-  },
-  {
-    "text": "Buenas noches, el anterior ciclo reserve mi matricula por motivos familiares , este ciclo si quiero matricularme realizo mi matricula como siempre o hay algun tramite que debo hacer ?",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.975127100944519
-    }
-  },
-  {
-    "text": "Hola, quisiera tramitar mi reicorporacion como puedo proceder como mi matricula",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.6885032653808594
-    }
-  },
-  {
-    "text": "que proceso debo seguir para que se me habilite mi matricula dando que reserve mi matricula el ciclo pasado",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.9944577217102051
-    }
-  },
-  {
-    "text": "no quiero saber cual es el formato para las solicitud de reincorporacion",
-    "intent": "reincorporacion__formato_solicitud",
-    "intent_prediction": {
-      "name": "cursos_horarios",
-      "confidence": 0.17553766071796417
-    }
-  },
-  {
-    "text": "donde puedo solitar una constacio de matrcula",
-    "intent": "constancia_matricula__solicitud_procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__formato_solicitud",
-      "confidence": 0.43632543087005615
-    }
-  },
-  {
-    "text": "adios",
-    "intent": "despedida",
-    "intent_prediction": {
-      "name": "saludo",
-      "confidence": 0.9202447533607483
-    }
-  },
-  {
-    "text": "Hi",
-    "intent": "saludo",
-    "intent_prediction": {
-      "name": "despedida",
-      "confidence": 0.16824129223823547
-    }
-  },
-  {
-    "text": "donde solicito mi carnt unversitario",
-    "intent": "carnet_universitario__solicitud",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.37312936782836914
+      "name": "matricula__procedimiento_alumno_ingresante",
+      "confidence": 0.2605128586292267
     }
   },
   {
     "text": "para pagar el autoseguro debo emitir orden de pago ?",
     "intent": "pago_autoseguro_procedimiento",
     "intent_prediction": {
-      "name": "reincorporacion__costo",
-      "confidence": 0.7087625861167908
+      "name": "matricula_procedimiento",
+      "confidence": 0.32323527336120605
     }
   },
   {
-    "text": "buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado",
-    "intent": "matricula_rezagada__procedimiento",
+    "text": "cuando debo enviar mi solictud para mi reincorporacion para el siguiente periodo academico",
+    "intent": "reincorporacion__fechas",
     "intent_prediction": {
-      "name": "retiro_total__fechas",
-      "confidence": 0.26191967725753784
+      "name": "reincorporacion__procedimiento",
+      "confidence": 0.5251033902168274
     }
   },
   {
-    "text": "Hola ayudame quiero saber como es el procedimiento para el pago de matricula rezagada",
-    "intent": "matricula_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "pago_autoseguro__fuera_fecha",
-      "confidence": 0.7256127595901489
-    }
-  },
-  {
-    "text": "tengo que pagar algo por matricula rezgada",
-    "intent": "matricula_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.16870783269405365
-    }
-  },
-  {
-    "text": "hasta de cuantos cursos puedo hacer el retiro parcial ?",
-    "intent": "retiro_parcial__maximo_cursos",
-    "intent_prediction": {
-      "name": "retiro_parcial__fechas",
-      "confidence": 0.9455947279930115
-    }
-  },
-  {
-    "text": "¿Qué días se hace el trámite del retiro total?",
-    "intent": "retiro_total__fechas",
-    "intent_prediction": {
-      "name": "retiro_total__procedimiento",
-      "confidence": 0.9599102735519409
-    }
-  },
-  {
-    "text": "que debe presentar documentso que justifiquen el retro totla?",
-    "intent": "retiro_total__requisitos_documentos_justificacion",
-    "intent_prediction": {
-      "name": "retiro_total__motivos_procede",
-      "confidence": 0.2377382069826126
-    }
-  },
-  {
-    "text": "necesito el modelo para solicitar el retron parcial",
-    "intent": "retiro_total__formato_solicitud",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.9592233896255493
-    }
-  },
-  {
-    "text": "Puedo retirarme de todos los cursos?",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__maximo_cursos",
-      "confidence": 0.8012346029281616
-    }
-  },
-  {
-    "text": "Quiero retirarme del ciclo",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__cursos_repetidos",
-      "confidence": 0.37828925251960754
-    }
-  },
-  {
-    "text": "Buenos días, me veo obligada de retirarme de todos los cursos por motivos de trabajo, cual es el procedimiento por favor",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.930854320526123
-    }
-  },
-  {
-    "text": "por movitos de fuerza mayor quiero solcitar la reserca de matricula?",
-    "intent": "reserva_matricula__procedimiento",
-    "intent_prediction": {
-      "name": "constancia_matricula__pago",
-      "confidence": 0.8654475808143616
-    }
-  },
-  {
-    "text": "disculpa un consulta se me ha pasado la fecha de reincoporacion pero quiero matricuarme este ciclo que debo hacer",
-    "intent": "reincorporacion_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__fechas",
-      "confidence": 0.44766464829444885
-    }
-  },
-  {
-    "text": "cual es la fecha limite para enviar mi solicitud de reincorporacion",
+    "text": "hasta cuando es posible reincoparme?",
     "intent": "reincorporacion__fechas",
     "intent_prediction": {
       "name": "procedimiento_tramites_fechas",
-      "confidence": 0.5136494636535645
+      "confidence": 0.23567432165145874
     }
   },
   {
-    "text": "donde un encontra un modelo o formato para esta solicitud",
-    "intent": "constancia_de_notas__formato_solicitud",
-    "intent_prediction": {
-      "name": "formato_solicitud",
-      "confidence": 0.8049088716506958
-    }
-  },
-  {
-    "text": "cual es el modelo para solicitu de constancia de estidios?",
-    "intent": "constancia_de_estudios__formato_solicitud",
-    "intent_prediction": {
-      "name": "constancia_matricula__formato_solicitud",
-      "confidence": 0.8403327465057373
-    }
-  },
-  {
-    "text": "chau",
-    "intent": "despedida",
-    "intent_prediction": {
-      "name": "saludo",
-      "confidence": 0.3449024260044098
-    }
-  },
-  {
-    "text": "buenas noches",
-    "intent": "saludo",
-    "intent_prediction": {
-      "name": "despedida",
-      "confidence": 0.8194029331207275
-    }
-  },
-  {
-    "text": "tongo otra consulta",
-    "intent": "confirmar_requerir_mas_ayuda",
-    "intent_prediction": {
-      "name": "horario_atencion_aera",
-      "confidence": 0.25230342149734497
-    }
-  },
-  {
-    "text": "todavia puedo pagarlo?",
-    "intent": "pago_fechas",
-    "intent_prediction": {
-      "name": "costo_tramite",
-      "confidence": 0.34569722414016724
-    }
-  },
-  {
-    "text": "¿Cuál es proceso de matricula?",
-    "intent": "matricula_procedimiento",
-    "intent_prediction": {
-      "name": "matricula__cronograma",
-      "confidence": 0.4620342552661896
-    }
-  },
-  {
-    "text": "como realizo la mtracula",
-    "intent": "matricula_procedimiento",
-    "intent_prediction": {
-      "name": "reincorporacion__procedimiento",
-      "confidence": 0.9506471157073975
-    }
-  },
-  {
-    "text": "quiero saber dono esta el cronograma de matricula",
-    "intent": "matricula__cronograma",
-    "intent_prediction": {
-      "name": "matricula_rezagada__procedimiento",
-      "confidence": 0.5015499591827393
-    }
-  },
-  {
-    "text": "hoy puedo pagar el autoseguro?",
-    "intent": "pago_autoseguro__fechas",
-    "intent_prediction": {
-      "name": "pago_autoseguro_procedimiento",
-      "confidence": 0.38021767139434814
-    }
-  },
-  {
-    "text": "Todavía puedo pagar el autoseguro para matricularme",
-    "intent": "pago_autoseguro__fechas",
-    "intent_prediction": {
-      "name": "matricula_rezagada__procedimiento",
-      "confidence": 0.6795175075531006
-    }
-  },
-  {
-    "text": "que pasa si no pago el autoseguro a tiempo",
-    "intent": "pago_autoseguro_procedimiento",
-    "intent_prediction": {
-      "name": "pago_autoseguro__fuera_fecha",
-      "confidence": 0.9922701120376587
-    }
-  },
-  {
-    "text": "ya se puede solicitar el retito paracil",
-    "intent": "retiro_parcial__fechas",
-    "intent_prediction": {
-      "name": "pago_autoseguro__fechas",
-      "confidence": 0.4060814380645752
-    }
-  },
-  {
-    "text": "Estoy matriculado en 3 cursos y quiero salirme de uno",
-    "intent": "retiro_parcial__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__maximo_cursos",
-      "confidence": 0.6061646938323975
-    }
-  },
-  {
-    "text": "me han dicho que puedo retirarme de un curso solo por el intranet de orce cuales son lo paso ?",
-    "intent": "retiro_parcial__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__unico_curso",
-      "confidence": 0.5988801717758179
-    }
-  },
-  {
-    "text": "Hola, ¿Es posible realizar el retiro parcial si estoy llevando un único curso?",
-    "intent": "retiro_parcial__unico_curso",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.9732752442359924
-    }
-  },
-  {
-    "text": "es posible hacer el retiro total de todos los cursos que estoy matricula",
-    "intent": "retiro_parcial__maximo_cursos",
-    "intent_prediction": {
-      "name": "retiro_total__procedimiento",
-      "confidence": 0.9633615016937256
-    }
-  },
-  {
-    "text": "¿Es necesario justificar con documentos el motivo de retiro total?",
-    "intent": "retiro_total__requisitos_documentos_justificacion",
-    "intent_prediction": {
-      "name": "retiro_total__motivos_procede",
-      "confidence": 0.8798855543136597
-    }
-  },
-  {
-    "text": "¿Cuáles son los pasos para solicitar el retito total?",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_total__motivos_procede",
-      "confidence": 0.7808390259742737
-    }
-  },
-  {
-    "text": "Buenas tardes, como realizo un retiro total.Gracias.",
-    "intent": "retiro_total__procedimiento",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.9956522583961487
-    }
-  },
-  {
-    "text": "es posible todavia relozar la reserva de matrcula",
-    "intent": "reserva_matricula__fechas",
-    "intent_prediction": {
-      "name": "reserva_matricula__procedimiento",
-      "confidence": 0.6105526685714722
-    }
-  },
-  {
-    "text": "como debo hacer la solicitud para la reseva de matricula",
-    "intent": "reserva_matricula__formato_solicitud",
-    "intent_prediction": {
-      "name": "reincorporacion__formato_solicitud",
-      "confidence": 0.23164673149585724
-    }
-  },
-  {
-    "text": "habia reservado mi matricula hace dos ciclos por motivos de saludo, ahora deseo realizar mi matricula para al proximo ciclo que debo hacer para que se me habilite",
-    "intent": "reincorporacion__procedimiento",
-    "intent_prediction": {
-      "name": "matricula_rezagada__procedimiento",
-      "confidence": 0.20808833837509155
-    }
-  },
-  {
-    "text": "me puedo reicorporar por rezagado?",
-    "intent": "reincorporacion_rezagada__procedimiento",
-    "intent_prediction": {
-      "name": "matricula_rezagada__procedimiento",
-      "confidence": 0.7817338109016418
-    }
-  },
-  {
-    "text": "una consulta, es que fechas deberia solicitar mi reincorparacion",
+    "text": "disculpa un consulta se me ha pasado la fecha de reincorporacion pero quiero matricuarme este ciclo que debo hacer",
     "intent": "reincorporacion__fechas",
     "intent_prediction": {
-      "name": "reincorporacion_rezagada__procedimiento",
-      "confidence": 0.23225395381450653
+      "name": "reincorporacion__procedimiento",
+      "confidence": 0.6064994931221008
     }
   },
   {
-    "text": "como debe ser la solictud de reincorporacion ?",
-    "intent": "reincorporacion__formato_solicitud",
+    "text": "cuando puedo matricularme",
+    "intent": "matricula__horarios",
+    "intent_prediction": {
+      "name": "procedimiento_tramites_fechas",
+      "confidence": 0.6923491358757019
+    }
+  },
+  {
+    "text": "me han dicho que la matricula es por horarios como se cuando es el mio",
+    "intent": "matricula__horarios",
+    "intent_prediction": {
+      "name": "horario_atencion_aera",
+      "confidence": 0.16870439052581787
+    }
+  },
+  {
+    "text": "hasta cuando puedo hacer dicho tramite",
+    "intent": "procedimiento_tramites_fechas",
+    "intent_prediction": {
+      "name": "pago_fechas",
+      "confidence": 0.7314239740371704
+    }
+  },
+  {
+    "text": "cuales son los pasos para matricularme en el siguiente ciclo",
+    "intent": "matricula_procedimiento",
+    "intent_prediction": {
+      "name": "matricula__procedimiento_alumno_regular",
+      "confidence": 0.4538235068321228
+    }
+  },
+  {
+    "text": "quiero saber en que fechas se hara la matricula",
+    "intent": "matricula__cronograma",
+    "intent_prediction": {
+      "name": "retiro_parcial__fechas",
+      "confidence": 0.23036396503448486
+    }
+  },
+  {
+    "text": "Deseo que saber cuando comienza la matrícula",
+    "intent": "matricula__cronograma",
+    "intent_prediction": {
+      "name": "matricula_procedimiento",
+      "confidence": 0.7190735340118408
+    }
+  },
+  {
+    "text": "Por motivos de encomicos y de trabajo no podre matricularme el siguiente ciclo que puedo hacer para no perder mi vacante",
+    "intent": "reserva_matricula__procedimiento",
     "intent_prediction": {
       "name": "reincorporacion__procedimiento",
-      "confidence": 0.8502368927001953
-    }
-  },
-  {
-    "text": "donde puedo solictar una constancias de matricula?",
-    "intent": "constancia_de_notas__procedimiento",
-    "intent_prediction": {
-      "name": "constancia_matricula__solicitud_procedimiento",
-      "confidence": 0.8626435399055481
-    }
-  },
-  {
-    "text": "como solicito una costancia de notas?",
-    "intent": "constancia_de_notas__formato_solicitud",
-    "intent_prediction": {
-      "name": "constancia_de_notas__procedimiento",
-      "confidence": 0.9556957483291626
-    }
-  },
-  {
-    "text": "Puedo retirarme de cursos con repitencias?",
-    "intent": "retiro_parcial__cursos_repetidos",
-    "intent_prediction": {
-      "name": "retiro_parcial__maximo_cursos",
-      "confidence": 0.9627821445465088
-    }
-  },
-  {
-    "text": "es posible retirase de cursos con repitencias ?",
-    "intent": "retiro_parcial__cursos_repetidos",
-    "intent_prediction": {
-      "name": "retiro_parcial__maximo_cursos",
-      "confidence": 0.9300433397293091
-    }
-  },
-  {
-    "text": "quisero hacer el retiro de un curso que estoy llevando por segunda ver es posible?",
-    "intent": "retiro_parcial__cursos_repetidos",
-    "intent_prediction": {
-      "name": "retiro_parcial__procedimiento",
-      "confidence": 0.8846484422683716
+      "confidence": 0.9703086018562317
     }
   }
 ]
