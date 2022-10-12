@@ -227,7 +227,7 @@ nlu:
     - la solicitud debe seguir algun formato o modelo
     - el modelo para la solicitud porfavor
     - dime que formato debe seguir la solicitud
-
+# Ready
 
 - intent: procedimiento_tramites_fechas
   examples: |
@@ -272,6 +272,7 @@ nlu:
     - otra duda puedo realizar el tramite esta semana
     - en estas fechas todavia puedo realizar este procedimiento
     - todavia puedo realizar este tramite
+#ready
 
 - intent: costo_tramite
   examples: |
@@ -411,6 +412,8 @@ nlu:
     - me gustaria matricularme en el tercer ciclo que pagos debo hacer
     - hola que tal, soy alumno regular ya pague el autoseguro pero no me creo que pueda ir a dejar la boleta por que me encuentro en provincia. Es necesario?
     - como alumno regular debo pagar algo mas a parte del autoseguro?
+    - es mi segundo ciclo que mas pagos debo hacer aparte del autoseguro ?
+    - soy alumno regular aparte de pagar el autoseguro que mas debo pagar o tramitar para la matricula?
 
 #
 - intent: matricula__procedimiento_alumno_ingresante #NC
@@ -446,6 +449,7 @@ nlu:
     - ya pague el carnet y el autoseguro me dijeron que debo dejar las boletas en la oficina de estadistica. Soy nuevo alumno ingresante.
     - soy ingresante tengo que ir a dejar las boletas del autoseguro y carnet o no es necesario?
     - soy nuevo alumno ingrese en el anterior examen que debo hacer para matricularme
+    - soy alumno ingresante, quisiera matricularme pero no entendi que pagos debo hacar me podria indicar que pagos debo hacer?
 
 #
 - intent: carnet_universitario__solicitud #NC
@@ -580,7 +584,11 @@ nlu:
     - como veo cual es mi turno para la matricula?
     - quiero saber mi turno para la matricula?
     - ya estan disponibles los horarios para la matricula?
-#
+    - ya se publicaron los horarios de la matricula?
+    - hola aerito, una consulta ya salieron los horarios de la matricula?
+    - me comentaron que ya estan disponibles los horarios de la matricula donde los puedo ver?
+#ready
+
 - intent: pago_autoseguro__fechas #f1
   examples: |
     - ¿Cuando se puede pagar el autoseguro?
@@ -680,7 +688,14 @@ nlu:
     - en donde y cuanto debo pagar por el autoseguro?
     - por favor dime cuanto y adonde debo ir para pagar el autoseguro?
     - el autoseguro se paga en banco scotiabank?
-#
+    - en que entidad bancaria se puede pagar el autoseguro?
+    - el autoseguro se paga en caja uni?
+    - puedo pagar el autoseguro en el bcp?
+    - puedo pagar el autoseguro por yape?
+    - en donde puedo pagar el autoseguro?
+
+# ready
+
 #- Buenas tardes, quiero saber el procedimiento para pagar el autoseguro
 #- Hola ayudame quiero saber como pagar el autoseguro creo que es el ultimo dia
         
