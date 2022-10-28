@@ -910,8 +910,7 @@ nlu:
     - el retiro parcial se puede pedir en la primera semana?
     - puedo solicitar el retiro parcial en la quinta semana?
     - el la segunda semana ya puedo retirarme de un curso?
-    - quiero saber la fechas para poder retirarme de algunos cursos
-     
+    - quiero saber la fechas para poder retirarme de algunos cursos 
 #
 ## Buenas tardes, ¿Cuando se habilitara el retiro parcial?
 ## - Buen día, ¿Hasta cuándo se puede hacer el retiro parcial?
@@ -1610,7 +1609,7 @@ nlu:
     - a apartir de que hora estan atendiento en la oficina de estadistica?
     - a que hora abren Aera?
     - desde que hora esta abierto la oficina de estadistica?
-
+    - hasta que hora esta abierto la oficina de estadistica?
 
 - intent: solicitud_correo_institucional_procedimiento
   examples: |

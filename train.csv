@@ -1,0 +1,830 @@
+intent_name,examples,label
+procedimiento_tramites_fechas,cuando ya puedo presentar la solicitud,5
+denegar_mas_ayuda,es todo gracias,2
+horario_atencion_aera,una consulta mas cual el horario de atencion presencial de Estadística?,43
+costo_tramite,cuanto cuesta el tramite,6
+matricula_rezagada__procedimiento,como es el procedimiento para la matricula rezagada,17
+matricula_procedimiento,como realizo mi matrícula,8
+retiro_parcial__procedimiento,"Buenos dias, ¿Qué pasos debo seguir para el retiro parcial?",21
+reserva_matricula__fechas,cual es la fecha para enviar la solicitud de reserva de matricula,30
+formato_solicitud,tambien quisiera que me envie el modelo si hay para la solicitud,4
+procedimiento_tramites_fechas,hasta cuando puedo presentarlo,5
+cambio_seccion,"Hola que tal, dime como realizo un cambio de seccion",18
+constancia_de_notas__procedimiento,"Buenas tardes, voy a postular para a una beca necesito una constancia de notas en inglés ¿Cuál es el procedimeinto?",39
+retiro_parcial__fechas,"Hola, ¿Hasta cuando puedo hacer el retiro parcial?",20
+pago_autoseguro__fechas,tengo una consulta con cuantos dias antes de la matricula se debe pagar el autoseguro,14
+constancia_matricula__solicitud_procedimiento,quisiera tramitar una constancia de matricula a quien le puedo consultar,36
+reserva_matricula__fechas,aun puedo enviar la solicitud de reserva de matricula ?,30
+saludo,como vas,1
+cursos_horarios,ya salieron los horarios de los cursos?,19
+retiro_total__requisitos_documentos_justificacion,quiero realizar el retiro total por razones de salud pero actualmente no tengo una constancia salud en necesario que consiga una para solicitar mi retiro?,25
+retiro_parcial__fechas,puedo hacer el retiro parcial todavia estamos ya en la sexta semana?,20
+carnet_universitario__solicitud,es necesario entregar mi voucher de pago para mi carnet,11
+costo_tramite,si cuanto es el costo,6
+constancia_matricula__pago,¿Cuánto se paga por la Constancia de Matrícula?,37
+retiro_parcial__unico_curso,puedo hacer el retiro parcial si solo estoy llevando un curso,22
+retiro_parcial__unico_curso,si estoy matricula en una solo asignatura es posible retirarme ese curso,22
+reincorporacion__costo,el tramite de reincoporacion se debe pagar o es gratuito?,34
+denegar_mas_ayuda,"no, gracias",2
+matricula_procedimiento,ya realize los pagos que me dijeron para la matricula debo enviar las boletas?,8
+retiro_total__requisitos_documentos_justificacion,como debo justificar el retiro total?,25
+reserva_matricula__procedimiento,¿Cómo reservo mi matricula?,29
+cursos_horarios,"Hola, no logro encontrar los horarios de los cursos donde estas ?",19
+constancia_de_notas__formato_solicitud,me puedes enviar un modelo para la solicitud de constancia de notas,40
+retiro_parcial__fechas,"Hola, cuándo inicia el retiro parcial?",20
+reserva_matricula__procedimiento,"Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de salud .¿Que procedimiento deberia seguir?",29
+retiro_parcial__cursos_repetidos,es posible que haga un retiro parcial de un curso que he repetido?,45
+perdida_turno_matricula,no puede matricularme por problemas de internet paso a matricula rezagada entonces ?,16
+carnet_universitario__solicitud,el carnet universitario es gratis?,11
+matricula_rezagada__procedimiento,"Buenas noches, que pasos debo seguir para la matricula rezagada",17
+procedimiento_tramites_fechas,la siguiente semana puedo enviar la solicitud,5
+formato_solicitud,¿Cuál es el modelo para la solicitud?,4
+constancia_matricula__solicitud_procedimiento,"Buenas noches, cual es el procedimiento para tramitar mi constancia de matricula ?",36
+formato_solicitud,que modelo debe seguir la solicitud?,4
+pago_autoseguro_procedimiento,en donde puedo pagar el autoseguro?,15
+costo_tramite,debo pagar algo?,6
+matricula_rezagada__procedimiento,"buenos dias, no pude matricularme en la fecha que me correspondía, cual es el procedimiento para rezagado",17
+matricula_rezagada__procedimiento,debo pagar algo para que me habiliten la matricula rezagada,17
+solicitud_correo_institucional_procedimiento,"hola que tal, todavia no me han dado mi correo uni, a quien puedo pedirle?",44
+pago_autoseguro__fechas,que pasa si no pago el autoseguro con los 3 dias de anticipación?,14
+retiro_total__procedimiento,El retiro total es presencial?,28
+despedida,hasta pronto,0
+constancia_de_estudios__procedimiento,"he sido eligido para una beca del pronabec pero me estan pidiendo una constancia de estudios, donde puedo tramitarla y cuanto debo pagar",42
+cambio_seccion,"Hola, quiero hacer un cambio de seccion",18
+retiro_parcial__unico_curso,"Buenas noches, estoy llevando un solo curso y el sistema no me permite retirarme",22
+formato_solicitud,como puedo conseguir un modelo para la solicitud,4
+reincorporacion__procedimiento,"Hola, quisiera tramitar mi reicorporacion como puedo proceder como mi matricula",32
+reserva_matricula__formato_solicitud,aparte de mi dni y mi codigo que ma debo colocar en la solicitud de reserva de matricula?,31
+matricula__horarios,que turno soy en la matricula?,13
+matricula__procedimiento_alumno_regular,Soy alumno regular como es el proceso de matricula,9
+reserva_matricula__formato_solicitud,la solicitud de reserva de matricula es solo una solicitud simpre dirigida al decano?,31
+confirmar_requerir_mas_ayuda,si me puedes ayudar con esto,3
+matricula__cronograma,si dime cuales son las fechas de matricula,12
+matricula_rezagada__procedimiento,que hago para que se me habilite el sistema de matricula por rezagado,17
+pago_autoseguro__fechas,Soy rezagado si no pago el autoseguro con dias de anticipacion a la matricula,14
+retiro_total__procedimiento,"Buenos días, me veo obligada de retirarme de todos los cursos por motivos de trabajo, cual es el procedimiento por favor",28
+saludo,buenas,1
+reserva_matricula__procedimiento,"Buenas noches, quisiera saber como puedo hacer una reserva de matricula y ¿Hasta cuándo tengo plazo para presentar mi solicitud? ya que este ciclo que viene no podré llevarlo bien por motivos de trabajo.",29
+reincorporacion__formato_solicitud,estoy buscando el modelo de la solitud de reincorporacion y no lo encuetro puedes decirme donde esta ?,35
+retiro_total__motivos_procede,cual es un motivo valido para acceder al retiro total?,26
+retiro_parcial__fechas,"Buenas, ¿Cuáles son las fechas para realizar el retiro parcial?",20
+horario_atencion_aera,Puede decirme cual es el horario de atencion de la oficina de estadistica?,43
+matricula_procedimiento,debo hacer algo para habilitar mi matricula,8
+perdida_turno_matricula,"Buenas noches, no he tenido internet todo el dia y no pude matricularme que debo hacer",16
+carnet_universitario__solicitud,a donde voy para tramitar mi carnet,11
+costo_tramite,debo pagar algo por este tramite,6
+retiro_parcial__cursos_repetidos,quiero retirarme de un curso que llevo por segunda pero el sistema no me deja como hago?,45
+retiro_parcial__unico_curso,"este ciclo solo pude matricular en un solo curso, pero no creo poder seguir asistiendo y quisiera retirarme",22
+solicitud_correo_institucional_procedimiento,como tramito mi correo uni,44
+matricula_procedimiento,como es el proceso para la matricula,8
+retiro_parcial__cursos_repetidos,quero solicitar el retiro de un curso que estoy llevando por segunda vez,45
+formato_solicitud,una consulta hay algun modelo para la solicitud,4
+reincorporacion__procedimiento,"Hola, quiero solicitar mi reincorporación para este periodo cual seria el procedimiento que debo seguir ?",32
+retiro_total__formato_solicitud,"hola aeito, un favor necesito el modelo para la solcitud de retiro total me lo pudes enviar porfavor?",27
+reincorporacion__costo,el tramite de reincoporacion es gratuito o tiene algun costo ?,34
+constancia_de_notas__procedimiento,las constancia de notas la solicito en escuelas academicas?,39
+pago_autoseguro_procedimiento,"Buenas tardes, como pago el autoseguro",15
+retiro_parcial__procedimiento,"HOla, deseo realizar el retiro parcial de varios curso como procedo",21
+reincorporacion__procedimiento,quisiera reincorporarme este ciclo que deberia hacer,32
+reserva_matricula__procedimiento,"Hola, este ciclo no podre matricularme por motivos de salud cual seria el procedimiento para poder reservar la matricula",29
+reserva_matricula__procedimiento,que tengo que hacer para reservar mi matricula,29
+formato_solicitud,como debo redactar la solicitud,4
+constancia_de_estudios__procedimiento,voy a postular a una beca quiero una constancia de estudios,42
+constancia_de_notas__procedimiento,"Que tal, acabo de realizar mi pago para obtener una constancia de notas pero no sé qué más hacer?",39
+retiro_total__procedimiento,"Quiero hacer el retiro total, ¿cómo puedo hacerlo?",28
+retiro_total__motivos_procede,cual motivo puedo justificar para hacer un retiro total?,26
+retiro_parcial__cursos_repetidos,puedo solicitar el retiro de un curso que he repetido el ciclo anterior?,45
+reincorporacion__fechas,una consulta si se me paso la fecha de reincorporacion que debo hacer,33
+constancia_matricula__solicitud_procedimiento,"Buenas tardes una consulta, ¿cómo puedo obtener una constancia de matricula?",36
+retiro_parcial__fechas,"Buenos días, cuándo es la fecha para el retiro parcial?",20
+retiro_total__fechas,cuando puedo hacer un retiro total,24
+formato_solicitud,la solicitud debe estar dirigida al decano?,4
+perdida_turno_matricula,"Hola, no tuve internet y no pude matricularme que debo hacer",16
+perdida_turno_matricula,tuve algunes problemas de red y no pude matricular el sistema ahora ya no me deja que hago,16
+confirmar_requerir_mas_ayuda,otra duda,3
+constancia_de_estudios__formato_solicitud,que informacion debo colocar en la solicitud para un constancia de estudios?,41
+retiro_parcial__cursos_repetidos,¿Es posible retirarme de un curso que haya repetido?,45
+retiro_parcial__unico_curso,si solo llevo un curso es posible retirarme?,22
+solicitud_correo_institucional_procedimiento,a que oficina le solicito mi correo uni,44
+denegar_mas_ayuda,"No eso seria todo, muchas gracias",2
+pago_autoseguro_procedimiento,el autoseguro se paga en caja uni?,15
+matricula__procedimiento_alumno_ingresante,soy ingresante de la carrera de ciencias de la computacion como me inscribo este ciclo,10
+constancia_de_notas__formato_solicitud,que informacion debo colocar en mi solicitud de constancia de notas?,40
+constancia_de_estudios__procedimiento,¿Cómo solicitar una constancia de estudios?,42
+retiro_parcial__procedimiento,"BUENOS DIAS, PODRÍA INDICARME EL procedimiento PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?",21
+retiro_parcial__unico_curso,"orce no me permite retirarme del unico curso que estoy matriculado, como puedo retirarme?",22
+cursos_horarios,"que tal, quiero saber el horario de un curso",19
+reincorporacion__procedimiento,el ciclo pasado no me matricula quiero saber si puedo reincorporarme este ciclo,32
+matricula__cronograma,soy ingresante quiero saber cuando es la matricula,12
+procedimiento_tramites_fechas,todavia puedo presentarle,5
+matricula__procedimiento_alumno_ingresante,que pagos debo hacer para la matricula soy ingresante?,10
+matricula_rezagada__procedimiento,"Hola, cual es procedimiento para matricularme por rezagada",17
+constancia_de_notas__formato_solicitud,me puede facilitar un modelo para la solicitud de constancia de notas si la hubiera,40
+matricula__horarios,donde encuentro mi horario de matricula?,13
+constancia_de_estudios__procedimiento,"Hola, una consulta estoy necesitando una constancia de estudios como puedo tramitarla",42
+constancia_matricula__formato_solicitud,existe alguna formato para la solicitud de constancia de matricula,38
+matricula__procedimiento_alumno_regular,soy alumno regular aparte de pagar el autoseguro que mas debo pagar o tramitar para la matricula?,9
+pago_autoseguro_procedimiento,"Buenas dias, como hago para pagar el autoseguro",15
+retiro_total__procedimiento,¿Cuál es el procedimiento para el retiro total?,28
+reincorporacion__fechas,la siguente semana es la matricula puedo solicitar mi reincorpacion?,33
+retiro_total__procedimiento,"Quiero hacer el retiro total de mis cursos del presente ciclo, quiero saber que documentos se necesitan presentar y que me asegure que no voy a perder mi vacante y que pueda retomar de nuevo las clases en el siguiente ciclo.",28
+constancia_matricula__solicitud_procedimiento,como puedo tramitar una constancia de matricula de este ciclo,36
+pago_autoseguro_procedimiento,cual es el proceso para pagar el autoseguro,15
+despedida,Adios aerito,0
+saludo,Hola Aerito,1
+perdida_turno_matricula,"Hola, no pude entrar en mi turno de matrícula, que puedo hacer",16
+retiro_parcial__procedimiento,"Hola, deseo realizar el retiro parcial de un curso como procedo",21
+cambio_seccion,necesito hacer un cambio de seccion me puedes ayudar,18
+formato_solicitud,necesito un modelo para esa solicitud,4
+cursos_horarios,cual es el horario del curso de algoritmos y estructuras de datos?,19
+constancia_de_estudios__procedimiento,quisiera una constancia de estudios como la tramito,42
+matricula_rezagada__procedimiento,cuales son los requisitos para la matricula rezagada,17
+confirmar_requerir_mas_ayuda,tengo otra consulta,3
+retiro_parcial__maximo_cursos,cual es el maximo de cursos que uno puede retirarse?,23
+pago_autoseguro_procedimiento,"Buenas, cual es el procedimiento para pagar el autoseguro",15
+retiro_total__formato_solicitud,una duda porfavor existe algun modelo o formato para la solicitud de retiro total,27
+retiro_parcial__procedimiento,"mande un correo a estadística pidiendo que me retire de un curso, pero aún figura en mi intranet",21
+reincorporacion__fechas,cuando debo enviar mi solictud para mi reincorporacion para el siguiente periodo academico,33
+pago_autoseguro_procedimiento,quiero pagar el autoseguro que debo hacer,15
+confirmar_requerir_mas_ayuda,tengo otra duda,3
+matricula_rezagada__procedimiento,disculpa cual es procedimiento para poder matricularme por rezagado,17
+matricula__procedimiento_alumno_regular,que pagos debo hacer para la matricula si soy alumno regular,9
+pago_autoseguro_procedimiento,cual es el metodo para pagar el autoseguro,15
+saludo,hola que tal Aerito,1
+reserva_matricula__fechas,esta semana todavia puedo solicitar mi reserva de matricula?,30
+pago_autoseguro__fechas,"Si recien me acorde que debo pagar el autoseguro antes de la matricula, hasta cuando puedo pagarlo",14
+reincorporacion__procedimiento,¿Cuál es el procedimiento para solicitar reincorporación?,32
+reserva_matricula__procedimiento,"Buenas tardes, quiero postergar mi matricula como puedo hacer ese tramite",29
+pago_autoseguro_procedimiento,"Hola, como pago el autoseguro",15
+retiro_parcial__unico_curso,"Hola, puedo hacer un retiro parcial si solo estoy llevando un curso",22
+constancia_de_estudios__formato_solicitud,puede enviarme un modelo para la solicitud de constancia de estudios,41
+solicitud_correo_institucional_procedimiento,donde puedo tramitar mi correo institucional,44
+pago_autoseguro__fechas,"hoy pague el autoseguro, soy rezagado?",14
+carnet_universitario__solicitud,cuanto debo pagar para obtener mi carnet de medio pasaje,11
+constancia_matricula__pago,para el tramite de constancia de matricula se debe paga algo?,37
+formato_solicitud,que formato debo seguir para redactar la solicitud,4
+formato_solicitud,que formato debe tener la solicitud,4
+pago_autoseguro__fechas,"Buenos dias, quiero saber si no pague a tiempo el autoseguro me voy a rezagada la matricula",14
+matricula_rezagada__procedimiento,"Hola, disculpe como realiza la matricula rezagada",17
+pago_autoseguro_procedimiento,por que banco que paga el autoseguro,15
+perdida_turno_matricula,"Buen día, perdí mi horario de matrícula, que hago",16
+retiro_total__motivos_procede,que motivos de fuerza mayor permiten el retiro total,26
+retiro_total__fechas,¿Qué días se hace el trámite del retiro total?,24
+reserva_matricula__procedimiento,"Buenos días, necesito información para solicitar reserva de matrícula?",29
+cambio_seccion,Buenos dias como realizo un cambio de horario de un curso,18
+confirmar_requerir_mas_ayuda,si una consulta mas,3
+constancia_matricula__formato_solicitud,la solicitud de constancia de matricula tambien es dirigida al decano?,38
+retiro_total__motivos_procede,¿Cuáles son los motivos que justifican el retiro total?,26
+matricula__procedimiento_alumno_ingresante,como puedo matricularme si soy nuevo alumno,10
+retiro_total__motivos_procede,el covid es un motivo para poder hacer un retiro total,26
+carnet_universitario__solicitud,en que banco para para el carnet universitario,11
+reserva_matricula__formato_solicitud,puedes decirme donde encuentro un modelo de solicitud para la reserva de matricula ?,31
+matricula__procedimiento_alumno_regular,tengo que hacer algun tramite para matricularme en el segundo ciclo,9
+confirmar_requerir_mas_ayuda,si una mas,3
+horario_atencion_aera,Aera atiende los sabados?,43
+retiro_total__procedimiento,"Buenos días, que documentos debo presentar para el proceso de retiro total",28
+retiro_parcial__fechas,el retiro parcial se puede pedir en la primera semana?,20
+constancia_de_estudios__procedimiento,"hola, me podrias mandar el procedimiento para tramitar una constacia de estudios",42
+horario_atencion_aera,hasta que hora atienden en la oficina de estadistica?,43
+denegar_mas_ayuda,"eso es todo, gracias",2
+retiro_parcial__procedimiento,como procedo para hacer el retiro parcial ?,21
+matricula__cronograma,quiero saber en que fechas se hara la matricula,12
+retiro_parcial__procedimiento,cual es el procedimiento del retiro parcial,21
+cambio_seccion,Buenos dias dime como realizar un cambio de horario de un curso,18
+retiro_total__motivos_procede,Deseo realizar un retiro total y quiero saber por que motivos procede,26
+perdida_turno_matricula,si perdi mi turno de matricula paso a rezagado ?,16
+retiro_parcial__procedimiento,"HOla, mande un correo a estadística pidiendo que me retire de un curso, pero aún figura en mi intranet",21
+pago_autoseguro__fechas,Hola creo que no pague a tiempo el autoseguro que debo hacer,14
+retiro_parcial__procedimiento,"Hola que tal, que procedimiento puedo seguir para realizar el retiro parcial?",21
+reserva_matricula__procedimiento,quisiera hacer la reserva de matricula cual es el procedimiento,29
+constancia_de_notas__formato_solicitud,¿Hay algun modelo para la solicitud de constancia de notas?,40
+matricula_procedimiento,como habilito mi matricula,8
+pago_autoseguro__fechas,"Hola, si no pago a tiempo el autoseguro me voy a matricula rezagada ?",14
+retiro_parcial__fechas,puedo solicitar el retiro parcial en la quinta semana?,20
+matricula__procedimiento_alumno_regular,cual es procedimiento para la matricula siendo alumno regular,9
+constancia_de_notas__formato_solicitud,donde podria encontar un modelo de solicitud para la constacia de notas,40
+pago_autoseguro__fechas,Si hasta que dia se puede pagar el autoseguro,14
+confirmar_requerir_mas_ayuda,si una duda mas,3
+reserva_matricula__procedimiento,Buenos dias que hago para hacer la reserva de matricula,29
+reincorporacion__formato_solicitud,debo ponde mi dni en la solcitud de reincorporacion?,35
+matricula__horarios,cuales son los horarios de la matricula?,13
+constancia_de_notas__procedimiento,"Hola, quiero saber como tramitar una constancia de notas en ingles y español",39
+solicitud_correo_institucional_procedimiento,quero pedir mi correo uni,44
+reserva_matricula__formato_solicitud,puedes decirme si hay algun modelo para la solicitud de reserva de matricula?,31
+reincorporacion__fechas,entonces que pasa si me paso de la fecha limite para la reincorporacion,33
+matricula_rezagada__procedimiento,no pague mi autoseguro a tiempo y ahora me mandaraon a rezago como proceso,17
+formato_solicitud,en la pagina puedo encontrar un modelo para esta solicitud,4
+retiro_parcial__fechas,"Buenos dias, quisiera saber cuando vence el plazo de retiro parcial",20
+costo_tramite,¿Cuanto es el costo por el tramite?,6
+constancia_de_estudios__formato_solicitud,la solicitud para la constancia de estudios debo dirigirla al decano?,41
+pago_autoseguro__fechas,¿Que sucede si demore en realizar el pago de autoseguro?,14
+retiro_total__requisitos_documentos_justificacion,para solicitar el retiro total debo presentar algun documento que justifique mis motivos?,25
+matricula__cronograma,el cronograma de la matricula ya salio?,12
+constancia_matricula__solicitud_procedimiento,"Buenas dias, un consulta como puedo tramitar una constancia de matricula ?",36
+despedida,nos vemos pronto,0
+matricula__procedimiento_alumno_ingresante,"soy ingresante de la carrera de matematicas, me puede indicar cual es procedimiento de matricula",10
+reincorporacion__formato_solicitud,donde puedo encontrar un modelo para la solicitud de reincorporacion?,35
+retiro_parcial__unico_curso,el retiro parcial tambien se aplica si solo llevo un curso,22
+retiro_total__procedimiento,"Buenas, quiero hacer el retiro total, ¿podrian ayudarme?",28
+solicitud_correo_institucional_procedimiento,aun no tengo mi correo uni en donde lo solicito,44
+pago_autoseguro__fechas,si queria saber si no lo pago a tiempo que debo hacer,14
+reincorporacion__procedimiento,"Buenas tardes,le envio este mensaje porque quiero información, el ciclo pasado no pude matricularme pero tampoco hice el trámite de reserva de matricula, quisiera saber si aún puedo realizar el trámite de reincorporación para matricularme o en todo caso como podria reservar mi matricula. Por favor agradecería como arreglar este asunto, gracias.",32
+matricula__procedimiento_alumno_ingresante,cual es el proceso de matricula para un nuevo alumno,10
+formato_solicitud,donde puedo encontrar un modelo,4
+retiro_parcial__unico_curso,una consulta puedo realizar el retiro parcial si solo llevo un curso,22
+retiro_parcial__unico_curso,una duda como puedo realizar el retiro de un curso si solo estoy llevando ese curso,22
+matricula__procedimiento_alumno_regular,como alumno regular debo pagar algo mas a parte del autoseguro?,9
+retiro_parcial__maximo_cursos,De cuántos cursos puedo solicitar retiro parcial?,23
+pago_autoseguro__fechas,hasta que dias puedo pagar el autoseguro?,14
+reserva_matricula__formato_solicitud,hay algun formato para la solicitud de reserva de matricula ?,31
+retiro_parcial__cursos_repetidos,Puedo retirarme de un curso que haya repetido el ciclo anterior ?,45
+procedimiento_tramites_fechas,esta semana ya puedo tramitarlo,5
+constancia_matricula__pago,Se debe pagar algo para el tramite de la constancia de matricula,37
+pago_autoseguro_procedimiento,puedo pagar el autoseguro en el bcp?,15
+carnet_universitario__solicitud,a que oficina le escribo para obtener mi carnet de universidad,11
+saludo,oye aerito,1
+denegar_mas_ayuda,No muchas gracias,2
+constancia_de_estudios__procedimiento,"Buenas tardes, ¿cuál es el procedimiento para obtener una constancia de estudios?",42
+denegar_mas_ayuda,ninguna duda mas,2
+retiro_parcial__fechas,hasta cuando hacer el retiro de un curso ?,20
+reincorporacion__formato_solicitud,podria enviarme un modelo para la solicitud de reincorporacion ?,35
+carnet_universitario__solicitud,como tramito mi carnet universitario,11
+matricula__procedimiento_alumno_regular,es mi segundo ciclo que mas pagos debo hacer aparte del autoseguro ?,9
+pago_autoseguro_procedimiento,el pago de autoseguro se hace en el banco BCP o como,15
+confirmar_requerir_mas_ayuda,si tengo otra consulta mas,3
+saludo,Buenos noches Aerito,1
+matricula_procedimiento,que proceso debo seguir para la matricularme,8
+reincorporacion__procedimiento,"Hola Aerito, este ciclo quisiera reincorporarme cual es procedimiento ?",32
+constancia_matricula__pago,cuanto es el monto que se paga por la constancia de matricula,37
+cambio_seccion,Buenas tardes amigo puedes decirme como hacer un cambio de seccion,18
+costo_tramite,cuanto se tiene pagar para dicho tramite,6
+constancia_de_estudios__procedimiento,"Buenas noches, quiero saber como tramitar una constancia de estudios",42
+matricula__procedimiento_alumno_ingresante,como puedo matricular si es mi primer ciclo,10
+horario_atencion_aera,Puede decirme cual es el horario de atencion ?,43
+retiro_parcial__unico_curso,como hago el retiro de un curso si solo llevo ese,22
+retiro_total__motivos_procede,El covid es un motivo para retiro total?,26
+saludo,hola amigo,1
+pago_fechas,debo pagarlo hasta cuando,7
+cambio_seccion,tengo un problema con los horarios de un curso quisiera solicitar un cambio de seccion a donde lo pido?,18
+saludo,Hi,1
+pago_fechas,hasta cuando tengo para pagarlo,7
+pago_autoseguro__fechas,"Tengo una consulta sobre la matrícula dado que el día de hoy realize el pago de autoseguro, puedo matricularme de forma normal o paso a rezagado",14
+cursos_horarios,"Buenos tardes, dime donde puedo encontrar los horarios de los cursos",19
+procedimiento_tramites_fechas,¿Cuando se presenta la solicitud?,5
+matricula__procedimiento_alumno_ingresante,"hola, ingrese en el anterior examen de admision quiero saber si la matricula tiene algun costo y si debo hacer algun tramite mas",10
+matricula__horarios,cuando es mi hora de matricula,13
+matricula__procedimiento_alumno_regular,es mi segundo ciclo hay algo que debo pagar a parte del autoseguro para la matricula,9
+retiro_parcial__fechas,"Hola, ¿cuándo son las fechas para el retiro parcial?",20
+reserva_matricula__fechas,"la matricula ya va ser la siguiente semana pero no podre matricularme, aun puedo enviar mi solicitud de reserva de matricula",30
+confirmar_requerir_mas_ayuda,hay otra constula que tengo,3
+constancia_de_estudios__formato_solicitud,donde un encontra un modelo o formato para la solicitud de constancia de estudios,41
+perdida_turno_matricula,acabo de perder mi turno de matricula como me matriculo ahora,16
+perdida_turno_matricula,"Hola, he tenido problemas de conexion y no llegue a matricularme que debo hacer",16
+constancia_matricula__pago,cuanto cuesta la constancia de matricula?,37
+retiro_total__procedimiento,¿Cuáles son los pasos para solicitar el retiro total?,28
+pago_autoseguro__fechas,"Buenos dias, que pasa si no pago a tiempo el autoseguro",14
+horario_atencion_aera,que dias atiende estadistica?,43
+constancia_matricula__formato_solicitud,"una consulta, hay algun modelo para la solicitud de constancia de matricula",38
+retiro_total__requisitos_documentos_justificacion,el retiro total debe ser justificado con documentos?,25
+carnet_universitario__solicitud,donde pago para mi carnet universitario,11
+retiro_parcial__fechas,"Hola, he querido retirarme de un curso pero me parece que un no esta habilitado cuando se habilitara el retiro parcial?",20
+matricula_procedimiento,debo hacer alguna tramite para poder habilitar mi matricula?,8
+matricula_rezagada__procedimiento,"Buenas, quiero saber como tramitar mi matricula rezagada",17
+matricula__cronograma,cuando se realizar la matricula el proximo ciclo,12
+reincorporacion__fechas,tengo una consulta desde que fecha ya puedo iniciar el tramite para mi reicorporacion en el siguiente ciclo,33
+constancia_de_estudios__procedimiento,"Buenos dias, una duda como puedo tramitar una constancia de estudios",42
+cursos_horarios,cuando salen los horarios de los cursos?,19
+matricula_procedimiento,hay algo que debo pagar para la matricula,8
+reserva_matricula__procedimiento,mi consulta es como realizar la reserva de mi matricula,29
+formato_solicitud,porfavor enviame tambien el modelo para la solicitud,4
+retiro_parcial__procedimiento,cual es el procedimiento para realizar un retiro de un curso?,21
+cambio_seccion,¿Cuál es procedimiento para hacer un cambio de sección?,18
+reincorporacion__procedimiento,"Buenas tardes Aerito, el ciclo pasado no puede matricularme quisiera saber si aún puedo realizar el trámte de reincorporación.",32
+procedimiento_tramites_fechas,cuando se habilita para realizar el tramite,5
+matricula__cronograma,cual es la fecha de la matricula del siguiente ciclo?,12
+denegar_mas_ayuda,eso fue todo gracias,2
+reincorporacion__formato_solicitud,no quiero saber cual es el formato para las solicitud de reincorporacion,35
+cambio_seccion,"tengo problemas con mi horario actual del curso de Fisica I en la seccion B, quiero hacer el cambio a la seccion A",18
+cursos_horarios,el curso de programacion orientada a objetos se dicta el lunes?,19
+matricula__horarios,me podria decir como saber mi horario de matricula.,13
+reincorporacion__costo,¿Cuánto se pago por reincorporación?,34
+constancia_matricula__solicitud_procedimiento,una duda a quien puedo solicitar una constancia de matricula,36
+perdida_turno_matricula,el sistema no me deja matricularme y ya paso mi turno que debo hacer,16
+procedimiento_tramites_fechas,hay alguna fecha limite para enviar esa solicitud,5
+reserva_matricula__formato_solicitud,¿Cuál es el modelo de solicitud para la reserva de matricula?,31
+cursos_horarios,quiero saber el horario del curso de algebra lineal para fisicos,19
+constancia_matricula__solicitud_procedimiento,cual es el procedemiento para tramitar una constancia de matricula,36
+reincorporacion__costo,cuanto es el costo por el tramite de reincoporacion?,34
+matricula__horarios,quiero saber mi turno para la matricula?,13
+reincorporacion__fechas,en que fecha puedo tramitar mi reincorporacion?,33
+constancia_matricula__pago,cuanto es el costo del tramite de matricula?,37
+procedimiento_tramites_fechas,todavia puedo realizar este tramite,5
+constancia_de_estudios__procedimiento,la constnacia de estudios la solicito a la oficina de estadisticas?,42
+pago_autoseguro__fechas,Todavía puedo pagar el autoseguro para matricularme,14
+reserva_matricula__procedimiento,"Le escribo porque necesito información, el semestre que viene estaré haciendo un intercambio estudiantil por lo que quisiera saber si necesito hacer algo en la ORCE ya que este semestre no podré matricularé en la UNI. Mi escuela ya sabe que haré intercambio y ya les envié el sílabo de los cursos pero aún no tengo respuesta.",29
+carnet_universitario__solicitud,en donde pago para tramitar mi carnet de universidad,11
+costo_tramite,tiene algun costo?,6
+retiro_parcial__procedimiento,"HOla amigo, puede decirme como realizar un retiro parcial ?",21
+solicitud_correo_institucional_procedimiento,como solicito mi correo institucional,44
+formato_solicitud,necesito un modelo para la solicitud que debo enviar a mesa de partes,4
+retiro_total__formato_solicitud,¿Cuál es el modelo para la solicitud de retiro total?,27
+pago_autoseguro__fechas,cuando se paga el autoseguro,14
+reincorporacion__costo,una consulta se debe pagar algo para el tramite de reincoporacion ?,34
+retiro_parcial__unico_curso,en el caso de solo llevar un curso y quiero retirarme seria retiro total o parcial?,22
+matricula__horarios,una consulta como puedo saber a que hora me toca mi matricula?,13
+retiro_total__motivos_procede,¿Cuáles son los motivos para acceder al retiro total?,26
+pago_autoseguro__fechas,creo que no pague a tiempo el autoseguro que debo hacer?,14
+retiro_parcial__procedimiento,¿Dónde encuentro un modelo de solicitud para el retiro parcial?,21
+reserva_matricula__formato_solicitud,si hay algun formato o modelo para la solicitud de reserva de matricula,31
+despedida,"ok, adios",0
+constancia_matricula__pago,cuanto tengo que pagar para una constancia de matricula?,37
+matricula_rezagada__procedimiento,como procedo con la matricula rezagada,17
+costo_tramite,el tramite no tiene costo ?,6
+retiro_total__motivos_procede,cual seria un motivo para hacer un retiro total,26
+matricula__procedimiento_alumno_ingresante,soy ingresante pero todavia no me han dicho como matricularme que debo hacer,10
+pago_autoseguro__fechas,me confundi en las fechas de matricula y recien acado pagar el autoseguro faltando un dia para la matricula. Entonces voy a rezagado?,14
+reserva_matricula__formato_solicitud,si tambien puedes decirme si hay algun formato para la solicitud de reserva de matricula ?,31
+retiro_parcial__fechas,cuando es el retiro parcial,20
+formato_solicitud,hay algun formato o modelo,4
+constancia_de_notas__formato_solicitud,existe algun modelo o formato para esta solicitud de constancia de notas,40
+denegar_mas_ayuda,nada mas,2
+matricula__cronograma,"Buenos días, deseo que saber cuando comienza la matrícula",12
+retiro_total__requisitos_documentos_justificacion,se tiene que justificar el retiro total?,25
+cambio_seccion,quiero cambiarme de seccion el curso de quimica general se me hace imposible venir a esa hora,18
+matricula__cronograma,una consulta ya se publico el cronograma de la matricula?,12
+pago_autoseguro__fechas,dime cuando pagar el autoseguro,14
+costo_tramite,es gratis o tiene algun costo este tramite?,6
+perdida_turno_matricula,"tuve problemas de conexión y no pude entrar en mi horario de matrícula, que puedo hacer",16
+retiro_parcial__procedimiento,"BUENAS TARDES, ¿Cómo se tramita el retiro parcial?",21
+matricula__horarios,si tambien quiero saber mi horario de matricula,13
+retiro_total__formato_solicitud,en que parte puedo encontra el modelo para la solicitud retiro total,27
+retiro_total__procedimiento,¿Cómo hago el retiro total de mis cursos?,28
+retiro_parcial__procedimiento,"Hola, estoy matriculado en 3 cursos y quiero salirme de uno",21
+horario_atencion_aera,que dias esta atendiendo la oficina de estadistica?,43
+retiro_parcial__unico_curso,me he matriculado solo a un curso por que no tenia mas creditos que llavar pero quiero retirma sim embargo el sistema no me esta dejando,22
+matricula__cronograma,aun no se publican la fechas de la matricula?,12
+despedida,nos vemos aerito,0
+perdida_turno_matricula,como puedo realizar mi matricula si ya perdi mi turno?,16
+despedida,bye,0
+matricula_procedimiento,ya pague el autoseguro hay algun otro paga por la matricula?,8
+matricula_rezagada__procedimiento,no pude matricularme y me han dicho que mi matricula paso a rezagado cuales son los pasos,17
+reincorporacion__costo,el tramite de reincorporacion es gratis?,34
+retiro_total__fechas,cuando puedo presentar mis documentos para el retiro total,24
+retiro_parcial__maximo_cursos,quisiera saber si es factible retirarse de 3 cursos?,23
+retiro_parcial__cursos_repetidos,estoy llevando por segunda el curso de algoritmos pero quisiera retirarme por temas de fuerza mayor como lo puedo hacer?,45
+reincorporacion__procedimiento,"Buenas noches, el anterior ciclo reserve mi matricula por motivos familiares , este ciclo si quiero matricularme realizo mi matricula como siempre o hay algun tramite que debo hacer ?",32
+retiro_total__fechas,Hasta cuando puedo presentar los documentos para el retiro total?,24
+retiro_total__motivos_procede,¿Qué motivos justifican el retiro total de cursos?,26
+constancia_matricula__solicitud_procedimiento,"Hola, quisiera tramitar mi un constancia de matricula, como puedo pedirla ?",36
+retiro_parcial__maximo_cursos,hay una cantidad limite o maximo de cursos de los cuales puedo retirarme?,23
+retiro_parcial__fechas,"Buenos dias, cuando puedo realizar el retiro de un curso",20
+cursos_horarios,cuando se dicta el curso de Fisica I?,19
+pago_autoseguro_procedimiento,"Hola que tal, pude decirme como pagar el autoseguro",15
+pago_autoseguro__fechas,"Buenas dias que tal, que pasa si no pago el autoseguro con los 3 dias de anticipación",14
+cambio_seccion,me puedes ayudar con un cambio de seccion,18
+retiro_parcial__maximo_cursos,puedo retirarme de 2 cursos?,23
+formato_solicitud,no se si debo colocar mi dni en la solicitud,4
+confirmar_requerir_mas_ayuda,si,3
+constancia_matricula__formato_solicitud,cual es el modelo para la solicitud de constancia de matricula?,38
+perdida_turno_matricula,"Buenas, perdí mi turno de matricula como procedo ahora",16
+retiro_total__procedimiento,¿Puedo realizar el retiro total por correo?,28
+constancia_matricula__solicitud_procedimiento,cuales son los paso para tramitar una constancia de matricula,36
+matricula_procedimiento,quiero saber si tengo que hacer algun tramite para matricular este ciclo,8
+retiro_parcial__cursos_repetidos,estoy intentando retirarme del curso de algebra lineal que estoy llavando por seguna vez pero el sistema no me deja. Como puedo solicar retirarme de este curso?,45
+retiro_parcial__procedimiento,deseo realizar el retiro parcial de un curso como procedo,21
+carnet_universitario__solicitud,debo pagar algo para obtener el carnet universitario,11
+retiro_total__formato_solicitud,existe alguna modelo para la solicitud de retiro total,27
+retiro_parcial__cursos_repetidos,"quisiera hacer el retiro de un curso pero lo he desaprobado el ciclo, es posible o no procede?",45
+confirmar_requerir_mas_ayuda,Si tengo otra consulta,3
+matricula__horarios,"Buenos días, deseo que saber a que hora comienza la matrícula",13
+confirmar_requerir_mas_ayuda,si por favor,3
+procedimiento_tramites_fechas,hasta cuando puedo enviar la solicitud,5
+reincorporacion__procedimiento,como me puedo reincorporar al siguiente ciclo,32
+reincorporacion__procedimiento,cual es el procedimiento para solicitar mi reincorporacion este ciclo,32
+retiro_parcial__cursos_repetidos,en el sistema no me deja retirarme del curso de calculo integral es la seguna vez que lo llevo . Es por eso?,45
+cursos_horarios,"hola aerito, dime los horarios de los cursos ya estan publicados?",19
+reserva_matricula__formato_solicitud,en donde puedo encontar un modelo para la solicitud de reserva de matricula?,31
+reincorporacion__costo,cuanto seria el pago por el tramite de reincoporacion ?,34
+retiro_parcial__fechas,Me prodrían decir la fecha máxima para hacer el retiro parcial?,20
+matricula_procedimiento,cuanto se paga por la matricula,8
+cursos_horarios,"Buenas noches, quiero saber el curso de electomagnetismo",19
+procedimiento_tramites_fechas,estamos en la sexta semana de clases todavia puedo solicitarlo,5
+retiro_total__motivos_procede,voy a realizar un viaje al extranjero por razones de trabajo puedo realizar un retiro total?,26
+matricula_procedimiento,debo realizar algun tramite para mi matricula este ciclo?,8
+constancia_de_estudios__procedimiento,"hola, como puedo solicitar una constancia de estudios",42
+reincorporacion__procedimiento,"Hola, deseo solicitar mi reincorporación este ciclo que viene como puedo solicitarla",32
+matricula__horarios,y como puedo saber mi horario de matriculas,13
+reincorporacion__procedimiento,"Buenos dias, tengo una duda quiero matricularme este ciclo pero el anterior por motivos de trabajo solicite la reserva de matricula, para realizar mi matricula debo hacer algo adicional ?",32
+reincorporacion__procedimiento,"he dejado de estudiar hace año, como podria matricularme en el siguiente ciclo",32
+constancia_matricula__formato_solicitud,me puedes facilitar un modelo o formato para la constancia de matricula,38
+matricula_procedimiento,cuales son los pasos para matricularme en el siguiente ciclo,8
+pago_autoseguro__fechas,y hasta cuando se debe pagar el autoseguro,14
+reserva_matricula__formato_solicitud,que informacion debo colocar en la solicitud para la reserva de matricula?,31
+pago_autoseguro_procedimiento,"Buenas tardes, como pago el concepto de autoseguro",15
+constancia_de_estudios__procedimiento,para pedir una constancia de estudios solo debo enviar una solicitud o mesa de partes?,42
+procedimiento_tramites_fechas,todavia puedo presentar mi solicitud,5
+reincorporacion__costo,el tramite de reincoporacion tiene alguna costo ?,34
+retiro_parcial__procedimiento,"Hola, PODRÍA INDICARME EL PROCEDIMIENTO, PARA REALIZAR EL RETIRO PARCIAL PARA EL PRESENTE CICLO?",21
+despedida,"ok, bye",0
+constancia_de_notas__procedimiento,¿Como solicitar una constancia de notas?,39
+formato_solicitud,porfavor quiero que me envies el modelo para la solicitud,4
+retiro_total__procedimiento,Por motivos de trabajo deseo dejar todos los cursos,28
+retiro_total__fechas,que dias puedo hacer el retiro total,24
+matricula__procedimiento_alumno_ingresante,"soy alumno ingresante, quisiera matricularme pero no entendi que pagos debo hacar me podria indicar que pagos debo hacer?",10
+retiro_parcial__fechas,el la segunda semana ya puedo retirarme de un curso?,20
+reincorporacion__costo,cuanto pago por la reincoporacion?,34
+carnet_universitario__solicitud,donde solicito mi carnet de la universidad,11
+cambio_seccion,como hago el cambio de seccion del curso de Fisica II,18
+retiro_parcial__maximo_cursos,puedo retirarme de los 4 cursos que estoy llevando?,23
+matricula__procedimiento_alumno_ingresante,soy alumno ingresante de fisica me podrias decir cual es el proceso de matricula,10
+reincorporacion__fechas,"quisiera reincorporarme este ciclo pero la matricula es en unos dias, puedo reincorporame o ya no es posible?",33
+despedida,adiós fue un placer hablar contigo,0
+retiro_parcial__cursos_repetidos,es posible retirarme de un curso que estoy llevando por segunda vez?,45
+retiro_total__requisitos_documentos_justificacion,si no tengo documentos para justificar el retiro total puedo retirarme?,25
+reincorporacion__fechas,hasta que dias puedo enviar mi solicitud de reincorporacion,33
+reincorporacion__procedimiento,no pude matricularme el ciclo pasado quisiera que digan como puedo retormar mis estudios este ciclo que viene,32
+retiro_parcial__procedimiento,puede decirme como realizar un retiro parcial ?,21
+solicitud_correo_institucional_procedimiento,hola como solicito mi correo UNI,44
+matricula__procedimiento_alumno_regular,una consulta soy alumno regular de matematicas me indicaron que debo hacer unos pagos e ingresar a una plataforma para hacer mi matricula pero no entendi bien,9
+matricula__horarios,"Buenas tardes, como puedo saber la hora de mi matrícula",13
+reserva_matricula__procedimiento,no podre matricular el siguiente ciclo que hago para reservar mi matricula,29
+matricula__cronograma,quiero saber donde esta el cronograma de matricula,12
+pago_fechas,esta semana todavia puedo pagarlo,7
+procedimiento_tramites_fechas,esta semana todavia puedo todavia solicitarlo,5
+reserva_matricula__procedimiento,"Buenas dias, por temas económicos no creo poder matricularme este ciclo me han dicho que puedo reservar mi matricula para el siguiente ciclo como puedo realizar ese tramite",29
+retiro_parcial__cursos_repetidos,quiero saber si puedo solicitar el retiro de un curso que repeti el ciclo pasado?,45
+costo_tramite,cual es el precio para este tramite,6
+cursos_horarios,Dime el horario de calculo integral,19
+horario_atencion_aera,hasta que hora esta abierto la oficina de estadistica?,43
+pago_autoseguro__fechas,Que pasa si no pago el autoseguro con dias de anticipacion a la matricula,14
+retiro_parcial__maximo_cursos,dime si es posible retirarse de 5 cursos?,23
+reincorporacion__procedimiento,Buenas tardes me dirijo a ustedes porque quiero incorporarme en el siguiente ciclo,32
+constancia_de_notas__procedimiento,"Buenos dias, una consulta como puedo solicitar una constancia de notas",39
+retiro_total__motivos_procede,"por razones de trabajo quiero retirarme este ciclo, esto seria un movito sufiente para el poder solicitarlo?",26
+matricula__procedimiento_alumno_ingresante,he ingresado a la carrera de ingenieria fisica quisiera saber cuales son los para paso para la matricula,10
+retiro_total__motivos_procede,que motivos son validos para solicitar el retiro total?,26
+horario_atencion_aera,cual es el horario de atencion de estadistica?,43
+matricula_procedimiento,debo enviar el voucher del autoseguro para la matricula,8
+carnet_universitario__solicitud,¿Cómo puedo obtener mi carnet universitario?,11
+perdida_turno_matricula,¿Como puedo matricularme si perdí mi turno de matricula?,16
+confirmar_requerir_mas_ayuda,si otra consulta,3
+constancia_de_estudios__formato_solicitud,existe un modelo o formato para esta solicitud de constancia de estudios,41
+pago_autoseguro__fechas,si no lo pago hoy me ire a rezagado?,14
+cursos_horarios,puedes decirme donde encontrar el horario de los cursos,19
+reincorporacion__costo,cuanto es el costo por la reincoporacion?,34
+pago_autoseguro_procedimiento,"Hola Aerito, quiero saber como pagar el autoseguro",15
+reserva_matricula__fechas,"este ciclo que esta por comenzar no me voy a matricular, me puedes decir cual es la fecha limite para enviar mi solicitud",30
+retiro_parcial__maximo_cursos,puedo retirarme de todos los cursos execpto de uno?,23
+carnet_universitario__solicitud,para sacar el carnet universitario debo pagar algo?,11
+saludo,buenas tardes,1
+pago_fechas,cual es la fecha limite para el pago?,7
+constancia_matricula__formato_solicitud,la solicitud de constancia de matricula debe estar dirigida al decano?,38
+denegar_mas_ayuda,no ya no tengo mas consultas,2
+retiro_parcial__fechas,quiero retirarme algunas asignaturas y quiero saber las fechas,20
+procedimiento_tramites_fechas,esta semana puedo enviar la solicitud,5
+pago_autoseguro__fechas,no pague a tiempo el autoseguro entonces me voy a rezagado ?,14
+constancia_de_notas__formato_solicitud,donde un encontra un modelo o formato para esta solicitud,40
+denegar_mas_ayuda,nope,2
+despedida,gracias por la ayuda hasta luego,0
+retiro_total__procedimiento,El retiro total se hace virtual?,28
+retiro_total__formato_solicitud,como debo redactar la solicitud del retiro total?,27
+matricula__horarios,ya veo tambien quisiera saber  mi horario de matricula.,13
+retiro_parcial__procedimiento,"Que tal una consulta lo que pasa es que por motivos de fuerza mayor quiero dejar de llevar un curso, ¿qué debo hacer?",21
+denegar_mas_ayuda,"Por ahora eso es todo, gracias",2
+retiro_parcial__unico_curso,como me retiro si solo llevo un curso,22
+matricula__cronograma,puedes decirme que dias son la matricula.,12
+constancia_de_notas__procedimiento,"deseo solicitar una constancia de notas, cual es el procedimiento?",39
+constancia_de_estudios__procedimiento,"Hola que tal, me podria indicar como puedo tramitar una constancia de estudios",42
+matricula_procedimiento,como puedo matricularme este ciclo,8
+retiro_parcial__procedimiento,como puedo solicitar el retiro parcial,21
+retiro_parcial__unico_curso,como me puedo retirar de un curso si es el unico que estoy llevando,22
+reserva_matricula__fechas,"quiero hacer la reserva de matricula, hasta que dia puedo enviar la solicitud ?",30
+reserva_matricula__formato_solicitud,voy a solicitar mi reserva de matricula pero quiero un modelo para la solicitud que debo enviar,31
+constancia_matricula__solicitud_procedimiento,como solicito una constancia de matricula?,36
+retiro_parcial__unico_curso,puedo retirarme del curso si solo estoy estoy llevando uno,22
+reserva_matricula__formato_solicitud,si porfavor mandame el modelo para la solicitud de reserva de matricula,31
+retiro_parcial__maximo_cursos,solo estoy llevando dos asignaturas puedo retirarme de una de ellas?,23
+retiro_parcial__fechas,Hasta que fecha podría hacer el retiro parcial?,20
+retiro_parcial__maximo_cursos,tengo una de cuantos es permitido retirarse?,23
+reincorporacion__costo,Soy alumno de la facultad de ciencias que desea matricularse. Deje de matricularme algunos semestres por la pandemia y deseo retomar los estudios. Me dijeron que debo realizar un pago por el trámite de reincorporación. Me gustaría saber ¿En qué entidad bancaria se realiza este pago? y ¿cuánto es el monto?.,34
+reincorporacion__formato_solicitud,como debe ser la solictud de reincorporacion ?,35
+confirmar_requerir_mas_ayuda,si algo mas,3
+retiro_parcial__maximo_cursos,hasta de cuantos cursos puedo hacer el retiro parcial ?,23
+saludo,hola que tal,1
+matricula_procedimiento,hay algun pago para la matricula,8
+matricula_procedimiento,¿Cuál es proceso de matricula?,8
+pago_autoseguro__fechas,"Oye, no se si voy a poder pagar el autoseguro hoy y creo que es el ultimo dia que pasa si no lo pago a tiempo",14
+reincorporacion__formato_solicitud,una duda porfavor la solicitud de reincorporacion tiene algun modelo ?,35
+retiro_total__requisitos_documentos_justificacion,no tengo ningun documento que validar mi retiro total que puedo hacer?,25
+pago_autoseguro_procedimiento,"Buenas, como pago lo del autoseguro",15
+pago_autoseguro_procedimiento,para pagar el autoseguro debo emitir orden de pago ?,15
+constancia_de_estudios__formato_solicitud,que informacion debe ir la solcitud de constancia de estudios?,41
+cursos_horarios,donde publicaran los horarios de los curso para este ciclo,19
+constancia_matricula__solicitud_procedimiento,deseo tramitar una constancia de matricula de este ciclo,36
+reincorporacion__costo,"quiero reincorporame este ciclo, el tramite es gratis ?",34
+cambio_seccion,dime cual el procedimiento para hacer un cambio de seccion de un curso,18
+reincorporacion__fechas,disculpa un consulta se me ha pasado la fecha de reincorporacion pero quiero matricuarme este ciclo que debo hacer,33
+retiro_parcial__maximo_cursos,el posible retirarme de 3 asignaturas distintas,23
+solicitud_correo_institucional_procedimiento,quisiera tramitar mi correo institucional,44
+retiro_total__procedimiento,"Hola, deseo saber qué trámite seguir para el retiro total",28
+pago_autoseguro__fechas,"Hola, recien pague autoseguro y me toca mi matrícula mañana, sería rezagado?",14
+retiro_parcial__unico_curso,si estoy llevando solo un curso como puedo retirarme de ese curso,22
+horario_atencion_aera,a que hora hay atencion en la oficina de estadística,43
+retiro_total__requisitos_documentos_justificacion,quiero retirarme de este ciclo es necesario enviar documentacion que justifique mis razones?,25
+pago_autoseguro__fechas,entonces si no pago a tiempo el autoseguro me ire a rezagado,14
+cambio_seccion,"Hola, dime como realizo el cambio de seccion de un curso",18
+matricula_procedimiento,que pagos debo hacer para la matrícula,8
+matricula__procedimiento_alumno_ingresante,soy ingresante de ciencias de la computación cual es el proceso de matricula,10
+denegar_mas_ayuda,"No, eso seria todo gracias",2
+pago_autoseguro_procedimiento,"Hola, como puedo realizar el pago del autoseguro",15
+reincorporacion__procedimiento,"Hola, como solicito mi reincorporacion para este ciclo",32
+saludo,buenos dias,1
+retiro_parcial__maximo_cursos,Es posible retirarme de 2 cursos si estoy llevando 3?,23
+reincorporacion__fechas,"una consulta, es que fechas deberia solicitar mi reincorparacion",33
+retiro_total__requisitos_documentos_justificacion,solo debo enviar la solicitud de retiro total o tambien algun documento que justifique mi retiro?,25
+reincorporacion__fechas,tengo una duda quiero reincorpararme el siguiente ciclo pero no se en que fechas debo comenzar el tramite,33
+procedimiento_tramites_fechas,ya va a terminar el ciclo esta semana todavia puedo pedirlo,5
+retiro_parcial__unico_curso,actualmente solo me han dejado llevar un curso pero quiero retirarme por motivos de fuerza mayor,22
+carnet_universitario__solicitud,me avisaran para el recojo del carnet de universidad?,11
+horario_atencion_aera,desde que hora esta abierto la oficina de estadistica?,43
+cambio_seccion,"Hola, deseo realizar un cambio de sección como se realiza",18
+despedida,ya me tengo que ir gracias por la ayuda,0
+matricula_rezagada__procedimiento,"Hola, no pude matricularme y me dicen que pase a matricula rezagada que debo de hacer",17
+formato_solicitud,no se que informacion debo colocar en la solicitud me puedes ayudar,4
+retiro_parcial__procedimiento,Debo presentar una carta a ORCE para retirarme de un curso?,21
+retiro_parcial__cursos_repetidos,"orce no me permite retirarme del curso de calculo avanzado, es por que lo estoy llevando por seguna vez?",45
+retiro_parcial__procedimiento,"Hola que tal, un consulta ¿Cómo se inicia el trámite para el retiro parcial?",21
+matricula__horarios,ya se publicaron los horarios de la matricula?,13
+matricula__cronograma,en el siguiente periodo academico cuando sera la matricula segun el calendario,12
+reserva_matricula__fechas,hasta que fecha puedo subir la solicitud de reserva de matricula ?,30
+retiro_parcial__fechas,quiero solicitar el retiro de un curso hasta cuando puedo hacerlo ?,20
+cambio_seccion,como hago el cambio de seccion del curso de Fundamentos de programacion,18
+retiro_total__procedimiento,"Hola, tengo que retirarme de todos mis cursos, ¿Cómo podria hacerlo?",28
+confirmar_requerir_mas_ayuda,si tenga una consulta,3
+pago_autoseguro_procedimiento,entonces como hago para pagar el autoseguro,15
+confirmar_requerir_mas_ayuda,si hay algo mas con lo que puedes ayudar,3
+constancia_de_notas__procedimiento,a que oficina puedo consultar por una constancia de notas?,39
+constancia_de_estudios__formato_solicitud,debo colocar mi dni en la solicitud de constancia de estudios?,41
+retiro_total__motivos_procede,una fractura es un motivo valido para poder acceder al retiro total?,26
+procedimiento_tramites_fechas,cuando puedo realizarlo,5
+reserva_matricula__fechas,hasta cuando puedo enviar la solicitud para reserva de matricula ?,30
+formato_solicitud,"me dijeron que la solicitud debe estar dirigida al decano pero no se que mas debo poner, me puedes ayudar enviandome un formato",4
+retiro_parcial__procedimiento,¿Cómo se inicia el trámite para el retiro parcial?,21
+constancia_de_notas__formato_solicitud,habria algun modelo o formato para la solicitud de constancia de notas,40
+denegar_mas_ayuda,no gracias por la ayuda,2
+formato_solicitud,debo colocar mi codigo y mi dni en la solicitud,4
+horario_atencion_aera,cuales es el horario de atencion de la oficina de estadística ?,43
+costo_tramite,esto tiene algun costo,6
+matricula__cronograma,ya se publico las fechas de la matricula?,12
+pago_autoseguro_procedimiento,"Hola, para pagar el autoseguro que debo hacer",15
+procedimiento_tramites_fechas,hasta cuando puedo tramitarlo,5
+solicitud_correo_institucional_procedimiento,quiero solicitar mi correo UNI donde lo pido,44
+despedida,hasta luego que tengas buen dia,0
+pago_autoseguro__fechas,debo para el autoseguro cuantos dias antes de la matricula?,14
+constancia_matricula__solicitud_procedimiento,Que tal quiero saber como obtener la constancia de matricula,36
+matricula__cronograma,si ya salieron la fechas de la matricula me lo puedes enviar?,12
+retiro_total__requisitos_documentos_justificacion,Se tiene que justificar con documentos para solicitar el retiro total?,25
+pago_autoseguro_procedimiento,"Buenas tardes, en que banco pago el autoseguro",15
+retiro_parcial__cursos_repetidos,Puedo retirarme de una asginatura que he repetido,45
+matricula__procedimiento_alumno_regular,cuanto pagos debo hacer para la matricula si soy alumno regular,9
+perdida_turno_matricula,"Buenas que tal, si no llegue a matricularme en mi turno pasaría a rezagado ?",16
+matricula__cronograma,"Si, quiero saber que dias son la matricula",12
+solicitud_correo_institucional_procedimiento,donde puedo solicitar mi correo institucional,44
+matricula_rezagada__procedimiento,Hola ayudame quiero saber como es el procedimiento para el pago de matricula rezagada,17
+saludo,que tal como andas,1
+retiro_total__requisitos_documentos_justificacion,necesito justificar con documentos mi retiro total?,25
+matricula__procedimiento_alumno_regular,soy alumno regular como realizo mi matricula,9
+reserva_matricula__fechas,"la matricula es mañana pero por motivos de fuerza he decido no matricularme, entiendo que debo reservar la matricula todavia  podria hacerlo?",30
+retiro_parcial__procedimiento,como hago un retiro parcial,21
+matricula__procedimiento_alumno_regular,actualmente soy alumno regular hay algo que debo pagar para la matricula,9
+perdida_turno_matricula,"Hola, quisiera saber que hacer por que no pude matricularme en mi horario no tuve internet",16
+reserva_matricula__fechas,la reserva de matricula tiene que enviarse antes de la matricula ?,30
+costo_tramite,cuanto debo pagar para el tramite?,6
+constancia_matricula__formato_solicitud,como es la solicitud que debo enviar para mi constancia de matricula?,38
+retiro_parcial__fechas,"Hola, quiero retirarme de unos cursos y quiero saber las fechas",20
+solicitud_correo_institucional_procedimiento,a quien puedo perdirle mi correo institucional,44
+constancia_de_notas__procedimiento,en donde puedo consultar por una constancia de notas?,39
+matricula__procedimiento_alumno_regular,no estoy seguro si debo pagar algo mas que el autoseguro para la matricula este ciclo es mi segundo ciclo,9
+costo_tramite,hay algun costo,6
+solicitud_correo_institucional_procedimiento,Una pregunta como obtengo mi correo institucional,44
+matricula__horarios,ya estan disponibles los horarios para la matricula?,13
+retiro_parcial__fechas,cuando puedo realizar el retiro de una asignatura,20
+matricula__horarios,a que hora me toca mi matricula,13
+constancia_de_notas__procedimiento,"Solicito constancia de notas en español e inglés (transcript) oficial, esto significa que esté firmada y sellada por los órganos que correspondan. Por favor me dice lo que necesita para ello.",39
+cambio_seccion,"Hola, necesito hacer un cambio de seccion por que se me crusan los horarios de teoria",18
+formato_solicitud,quisiera sabes que informacion o datos debo colocar en esa solicitud,4
+denegar_mas_ayuda,no eso es todo gracias por la ayuda,2
+despedida,hasta luego,0
+constancia_de_estudios__procedimiento,Hola como puedo tramitar una constancia de estudios,42
+matricula__procedimiento_alumno_ingresante,soy ingresante tengo que ir a dejar las boletas del autoseguro y carnet o no es necesario?,10
+horario_atencion_aera,Podria saber los horarios de atencion de la oficina de estadistica?,43
+reincorporacion__procedimiento,"Hola, quiero solicitar mi reincorporación para el proximo ciclo que deberia hacer para que me habiliten la matricula",32
+saludo,buenas noches,1
+matricula__procedimiento_alumno_regular,soy alumno de segundo ciclo como me matricula,9
+reincorporacion__procedimiento,cual es prodimiento de reicorporacion,32
+constancia_matricula__formato_solicitud,me puedes enviar un formato o modelo para la solicitud de constancia de matricula,38
+despedida,chau nos vemos,0
+saludo,Oye,1
+constancia_de_estudios__formato_solicitud,la solicitud que debo enviar para la constancia de estudios debe estar dirigida al decano?,41
+cursos_horarios,¿Donde puedo ver los horarios de los cursos de este ciclo?,19
+retiro_parcial__cursos_repetidos,quiero retirarme de un curso que he jalado anteriormento como lo solicito?,45
+retiro_total__motivos_procede,Trabajar es un motivo para el retiro total?,26
+retiro_parcial__maximo_cursos,de cuantas asignaturas como maximo puedo retirarme,23
+matricula_rezagada__procedimiento,ahora que mi matricula paso a rezagados que debo hacer no entiendo,17
+carnet_universitario__solicitud,deseo obtener mi carnet universitario que debo hacer,11
+retiro_parcial__cursos_repetidos,estoy llevando un curso por segunda vez y quiero retirarme es posible?,45
+retiro_total__motivos_procede,cuales son los motivos para hacer un retiro total?,26
+retiro_total__procedimiento,"Por motivos familiares, requiero hacer el retiro total de mi matrícula, cual es el procedimiento",28
+retiro_parcial__fechas,en que semana puedo realizar el retiro parcial?,20
+matricula__procedimiento_alumno_ingresante,quiero matricularme pero no se quebo pagar o tramitar soy ingresante,10
+retiro_total__procedimiento,como puedo solicitar el retiro total de todos los cursos?,28
+reserva_matricula__fechas,hasta cuando puedo subir las solicitud la reserva de matricula en el sistema de internet ?,30
+constancia_matricula__formato_solicitud,la solicitud de constancia de matricula debe contener mi dni?,38
+denegar_mas_ayuda,No gracias,2
+reincorporacion__procedimiento,"Hola, como realizo la reincorporación",32
+constancia_matricula__formato_solicitud,que informacion debo colocar en la solicitud de constancia de matricula,38
+constancia_de_estudios__procedimiento,donde puedo solicitar uns constancia de estudios?,42
+reincorporacion__fechas,aun puedo solicitar mi reincorporacion?,33
+retiro_total__requisitos_documentos_justificacion,y es necesario justificar con documentos el retiro total?,25
+reserva_matricula__procedimiento,deseo reservar la matricula como puedo hacer ?,29
+reincorporacion__costo,¿Cuánto se paga por el tramite de reincorporación?,34
+retiro_total__formato_solicitud,Dónde está el modelo de solicitud para el retiro total?,27
+matricula__procedimiento_alumno_regular,soy alumno regular de ciencias de la computación cual es el proceso de matricula,9
+retiro_parcial__procedimiento,Estoy matriculado en 3 cursos y quiero salirme de uno,21
+carnet_universitario__solicitud,quiero informacion sobre como tramitar mi carnet universitario,11
+denegar_mas_ayuda,eso es todo por ahora aerito gracias,2
+matricula__cronograma,"Buenas tardes, podria  decirme que dias son las fechas de la matricula",12
+retiro_parcial__procedimiento,deseo realizar el retiro paracial de varios curso como procedo,21
+reserva_matricula__procedimiento,"Buenas, estoy buscando el procedimiento para reservar me puedes decir como encontrarlo",29
+pago_autoseguro_procedimiento,en que entidad bancaria se puede pagar el autoseguro?,15
+matricula__cronograma,Hola quiero saber cuando se hara la matricula en el siguiente ciclo,12
+constancia_de_estudios__procedimiento,a que oficina puedo solicitar una constancia de estudios,42
+retiro_total__formato_solicitud,hay algun formato o modelo para la solicitud de retiro total,27
+constancia_de_notas__procedimiento,a quien le puedo solcitar una constancia de notas?,39
+carnet_universitario__solicitud,a que oficina debo ir para tramitar mi carnet universitario,11
+retiro_total__fechas,"Buenos dias, quisiera saber cuando vence el plazo de retiro total",24
+constancia_matricula__solicitud_procedimiento,"Hola, una consulta deseo tramitar una constancia de matricula me puedes decir el procedimiento",36
+retiro_total__fechas,el retiro total se habilita recien la semana 5?,24
+matricula_rezagada__procedimiento,cuales son los requisitos para que me habiliten la matricula rezagada,17
+retiro_total__motivos_procede,una lesion es un motivo valido para acceder al retiro total?,26
+matricula_rezagada__procedimiento,"Buenas tardes, cual es procedimiento para habilitar mi matricula rezagada",17
+perdida_turno_matricula,perdi mi turno de matricula que debo hacer,16
+reincorporacion__fechas,hasta cuando es posible reincoparme?,33
+reincorporacion__formato_solicitud,el modelo de la solicitud de reincorporacion tambien esta el la pagina de la FC,35
+pago_autoseguro__fechas,hoy puedo pagar el autoseguro?,14
+pago_autoseguro__fechas,"Si demore en realizar el pago de autoseguro, que pasará?",14
+reincorporacion__costo,se debe pagar algo para la reincoporacion?,34
+reincorporacion__procedimiento,si tambien quisiera que debaria de hacer luego de la reserva de matricula para reincoporarme el siguiente ciclo,32
+matricula_procedimiento,cuales son los pagos para realizar la matricula,8
+pago_autoseguro__fechas,"Hola Aerito, tengo una consulta si no pago el autoseguro con los 3 dias de anticipación pasare a resagado ?",14
+retiro_parcial__maximo_cursos,¿Cuál es el número máximo de cursos para hacer retiro parcial?,23
+reserva_matricula__procedimiento,por motivos económicos no podre matricularme este ciclo como puedo reservar la matricula,29
+cursos_horarios,que dias se dicta el curso de ingles i?,19
+pago_autoseguro__fechas,¿Cuando se puede pagar el autoseguro?,14
+retiro_parcial__maximo_cursos,se permite retirarse de 3 cursos?,23
+retiro_total__fechas,¿En qué fechas puedo realizar el retiro total?,24
+reserva_matricula__formato_solicitud,cual es el formato de solicitud para la reserva de matricula ?,31
+perdida_turno_matricula,perdi mi turno de matricula paso entonces a rezagado?,16
+constancia_de_notas__formato_solicitud,No. ¿dónde puedo ver un modelo de la solicitud de constancia de notas?,40
+retiro_parcial__unico_curso,"Buenas tardes, actualemte estoy llevando un solo curso pero por motivos de fuerza mayor deseo retirarme pero el sistema no me lo permite, que puedo hacer",22
+retiro_parcial__unico_curso,¿El retiro parcial aplica para los estudiantes que llevan solo un curso?,22
+constancia_matricula__pago,para solicitar la constancia de matricula debo pagar algo primero?,37
+cursos_horarios,a que hora comienza las clases del curso de biologia?,19
+carnet_universitario__solicitud,¿Cómo obtener mi carnet universitario?,11
+retiro_parcial__fechas,¿En que semana se realiza el retiro parcial?,20
+procedimiento_tramites_fechas,en este momento ya puedo enviar la solicitud,5
+retiro_total__procedimiento,"Buen día, cómo se hace un retiro total",28
+constancia_matricula__formato_solicitud,donde puedo encontrar un modelo para la solicitud de la constancia de matricula,38
+retiro_total__motivos_procede,puedo realizar el retiro total por razones de trabajo,26
+carnet_universitario__solicitud,como puedo tramitar mi carnet universitario,11
+saludo,Hola,1
+carnet_universitario__solicitud,ya pague el carnet universitario me informaran cuando ya este listo para recojo?,11
+procedimiento_tramites_fechas,en estas fechas todavia puedo realizar este procedimiento,5
+retiro_parcial__maximo_cursos,estoy llevando 4 cursos y quiero retirarme de 3 es posible?,23
+pago_autoseguro__fechas,"recien me entero que debo pagar el autoseguro, cual es la fecha limite para no ir a rezagado",14
+constancia_de_estudios__formato_solicitud,¿Hay algún formato de solicitud de constancia de estudios?,41
+reserva_matricula__formato_solicitud,tengo un duda cual es el modelo o formato para la solicitud de reserva de matricula,31
+reincorporacion__formato_solicitud,¿Hay un modelo para la solicitud de reincorporación?,35
+pago_autoseguro__fechas,"Acabo de pagar el autoseguro, estoy a tiempo?",14
+retiro_total__fechas,cual es la fecha limite para solicitar un retiro total?,24
+matricula_rezagada__procedimiento,a quien solicito la matricula rezagada,17
+constancia_matricula__formato_solicitud,¿Hay un modelo para la solicitud de constancia de matricula?,38
+retiro_total__fechas,¿En que fecha se realiza el retiro total?,24
+constancia_de_estudios__formato_solicitud,que debo colocar en la solicitud de constancia de estudios?,41
+constancia_matricula__solicitud_procedimiento,Quisiera tramitar una constancia de matricula de este ciclo,36
+retiro_parcial__procedimiento,"Buenas, me podría indicarme el procedimiento para realizar el retiro parcial para el presente ciclo?",21
+reserva_matricula__procedimiento,"Hola ciencito, queria consultarte lo que pasa es que por temas familiares este ciclo estaba pensando no matricular que debo hacer",29
+denegar_mas_ayuda,No eso es todo gracias,2
+reserva_matricula__procedimiento,Por motivos de encomicos y de trabajo no podre matricularme el siguiente ciclo que puedo hacer para no perder mi vacante,29
+reincorporacion__formato_solicitud,un consulta mas donde podria descargar un modelo o formato para la solicitud de reincorporacion,35
+reincorporacion__procedimiento,"deje mis estudios hace dos años y quiero retormalo este ciclo, que tramites debo hacer?",32
+matricula__procedimiento_alumno_regular,¿Cuál es el proceso de matrícula para un alumno regular?,9
+constancia_de_estudios__formato_solicitud,me puedes facilitar un modelo para la solicitud de constacia de estudios,41
+procedimiento_tramites_fechas,cuando puedo enviar la solicitud,5
+retiro_parcial__fechas,"Hola, una duda el retiro parcial se habilitara en la quinta semana de clases ?",20
+constancia_de_notas__formato_solicitud,donde puedo encontrar el modelo de solicitud para la constancia de notas,40
+reincorporacion__costo,cual es precio que tiene el tramite de reincorporacion?,34
+retiro_total__procedimiento,"Hola, ¿Cómo hago el retiro total?",28
+retiro_parcial__unico_curso,"Estoy matriculado en solo un curso, puedo acceder al retiro parcial?",22
+cursos_horarios,quisiera los el horario de los cursos de este periodo academico,19
+constancia_matricula__pago,cuanto pago por la constancia de matricula,37
+retiro_parcial__procedimiento,"hola, como procedo para hacer el retiro parcial ?",21
+reincorporacion__fechas,¿Hasta cuando enviar mi solicitud de reincorporacion?,33
+constancia_matricula__pago,la constancia de matricula es gratis o tiene algun costo?,37
+retiro_total__procedimiento,"Buenas tardes, como realizo un retiro total.Gracias.",28
+matricula__cronograma,"Buenas tardes, como puedo saber el día de mi matrícula",12
+formato_solicitud,existe alguna modelo para la solicitud,4
+retiro_total__fechas,"BUenas tardes, una consulta hasta cuando puedo hacer el retiro total",24
+constancia_matricula__formato_solicitud,me comentaron que hay un modelo para la solicitud de constancia de matricula en donde la encuentro?,38
+constancia_matricula__formato_solicitud,quisiera saber si hay algun modelo para la solicitud de constancia de matricula,38
+saludo,Holaeeeeeeeeeeee,1
+reincorporacion__procedimiento,Podría indicarme ¿Cuál es el procedimiento? para solicitar reincorporación,32
+matricula_rezagada__procedimiento,"Buenas tardes, me dijeron que mi matricula paso a rezagada pero no se que debo hacer",17
+procedimiento_tramites_fechas,debo esperar para iniciar este tramite o ya lo puedo solicitarlo,5
+formato_solicitud,si hay algun formato para la solicitud que debo enviar,4
+reserva_matricula__procedimiento,"Buenos dias, quisiera realizar reserva de matrícula para este periodo que viene por cuestiones de trabajo .¿Que procedimiento deberia seguir?",29
+retiro_parcial__maximo_cursos,estoy llevando 6 cursos pero quiero hacer el retiro de dos de ellas,23
+constancia_matricula__pago,existe algun pago por la constancia de matricula,37
+cambio_seccion,quiero hacer un cambio de horario en curso de Quimica General,18
+pago_autoseguro_procedimiento,el autoseguro se paga en banco scotiabank?,15
+horario_atencion_aera,a apartir de que hora estan atendiento en la oficina de estadistica?,43
+matricula__procedimiento_alumno_ingresante,este en mi primer ciclo como puedo matricularme,10
+reincorporacion__fechas,segun el calendario academico las fechas de reincorporacion finalizaron ayer podria aun reincorporarme ?,33
+reserva_matricula__procedimiento,"Buenas tardes, tengo una consulta cual es el procedimiento para la reserva de matricula",29
+reserva_matricula__fechas,¿Hasta cuándo tengo tiempo para presentar mi solicitud de reserva de matricula?,30
+perdida_turno_matricula,"Buen día, no logre matricularme",16
+retiro_parcial__unico_curso,solo estoy llevando un curso y me quiero retirar pero el sistema no me lo permite como hago,22
+solicitud_correo_institucional_procedimiento,una duda como puedo obtener mi correo institucional,44
+saludo,hi,1
+constancia_de_notas__procedimiento,donde puedo solicitar una constancia de notas?,39
+reserva_matricula__procedimiento,por motivos de salud no podre matricularme este ciclo como puedo postergar mi matricula,29
+matricula__procedimiento_alumno_regular,cual es el procedimiento de matricula como alumno regular,9
+reserva_matricula__fechas,Y hasta cuando podria enviar la solicitud de reserva de matricula ?,30
+perdida_turno_matricula,que pasa si perdí mi horario de matrícula,16
+matricula__cronograma,"si, me puedes decir la fecha de la matricula",12
+retiro_parcial__cursos_repetidos,es posible retirarse de una asignatura que llevo por segunda vez,45
+constancia_de_notas__procedimiento,"Buenas, como solicito una constancia de notas",39
+reincorporacion__formato_solicitud,debo colocar mi dni en la solcitud de reincorporacion?,35
+reincorporacion__costo,debo pagar algo por la reincoporacion?,34
+saludo,buen díaq,1
+matricula__cronograma,¿Cuando es la matrícula?,12
+costo_tramite,cuanto se tiene que pagar por el tramite?,6
+retiro_total__motivos_procede,cuales son los motivos de fuerza mayor por que procede el retiro total?,26
+reincorporacion__fechas,veo que segun el calendario academico las fechas de reincorporacion finalizaron hace una semana podria todavia reincorporarme como rezagado ?,33
+procedimiento_tramites_fechas,hasta que fecha puedo presentar la solicitud,5
+retiro_parcial__fechas,"Hola, quisiera retirarme de un curso me podria decir hasta cuando se habilitara en el sistema ?",20
+pago_autoseguro__fechas,si no pago a tiempo  me voy a matricula rezagada ?,14
+horario_atencion_aera,hasta que hora atiende la oficina de estadistica,43
+perdida_turno_matricula,no pude matricularme a tiempo y ya paso la matricula que hago,16
+reserva_matricula__procedimiento,cual es el procedimiento para realizar la reserva de matricula ?,29
+retiro_parcial__procedimiento,"Hola aerito, ¿Dónde encuentro un modelo de solicitud para el retiro parcial?",21
+matricula__procedimiento_alumno_ingresante,soy ingresante y este es mi primer ciclo como procedo con la matricula,10
+denegar_mas_ayuda,no es todo que tenga buen dia,2
+denegar_mas_ayuda,No eso es todo,2
+matricula__procedimiento_alumno_regular,que pagos debo hacer este ciclo para la matricula soy alumno regular,9
+formato_solicitud,dime que formato debe seguir la solicitud,4
+horario_atencion_aera,¿Cuál es el horario de AERA?,43
+retiro_total__fechas,Cuando es la fecha limite para el retiro total?,24
+retiro_total__formato_solicitud,una consulta hay algun modelo para la solicitud de retiro total,27
+saludo,hola que tal amigo,1
+formato_solicitud,que informacion debe ir en la solicitud,4
+retiro_parcial__fechas,quisiera saber hasta que dias puedo hacer el retiro parcial ?,20
+matricula__cronograma,"Buenos días, quiero información sobre la fecha de matrícula",12
+retiro_parcial__unico_curso,la unica asignatura que estoy llevando el la de administracion de redes y quiero retirarme por que no creo poder seguir asistiendo,22
+reincorporacion__procedimiento,"Buenas tardes, el ciclo pasado no pude matricularme asi que reserve mi matricula quisiera saber ahora como puedo matricularme en el ciclo que viene",32
+retiro_total__requisitos_documentos_justificacion,puedo solicitar el retiro parcial solo enviando la solicitud?,25
+constancia_matricula__pago,el tramite de constancia de matricula es gratuito o se paga algo?,37
+pago_autoseguro_procedimiento,en donde y cuanto debo pagar por el autoseguro?,15
+reincorporacion__procedimiento,cual es el proceso para solicitar mi reicorporacion,32
+retiro_total__formato_solicitud,debo colocar mi dni en la solicitud de retiro total?,27
+pago_autoseguro_procedimiento,puedo pagar el autoseguro por yape?,15
+retiro_parcial__procedimiento,me puede indicar cual es el procedimiento del retiro parcial,21
+matricula__horarios,¿Cuál es mi horario de matrícula?,13
+cambio_seccion,como realizo el cambio de horario de un curso,18
+saludo,oye bot,1
+pago_autoseguro_procedimiento,dime que hacer para pagar el autoseguro,15
+horario_atencion_aera,a que hora abre la oficina de estadistica,43
+cursos_horarios,cual es el horario para la seccion b del curso de quimica i?,19
+retiro_parcial__maximo_cursos,me he matriculado en 7 asignaturas pero quiero retirarma de 4 por que no podre asiste por trabajo . Eso es posible?,23
+denegar_mas_ayuda,no gracias es todo,2
+pago_autoseguro_procedimiento,por favor dime cuanto y adonde debo ir para pagar el autoseguro?,15
+constancia_de_estudios__procedimiento,me ayudaas quiero solicitar una constancia de estudios pero no se a donde,42
+matricula__horarios,"Buenos días, quisiera información sobre los horarios de matrícula",13
+matricula__procedimiento_alumno_regular,este nuevo ciclo que se esta aperturando la matricula es automatica o debo hacer algun tramite actualmete soy alumno regular,9
+denegar_mas_ayuda,no nada mas gracias,2
+formato_solicitud,quisiera saber tambien si hay algun modelo para esa solicitud,4
+retiro_parcial__procedimiento,¿Cómo me retiro de un curso?,21
+retiro_total__procedimiento,"Hola, ¿Cómo se inicia el proceso de retiro total?",28
+carnet_universitario__solicitud,tengo que enviar mi voucher de pago para mi carnet de universitario,11
+matricula__procedimiento_alumno_ingresante,es mi primer ciclo como me puedo matricular,10
+pago_autoseguro__fechas,cual es la fecha limite para pagar el autoseguro?,14
+cursos_horarios,cual es el horario de la seccion B del curso de Calculo Diferencial ?,19
+retiro_parcial__unico_curso,"Hola, ¿Es posible realizar el retiro parcial si estoy llevando un único curso?",22
+procedimiento_tramites_fechas,aun puedo enviar la solicitud o ya se paso las fechas?,5
+pago_autoseguro__fechas,entonces si no pago a tiempo me voy a matricula rezagada,14
+constancia_matricula__formato_solicitud,"Exacto, es lo que necesito. Hay algún formato para la solicitud de constancia matricula?",38
+matricula__horarios,me han dicho que la matricula es por horarios como se cuando es el mio,13
+pago_autoseguro__fechas,si y cuando puedo pagar el autoseguro,14
+constancia_matricula__pago,se debe pagar algo por la constancia de matricula?,37
+procedimiento_tramites_fechas,recien me entero que esta semana ya comienza el ciclo todavia puedo enviar mi solicitud,5
+reserva_matricula__procedimiento,quisiera postergar mi matricula como puedo realizar este tramite,29
