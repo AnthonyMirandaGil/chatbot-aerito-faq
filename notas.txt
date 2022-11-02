@@ -23,3 +23,12 @@ https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/ras
 ## AQUI VER COMO FUNCIONA ESTO DEL JSON TO yaml
 https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/rasa_yaml.py
 https://github.com/RasaHQ/rasa/blob/afb8d948d16f411ddd341053e34f02b7e34874dd/rasa/shared/nlu/training_data/formats/rasa_yaml.py#L423
+
+
+## Justificar que los sistemas de nlp deben ser entrenados con ruido
+SYNTHETIC AND NATURAL NOISE BOTH BREAK NEURAL MACHINE TRANSLATION [https://arxiv.org/pdf/1711.02173.pdf]
+Improving Robustness of Machine Translation with Synthetic Noise[https://arxiv.org/pdf/1902.09508.pdf]. 
+	- Agraga ruido basdo en probalidades Specifically, we fix the probabilities of error types as follows: spelling (0.04), profanity (0.007), grammar (0.015) and emoticons (0.002). To simulate spelling errors, we randomly add or
+	drop a character in a given word
+	- Ver la parte del algoritmo para agregar 
+
