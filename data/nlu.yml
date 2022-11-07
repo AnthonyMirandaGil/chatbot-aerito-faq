@@ -319,6 +319,9 @@ nlu:
     - cual es la fecha limite para el pago?
     - aun es posible pagarlo?
     - aun se puede pagar en estos dias?
+    - mañana es el ultimo dia para poder realizar el pago a tiempo?
+    - cuando es el ultimo dia en que deberia pagarlo?
+    - cual es la fecha maxima en que se puedria pagar?
 #- intent: procedimiento_tramite
 #  examples: |
 #    - ¿Cual es el procedimiento?
@@ -742,6 +745,8 @@ nlu:
     - como puedo realizar mi matricula si ya perdi mi turno?
     - no me puder conectar en hora de matricula y ya perdi mi turno. Es sistema ya no me esta dejando matricularme, entiendo que ahora paso a matricula rezagada?
     - perdi mi turno de matricula paso entonces a rezagado?
+    - hubo un apagon por mi casa y no pude completar mi matricula. Me conecte de nuevo pero mi turno ya habia acabado, ahora como puedo hacer para matricularme?
+    - acabo de perder mi turno de matricula por temas de conexion digame que puedo hacer para matricularme ahora
 
 - intent: matricula_rezagada__procedimiento #NC
   examples: |
@@ -781,6 +786,7 @@ nlu:
     - recien paga mi autoseguro y me mandaron a rezagado como procedo
     - me mandaron a rezagado como realizo mi matricula
     - no pague el autoseguiro y el carnet a tiempo me dijeron que paso a rezagado debo hacer algun tramite o se habilitara automaticamente mi matricula
+    - que procedimiento debo seguir ahora que mi matricula pazo a rezagado?
 
 # - Hola aerito, dime porfavor cual el procedimiento para la matricula rezagada
 #
@@ -1266,9 +1272,9 @@ nlu:
     - que informacion debo colocar en la solicitud para la reserva de matricula?
     - aparte de mi dni y mi codigo que ma debo colocar en la solicitud de reserva de matricula?
     - la solicitud de reserva de matricula es solo una solicitud simpre dirigida al decano?
-    - me un puedes un modelo para la solicitud de reserva de matricula porfavor
+    - me puedes enviar un modelo para la solicitud de reserva de matricula porfavor
     - en donde puedo encontar un modelo para la solicitud de reserva de matricula?
-
+    - que informacion debo colocar en la solicitud para la reserva de matricula?
 #  
 - intent: reincorporacion__procedimiento
   examples: |
@@ -1507,6 +1513,8 @@ nlu:
     - en donde puedo consultar por una constancia de notas?
     - es en estadistica donde puedo solicitar una constancia de notas?
     - las constancia de notas la solicito en escuelas academicas?
+    - a que oficina puedo ir a solicitar una constancia de notas?
+
 # 
 - intent: constancia_de_notas__formato_solicitud
   examples: |
@@ -1610,6 +1618,8 @@ nlu:
     - a que hora abren Aera?
     - desde que hora esta abierto la oficina de estadistica?
     - hasta que hora esta abierto la oficina de estadistica?
+    - la oficina de estadistica esta abierta hasta las 4 o 5 de la tarde?
+    - la oficna de aera esta abierta desde las 7 o 8 de la mañana?
 
 - intent: solicitud_correo_institucional_procedimiento
   examples: |
@@ -1634,7 +1644,9 @@ nlu:
     - aun no tengo mi correo uni en donde lo solicito
     - a que oficina le solicito mi correo uni
     - hola que tal, todavia no me han dado mi correo uni, a quien puedo pedirle?
-    
+    - me comentaron que ha estado registrandose para obtener el correo uni yo no pude ir ese dia a la uni, como podria solicitarlo?
+    - me avisaron que ya han dado los correos institucionales pero no me ha llegado nada donde puedo ir a preguntar sobre esto?
+
 - intent: retiro_parcial__cursos_repetidos
   examples: |
     - ¿Es posible retirarme de un curso que haya repetido?
