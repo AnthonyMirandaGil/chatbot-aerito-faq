@@ -1,0 +1,15 @@
+recipe: default.v1
+language: es
+pipeline:
+- name: transformers_intent_classifier.CustomNLUComponent
+  model_name: CenIA/albert-base-spanish
+  batch_size: 8
+  epochs: 10
+
+policies:
+- name: RulePolicy
+- name: MemoizationPolicy
+  max_history: 4
+#- name: TEDPolicy
+#  max_history: 6
+#  epochs: 200

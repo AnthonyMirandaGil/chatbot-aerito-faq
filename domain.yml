@@ -199,7 +199,7 @@ responses:
   utter_cursos_horarios:
   - text: Los horarios de los cursos están disponibles en la zona intranet alumno y también en la [página web de la FC](https://fc.uni.edu.pe/documentos/)
   utter_retiro_parcial__fechas:
-  - text: "Los retiros parciales se realizan en la 5ta semana de clases, puede ver las fechas dentro del calendario académico el cual se encuentra publicado en el siguiente link: \nhttps://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view"
+  - text: "Los retiros parciales se realizan en la 5ta semana de clases, pasado esta fecha no se aceptara ninguna solicitud. Puede ver las fechas dentro del calendario académico el cual se encuentra publicado en el siguiente link: \nhttps://drive.google.com/file/d/1bYqSxhadDDAQYHRK3SWzp-_l2jds4Vxq/view"
   utter_retiro_parcial__procedimiento:
   - text: "El procedimiento de retiro parcial se realiza por el mismo intranet alumno, solo debe encontrar la opción de retiro parcial en la sección de mis tramites y seleccionar el curso o los cursos del cual desea retirarse. Luego de finalizada la semana de retiro AERA se encarga de revisar y ORCE de ejecutar el retiro. También puede consultar el link: \nhttps://drive.google.com/file/d/1HHNaREQY7WWJ2Y_rk1rtTwiDOuptZHh9/view"
   utter_retiro_parcial__formato_solicitud:
