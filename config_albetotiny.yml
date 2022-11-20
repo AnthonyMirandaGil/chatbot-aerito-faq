@@ -4,7 +4,7 @@ pipeline:
 - name: transformers_intent_classifier.CustomNLUComponent
   model_name: CenIA/albert-tiny-spanish
   batch_size: 8
-  epochs: 10
+  epochs: 20
 
 policies:
 - name: RulePolicy

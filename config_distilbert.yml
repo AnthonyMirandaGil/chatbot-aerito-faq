@@ -4,7 +4,7 @@ pipeline:
 - name: transformers_intent_classifier.CustomNLUComponent
   model_name: CenIA/distillbert-base-spanish-uncased
   batch_size: 16
-  epochs: 10
+  epochs: 20
 
 policies:
 - name: RulePolicy
