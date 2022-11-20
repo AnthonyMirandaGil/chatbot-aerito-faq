@@ -1,0 +1,519 @@
+{
+  "matricula__procedimiento_alumno_ingresante": {
+    "precision": 0.125,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.13333333333333333,
+    "support": 7,
+    "confused_with": {
+      "perdida_turno_matricula": 3,
+      "reincorporacion__procedimiento": 1
+    }
+  },
+  "constancia_de_notas__procedimiento": {
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3333333333333333,
+    "support": 6,
+    "confused_with": {
+      "pago_autoseguro__fechas": 1,
+      "retiro_total__requisitos_documentos_justificacion": 1
+    }
+  },
+  "costo_tramite": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__requisitos_documentos_justificacion": 1,
+      "cambio_seccion": 1,
+      "retiro_total__motivos_procede": 1
+    }
+  },
+  "despedida": {
+    "precision": 0.3333333333333333,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.3333333333333333,
+    "support": 6,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 2,
+      "pago_autoseguro__fechas": 1
+    }
+  },
+  "pago_autoseguro__fechas": {
+    "precision": 0.2222222222222222,
+    "recall": 0.36363636363636365,
+    "f1-score": 0.27586206896551724,
+    "support": 11,
+    "confused_with": {
+      "pago_autoseguro_procedimiento": 2,
+      "perdida_turno_matricula": 2
+    }
+  },
+  "retiro_parcial__cursos_repetidos": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "perdida_turno_matricula": 2,
+      "reincorporacion__procedimiento": 1,
+      "retiro_total__formato_solicitud": 1
+    }
+  },
+  "cursos_horarios": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "matricula__procedimiento_alumno_ingresante": 3,
+      "retiro_total__fechas": 2,
+      "retiro_total__procedimiento": 1
+    }
+  },
+  "saludo": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "pago_autoseguro__fechas": 1,
+      "retiro_total__fechas": 1,
+      "matricula__horarios": 1
+    }
+  },
+  "reserva_matricula__procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "matricula_procedimiento": 1,
+      "reincorporacion__procedimiento": 1,
+      "matricula__procedimiento_alumno_ingresante": 1
+    }
+  },
+  "constancia_matricula__pago": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__requisitos_documentos_justificacion": 3,
+      "costo_tramite": 1,
+      "retiro_total__motivos_procede": 1
+    }
+  },
+  "horario_atencion_aera": {
+    "precision": 0.3333333333333333,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.2,
+    "support": 7,
+    "confused_with": {
+      "retiro_parcial__maximo_cursos": 4,
+      "pago_autoseguro_procedimiento": 1,
+      "matricula__cronograma": 1
+    }
+  },
+  "solicitud_correo_institucional_procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "matricula_procedimiento": 2,
+      "reincorporacion__fechas": 1,
+      "pago_autoseguro_procedimiento": 1
+    }
+  },
+  "reserva_matricula__formato_solicitud": {
+    "precision": 0.2,
+    "recall": 0.2,
+    "f1-score": 0.20000000000000004,
+    "support": 5,
+    "confused_with": {
+      "pago_fechas": 1,
+      "retiro_total__formato_solicitud": 1
+    }
+  },
+  "matricula_rezagada__procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "perdida_turno_matricula": 4,
+      "pago_autoseguro_procedimiento": 2,
+      "retiro_total__requisitos_documentos_justificacion": 1
+    }
+  },
+  "denegar_mas_ayuda": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "despedida": 2,
+      "pago_autoseguro__fechas": 1,
+      "retiro_total__procedimiento": 1
+    }
+  },
+  "reincorporacion__costo": {
+    "precision": 0.3333333333333333,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.2222222222222222,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__requisitos_documentos_justificacion": 4,
+      "perdida_turno_matricula": 1
+    }
+  },
+  "pago_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "pago_autoseguro_procedimiento": 2,
+      "pago_autoseguro__fechas": 1,
+      "retiro_total__fechas": 1
+    }
+  },
+  "confirmar_requerir_mas_ayuda": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "pago_autoseguro__fechas": 1,
+      "matricula__horarios": 1,
+      "perdida_turno_matricula": 1
+    }
+  },
+  "carnet_universitario__solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "matricula_procedimiento": 2,
+      "retiro_parcial__unico_curso": 1,
+      "pago_fechas": 1
+    }
+  },
+  "formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "reincorporacion__fechas": 2,
+      "reserva_matricula__formato_solicitud": 1,
+      "reincorporacion__formato_solicitud": 1
+    }
+  },
+  "perdida_turno_matricula": {
+    "precision": 0.12244897959183673,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.20689655172413793,
+    "support": 9,
+    "confused_with": {
+      "reincorporacion__costo": 1,
+      "reincorporacion__procedimiento": 1
+    }
+  },
+  "cambio_seccion": {
+    "precision": 0.5,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.625,
+    "support": 6,
+    "confused_with": {
+      "retiro_parcial__procedimiento": 1
+    }
+  },
+  "retiro_total__fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "retiro_total__motivos_procede": 3,
+      "retiro_total__requisitos_documentos_justificacion": 1,
+      "retiro_total__formato_solicitud": 1
+    }
+  },
+  "constancia_de_estudios__procedimiento": {
+    "precision": 0.1,
+    "recall": 0.14285714285714285,
+    "f1-score": 0.11764705882352941,
+    "support": 7,
+    "confused_with": {
+      "constancia_matricula__solicitud_procedimiento": 2,
+      "retiro_total__formato_solicitud": 1,
+      "matricula__cronograma": 1
+    }
+  },
+  "constancia_de_notas__formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__formato_solicitud": 3,
+      "pago_autoseguro__fechas": 1,
+      "matricula__procedimiento_alumno_ingresante": 1
+    }
+  },
+  "matricula_procedimiento": {
+    "precision": 0.1111111111111111,
+    "recall": 0.25,
+    "f1-score": 0.15384615384615383,
+    "support": 8,
+    "confused_with": {
+      "perdida_turno_matricula": 4,
+      "pago_fechas": 1
+    }
+  },
+  "reincorporacion__formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__formato_solicitud": 3,
+      "retiro_total__requisitos_documentos_justificacion": 1,
+      "matricula__procedimiento_alumno_ingresante": 1
+    }
+  },
+  "retiro_parcial__fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "perdida_turno_matricula": 2,
+      "pago_autoseguro__fechas": 1,
+      "retiro_total__motivos_procede": 1
+    }
+  },
+  "constancia_matricula__solicitud_procedimiento": {
+    "precision": 0.08333333333333333,
+    "recall": 0.16666666666666666,
+    "f1-score": 0.1111111111111111,
+    "support": 6,
+    "confused_with": {
+      "constancia_de_estudios__procedimiento": 2,
+      "retiro_total__requisitos_documentos_justificacion": 1
+    }
+  },
+  "reserva_matricula__fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "perdida_turno_matricula": 1,
+      "matricula__cronograma": 1,
+      "constancia_de_notas__procedimiento": 1
+    }
+  },
+  "retiro_parcial__procedimiento": {
+    "precision": 0.14285714285714285,
+    "recall": 0.1111111111111111,
+    "f1-score": 0.125,
+    "support": 9,
+    "confused_with": {
+      "retiro_total__formato_solicitud": 4,
+      "perdida_turno_matricula": 2,
+      "retiro_total__fechas": 1
+    }
+  },
+  "ayuda": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 1,
+    "confused_with": {
+      "matricula_rezagada__procedimiento": 1
+    }
+  },
+  "retiro_total__formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 5,
+    "confused_with": {
+      "retiro_total__requisitos_documentos_justificacion": 1,
+      "retiro_total__motivos_procede": 1,
+      "formato_solicitud": 1
+    }
+  },
+  "matricula__cronograma": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "pago_autoseguro__fechas": 3,
+      "reincorporacion__fechas": 2,
+      "pago_autoseguro_procedimiento": 1
+    }
+  },
+  "pago_autoseguro_procedimiento": {
+    "precision": 0.15,
+    "recall": 0.375,
+    "f1-score": 0.21428571428571425,
+    "support": 8,
+    "confused_with": {
+      "perdida_turno_matricula": 3,
+      "pago_autoseguro__fechas": 1
+    }
+  },
+  "retiro_parcial__maximo_cursos": {
+    "precision": 0.3,
+    "recall": 0.375,
+    "f1-score": 0.33333333333333326,
+    "support": 8,
+    "confused_with": {
+      "matricula_procedimiento": 1,
+      "reincorporacion__procedimiento": 1
+    }
+  },
+  "matricula__horarios": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "pago_autoseguro__fechas": 2,
+      "retiro_total__formato_solicitud": 1,
+      "perdida_turno_matricula": 1
+    }
+  },
+  "retiro_total__requisitos_documentos_justificacion": {
+    "precision": 0.13043478260869565,
+    "recall": 0.6,
+    "f1-score": 0.21428571428571427,
+    "support": 5,
+    "confused_with": {
+      "retiro_parcial__unico_curso": 1,
+      "constancia_de_estudios__procedimiento": 1
+    }
+  },
+  "constancia_matricula__formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__formato_solicitud": 2,
+      "retiro_total__requisitos_documentos_justificacion": 1,
+      "formato_solicitud": 1
+    }
+  },
+  "retiro_parcial__unico_curso": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "perdida_turno_matricula": 3,
+      "matricula__horarios": 2,
+      "constancia_de_estudios__procedimiento": 1
+    }
+  },
+  "matricula__procedimiento_alumno_regular": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 7,
+    "confused_with": {
+      "perdida_turno_matricula": 5,
+      "reserva_matricula__procedimiento": 1,
+      "matricula__procedimiento_alumno_ingresante": 1
+    }
+  },
+  "retiro_total__motivos_procede": {
+    "precision": 0.2,
+    "recall": 0.2857142857142857,
+    "f1-score": 0.23529411764705882,
+    "support": 7,
+    "confused_with": {
+      "retiro_total__requisitos_documentos_justificacion": 1,
+      "retiro_total__formato_solicitud": 1
+    }
+  },
+  "retiro_total__procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__formato_solicitud": 3,
+      "pago_autoseguro_procedimiento": 1,
+      "retiro_parcial__unico_curso": 1
+    }
+  },
+  "reincorporacion__fechas": {
+    "precision": 0.19047619047619047,
+    "recall": 0.6666666666666666,
+    "f1-score": 0.2962962962962963,
+    "support": 6,
+    "confused_with": {
+      "perdida_turno_matricula": 2
+    }
+  },
+  "reincorporacion__procedimiento": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 8,
+    "confused_with": {
+      "perdida_turno_matricula": 3,
+      "reincorporacion__fechas": 2,
+      "cambio_seccion": 1
+    }
+  },
+  "constancia_de_estudios__formato_solicitud": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 6,
+    "confused_with": {
+      "retiro_total__requisitos_documentos_justificacion": 2,
+      "retiro_total__formato_solicitud": 2,
+      "matricula_procedimiento": 1
+    }
+  },
+  "procedimiento_tramites_fechas": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 9,
+    "confused_with": {
+      "constancia_matricula__solicitud_procedimiento": 2,
+      "cambio_seccion": 1,
+      "retiro_total__fechas": 1
+    }
+  },
+  "accuracy": 0.134375,
+  "macro avg": {
+    "precision": 0.08321738501135885,
+    "recall": 0.13097233735531608,
+    "f1-score": 0.09215064558597423,
+    "support": 320
+  },
+  "weighted avg": {
+    "precision": 0.08413891507690033,
+    "recall": 0.134375,
+    "f1-score": 0.0938637539177917,
+    "support": 320
+  },
+  "micro avg": {
+    "precision": 0.134375,
+    "recall": 0.134375,
+    "f1-score": 0.134375,
+    "support": 320
+  }
+}

@@ -205,6 +205,10 @@ class CustomNLUComponent(GraphComponent):
         self.model.config.num_labels = len(target_names)
         self.model.config.id2label = id2label
         self.model.label2id = label2id
+        
+        ## Freeze model body
+        for param in self.model.base_model.parameters():
+            param.requires_grad = False
 
         training_args = TrainingArguments(
             output_dir='./results',                         # output directory
