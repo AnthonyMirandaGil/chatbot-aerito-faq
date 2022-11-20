@@ -217,7 +217,8 @@ class CustomNLUComponent(GraphComponent):
             per_device_train_batch_size= self.train_args['batch_size'],   # batch size per device during training
             warmup_steps= self.train_args['warmup_steps'],                      # number of warmup steps for learning rate scheduler
             weight_decay= self.train_args['weight_decay'],                      # strength of weight decay
-            save_total_limit=1,                             # limit the total amount of checkpoints. Deletes the older checkpoints.    
+            save_total_limit=1,
+            save_strategy = "no"                             # limit the total amount of checkpoints. Deletes the older checkpoints.    
         )
 
         self.trainer = CustomTrainer(

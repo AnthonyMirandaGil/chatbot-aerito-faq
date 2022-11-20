@@ -4,7 +4,7 @@ pipeline:
 - name: transformers_intent_classifier.CustomNLUComponent
   model_name: dccuchile/bert-base-spanish-wwm-uncased
   batch_size: 12
-  epochs: 20
+  epochs: 50
 
 policies:
 - name: RulePolicy
