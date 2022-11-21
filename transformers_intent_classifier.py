@@ -292,5 +292,5 @@ class CustomNLUComponent(GraphComponent):
             message.set("intent", intent_ranking[0], add_to_output=True)
             message.set("intent_ranking", intent_ranking[1:], add_to_output=True)
 
-        logger.info(messages[0].data)
+        #logger.info(messages[0].data)
         return messages
