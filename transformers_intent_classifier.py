@@ -130,7 +130,7 @@ class CustomNLUComponent(GraphComponent):
             "batch_size": config['batch_size'],
             "warmup_steps": config['warmup_steps'],
             "freeze_body": config['freeze_body'],
-            "evaluation_strategy" : config['freeze_body']
+            "evaluation_strategy" : config['evaluation_strategy']
         }
 
         # We need to use these later when saving the trained component.
