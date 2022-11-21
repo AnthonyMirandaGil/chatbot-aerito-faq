@@ -288,6 +288,8 @@ class CustomNLUComponent(GraphComponent):
             predictions = self.model(message.data.get('text'))
             for pred in predictions[0]:
                 pred['name'] = pred.pop('label')
+                pred['confidence'] = pred['score']
+                
             intent_ranking = sorted(predictions[0], key=lambda d: d['score'], reverse=True) 
             message.set("intent", intent_ranking[0], add_to_output=True)
             message.set("intent_ranking", intent_ranking[1:], add_to_output=True)
