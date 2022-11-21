@@ -8,8 +8,9 @@ import torch
 from transformers import AutoTokenizer
 from transformers import AutoModelForSequenceClassification
 from transformers import AutoConfig
-from transformers import Trainer, TrainingArguments
+from transformers import Trainer, TrainingArguments, EarlyStoppingCallback
 from transformers import pipeline
+
 
 from sklearn.utils import class_weight
 from sklearn.preprocessing import LabelEncoder
@@ -93,7 +94,8 @@ class CustomNLUComponent(GraphComponent):
             "batch_size": TRAIN_BATCH_SIZE,
             "warmup_steps": WARMUP_STEPS,
             "learning_rate": LEARNING_RATE,
-            "freeze_body": True
+            "freeze_body": True,
+            "evaluation_strategy": "no"
             }
 
     def _define_model(self, num_labels):
@@ -215,7 +217,7 @@ class CustomNLUComponent(GraphComponent):
 
         training_args = TrainingArguments(
             output_dir='./transformers_results',                         # output directory
-            evaluation_strategy="no",                       # Evaluation is done at the end of each epoch.
+            evaluation_strategy=self.train_args["evaluation_strategy"],                       # Evaluation is done at the end of each epoch.
             num_train_epochs= self.train_args['epochs'],                    # total number of training epochs
             per_device_train_batch_size= self.train_args['batch_size'],   # batch size per device during training
             warmup_steps= self.train_args['warmup_steps'],                      # number of warmup steps for learning rate scheduler

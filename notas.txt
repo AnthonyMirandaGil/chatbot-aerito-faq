@@ -32,3 +32,4 @@ Improving Robustness of Machine Translation with Synthetic Noise[https://arxiv.o
 	drop a character in a given word
 	- Ver la parte del algoritmo para agregar 
 
+https://stackoverflow.com/questions/69087044/early-stopping-in-bert-trainer-instances
