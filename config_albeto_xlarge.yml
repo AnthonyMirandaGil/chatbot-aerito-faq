@@ -2,7 +2,7 @@ recipe: default.v1
 language: es
 pipeline:
 - name: transformers_intent_classifier.CustomNLUComponent
-  model_name: CenIA/albert-base-spanish
+  model_name: CenIA/albert-xlarge-spanish
   batch_size: 8
   freeze_body: True
   epochs: 100

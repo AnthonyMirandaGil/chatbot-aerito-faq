@@ -92,7 +92,8 @@ class CustomNLUComponent(GraphComponent):
             "weight_decay": WEIGHT_DECAY,
             "batch_size": TRAIN_BATCH_SIZE,
             "warmup_steps": WARMUP_STEPS,
-            "learning_rate": LEARNING_RATE
+            "learning_rate": LEARNING_RATE,
+            "freeze_body": True
             }
 
     def _define_model(self, num_labels):
@@ -125,7 +126,8 @@ class CustomNLUComponent(GraphComponent):
             "epochs": config['epochs'],
             "weight_decay": config['weight_decay'],
             "batch_size": config['batch_size'],
-            "warmup_steps": config['warmup_steps']
+            "warmup_steps": config['warmup_steps'],
+            "freeze_body": config['freeze_body']
         }
 
         # We need to use these later when saving the trained component.
@@ -206,9 +208,10 @@ class CustomNLUComponent(GraphComponent):
         self.model.config.id2label = id2label
         self.model.label2id = label2id
         
-        ## Freeze model body
-        for param in self.model.base_model.parameters():
-            param.requires_grad = False
+        if self.train_args['freeze_body']:
+            ## Freeze model body
+            for param in self.model.base_model.parameters():
+                param.requires_grad = False
 
         training_args = TrainingArguments(
             output_dir='./results',                         # output directory
