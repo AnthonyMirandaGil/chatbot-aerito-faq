@@ -129,7 +129,8 @@ class CustomNLUComponent(GraphComponent):
             "weight_decay": config['weight_decay'],
             "batch_size": config['batch_size'],
             "warmup_steps": config['warmup_steps'],
-            "freeze_body": config['freeze_body']
+            "freeze_body": config['freeze_body'],
+            "evaluation_strategy" : config['freeze_body']
         }
 
         # We need to use these later when saving the trained component.
