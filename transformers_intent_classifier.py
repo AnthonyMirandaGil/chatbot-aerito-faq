@@ -207,14 +207,14 @@ class CustomNLUComponent(GraphComponent):
         self.model.config.num_labels = len(target_names)
         self.model.config.id2label = id2label
         self.model.label2id = label2id
-        
+
         if self.train_args['freeze_body']:
             ## Freeze model body
             for param in self.model.base_model.parameters():
                 param.requires_grad = False
 
         training_args = TrainingArguments(
-            output_dir='./results',                         # output directory
+            output_dir='./transformers_results',                         # output directory
             evaluation_strategy="no",                       # Evaluation is done at the end of each epoch.
             num_train_epochs= self.train_args['epochs'],                    # total number of training epochs
             per_device_train_batch_size= self.train_args['batch_size'],   # batch size per device during training

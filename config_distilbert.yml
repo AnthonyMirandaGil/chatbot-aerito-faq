@@ -5,6 +5,7 @@ pipeline:
   model_name: CenIA/distillbert-base-spanish-uncased
   batch_size: 16
   epochs: 20
+  freeze_body: False
 
 policies:
 - name: RulePolicy
