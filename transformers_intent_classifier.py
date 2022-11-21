@@ -34,6 +34,8 @@ LEARNING_RATE = 2e-5
 
 logger =logging.getLogger(__name__)
 
+torch.manual_seed(42)
+
 class PrepareDataset(torch.utils.data.Dataset):
     def __init__(self, encodings, labels):
         self.encodings = encodings
