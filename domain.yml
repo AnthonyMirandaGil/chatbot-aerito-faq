@@ -187,7 +187,7 @@ responses:
   utter_pago_autoseguro__fechas:
   - text: Le informo que el pago de autoseguro debe realizarse con 72 horas de antelación a su matricula (no se cuenta sábado ni domingo) caso contrario su matricula pasara a ser rezagada. Podrá comprobarlo, si es que no tiene acceso al sistema de matricula en la fecha y hora que le correspondía.
   utter_pago_autoseguro_procedimiento:
-  - text: El pago de autoseguro puede realizarse mediante el uso del aplicativo, agente o en ventanilla del Banco Scotiabank, solo indicar el concepto a pagar (AUTOSEGURO) y su código universitario.
+  - text: El pago de autoseguro puede realizarse mediante el uso del aplicativo, agente o en ventanilla del Banco Scotiabank, solo indicar el concepto a pagar (AUTOSEGURO) y su código universitario. Recuerde realizar este pago con 72 horas de antelación a su matricula caso contrario su matricula pasara a ser rezagada.
   utter_matricula_rezagada__procedimiento:
   - text: "El procedimiento de la Matrícula Rezagada lo podrás encontrar en el siguiente enlace: \nhttps://drive.google.com/file/d/1nCUQUKm1KdOJYS9Dp4N48x3Bm86Xwlmp/view \no dentro de la la página web de la Facultad, en el [modulo de matricula](https://fc.uni.edu.pe/documentos/)."
   utter_perdida_turno_matricula:
