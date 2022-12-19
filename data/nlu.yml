@@ -239,7 +239,49 @@ nlu:
     - dime que formato debe seguir la solicitud
 # Ready
 
-
+- intent: procedimiento_tramites_fechas
+  examples: |
+    - ¿Cuando puedo realizar el procedimiento o tramite?
+    - ¿Cuando se presenta la solicitud?
+    - ¿En que fechas debo presentar la solicitud?
+    - cuales son las fechas limites para presentar la solicitud
+    - cuando puedo presentar la solicitud?
+    - cuando puedo enviar la solicitud
+    - cuando se habilita para enviar la solicitud
+    - cuando se habilita para realizar el tramite
+    - hasta cuando puedo enviar la solicitud
+    - hasta cuando puedo hacer dicho tramite
+    - cuando ya puedo presentar la solicitud
+    - hasta cuando puedo presentarlo
+    - cuando puedo realizarlo
+    - hasta cuando puedo realizar el tramite
+    - cual es la fecha limite para realizar el tramite o procedimiento
+    - Otra consulta, ¿Hasta cuándo tengo tiempo para presentar mi solicitud?
+    - hasta que fecha puedo presentar la solicitud
+    - todavia puedo presentar mi solicitud
+    - hasta cuando puedo presentar la solicitud
+    - hasta cuando puedo tramitarlo
+    - me puedes decir cuando se habilita para subir la solicitud
+    - en este momento ya puedo enviar la solicitud
+    - esta semana ya puedo tramitarlo
+    - la siguiente semana puedo enviar la solicitud
+    - esta semana todavia puedo todavia solicitarlo
+    - aun puedo enviar la solicitud o ya se paso las fechas?
+    - este tramite ya lo podria hacer o a que fechas deberia esperar
+    - debo esperar para iniciar este tramite o ya lo puedo solicitarlo
+    - hasta que dia puedo solicitar esto
+    - que que dias tengo plazos para presentar la solicitud
+    - estamos en la sexta semana de clases todavia puedo solicitarlo
+    - el ciclo comienza la siguiente todavia puedo realizar
+    - recien me entero que esta semana ya comienza el ciclo todavia puedo enviar mi solicitud
+    - hay alguna fecha limite para enviar la solicitud o puedo hacerlo hasta la ultima semana
+    - ya va a terminar el ciclo esta semana todavia puedo pedirlo
+    - esta semana puedo enviar la solicitud
+    - hay alguna fecha limite para enviar esa solicitud
+    - todavia puedo presentarle
+    - otra duda puedo realizar el tramite esta semana
+    - en estas fechas todavia puedo realizar este procedimiento
+    - todavia puedo realizar este tramite
 #ready
 
 - intent: costo_tramite
@@ -1392,9 +1434,6 @@ nlu:
     - por trabajo tuve que dejar mis estudios, pero quiero volver a matricularme este ciclo como puedo hacerlo?
 #Ready
 
-#- intent: reincorporacion_rezagada__procedimiento
-#  examples: |
-#  # 
 - intent: reincorporacion__fechas
   examples: |
     - Otra consulta, ¿Hasta cuándo tengo tiempo para presentar mi solicitud de reincoporacion?

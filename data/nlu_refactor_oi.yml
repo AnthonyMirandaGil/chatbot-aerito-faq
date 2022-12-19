@@ -464,7 +464,7 @@ nlu:
     - en que fechas deberia solitarlo?
 
 - intent: reincorporacion__fechas
-  examples:
+  examples: |
     - Otra consulta, ¿Hasta cuándo tengo tiempo para presentar mi solicitud de reincoporacion?
     - una consulta, es que fechas deberia solicitar mi reincorparacion
     - hasta cuando podria solicitar mi reincoporarcion
@@ -652,7 +652,7 @@ nlu:
     - ¿Cuánto se pago por reincorporación?
     - Soy alumno de la facultad de ciencias que desea matricularse. Deje de matricularme algunos semestres por la pandemia y deseo retomar los estudios. Me dijeron que debo realizar un pago por el trámite de reincorporación. Me gustaría saber ¿En qué entidad bancaria se realiza este pago? y ¿cuánto es el monto?.
     - habia reservado mi matricula hace dos ciclo por motivos de trabajo. Quiero retomar que pagos debo hacer?
-    - reserve mi matricula el ciclo pasado, quiero reincorporarme este que esta por comenzar cuando es lo que debo pagar?
+    - reserve mi matricula el ciclo pasado, quiero reincorporarme este que esta por comenzar cuanto es lo que debo pagar?
     - que debo pagar adicional para poder reincorporme este ciclo
     - debo pago algo mas para poder reincorporarme?
     - que pagos debo hacer para reincorporarme este ciclo
@@ -695,9 +695,6 @@ nlu:
     - debo pagar algo por la constancia de matricula?
     - cual es el monto que debo pagar por la constancia de matricula?
     - la constancia de matricula es gratis?
-
-- intent: pago_retiro_cursos
-    - cuando
 
 - intent: pago_autoseguro__fechas #f1
   examples: |
@@ -1200,6 +1197,17 @@ nlu:
     - se me crusa una hora en del horario de teoria del curso de calculo direncial con biologia como puedo solicitar un cambio de horario
     - quiero cambiarme de seccion el curso de quimica general se me hace imposible venir a esa hora
     - quiero cambiar a la seccion b en el curso de fundamentos de programacion en donde lo pido
+    - buenas tengo un conflicto con otro curso en la parte de teoria, por lo quiero cambiarme a la seccion c en el curso de Fisica I, lo solicito en Aera?
+    - quisiera solicitar un cambio de seccion para el curso de Bilogia lo que pasa es que no podre asistir en ese horario por razones de trabajo
+    - quisiera tramitar un cambio de seccion en el curso de Algebra lineal, es posible?
+    - por razones de fuerza mayor ya no podre asistir en el horario de la seccion A del curso de Fisica III, quisiera solictar un cambio de seccion?
+    - es posible solicitar un cambio de seccion del curso de Introducion a la Programacion?
+    - por motivos familiares de fuerza mayor los dias lunes no podre asistir a la universidad por lo quisiera cambiarme a otro horario en el curso de Calculo Integral
+    - quisiera solicar el combio a otro horario en curso de Fundamentos de Programacion?
+    - quiero realizar un cambio de horario en curso de Matematica Discreta
+    - tengo un cruce en horario de teorio con el practica de Calculo Integral Avanzado por lo me gustaria cambiar de horario a la seccion B, es posible?
+    - como solicto un cambio de horario del curso de Fisica III?
+    
 # ready
 # - quiero hacer un cambio de horario ya que tengo un cruce en el curso de Fundamentos de programacion
 # - quiero hacer un cambio de seccion
@@ -1644,11 +1652,6 @@ nlu:
     - por trabajo tuve que dejar mis estudios, pero quiero volver a matricularme este ciclo como puedo hacerlo?
 #Ready
 
-#- intent: reincorporacion_rezagada__procedimiento
-#  examples: |
-#  # 
-#   
-
 - intent: constancia_matricula__solicitud_procedimiento
   examples: |
     - Buenas tardes una consulta, ¿cómo puedo obtener una constancia de matricula?
@@ -1683,6 +1686,7 @@ nlu:
     - necesito una constancia de matricula en donde la solicito?
     - quiero una constancia de matricula para postular a un beca del pronabec donde la puedo pedir?
     - me estan pidiendo una constancia de matricula para mi beca de pronabec, en que oficina la solicito?
+    - necesito una constancia de matricula para postular a una beca donde la solicita?
     
 #   
 - intent: constancia_de_notas__procedimiento
@@ -1718,6 +1722,9 @@ nlu:
     - donde pido una constancia de notas?
     - donde solicito una constancia de notas?
     - a que secretaria le puedo solicitar la constancia de notas?
+    - en la oficina de AERA puedo ir a solicitar una constancia de notas?
+    - en escuales acedemicas solicito una constancia de notas?
+    - que debo hacer para solictar una constacia de notas?
 
 # 
 - intent: constancia_de_estudios__procedimiento
